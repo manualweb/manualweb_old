@@ -1,4 +1,5 @@
 ---
+UID: 01
 post_title: '02 - Tipos de datos primitivos'
 layout: post
 category: java
