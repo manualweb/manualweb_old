@@ -1,7 +1,7 @@
 ---
 post_title: '02 - Tipos de datos primitivos'
 layout: post
-category: Java
+category: java
 permalink: http://www.manualweb.net/java/intro-java2/
 published: false
 nombreforo: HTML
@@ -16,3 +16,4 @@ urlejemplos: http://lineadecodigo.com/tag/html-basicos/feed/
 
 #Tipos de datos primitivos
 Texto
+Más texto
