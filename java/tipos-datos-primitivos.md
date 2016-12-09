@@ -1,5 +1,5 @@
 ---
-UID: 01
+post_id: 971
 post_title: '02 - Tipos de datos primitivos'
 layout: post
 category: java
@@ -19,3 +19,4 @@ urlejemplos: http://lineadecodigo.com/tag/html-basicos/feed/
 Texto
 Más texto
 Y todavía más texto
+Con Post_id ahora
