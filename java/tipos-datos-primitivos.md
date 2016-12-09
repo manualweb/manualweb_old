@@ -2,7 +2,7 @@
 ID: 975
 post_title: '02 - Tipos de datos primitivos'
 layout: post
-category: java
+category_id: 180
 permalink: http://www.manualweb.net/java/intro-java2/
 published: false
 nombreforo: HTML
