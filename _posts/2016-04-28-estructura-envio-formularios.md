@@ -1,0 +1,225 @@
+---
+ID: 865
+post_title: '17.02 &#8211; Estructura y envío de formularios'
+author: Víctor Cuervo
+post_date: 2016-04-28 12:00:01
+post_excerpt: ""
+layout: post
+permalink: >
+  http://www.manualweb.net/html/estructura-envio-formularios/
+published: true
+nombreforo:
+  - HTML
+urlforo:
+  - http://dudasprogramacion.com/html
+urlmanual:
+  - http://www.manualweb.net/tutorial-html/
+urltest:
+  - http://www.testprogramacion.com/html
+urlcurso:
+  - >
+    http://www.aulaprogramacion.com/curso-html/
+urlcharla:
+  - >
+    https://www.facebook.com/groups/html5.es/
+urlvideo:
+  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+urlejemplos:
+  - >
+    http://lineadecodigo.com/tag/html-form/feed/
+---
+Una de las cosas importantes que tenemos que saber de los formularios <a href="http://www.manualweb.net/tutorial-html/">HTML</a> es cómo funciona la Estructura y envío de formularios.
+
+<h3><a name="label"></a>Etiquetando el formulario</h3>
+Hemos visto cómo insertar campos para que el usuario introduzca información en el formulario. En algunos casos hemos visto que aunque el campo tiene un dato de valor no lleva una etiqueta asociada. Es verdad que podemos poner texto al lado del elemento de entrada de datos.
+
+Por ejemplo en un checkbox:
+
+<pre lang="html4strict">Equipo: <input type=”checkbox” id=”betis” name=”equipo” value=”Real Betis”/>Real Betis</pre>
+
+¿Quién nos dice que el texto asociado al checkbox es “Equipo” o “Real Betis”? Para resolver esto el lenguaje <a href="http://www.manualweb.net/tutorial-html/">HTML</a> nos proporciona el <a href="http://www.w3api.com/wiki/HTML:LABEL">elemento label</a>.
+
+La sintaxis del <a href="http://www.w3api.com/wiki/HTML:LABEL">elemento label</a> es la siguiente:
+
+<pre lang="html4strict"><label for=”identificador”>Texto de la Etiqueta</label></pre>
+
+El <b>atributo for</b> llevará asociado un identificador que deberá de coincidir con el valor de algún <a href="http://www.w3api.com/wiki/HTML:Id">atributo id</a> de uno de los elementos del formulario. Y será sobre ese elemento sobre el que quede asociado.
+
+De esta forma, en el caso que definimos anteriormente sobre el checkbox, la forma correcta de asociar una etiqueta al elemento será la siguiente:
+
+<pre lang="html4strict">Equipo: <input type=”checkbox” id=”betis” name=”equipo” value=”Real Betis”/>
+<label for=”betis”>Real Betis</label></pre>
+
+<h3><a name="fieldset"></a>Estructura del formulario</h3>
+En <a href="http://www.manualweb.net/tutorial-html/">HTML</a> contamos con dos elementos para dar una <b><i>estructura a los formularios</i></b>. Estos elementos: <a href="http://www.w3api.com/wiki/HTML:FIELDSET">fieldset</a> y <a href="http://www.w3api.com/wiki/HTML:LEGEND">legend</a> nos ayudan a agrupar los datos relacionados dentro del formulario.
+
+Pero vayamos por parte. El primero es <a href="http://www.w3api.com/wiki/HTML:FIELDSET">fieldset</a>, este es un elemento que agrupa a diferentes elementos del formulario, elementos que están relacionados entre ellos.
+
+La sintaxis de <a href="http://www.w3api.com/wiki/HTML:FIELDSET">fieldset</a> es la siguiente:
+
+<pre lang="html4strict"><fieldset>...</fieldset></pre>
+
+Entre estos elementos aparecerán los campos del formulario. Por ejemplo si tenemos campos personales básicos podemos agruparlos de la siguiente forma:
+
+<pre lang="html4strict"><fieldset>
+  <label for="nombre">Nombre</label><input type="text" id="nombre"/>
+  <label for="apellido">Apellido</label><input type="text" id="apellido"/>
+</fieldset></pre>
+
+El <a href="http://www.w3api.com/wiki/HTML:LEGEND">elemento legend</a> nos servirá para darle un significado a una agrupación
+
+<pre lang="html4strict"><fieldset>
+  <legend>Introduzca sus datos personales</legend>
+  <label for="nombre">Nombre</label><input type="text" id="nombre"/>
+  <label for="apellido">Apellido</label><input type="text" id="apellido"/>
+</fieldset></pre>
+
+<h3><a name="foco"></a>Hacer foco en el formulario</h3>
+Cuando construyamos un formulario deberemos de preocuparnos por cómo hacer foco en los elementos. Está claro que si utilizamos un navegador web el uso del ratón nos facilitará el ir rellenando cada uno de los campos del formulario.
+
+Pero piensa en alguien que no tenga un ratón o bien que utilice un agente de usuario no visual adaptado para discapacitados. En este caso y para temas de accesibilidad tenemos dos formas de hacer foco en el formulario. Una será el uso de la tabulación, y el otro el uso de teclas de acceso.
+<h4>Tabulaciones por el formulario</h4>
+Para las navegaciones por tabulación en el formulario existe el <b>atributo tabindex</b>. Este atributo que lo podemos encontrar en todos los elementos de un formulario nos sirve para establecer un orden mediante números ordinales de los campos del formulario. La estructura del <b>atributo tabindex</b> es:
+
+<pre lang="html4strict">tabindex=”numero”</pre>
+
+De esta forma podríamos establecer el orden de un formulario de dos datos básicos y un botón mediante el siguiente código:
+
+<pre lang="html4strict"><label for="nombre">Nombre</label><input tabindex=”1” type="text" id="nombre"/>
+<label for="apellido">Apellido</label><input tabindex=”2” type="text" id="apellido"/>
+<button id=”envio” tabindex=”3”>Enviar Formulario</button></pre>
+
+<h4>Teclas de acceso</h4>
+Otra forma de poder acceder a un elemento del formulario es asignando al elemento una tecla de acceso. De esta manera cuando pulsamos esta tecla (en combinación con alguna definida en el sistema, como la tecla ALT para Windows) iremos directamente a dicho elemento.
+
+El atributo que nos permite hacer esto es el <b>atributo accesskey</b>. La estructura del <b>atributo accesskey</b> es la siguiente:
+
+<pre lang="html4strict">accesskey=tecla</pre>
+
+Así podríamos definir un campo de un formulario al cual fuésemos al pulsar sobre la “tecla N”:
+
+<pre lang="html4strict"><label for="nombre" accesskey=”N”>Nombre</label>
+<input tabindex=”1” type="text" id="nombre"/></pre>
+
+<h3><a name="diseabled"></a>Deshabilitar controles</h3>
+A la hora de crear un formulario puede darse el caso que haya algunos campos que en determinados momentos nos aparezcan deshabilitados. Es decir, que el usuario no pueda modificar el valor de dichos campos.
+
+Para poder deshabilitar los controles de un formulario contamos con el <b>atributo disabled</b>. La estructura del <b>atributo disabled</b> es directamente:
+
+<pre lang="html4strict">disabled</pre>
+
+De esta manera si queremos deshabilitar nuestro anterior campo de texto que nos permitía insertar un nombre escribimos lo siguiente:
+
+<pre lang="html4strict"><label for="nombre" accesskey=”N”>Nombre</label>
+<input disabled type="text" id="nombre"/></pre>
+
+No podremos hacer foco sobre los elementos de un formulario que estén deshabilitados. De igual manera al hacer tabulación tampoco se podrá tabular sobre ellos. Además no se enviarán como parte de la petición del formulario.
+
+En el caso de que queramos buscar el mismo efecto de que el elemento esté deshabilitado, pero que se pueda tabular, hacer foco y enviar, tenemos el atributo de solo lectura o readonly.
+
+La estructura del <b>atributo readonly</b> es básica:
+
+<pre lang="html4strict"> readonly</pre>
+
+Si lo aplicamos nuevamente a nuestro campo de texto tendremos:
+
+<pre lang="html4strict"><label for="nombre" accesskey=”N”>Nombre</label>
+<input readonly type="text" id="nombre"/></pre>
+
+El atributo readonly solo se puede aplicar a <a href="http://www.w3api.com/wiki/HTML:INPUT">elementos input</a> y <a href="http://www.w3api.com/wiki/HTML:TEXTAREA">textarea</a>.
+
+<h3><a name="submit"></a>Envío del formulario</h3>
+Una vez que ya hemos construido nuestro formulario solo nos quedará una cosa, esta será enviar el formulario.
+
+Para enviar el formulario deberemos de controlar dos cosas. Por un lado a dónde lo vamos a enviar, es decir, cual es la URL del programa destino (o página destino) que va a procesar los datos del formulario y que nos va a dar una respuesta. Por otro lado está el tipo de envío de los parámetros. En el caso del tipo de envío tenemos la posibilidad de hacerlo mediante un formato GET (con los datos visibles) o POST (con los datos no visibles).
+
+Ambos elementos los configuraremos dentro del <a href="http://www.w3api.com/wiki/HTML:FORM">elemento form</a>.
+<h4>Destino del formulario</h4>
+Para establecer el destino del formulario tenemos el <a href="http://www.w3api.com/wiki/HTML:Action">atributo action</a>. El <a href="http://www.w3api.com/wiki/HTML:Action">atributo action</a> tiene la URL de destino del formulario. La estructura del <a href="http://www.w3api.com/wiki/HTML:Action">atributo action</a> es:
+
+<pre lang="html4strict"><form action=”url-destino”> … </form></pre>
+
+Las URL de destino suelen ser programas o código de servidor, ya sea <a href="http://www.manualweb.net/tutorial-java/">Java</a>, <a href="http://www.manualweb.net/tutorial-php/">PHP</a>, Node, <a href="http://www.manualweb.net/tutorial-php/">ASP</a>,... Los cuales recuperan la información del formulario, la manipulan y nos devuelven una nueva página <a href="http://www.manualweb.net/tutorial-html/">HTML</a>.
+<h4>Tipo de envío: GET y POST</h4>
+Para establecer el tipo de envío del formulario tenemos el <a href="http://www.w3api.com/wiki/HTML:Method">atributo method</a>. El <a href="http://www.w3api.com/wiki/HTML:Method">atributo method</a> puede tener dos valores: GET y POST. El atributo method lo encontramos dentro del <a href="http://www.w3api.com/wiki/HTML:FORM">elemento form</a>:
+
+<pre lang="html4strict"><form method="GET|POST"> … </form></pre>
+
+A la hora de enviar los<b> formularios de forma GET</b> lo que vamos a conseguir es que a la URL destino del formulario se le añaden los parámetros con los datos del formulario en la estructura:
+
+<samp>action?nombre1=valor1&amp;nombre2=valor2&amp;...&amp;nombreN=valorN</samp>
+
+Si tenemos el siguiente formulario:
+
+<pre lang="html4strict"><form action=”envio.php” method=”GET”>
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre" name=”nombre”/>
+  <label for="apellido">Apellido</label>
+  <input type="text" id="apellido" name=”apellido”/>
+  <button id=”envio”>Enviar Formulario</button>
+</form></pre>
+
+Lo que se enviará en la URL será algo parecido a:
+
+<samp>envio.php?name=Victor&amp;apellido=Cuervo</samp>
+
+Es importante que nos fijemos que utiliza el valor que hay dentro de los <a href="http://www.w3api.com/wiki/HTML:Name">atributos name</a> para realizar el envío.
+
+Si indicamos que el método de envío del formulario es POST lo que hará el navegador es enviar los datos junto al cuerpo del formulario y no se verán en la URL.
+
+Así, en el siguiente formulario:
+
+<pre lang="html4strict"><form action=”envio.php” method=”POST”>
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre" name=”nombre”/>
+  <label for="apellido">Apellido</label>
+  <input type="text" id="apellido" name=”apellido”/>
+  <button id=”envio”>Enviar Formulario</button>
+</form></pre>
+
+Solo veremos, al enviarlo:
+
+<samp>enviar.php</samp>
+
+<h4>Formato del contenido del formulario</h4>
+Cuando enviamos el formulario deberemos de saber qué sucede con el contenido. Es decir, si lo envía de alguna forma en especial o con algún tipo de tratamiento.
+
+Lo primero que tenemos que saber es que el campo que permite establecer el formato del contenido del formulario es <b>enctype</b>, que es un atributo del <a href="http://www.w3api.com/wiki/HTML:FORM">elemento form</a>:
+
+<pre lang="html4strict"><form enctype=”formato-contenido”>...</form></pre>
+
+Los formularios, por defecto, se envían mediante el formato <b>application/x-www-form-urlencoded. </b>Este formato lo que hace es sustituir los espacios por + y convierte los caracteres especiales en secuencias de escape. Por otro lado las combinaciones de nombre valor las separa por un = y las parejas con símbolos &amp;. Como ya vimos en las peticiones del tipo GET.
+
+<pre lang="html4strict"><form enctype="application/x-www-form-urlencoded">...</form></pre>
+
+Si bien, en el caso de que queramos enviar formularios con un gran volumen de información o con imágenes, deberemos de utilizar el tipo <b>multipart/form-data</b>.
+
+<pre lang="html4strict"><form enctype="multipart/form-data">...</form></pre>
+
+Los formularios que utilizan el tipo <b>multipart/form-data</b> contienen una serie de partes conocidas como form-data en las que va cada uno de los campos enviados en el formulario.
+
+De esta forma si tenemos el siguiente formulario:
+
+<pre lang="html4strict"><form enctype=”multipart/form-data” action=”envio.php” method=”POST”>
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre" name=”nombre”/>
+  <label for="apellido">Apellido</label>
+  <input type="text" id="apellido" name=”apellido”/>
+  <label for=”fichero”>Fichero</label>
+  <input type=”file” id=fichero” name=”fichero”/>
+  <button id=”envio”>Enviar Formulario</button>
+</form></pre>
+
+La petición multipart podría ser de la siguiente forma:
+
+<pre>-----------------------------931237358445456570660578548
+Content-Disposition: form-data; name="nombre"
+
+Victor
+-----------------------------931237358445456570660578548
+Content-Disposition: form-data; name="apellido"
+
+Cuervo
+-----------------------------931237358445456570660578548
+Content-Disposition: form-data; name="fichero"; filename="fotografia.png"
+Content-Type: image/png</pre>
