@@ -15,3 +15,4 @@ urlejemplos: http://lineadecodigo.com/tag/html-basicos/feed/
 ---
 
 #Tipos de datos primitivos
+Texto
