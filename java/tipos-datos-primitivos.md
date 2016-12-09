@@ -33,6 +33,7 @@ public void main(){
 
 > Esto es una advertencia a aquellos que trabajan con Java
 
+texto desde eclipse
 
 
 En Java los tipos de datos primitivos que exiten son: `int`, `long`, `char`,...
