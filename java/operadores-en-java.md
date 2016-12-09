@@ -1,5 +1,4 @@
 ---
-ID:
 post_title: '03 - Operadores en Java'
 layout: post
 permalink: http://www.manualweb.net/java/operadores-en-java/
