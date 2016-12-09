@@ -16,11 +16,14 @@ urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
 urlejemplos: http://lineadecodigo.com/tag/html-basicos/feed/
 ---
 
-#Tipos de datos primitivos
-Texto
-Más texto
-Y todavía más texto
-Con Post_id ahora
-Y con post???
-Y con ID
-Dime que estás funcionando con ID. :-D
+### Tipos de datos primitivos
+
+
+**negrita**
+*cursiva*
+
+
+
+En Java los tipos de datos primitivos que exiten son: `int`, `long`, `char`,...
+
+<kbd>Salida por teclado</kbd>
