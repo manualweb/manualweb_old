@@ -1,5 +1,5 @@
 ---
-ID: 975
+ID: 977
 post_title: '02 - Tipos de datos primitivos'
 layout: post
 permalink: http://www.manualweb.net/java/intro-java2/
