@@ -25,3 +25,9 @@ Sigues creando algo nuevo?
 Y si modifico desde Eclipse.
 
 Si modifico desde Github falla, perso si lo hago desde Eclipse. Me mantiene el fichero. Qué cosa!
+
+
+<code>[InputStream](http://www.w3api.com)</code>
+
+
+
