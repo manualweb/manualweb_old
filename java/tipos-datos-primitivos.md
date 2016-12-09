@@ -22,3 +22,4 @@ Y todavía más texto
 Con Post_id ahora
 Y con post???
 Y con ID
+Dime que estás funcionando con ID. :-D
