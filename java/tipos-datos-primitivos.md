@@ -1,5 +1,5 @@
 ---
-post_id: 971
+post: 973
 post_title: '02 - Tipos de datos primitivos'
 layout: post
 category: java
@@ -20,3 +20,4 @@ Texto
 Más texto
 Y todavía más texto
 Con Post_id ahora
+Y con post???
