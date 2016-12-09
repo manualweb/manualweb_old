@@ -1,9 +1,9 @@
 ---
 ID: 10001
-post_title: 'Intro Java'
+post_title: '01 - Intro Java'
 layout: post
 category: Java
-permalink: http://www.manualweb.net/java/intro-java/
+permalink: http://www.manualweb.net/java/intro-java2/
 published: false
 nombreforo: HTML
 urlforo: http://dudasprogramacion.com/html
@@ -14,6 +14,7 @@ urlcharla: https://www.facebook.com/groups/html5.es/
 urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
 urlejemplos: http://lineadecodigo.com/tag/html-basicos/feed/
 ---
+
 #Introducción a Java
 
 Esto es una introducción a Java
