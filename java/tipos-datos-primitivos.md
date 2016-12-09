@@ -23,6 +23,19 @@ urlejemplos: http://lineadecodigo.com/tag/html-basicos/feed/
 *cursiva*
 
 
+Imagen
+[logo]: (http://github.com/victorcuervo/manualweb/java/images/polymer.png "Logo")
+
+
+```java
+public void main(){
+  System.out.println("Hola Mundo");
+}
+```
+
+> Esto es una advertencia a aquellos que trabajan con Java
+
+
 
 En Java los tipos de datos primitivos que exiten son: `int`, `long`, `char`,...
 
