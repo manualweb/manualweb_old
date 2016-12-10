@@ -1,12 +1,12 @@
 ---
-ID: 1016
+ID: 1047
 post_title: Tutorial Java
 post_date: 2016-12-10 0:37:00
 post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/tutorial-java/
 slug: tutorial-java
-published: flase
+published: true
 nombreforo: Java
 urlforo: http://www.dudasprogramacion.com/java/
 urlejemplos: http://lineadecodigo.com/categoria/java/feed/
@@ -17,7 +17,7 @@ urltest: http://www.testprogramacion.com/java
 urlcurso: http://www.aulaprogramacion.com/java/
 ---
 
-Contenido del **Tutorial Java** :
+Contenido del **Tutorial Java**:
 
 * Introducción al lenguaje Java
 * [Mi primera aplicación Java](http://www.manualweb.net/java/mi-primera-aplicacion-java/)
