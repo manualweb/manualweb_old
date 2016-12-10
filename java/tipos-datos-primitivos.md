@@ -4,14 +4,14 @@ post_title: '02 - Tipos de datos primitivos'
 layout: post
 permalink: http://www.manualweb.net/java/tipos-datos-primitivos/
 published: false
-nombreforo: HTML
-urlforo: http://dudasprogramacion.com/html
-urlmanual: http://www.manualweb.net/tutorial-html/
-urltest: http://www.testprogramacion.com/html
-urlcurso: http://www.aulaprogramacion.com/curso-html/
-urlcharla: https://www.facebook.com/groups/html5.es/
-urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-urlejemplos: http://lineadecodigo.com/tag/html-basicos/feed/
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urlcharla: https://www.facebook.com/groups/programacionjava.es/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
 ---
 
 ### Tipos de datos primitivos
