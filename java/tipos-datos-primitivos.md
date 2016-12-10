@@ -2,7 +2,7 @@
 ID: 975
 post_title: '02 - Tipos de datos primitivos'
 layout: post
-permalink: http://www.manualweb.net/java/intro-java2/
+permalink: http://www.manualweb.net/java/tipos-datos-primitivos/
 published: false
 nombreforo: HTML
 urlforo: http://dudasprogramacion.com/html
@@ -28,8 +28,8 @@ Imagen
 <pre lang="java">
 public void main(){
   System.out.println("Hola Mundo");
-}
-</pre>
+}</pre>
+
 
 ```java
 System.out.println("Hola")
