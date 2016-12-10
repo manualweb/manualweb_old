@@ -18,8 +18,12 @@ urlcurso: http://www.aulaprogramacion.com/java/
 
 Contenido del **Tutorial Java**:
 
+
+* [Mi primera aplicación Java] (http://www.manualweb.net/java/mi-primera-aplicacion-java/)
+
+
 <ul>
-	<li><a title="Mi primera aplicación Java" href="http://www.manualweb.net/java/mi-primera-aplicacion-java/">Mi primera aplicación Java</a></li>
+
 	<li>Java Básico</li>
 	<li>Estructuras de control</li>
 	<li><a title="Arrays en Java" href="http://www.manualweb.net/java/arrays-en-java/">Arrays en Java</a></li>
