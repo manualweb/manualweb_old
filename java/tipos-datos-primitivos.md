@@ -25,11 +25,11 @@ Imagen
 [logo]: (http://github.com/victorcuervo/manualweb/java/images/polymer.png "Logo")
 
 
-```java
+<pre lang="java">
 public void main(){
   System.out.println("Hola Mundo");
 }
-```
+</pre>
 
 > Esto es una advertencia a aquellos que trabajan con Java
 
