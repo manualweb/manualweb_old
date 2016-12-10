@@ -5,6 +5,7 @@ post_date: 2016-12-10 0:37:00
 post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/tutorial-java/
+slug: tutorial-java
 published: true
 nombreforo: Java
 urlforo: http://www.dudasprogramacion.com/java/
