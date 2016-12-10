@@ -18,25 +18,29 @@ urlcurso: http://www.aulaprogramacion.com/java/
 
 Contenido del **Tutorial Java**:
 
-
-* [Mi primera aplicación Java] (http://www.manualweb.net/java/mi-primera-aplicacion-java/)
-
-
-<ul>
-
-	<li>Java Básico</li>
-	<li>Estructuras de control</li>
-	<li><a title="Arrays en Java" href="http://www.manualweb.net/java/arrays-en-java/">Arrays en Java</a></li>
-	<li><a title="Applets en Java" href="http://www.manualweb.net/java/applets-en-java/">Applets en Java</a></li>
-	<li><a title="Clase String: Representando una cadena" href="http://www.manualweb.net/java/clase-string-representando-una-cadena/">Clase String: Representando una cadena</a></li>
-	<li><a title="Funciones básicas con cadenas" href="http://www.manualweb.net/java/funciones-basicas-con-cadenas/">Funciones básicas con cadenas</a></li>
-	<li>¿Qué es JDBC?</li>
-	<li>Gestión de Drivers</li>
-	<li>Realizando la conexión</li>
-</ul>
+* Introducción al lenguaje Java
+* [Mi primera aplicación Java](http://www.manualweb.net/java/mi-primera-aplicacion-java/)
+* Variables en Java
+* Operadores en Java
+* Tipos de datos en Java
+* [Clase String: Representando una cadena](http://www.manualweb.net/java/clase-string-representando-una-cadena/)
+	* [Funciones básicas con cadenas](http://www.manualweb.net/java/funciones-basicas-con-cadenas/)
+* Números en Java
+* Caracteres en Java
+* Estructuras de Control en Java
+	* Estructuras de Decisión
+	* Estructuras de Iteración
+* [Arrays en Java](http://www.manualweb.net/java/arrays-en-java)
+* Objetos y clases
+* Excepciones en Java
+* Colecciones en Java
+* Manejo de ficheros en Java
+* JDBC: Java Database Connectivity
+* Java Swing
+* [Applets en Java](http://www.manualweb.net/java/applets-en-java/)
 
 ### Descargar Manual Java
 Puedes descargarte el contenido del Manual Java en formato PDF.
 
 
-Todas las preguntas y dudas sobre Java las puedes consultar en el <a title="Foro sobre Java" href="http://www.dudasprogramacion.com/java">Foro sobre Java</a>. Y puedes echar un ojo a los <a title="ejemplos sobre Java" href="http://lineadecodigo.com/java/">ejemplos sobre el lenguaje Java</a>.
+Todas las preguntas y dudas sobre Java las puedes consultar en el [Foro sobre Java](http://www.dudasprogramacion.com/java). Y puedes echar un ojo a los [ejemplos sobre el lenguaje Java](http://lineadecodigo.com/java/).
