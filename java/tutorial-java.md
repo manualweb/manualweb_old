@@ -16,7 +16,7 @@ urltest: http://www.testprogramacion.com/java
 urlcurso: http://www.aulaprogramacion.com/java/
 ---
 
-Contenido del **Tutorial Java**:
+Contenido del **Tutorial Java** :
 
 * Introducción al lenguaje Java
 * [Mi primera aplicación Java](http://www.manualweb.net/java/mi-primera-aplicacion-java/)
