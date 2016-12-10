@@ -9,13 +9,11 @@ permalink: >
   http://www.manualweb.net/tutorial-javascript/
 published: true
 ---
-<ul>
-	<li>Introducción al JavaScript</li>
-	<li>Variables en JavaScript</li>
-	<li>Expresiones y Operadores</li>
-	<li>Estructuras Selectivas</li>
-	<li>Estructuras Repetitivas</li>
-	<li>Funciones</li>
-	<li>Definición de Objetos</li>
-	<li>Objetos Predefinidos</li>
-</ul>
+*   Introducción al JavaScript
+*   Variables en JavaScript
+*   Expresiones y Operadores
+*   Estructuras Selectivas
+*   Estructuras Repetitivas
+*   Funciones
+*   Definición de Objetos
+*   Objetos Predefinidos

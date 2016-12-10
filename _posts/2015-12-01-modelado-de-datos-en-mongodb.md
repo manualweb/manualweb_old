@@ -34,13 +34,9 @@ errorcodigo:
   - >
     https://github.com/victorcuervo/manualweb_mongodb/issues
 ---
-Cuando estamos modelando entidades de datos en un modelo ER existen una serie de patrones de modelización enfocados a evitar la redundancia, proteger la integridad de los datos,... estos son conocidos como las <strong>formas normales</strong>, y van desde la <strong>1FN</strong> hasta la <strong>5FN</strong>.
+Cuando estamos modelando entidades de datos en un modelo ER existen una serie de patrones de modelización enfocados a evitar la redundancia, proteger la integridad de los datos,... estos son conocidos como las **formas normales**, y van desde la **1FN** hasta la **5FN**. Cuando utilizamos un modelo NOSQL basado en documentos, como es el caso del modelado de datos en [MongoDB][1], la forma de modelar las relaciones entre las entidades cambia. Ya que existen una serie de conceptos básicos diferentes a los modelos ER que deberemos de tener en cuenta en el modelado como son: ausencia de joins, no existencia de modelos two-phase-commit y acceso atómico a los datos. Así que vamos a ver cómo podemos modelar las tres relaciones típicas entre entidades de datos: 
+*   Modelado one-to-one (1:1)
+*   Modelado one-to-many (1:N)
+*   Modelado many-to-many (N:M)
 
-Cuando utilizamos un modelo NOSQL basado en documentos, como es el caso del modelado de datos en <a href="http://www.manualweb.net/tutorial-mongodb/">MongoDB</a>, la forma de modelar las relaciones entre las entidades cambia. Ya que existen una serie de conceptos básicos diferentes a los modelos ER que deberemos de tener en cuenta en el modelado como son: ausencia de joins, no existencia de modelos two-phase-commit y acceso atómico a los datos.
-
-Así que vamos a ver cómo podemos modelar las tres relaciones típicas entre entidades de datos:
-<ul>
-	<li>Modelado one-to-one (1:1)</li>
-	<li>Modelado one-to-many (1:N)</li>
-	<li>Modelado many-to-many (N:M)</li>
-</ul>
+ [1]: http://www.manualweb.net/tutorial-mongodb/

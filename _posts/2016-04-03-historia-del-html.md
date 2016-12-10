@@ -25,20 +25,28 @@ urlcharla:
 urlvideo:
   - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
 ---
-La historia del <a href="http://www.manualweb.net/tutorial-html/">HTML</a> ha sido muy cambiante desde que <a href="http://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> y <a href="http://public.web.cern.ch/public/en/people/Cailliau-en.html">Robert Cailliau</a> trabajasen en el <strong>CERN</strong> y tuviesen la necesidad de establecer una forma de <strong>compartir la información.</strong> Daba lugar al nacimiento del hipertexto, enlaces y protocolo http, todo lo que acabo siendo el lenguaje <a href="http://www.manualweb.net/tutorial-html/">HTML</a>.
+La historia del [HTML][1] ha sido muy cambiante desde que [Tim Berners-Lee][2] y [Robert Cailliau][3] trabajasen en el **CERN** y tuviesen la necesidad de establecer una forma de **compartir la información.** Daba lugar al nacimiento del hipertexto, enlaces y protocolo http, todo lo que acabo siendo el lenguaje [HTML][1]. Ha pasado por épocas de definición en sus primeras versiones **HTML 2** y **HTML 3.2**. Ha permitido la creación del [W3C][4] para la gestión de estándares. Ha vivido la ***"guerra de los navegadores"*** entre *Internet Explorer* y *Netscape*. Se ha conseguido estandarizar con gran aceptación en **HTML 4.01**. Y ha visto como "unos disidentes" abandonaron el [W3C][4] para generar un evolucionado y moderno **[HTML 5][5].** Así podríamos resumir **la historia del [HTML][1] en las siguientes épocas**: 
+*   [Inicios del HTML][6]
+*   [HTML Tags y Mosaic][7]
+*   [HTML 2.0][8]
+*   [Creación de la W3C y HTML 3.0][9]
+*   [HTML 3.2][10]
+*   [HTML 4.01][11]
+*   [XML y XHTML 1.0][12]
+*   [HTML 5][13]
+*   [HTML.next][14]  
 
-Ha pasado por épocas de definición en sus primeras versiones <strong>HTML 2</strong> y <strong>HTML 3.2</strong>. Ha permitido la creación del <a href="http://www.w3.org">W3C</a> para la gestión de estándares. Ha vivido la <em><strong>"guerra de los navegadores"</strong></em> entre <em>Internet Explorer</em> y <em>Netscape</em>. Se ha conseguido estandarizar con gran aceptación en <strong>HTML 4.01</strong>. Y ha visto como "unos disidentes" abandonaron el <a href="http://www.w3.org">W3C</a> para generar un evolucionado y moderno <strong><a href="http://www.manualweb.net/tutorial-html5/">HTML 5</a>.</strong>
-
-Así podríamos resumir <strong>la historia del <a href="http://www.manualweb.net/tutorial-html/">HTML</a> en las siguientes épocas</strong>:
-<ul>
-	<li><a href="http://www.manualweb.net/html/historia-del-html-los-inicios/#inicios">Inicios del HTML</a></li>
-	<li><a href="http://www.manualweb.net/html/historia-del-html-los-inicios/#htmltags">HTML Tags y Mosaic</a></li>
-	<li><a href="http://www.manualweb.net/html/historia-del-html-los-inicios/#html2">HTML 2.0</a></li>
-	<li><a href="http://www.manualweb.net/html/historia-del-html-los-inicios/#html3">Creación de la W3C y HTML 3.0</a></li>
-	<li><a href="http://www.manualweb.net/html/historia-del-html-los-inicios/#html3_2">HTML 3.2</a></li>
-	<li><a href="http://www.manualweb.net/historia-del-html-el-estandar/#html4">HTML 4.01</a></li>
-	<li><a href="http://www.manualweb.net/historia-del-html-el-estandar/#xml">XML y XHTML 1.0</a></li>
-	<li><a href="http://www.manualweb.net/historia-del-html-el-estandar/#html5">HTML 5</a></li>
-	<li><a href="http://www.manualweb.net/historia-del-html-el-estandar/#next">HTML.next</a></li>
-</ul>
-&nbsp;
+ [1]: http://www.manualweb.net/tutorial-html/
+ [2]: http://www.w3.org/People/Berners-Lee/
+ [3]: http://public.web.cern.ch/public/en/people/Cailliau-en.html
+ [4]: http://www.w3.org
+ [5]: http://www.manualweb.net/tutorial-html5/
+ [6]: http://www.manualweb.net/html/historia-del-html-los-inicios/#inicios
+ [7]: http://www.manualweb.net/html/historia-del-html-los-inicios/#htmltags
+ [8]: http://www.manualweb.net/html/historia-del-html-los-inicios/#html2
+ [9]: http://www.manualweb.net/html/historia-del-html-los-inicios/#html3
+ [10]: http://www.manualweb.net/html/historia-del-html-los-inicios/#html3_2
+ [11]: http://www.manualweb.net/historia-del-html-el-estandar/#html4
+ [12]: http://www.manualweb.net/historia-del-html-el-estandar/#xml
+ [13]: http://www.manualweb.net/historia-del-html-el-estandar/#html5
+ [14]: http://www.manualweb.net/historia-del-html-el-estandar/#next

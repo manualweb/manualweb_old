@@ -9,17 +9,15 @@ permalink: >
   http://www.manualweb.net/tutorial-basico-de-internet/
 published: true
 ---
-<ul>
-	<li>Conceptos previos</li>
-	<li>Historia de Internet</li>
-	<li>Protocolo TCP/IP</li>
-	<li>Navegadores o Browsers</li>
-	<li>Primeros pasos por Internet</li>
-	<li>Email: Correo electrónico</li>
-	<li>FTP: File Transfer Protocol</li>
-	<li>IRC: Internet Relay Chat</li>
-	<li>News y listas de correo</li>
-	<li>Telnet</li>
-	<li>RSS: Really Simple Syndication</li>
-	<li>Las redes sociales</li>
-</ul>
+*   Conceptos previos
+*   Historia de Internet
+*   Protocolo TCP/IP
+*   Navegadores o Browsers
+*   Primeros pasos por Internet
+*   Email: Correo electrónico
+*   FTP: File Transfer Protocol
+*   IRC: Internet Relay Chat
+*   News y listas de correo
+*   Telnet
+*   RSS: Really Simple Syndication
+*   Las redes sociales

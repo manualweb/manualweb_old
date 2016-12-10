@@ -8,6 +8,4 @@ layout: page
 permalink: http://www.manualweb.net/tutorial-php/
 published: true
 ---
-<ul>
-<li>¿Qué es PHP?</li>
-</ul>
+*   ¿Qué es PHP?

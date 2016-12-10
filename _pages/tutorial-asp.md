@@ -8,12 +8,10 @@ layout: page
 permalink: http://www.manualweb.net/tutorial-asp/
 published: true
 ---
-<ul>
-	<li>Introducción al ASP</li>
-	<li>Objetos Intrinsecos</li>
-	<li>Objeto Response</li>
-	<li>Objeto Request</li>
-	<li>Objeto Server</li>
-	<li>Objeto Session</li>
-	<li>Objeto Application</li>
-</ul>
+*   Introducción al ASP
+*   Objetos Intrinsecos
+*   Objeto Response
+*   Objeto Request
+*   Objeto Server
+*   Objeto Session
+*   Objeto Application

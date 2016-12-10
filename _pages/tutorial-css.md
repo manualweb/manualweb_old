@@ -8,10 +8,8 @@ layout: page
 permalink: http://www.manualweb.net/tutorial-css/
 published: true
 ---
-<ul>
-	<li>Introducción a las CSS</li>
-	<li>Incluir CSS en el HTML</li>
-	<li>Clases como selectores</li>
-	<li>IDs como selectores</li>
-	<li>Selectores contextuales</li>
-</ul>
+*   Introducción a las CSS
+*   Incluir CSS en el HTML
+*   Clases como selectores
+*   IDs como selectores
+*   Selectores contextuales

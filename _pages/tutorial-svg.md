@@ -8,25 +8,14 @@ layout: page
 permalink: http://www.manualweb.net/tutorial-svg/
 published: true
 ---
-<ul>
-	<li>Introducción a SVG</li>
-	<li>Formas Básicas: Shape
-<ul>
-	<li>Rectángulos en SVG: El elemento RECT</li>
-	<li>Círculos en SVG: El elemento CIRCLE</li>
-	<li>Elipses en SVG: El elemento ELLIPSE</li>
-	<li>Líneas en SVG: El elemento LINE</li>
-	<li>Polígonos en SVG: El elemento POLYGON</li>
-	<li>Polilineas en SVG: El elemento POLYLINE</li>
-</ul>
-</li>
-	<li>Filtros
-<ul>
-	<li>Gradientes
-<ul>
-	<li>Gradiente Lineal</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+*   Introducción a SVG
+*   Formas Básicas: Shape 
+    *   Rectángulos en SVG: El elemento RECT
+    *   Círculos en SVG: El elemento CIRCLE
+    *   Elipses en SVG: El elemento ELLIPSE
+    *   Líneas en SVG: El elemento LINE
+    *   Polígonos en SVG: El elemento POLYGON
+    *   Polilineas en SVG: El elemento POLYLINE
+*   Filtros 
+    *   Gradientes 
+        *   Gradiente Lineal

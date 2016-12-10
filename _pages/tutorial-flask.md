@@ -8,29 +8,26 @@ layout: page
 permalink: http://www.manualweb.net/tutorial-flask/
 published: true
 ---
-<h3>Tutorial Flask</h3>
-El <strong>tutorial Flask</strong> va destinado a explicar cómo manejar este micro frsmework de Python <em>para poder construir aplicaciones web de una forma muy rápida y ágil</em>.
+### Tutorial Flask
 
-Los puntos del<strong> tutorial Flask</strong> son:
-<ol>
-	<li>Qué es Flask</li>
-	<li>Instalando Flask</li>
-	<li>Hola Mundo con Flask</li>
-	<li>Depurando aplicaciones Flask</li>
-	<li>Manejando Rutas con Flask</li>
-	<li>Ficheros Estáticos</li>
-	<li>Renderizando Templates</li>
-	<li>Manejando la Request</li>
-	<li>Manejando el Response</li>
-	<li>Redirecciones y Errores</li>
-	<li>Sesiones en Flask</li>
-	<li>Message Flashing</li>
-	<li>Desplegando Flask en Cloud
-<ol>
-	<li>Desplegar Flask en Heroku</li>
-	<li>Desplegar Flask en OpenShift</li>
-	<li>Desplegar Flask en Bluemix</li>
-</ol>
-</li>
-	<li>Hooks con middleware WSGI</li>
-</ol>
+El **tutorial Flask** va destinado a explicar cómo manejar este micro frsmework de Python *para poder construir aplicaciones web de una forma muy rápida y ágil*.
+
+Los puntos del** tutorial Flask** son:
+
+1.  Qué es Flask
+2.  Instalando Flask
+3.  Hola Mundo con Flask
+4.  Depurando aplicaciones Flask
+5.  Manejando Rutas con Flask
+6.  Ficheros Estáticos
+7.  Renderizando Templates
+8.  Manejando la Request
+9.  Manejando el Response
+10. Redirecciones y Errores
+11. Sesiones en Flask
+12. Message Flashing
+13. Desplegando Flask en Cloud 
+    1.  Desplegar Flask en Heroku
+    2.  Desplegar Flask en OpenShift
+    3.  Desplegar Flask en Bluemix
+14. Hooks con middleware WSGI

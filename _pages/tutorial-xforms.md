@@ -9,6 +9,4 @@ permalink: >
   http://www.manualweb.net/tutorial-xforms/
 published: true
 ---
-<ul>
-	<li>¿Qué es XForms?</li>
-</ul>
+*   ¿Qué es XForms?

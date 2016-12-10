@@ -9,13 +9,12 @@ permalink: http://www.manualweb.net/tutorial-sql/
 published: true
 ---
 En el manual de SQL podremos ver los siguientes temas:
-<ol>
-	<li>Introducción al lenguaje SQL</li>
-	<li>Consultas</li>
-	<li>Inserciones</li>
-	<li>Borrados</li>
-	<li>Actualizaciones</li>
-	<li>Manejo de Tablas</li>
-	<li>Usuarios</li>
-	<li>Herramientas para el manejo de SQL</li>
-</ol>
+
+1.  Introducción al lenguaje SQL
+2.  Consultas
+3.  Inserciones
+4.  Borrados
+5.  Actualizaciones
+6.  Manejo de Tablas
+7.  Usuarios
+8.  Herramientas para el manejo de SQL

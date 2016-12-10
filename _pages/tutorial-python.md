@@ -9,8 +9,6 @@ permalink: >
   http://www.manualweb.net/tutorial-python/
 published: true
 ---
-<ul>
-	<li>Qué es Python</li>
-	<li>Instalando Python</li>
-	<li>Primer programa en Python</li>
-</ul>
+*   Qué es Python
+*   Instalando Python
+*   Primer programa en Python

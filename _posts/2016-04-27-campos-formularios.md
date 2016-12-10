@@ -28,277 +28,183 @@ urlejemplos:
   - >
     http://lineadecodigo.com/tag/html-form/feed/
 ---
-Dentro de los campos de formularios que podemos incluir en <a href="http://www.manualweb.net/tutorial-html/">HTML</a> encontramos los siguientes:
-<ul>
-	<li>Campos de entrada de datos
-<ul>
-	<li>Campos de textos</li>
-	<li>Contraseñas</li>
-	<li>Checkbox</li>
-	<li>Radios</li>
-	<li>Botones de envío</li>
-	<li>Botones de borrado</li>
-	<li>Ficheros</li>
-	<li>Campos Ocultos</li>
-	<li>Imágenes</li>
-	<li>Botones</li>
-</ul>
-</li>
-	<li>Áreas de texto</li>
-	<li>Combos de selección</li>
-</ul>
+Dentro de los campos de formularios que podemos incluir en [HTML][1] encontramos los siguientes: 
+*   Campos de entrada de datos 
+    *   Campos de textos
+    *   Contraseñas
+    *   Checkbox
+    *   Radios
+    *   Botones de envío
+    *   Botones de borrado
+    *   Ficheros
+    *   Campos Ocultos
+    *   Imágenes
+    *   Botones
+*   Áreas de texto
+*   Combos de selección
 
-<h3><a name="input"></a>Campos de entrada de datos</h3>
-Son los elementos básicos de un formulario ya que son los que nos permiten recuperar información del usuario de diferentes formas.
+### <a name="input"></a>Campos de entrada de datos Son los elementos básicos de un formulario ya que son los que nos permiten recuperar información del usuario de diferentes formas. El elemento que representa los campos de entrada de datos es 
 
-El elemento que representa los campos de entrada de datos es <a href="http://www.w3api.com/wiki/HTML:INPUT">input</a><b>.</b> La estructura básica de un campo de entrada es la siguiente:
+[input][2]**.** La estructura básica de un campo de entrada es la siguiente: <pre lang="html4strict">&lt;input type=”tipo” id=”identificador” size=”tamaño” name=”nombre” value=”texto por defecto”/></pre> Si vemos los atributos que tiene el elemento input nos encontramos los siguientes: 
 
-<pre lang="html4strict"><input type=”tipo” id=”identificador” size=”tamaño” name=”nombre” value=”texto por defecto”/></pre>
+*   **type**, indica el tipo de campo de entrada de datos que vamos a utilizar. Dependiendo del tipo que indiquemos obtendremos un resultado u otro. Los valores que puede tener el atributo type son: “text”, “password”, “checkbox”, “radio”, “submit”, “reset”, “file”, “hidden”, “image” y “button”.
+*   **id,** es el identificador del campo. Es importante ya que será el nombre por el cual podremos identificar, de forma unívoca, al campo.
+*   **size**, será el tamaño del campo. Es decir, el número de caracteres que podríamos insertar en el campo de texto.
+*   **name,** es el nombre del campo el cual se enviará desde el formulario al servidor.
+*   **value,** será el valor por defecto que tendrá el campo de texto y que le aparecerá al usuario al cargar el formulario. Cuando enviemos el formulario al servidor, se coge el la combinación name=value para ser enviada. 
 
-Si vemos los atributos que tiene el elemento input nos encontramos los siguientes:
-<ul>
-	<li><b>type</b>, indica el tipo de campo de entrada de datos que vamos a utilizar. Dependiendo del tipo que indiquemos obtendremos un resultado u otro. Los valores que puede tener el atributo type son: “text”, “password”, “checkbox”, “radio”, “submit”, “reset”, “file”, “hidden”, “image” y “button”.</li>
-	<li><b>id,</b> es el identificador del campo. Es importante ya que será el nombre por el cual podremos identificar, de forma unívoca, al campo.</li>
-	<li><b>size</b>, será el tamaño del campo. Es decir, el número de caracteres que podríamos insertar en el campo de texto.</li>
-	<li><b>name,</b> es el nombre del campo el cual se enviará desde el formulario al servidor.</li>
-	<li><b>value,</b> será el valor por defecto que tendrá el campo de texto y que le aparecerá al usuario al cargar el formulario.</li>
-</ul>
+#### *Campos de texto* El campo de texto, como bien indica su nombre, es el que nos permite insertar texto en un formulario. El usuario podrá insertar texto visible sobre el campo. En este caso el tipo de elemento input que utilizaremos será “text”. Así, para definir un campo de texto lo haremos de la siguiente forma: 
 
-Cuando enviemos el formulario al servidor, se coge el la combinación name=value para ser enviada.
+<pre lang="html4strict">&lt;input type=”text” id=”identificador” size=”tamaño” name=”nombre” value=”texto por defecto”/></pre> De esta forma si queremos crear un campo de texto para poder insertar 70 caracteres que contenga un email, lo definiremos de la siguiente forma: 
 
-<h4><i>Campos de texto</i></h4>
-El campo de texto, como bien indica su nombre, es el que nos permite insertar texto en un formulario. El usuario podrá insertar texto visible sobre el campo.
+<pre lang="html4strict">&lt;input type=”text” id=”email” name=”email” size=”70” value=”usuario@dominio.com”/></pre>
 
-En este caso el tipo de elemento input que utilizaremos será “text”. Así, para definir un campo de texto lo haremos de la siguiente forma:
+#### *Contraseñas* Cuando un usuario inserte una contraseña dentro de un formulario necesitaremos, casi seguro, que el valor de la contraseña no aparezca y que por el contrario aparezcan caracteres como asteriscos. Para insertar un campo que acepte contraseñas dentro de un formulario vamos a utilizar un tipo “password” dentro del elemento input. 
 
-<pre lang="html4strict"><input type=”text” id=”identificador” size=”tamaño” name=”nombre” value=”texto por defecto”/></pre>
+<pre lang="html4strict">&lt;input type=”password” id=”identificador” size=”tamaño” name=”nombre”/></pre> En este caso, aunque podemos poner un valor por defecto, si bien, no parece tener mucho sentido. Si queremos definir un campo que acepte contraseñas de 20 caracteres lo codificaremos de la siguiente forma: 
 
-De esta forma si queremos crear un campo de texto para poder insertar 70 caracteres que contenga un email, lo definiremos de la siguiente forma:
+<pre lang="html4strict">&lt;input type=”password” id=”clave” name=”clave” size=”20”/></pre>
 
-<pre lang="html4strict"><input type=”text” id=”email” name=”email” size=”70” value=”usuario@dominio.com”/></pre>
+#### *Checkbox* Un checkbox nos permite capturar un dato del usuario mediante un elemento de check. El check puede tener dos valores, seleccionado o no seleccionado. El tipo del elemento input que utilizaremos será “checkbox”. Así lo definiremos de la siguiente forma: 
 
-<h4><i>Contraseñas</i></h4>
-Cuando un usuario inserte una contraseña dentro de un formulario necesitaremos, casi seguro, que el valor de la contraseña no aparezca y que por el contrario aparezcan caracteres como asteriscos.
+<pre lang="html4strict">&lt;input type=”checkbox” id=”identificador” name=”nombre”/></pre> En el caso del checkbox no tienen sentido el atributo tamaño ni el valor por defecto. Ya que, recordemos que solo podemos tener el check seleccionado o no. Pero lo que sí podemos hacer es generar un checkbox que esta preseleccionado. Para ello utilizamos el 
 
-Para insertar un campo que acepte contraseñas dentro de un formulario vamos a utilizar un tipo “password” dentro del elemento input.
+[atributo checked][3]**.** <pre lang="html4strict">&lt;input type=”checkbox” id=”identificador” name=”nombre” checked=”checked”/></pre> Pero ¿dónde está el texto que acompaña al checkbox? Realmente el checkbox no tiene definido que acompañe al checkbox. Si no que hay que añadir el texto directamente al lado del checkbox. 
 
-<pre lang="html4strict"><input type=”password” id=”identificador” size=”tamaño” name=”nombre”/></pre>
+<pre lang="html4strict">&lt;input type=”checkbox” id=”identificador” name=”nombre” checked=”checked”/>
+Texto del checkbox</pre> Aunque más adelante vamos a ver una forma más correcta de asociar el texto al checkbox. Así, si queremos crear un checkbox que nos pregunte si estamos de acuerdo con unas condiciones podríamos codificarlo de la siguiente forma: 
 
-En este caso, aunque podemos poner un valor por defecto, si bien, no parece tener mucho sentido. Si queremos definir un campo que acepte contraseñas de 20 caracteres lo codificaremos de la siguiente forma:
+<pre lang="html4strict">&lt;input type=”checkbox” id=”condiciones” name=”condiciones”/>
+Está de acuerdo con las condiciones explicadas más arriba.</pre> Los checkbox suelen ir en grupos para seleccionar varias opciones. Por ejemplo podríamos tener el siguiente código con el que podamos seleccionar qué lenguaje de programación queremos aprender. 
 
-<pre lang="html4strict"><input type=”password” id=”clave” name=”clave” size=”20”/></pre>
+<pre lang="html4strict"><input type="checkbox" name="lenguaje" value="html" />HTML
+<input type="checkbox" name="lenguaje" value="javascript" />Javascript
+<input type="checkbox" name="lenguaje" value="css" />CSS
+<input type="checkbox" name="lenguaje" value="xml" />XML</pre>
 
-<h4><i>Checkbox</i></h4>
-Un checkbox nos permite capturar un dato del usuario mediante un elemento de check. El check puede tener dos valores, seleccionado o no seleccionado. El tipo del elemento input que utilizaremos será “checkbox”. Así lo definiremos de la siguiente forma:
+#### *Radios* Con los elementos de radio podemos ofrecer un conjunto de opciones al usuario de tal manera que solo pueda elegir una de ellas. El tipo de elemento input que utilizamos es “radio”. La sintaxis que seguiremos en los elementos input de tipo radio será la siguiente: 
 
-<pre lang="html4strict"><input type=”checkbox” id=”identificador” name=”nombre”/></pre>
+<pre lang="html4strict">&lt;input type=”radio” id=”identificador” value=”valor” name=”nombre”/></pre> En el caso de los elementos radio 
 
-En el caso del checkbox no tienen sentido el atributo tamaño ni el valor por defecto. Ya que, recordemos que solo podemos tener el check seleccionado o no. Pero lo que sí podemos hacer es generar un checkbox que esta preseleccionado. Para ello utilizamos el <a href="http://www.w3api.com/wiki/HTML:INPUT.checked">atributo checked</a><b>.</b>
+**toma un papel principal el **[**atributo name**][4]. Ya que para poder agrupar opciones deberemos de tener el mismo valor de [atributo name][4]. Así, si queremos crear un grupo de radios para que nos elija una edad le podremos crear de la siguiente forma: <pre lang="html4strict">&lt;input type=”radio” id=”menos18” value=”menos18” name=”edad”/>Menos de 18
+&lt;input type=”radio” id=”18a30” value=”18a30” name=”edad”/>18 a 30
+&lt;input type=”radio” id=”31a50” value=”31a50” name=”edad”/>31 a 50
+&lt;input type=”radio” id=”mas50” value=”mas50” name=”edad”/>Más de 50</pre> Al igual que sucedía con los campos de entrada de tipo check, podemos cargar campos de tipo radio en nuestro formulario con un elemento preseleccionado. Para ello volvemos a recurrir al 
 
-<pre lang="html4strict"><input type=”checkbox” id=”identificador” name=”nombre” checked=”checked”/></pre>
+[atributo checked][3]. <pre lang="html4strict">&lt;input type=”radio” id=”identificador” value=”valor” name=”nombre” checked=”checked”/></pre>
 
-Pero ¿dónde está el texto que acompaña al checkbox? Realmente el checkbox no tiene definido que acompañe al checkbox. Si no que hay que añadir el texto directamente al lado del checkbox.
+#### *Ficheros* Cuando diseñemos un formulario es posible que necesitemos enviar un fichero de datos al servidor. En este caso el campo de entrada de datos nos tiene que dar la posibilidad de acceder al sistema de fichero del dispositivo para poder seleccionar uno. En este caso vamos a necesitar un campo de entrada de tipo “file”. La sintaxis de los campos de entrada para tipos file sería: 
 
-<pre lang="html4strict"><input type=”checkbox” id=”identificador” name=”nombre” checked=”checked”/>
-Texto del checkbox</pre>
+<pre lang="html4strict">&lt;input type=”file” id=”identificador” value=”valor” name=”nombre”/></pre>
 
-Aunque más adelante vamos a ver una forma más correcta de asociar el texto al checkbox.
+#### *Campos Ocultos* Otra de las opciones que nos podemos encontrar dentro de los formularios es con la necesidad de enviar información oculta. Es decir, información que tiene que ir anexa al formulario pero que no necesita ser introducida por el usuario. Para ello tenemos la posibilidad de crear campos de datos ocultos. La sintaxis para los campos de entrada ocultos es: 
 
-Así, si queremos crear un checkbox que nos pregunte si estamos de acuerdo con unas condiciones podríamos codificarlo de la siguiente forma:
+<pre lang="html4strict">&lt;input type=”hidden” id=”identificador” value=”valor” name=”nombre”/></pre> En estos casos el campo valor siempre va relleno, ya que no hay otra forma de que el usuario le asigne un valor. 
 
-<pre lang="html4strict"><input type=”checkbox” id=”condiciones” name=”condiciones”/>
-Está de acuerdo con las condiciones explicadas más arriba.</pre>
+#### *Imágenes* Uno de los tipos de 
 
-Los checkbox suelen ir en grupos para seleccionar varias opciones. Por ejemplo podríamos tener el siguiente código con el que podamos seleccionar qué lenguaje de programación queremos aprender.
+[elementos input][2] es el tipo *“image”*. Mediante el tipo *“image”* podemos crear un botón de envío que sea una imágen. La imagen se cargará mediante el [atributo src][5]. La estructura para [elementos input][2] de este tipo es: <pre lang="html4strict">&lt;input type=”image” src=”url-image” name=”nombre” alt=”texto-alternativo”/></pre> Como sucede cada vez que manipulamos imágenes hay que rellenar el 
 
-<pre lang="html4strict"><input type="checkbox" name="lenguaje" value="html">HTML
-<input type="checkbox" name="lenguaje" value="javascript">Javascript
-<input type="checkbox" name="lenguaje" value="css">CSS
-<input type="checkbox" name="lenguaje" value="xml">XML</pre>
+[atributo alt][6] con un texto alternativo por motivos de accesibilidad. Cuando pulsemos sobre la imagen se enviará el formulario, además se enviarán dos atributos *name.x* y *name.y* con los datos de las coordenadas x,y en las que se pulsó sobre la imagen. 
+### <a name="textarea"></a>Áreas de texto Un elemento algo más avanzado que el campo de entrada de datos es el área de texto. Mediante un área de texto tenemos la capacidad de que el usuario inserte una gran cantidad de datos y además que esos datos puedan estar en diferentes líneas. Para poder insertar un área de texto en nuestro formulario utilizamos el 
 
-<h4><i>Radios</i></h4>
-Con los elementos de radio podemos ofrecer un conjunto de opciones al usuario de tal manera que solo pueda elegir una de ellas. El tipo de elemento input que utilizamos es “radio”.
+[elemento textarea][7]. La sintaxis del [elemento textarea][7] será la siguiente: <pre lang="html4strict">&lt;textarea rows=”numerofilas” cols=”numerocolumnas” name=”nombre”>&lt;/textarea></pre> A diferencia del 
 
-La sintaxis que seguiremos en los elementos input de tipo radio será la siguiente:
+[elemento input][2], el textarea tiene una etiqueta de inicio y una de fin. Los atributos que nos encontramos en un [textarea][7] son: 
+*   **[**rows**][8]**, ****indica el número de filas que tiene el área de texto.
 
-<pre lang="html4strict"><input type=”radio” id=”identificador” value=”valor” name=”nombre”/></pre>
+*   [**cols**][9]**,** indica el número de columnas que tiene el área de texto.
 
-En el caso de los elementos radio <b>toma un papel principal el </b><a href="http://www.w3api.com/wiki/HTML:Name"><b>atributo name</b></a>. Ya que para poder agrupar opciones deberemos de tener el mismo valor de <a href="http://www.w3api.com/wiki/HTML:Name">atributo name</a>.
+*   [**name**][4]**,** al igual que sucede con otros elementos del formulario, name contiene el nombre del campo, el cual será enviado al servidor para ser procesado. De esta forma, si queremos crear un área de texto de 20 filas por 100 columnas en el que un usuario pueda insertar un comentario tendríamos el siguiente código: 
 
-Así, si queremos crear un grupo de radios para que nos elija una edad le podremos crear de la siguiente forma:
+<pre lang="html4strict">&lt;textarea rows=”20” cols=”100” name=”comentario”>&lt;/textarea></pre> Si queremos que el área de texto vaya con un valor por defecto, tendremos que añadir dicho contenido entre las etiquetas de textarea. 
 
-<pre lang="html4strict"><input type=”radio” id=”menos18” value=”menos18” name=”edad”/>Menos de 18
-<input type=”radio” id=”18a30” value=”18a30” name=”edad”/>18 a 30
-<input type=”radio” id=”31a50” value=”31a50” name=”edad”/>31 a 50
-<input type=”radio” id=”mas50” value=”mas50” name=”edad”/>Más de 50</pre>
+<pre lang="html4strict">&lt;textarea rows=”20” cols=”100” name=”comentario”>Contenido de comentario...&lt;/textarea></pre>
 
-Al igual que sucedía con los campos de entrada de tipo check, podemos cargar campos de tipo radio en nuestro formulario con un elemento preseleccionado. Para ello volvemos a recurrir al <a href="http://www.w3api.com/wiki/HTML:INPUT.checked">atributo checked</a>.
+### <a name="select"></a>Combos de opciones Otro elemento que podemos insertar dentro de un formulario es un combo de opciones. Es decir, un elemento en el que el usuario pueda elegir un elemento o varios de una lista. El elemento que nos permite insertar un combo de opciones es 
 
-<pre lang="html4strict"><input type=”radio” id=”identificador” value=”valor” name=”nombre” checked=”checked”/></pre>
+[select][10]. La sintaxis básica de un [elemento select][10] es: <pre lang="html4strict">&lt;select name=”nombre” size=”valoresvisibles” multiple=”multiple”>&lt;/select></pre> De los valores que nos encontramos en el 
 
-<h4><i>Ficheros</i></h4>
-Cuando diseñemos un formulario es posible que necesitemos enviar un fichero de datos al servidor. En este caso el campo de entrada de datos nos tiene que dar la posibilidad de acceder al sistema de fichero del dispositivo para poder seleccionar uno.
+[elemento select][10] destacamos: 
+*   **name,** que al igual que en anteriores casos sirve para dar un nombre al campo que se enviará al servidor.
+*   **size,** indica el número de opciones que aparecen visibles por defecto. En el caso de que haya más opciones que las elegidas por defecto lo que nos aparecerá será un scroll para poder localizar todas.
+*   **multiple**, este atributo nos servirá para poder elegir varias de las opciones. Es decir, para tener una elección múltiple. Como hemos visto el elemento select sólo demarca el combo de las opciones. Para definir cada una de las opciones tenemos el 
 
-En este caso vamos a necesitar un campo de entrada de tipo “file”. La sintaxis de los campos de entrada para tipos file sería:
+[elemento option][11]. La sintaxis básica del [elemento option][11] es la siguiente: <pre lang="html4strict">&lt;option label=”etiqueta” value=”valor”>&lt;/option></pre> Dónde el 
 
-<pre lang="html4strict"><input type=”file” id=”identificador” value=”valor” name=”nombre”/></pre>
-
-<h4><i>Campos Ocultos</i></h4>
-Otra de las opciones que nos podemos encontrar dentro de los formularios es con la necesidad de enviar información oculta. Es decir, información que tiene que ir anexa al formulario pero que no necesita ser introducida por el usuario. Para ello tenemos la posibilidad de crear campos de datos ocultos.
-
-La sintaxis para los campos de entrada ocultos es:
-
-<pre lang="html4strict"><input type=”hidden” id=”identificador” value=”valor” name=”nombre”/></pre>
-
-En estos casos el campo valor siempre va relleno, ya que no hay otra forma de que el usuario le asigne un valor.
-
-<h4><i>Imágenes</i></h4>
-Uno de los tipos de <a href="http://www.w3api.com/wiki/HTML:INPUT">elementos input</a> es el tipo <i>“image”</i>. Mediante el tipo <i>“image”</i> podemos crear un botón de envío que sea una imágen. La imagen se cargará mediante el <a href="http://www.w3api.com/wiki/HTML:Src">atributo src</a>. La estructura para <a href="http://www.w3api.com/wiki/HTML:INPUT">elementos input</a> de este tipo es:
-
-<pre lang="html4strict"><input type=”image” src=”url-image” name=”nombre” alt=”texto-alternativo”/></pre>
-
-Como sucede cada vez que manipulamos imágenes hay que rellenar el <a href="http://www.w3api.com/wiki/HTML:Alt">atributo alt</a> con un texto alternativo por motivos de accesibilidad.
-
-Cuando pulsemos sobre la imagen se enviará el formulario, además se enviarán dos atributos <i>name.x</i> y <i>name.y</i> con los datos de las coordenadas x,y en las que se pulsó sobre la imagen.
-
-<h3><a name="textarea"></a>Áreas de texto</h3>
-Un elemento algo más avanzado que el campo de entrada de datos es el área de texto. Mediante un área de texto tenemos la capacidad de que el usuario inserte una gran cantidad de datos y además que esos datos puedan estar en diferentes líneas.
-
-Para poder insertar un área de texto en nuestro formulario utilizamos el <a href="http://www.w3api.com/wiki/HTML:TEXTAREA">elemento textarea</a>. La sintaxis del <a href="http://www.w3api.com/wiki/HTML:TEXTAREA">elemento textarea</a> será la siguiente:
-
-<pre lang="html4strict"><textarea rows=”numerofilas” cols=”numerocolumnas” name=”nombre”></textarea></pre>
-
-A diferencia del <a href="http://www.w3api.com/wiki/HTML:INPUT">elemento input</a>, el textarea tiene una etiqueta de inicio y una de fin.
-
-Los atributos que nos encontramos en un <a href="http://www.w3api.com/wiki/HTML:TEXTAREA">textarea</a> son:
-<ul>
-	<li><b><a href="http://www.w3api.com/wiki/HTML:TEXTAREA.rows"><b>rows</b></a><b>, </b></b>indica el número de filas que tiene el área de texto.</li>
-</ul>
-<ul>
-	<li><a href="http://www.w3api.com/wiki/HTML:TEXTAREA.cols"><b>cols</b></a><b>,</b> indica el número de columnas que tiene el área de texto.</li>
-</ul>
-<ul>
-	<li><a href="http://www.w3api.com/wiki/HTML:Name"><b>name</b></a><b>,</b> al igual que sucede con otros elementos del formulario, name contiene el nombre del campo, el cual será enviado al servidor para ser procesado.</li>
-</ul>
-De esta forma, si queremos crear un área de texto de 20 filas por 100 columnas en el que un usuario pueda insertar un comentario tendríamos el siguiente código:
-
-<pre lang="html4strict"><textarea rows=”20” cols=”100” name=”comentario”></textarea></pre>
-
-Si queremos que el área de texto vaya con un valor por defecto, tendremos que añadir dicho contenido entre las etiquetas de textarea.
-
-<pre lang="html4strict"><textarea rows=”20” cols=”100” name=”comentario”>Contenido de comentario...</textarea></pre>
-
-<h3><a name="select"></a>Combos de opciones</h3>
-Otro elemento que podemos insertar dentro de un formulario es un combo de opciones. Es decir, un elemento en el que el usuario pueda elegir un elemento o varios de una lista.
-
-El elemento que nos permite insertar un combo de opciones es <a href="http://www.w3api.com/wiki/HTML:SELECT">select</a>. La sintaxis básica de un <a href="http://www.w3api.com/wiki/HTML:SELECT">elemento select</a> es:
-
-<pre lang="html4strict"><select name=”nombre” size=”valoresvisibles” multiple=”multiple”></select></pre>
-
-De los valores que nos encontramos en el <a href="http://www.w3api.com/wiki/HTML:SELECT">elemento select</a> destacamos:
-<ul>
-	<li><b>name,</b> que al igual que en anteriores casos sirve para dar un nombre al campo que se enviará al servidor.</li>
-	<li><b>size,</b> indica el número de opciones que aparecen visibles por defecto. En el caso de que haya más opciones que las elegidas por defecto lo que nos aparecerá será un scroll para poder localizar todas.</li>
-	<li><b>multiple</b>, este atributo nos servirá para poder elegir varias de las opciones. Es decir, para tener una elección múltiple.</li>
-</ul>
-Como hemos visto el elemento select sólo demarca el combo de las opciones. Para definir cada una de las opciones tenemos el <a href="http://www.w3api.com/wiki/HTML:OPTION">elemento option</a>.
-
-La sintaxis básica del <a href="http://www.w3api.com/wiki/HTML:OPTION">elemento option</a> es la siguiente:
-
-<pre lang="html4strict"><option label=”etiqueta” value=”valor”></option></pre>
-
-Dónde el <b>atributo label</b> indica el texto que aparecerá para poder ser seleccionado en el combo y <b>value</b> el valor realmente de ese item. En el caso de que no pongamos el atributo label o el atributo value, el valor que cogerán dichos atributos será el texto que encontremos entre los <a href="http://www.w3api.com/wiki/HTML:OPTION">elementos de option</a><b>.</b>
-
-Por lo tanto, si juntamos la sintaxis del <a href="http://www.w3api.com/wiki/HTML:SELECT">elemento select</a> y el <a href="http://www.w3api.com/wiki/HTML:OPTION">elemento option</a> tenemos la siguiente codificación:
-
-<pre lang="html4strict"><select name=”nombre” size=”valoresvisibles” multiple=”multiple”>
-  <option label=”etiqueta” value=”valor”></option>
-</select></pre>
-
-Si queremos crear un combo de opciones donde podamos elegir un equipo de fútbol tendríamos el siguiente código:
+**atributo label** indica el texto que aparecerá para poder ser seleccionado en el combo y **value** el valor realmente de ese item. En el caso de que no pongamos el atributo label o el atributo value, el valor que cogerán dichos atributos será el texto que encontremos entre los [elementos de option][11]**.** Por lo tanto, si juntamos la sintaxis del [elemento select][10] y el [elemento option][11] tenemos la siguiente codificación: <pre lang="html4strict">&lt;select name=”nombre” size=”valoresvisibles” multiple=”multiple”>
+  &lt;option label=”etiqueta” value=”valor”>&lt;/option>
+&lt;/select></pre> Si queremos crear un combo de opciones donde podamos elegir un equipo de fútbol tendríamos el siguiente código: 
 
 <pre lang="html4strict"><select>
-  <option>Atlético de Madrid</option>
-  <option>Real Betis</option>
-  <option>FC. Barcelona</option>
-  <option>Real Madrid</option>
-  <option>Zaragoza</option>
-</select></pre>
+  &lt;option>Atlético de Madrid&lt;/option>
+  &lt;option>Real Betis&lt;/option>
+  &lt;option>FC. Barcelona&lt;/option>
+  &lt;option>Real Madrid&lt;/option>
+  &lt;option>Zaragoza&lt;/option>
+</select></pre> Si queremos que una de las opciones del combo vaya marcada recurriremos al 
 
-Si queremos que una de las opciones del combo vaya marcada recurriremos al <a href="http://www.w3api.com/wiki/HTML:Selected">atributo selected</a>. Así, en nuestro ejemplo si marcamos como predefinido el equipo del Betis tendríamos el siguiente código:
+[atributo selected][12]. Así, en nuestro ejemplo si marcamos como predefinido el equipo del Betis tendríamos el siguiente código: <pre lang="html4strict"><select>
+  &lt;option>Atletico de Madrid&lt;/option>
+  &lt;option selected=”selected”>Betis&lt;/option>
+  &lt;option>FC. Barcelona&lt;/option>
+  &lt;option>Real Madrid&lt;/option>
+  &lt;option>Zaragoza&lt;/option>
+</select></pre> Otra de las cosas que podemos realizar dentro de un combo es agrupar opciones. Si la lista de opciones es muy grande podemos utilizar el 
 
-<pre lang="html4strict"><select>
-  <option>Atletico de Madrid</option>
-  <option selected=”selected”>Betis</option>
-  <option>FC. Barcelona</option>
-  <option>Real Madrid</option>
-  <option>Zaragoza</option>
-</select></pre>
+[elemento optgroup][13]. La sintaxis del [elemento optgroup][13] es la siguiente: <pre lang="html4strict">&lt;optgroup label=”etiqueta”>&lt;/optgroup></pre> Dentro del 
 
-Otra de las cosas que podemos realizar dentro de un combo es agrupar opciones. Si la lista de opciones es muy grande podemos utilizar el <a href="http://www.w3api.com/wiki/HTML:OPTGROUP">elemento optgroup</a>.
+[elemento optgroup][13] encontraremos todos los [elementos option][11] que queramos agrupar. Si por ejemplo, queremos ofrecer un combo de ciudades y las queremos agrupar por continentes, tendríamos el siguiente código: <pre lang="html4strict">&lt;select name=”ciudad”>
+  &lt;optgroup label="Europa">
+    &lt;option>Madrid&lt;/option>
+    &lt;option>Londres&lt;/option>
+    &lt;option>Paris&lt;/option>
+  &lt;/optgroup>
+  &lt;optgroup label="Suramerica">
+    &lt;option>Santiago&lt;/option>
+    &lt;option>Sao Paulo&lt;/option>
+    &lt;option>Lima&lt;/option>
+    &lt;option>Bogota&lt;/option>
+  &lt;/optgroup>
+  &lt;optgroup label="Africa">
+    &lt;option>Casablanca&lt;/option>
+    &lt;option>Ciudad del Cabo&lt;/option>
+  &lt;/optgroup>
+&lt;/select></pre>
 
-La sintaxis del <a href="http://www.w3api.com/wiki/HTML:OPTGROUP">elemento optgroup</a> es la siguiente:
+### <a name="button"></a>Botones Una vez que hemos insertado campos de texto en nuestro formulario es hora de insertar botones. 
 
-<pre lang="html4strict"><optgroup label=”etiqueta”></optgroup></pre>
+***Mediante los botones podremos realizar operaciones de envío del formulario***, de manipulación de datos, borrado,... Existen dos formas de insertar botones dentro de un formulario: el [elemento input][2] y el [elemento button][14]. La primera es recurre nuevamente al [elemento input][2] que hemos visto anteriormente para los campos de texto. La sintaxis para un botón mediante un [elemento input][2] será: <pre lang="html4strict">&lt;input type=”button” value=”TextoBotón”/></pre> Si bien, este botón no hace nada por sí solo y tendríamos que darle un comportamiento vía Javascript para que el botón tuviera funcionalidad. 
 
-Dentro del <a href="http://www.w3api.com/wiki/HTML:OPTGROUP">elemento optgroup</a> encontraremos todos los <a href="http://www.w3api.com/wiki/HTML:OPTION">elementos option</a> que queramos agrupar.
+#### *Botones de envío* En el caso del 
 
-Si por ejemplo, queremos ofrecer un combo de ciudades y las queremos agrupar por continentes, tendríamos el siguiente código:
+[elemento input][2] podemos poner botones de otras dos formas y en estos casos ya con funcionalidad. Estos son los tipos ***“submit”*** y ***“reset”.*** Para crear un botón que nos envíe los datos del formulario al servidor tenemos el tipo submit. Su sintaxis es la siguiente: <pre lang="html4strict">&lt;input type=”submit” value=”TextoBotón”/></pre> Una vez que pulsemos sobre el botón se enviarán los datos que el usuario haya insertado en el formulario. 
 
-<pre lang="html4strict"><select name=”ciudad”>
-  <optgroup label="Europa">
-    <option>Madrid</option>
-    <option>Londres</option>
-    <option>Paris</option>
-  </optgroup>
-  <optgroup label="Suramerica">
-    <option>Santiago</option>
-    <option>Sao Paulo</option>
-    <option>Lima</option>
-    <option>Bogota</option>
-  </optgroup>
-  <optgroup label="Africa">
-    <option>Casablanca</option>
-    <option>Ciudad del Cabo</option>
-  </optgroup>
-</select></pre>
+#### *Botones de borrado* El otro tipo de botón con funcionalidad es el que nos permite el borrado de los datos del formulario. Para ello tenemos el tipo “reset”. La sintaxis de este botón será: 
 
-<h3><a name="button"></a>Botones</h3>
-Una vez que hemos insertado campos de texto en nuestro formulario es hora de insertar botones. <b><i>Mediante los botones podremos realizar operaciones de envío del formulario</i></b>, de manipulación de datos, borrado,...
+<pre lang="html4strict">&lt;input type=”reset” value=”TextoBotón”/></pre> Cuando el usuario pulse sobre el botón de borrado. Todos los valores que el usuario haya insertado en el formulario se eliminarán. 
 
-Existen dos formas de insertar botones dentro de un formulario: el <a href="http://www.w3api.com/wiki/HTML:INPUT">elemento input</a> y el <a href="http://www.w3api.com/wiki/HTML:BUTTON">elemento button</a>. La primera es recurre nuevamente al <a href="http://www.w3api.com/wiki/HTML:INPUT">elemento input</a> que hemos visto anteriormente para los campos de texto.
+#### *El elemento button* Como hemos visto hasta ahora los botones que hemos insertado han sido mediante el 
 
-La sintaxis para un botón mediante un <a href="http://www.w3api.com/wiki/HTML:INPUT">elemento input</a> será:
+[elemento input][2], si bien contamos con otro elemento para poner botones en el formulario que es el [elemento button][14]. Cuya funcionalidad es la misma que la del [elemento input][2]. La sintaxis del [elemento button][14] es: <pre lang="html4strict">&lt;button name=”nombre” type=”TipoBoton” value=”ValorBoton”>&lt;/button></pre> Dependiendo del tipo que asignamos al 
 
-<pre lang="html4strict"><input type=”button” value=”TextoBotón”/></pre>
+[atributo type][15] obtendremos un comportamiento u otro: 
+*   **submit**, crea un botón para el envío de formulario.
+*   **reset**, crea un botón para el borrado de datos del formulario.
+*   **button**, crea un botón normal.
 
-Si bien, este botón no hace nada por sí solo y tendríamos que darle un comportamiento vía Javascript para que el botón tuviera funcionalidad.
-<h4><i>Botones de envío</i></h4>
-En el caso del <a href="http://www.w3api.com/wiki/HTML:INPUT">elemento input</a> podemos poner botones de otras dos formas y en estos casos ya con funcionalidad. Estos son los tipos <b><i>“submit”</i></b> y <b><i>“reset”.</i></b>
-
-Para crear un botón que nos envíe los datos del formulario al servidor tenemos el tipo submit. Su sintaxis es la siguiente:
-
-<pre lang="html4strict"><input type=”submit” value=”TextoBotón”/></pre>
-
-Una vez que pulsemos sobre el botón se enviarán los datos que el usuario haya insertado en el formulario.
-
-<h4><i>Botones de borrado</i></h4>
-El otro tipo de botón con funcionalidad es el que nos permite el borrado de los datos del formulario. Para ello tenemos el tipo “reset”. La sintaxis de este botón será:
-
-<pre lang="html4strict"><input type=”reset” value=”TextoBotón”/></pre>
-
-Cuando el usuario pulse sobre el botón de borrado. Todos los valores que el usuario haya insertado en el formulario se eliminarán.
-
-<h4><i>El elemento button</i></h4>
-Como hemos visto hasta ahora los botones que hemos insertado han sido mediante el <a href="http://www.w3api.com/wiki/HTML:INPUT">elemento input</a>, si bien contamos con otro elemento para poner botones en el formulario que es el <a href="http://www.w3api.com/wiki/HTML:BUTTON">elemento button</a>. Cuya funcionalidad es la misma que la del <a href="http://www.w3api.com/wiki/HTML:INPUT">elemento input</a>.
-
-La sintaxis del <a href="http://www.w3api.com/wiki/HTML:BUTTON">elemento button</a> es:
-
-<pre lang="html4strict"><button name=”nombre” type=”TipoBoton” value=”ValorBoton”></button></pre>
-
-Dependiendo del tipo que asignamos al <a href="http://www.w3api.com/wiki/HTML:Type">atributo type</a> obtendremos un comportamiento u otro:
-<ul>
-	<li><b>submit</b>, crea un botón para el envío de formulario.</li>
-	<li><b>reset</b>, crea un botón para el borrado de datos del formulario.</li>
-	<li><b>button</b>, crea un botón normal.</li>
-</ul>
+ [1]: http://www.manualweb.net/tutorial-html/
+ [2]: http://www.w3api.com/wiki/HTML:INPUT
+ [3]: http://www.w3api.com/wiki/HTML:INPUT.checked
+ [4]: http://www.w3api.com/wiki/HTML:Name
+ [5]: http://www.w3api.com/wiki/HTML:Src
+ [6]: http://www.w3api.com/wiki/HTML:Alt
+ [7]: http://www.w3api.com/wiki/HTML:TEXTAREA
+ [8]: http://www.w3api.com/wiki/HTML:TEXTAREA.rows
+ [9]: http://www.w3api.com/wiki/HTML:TEXTAREA.cols
+ [10]: http://www.w3api.com/wiki/HTML:SELECT
+ [11]: http://www.w3api.com/wiki/HTML:OPTION
+ [12]: http://www.w3api.com/wiki/HTML:Selected
+ [13]: http://www.w3api.com/wiki/HTML:OPTGROUP
+ [14]: http://www.w3api.com/wiki/HTML:BUTTON
+ [15]: http://www.w3api.com/wiki/HTML:Type

@@ -8,16 +8,14 @@ layout: page
 permalink: http://www.manualweb.net/tutorial-xml/
 published: true
 ---
-<ul>
-	<li>Introducción al XML</li>
-	<li>El documento XML</li>
-	<li>¿Sustituye XML al HTML?</li>
-	<li>Tipos de documentos</li>
-	<li>DTD (Document Type Definition)</li>
-	<li>Definiciones de Elementos</li>
-	<li>Definición de Atributos</li>
-	<li>Entidades y Anotaciones</li>
-	<li>Usos del XML</li>
-	<li>Herramientas de procesamiento del XML</li>
-	<li>XML como herramienta de intercambio de información</li>
-</ul>
+*   Introducción al XML
+*   El documento XML
+*   ¿Sustituye XML al HTML?
+*   Tipos de documentos
+*   DTD (Document Type Definition)
+*   Definiciones de Elementos
+*   Definición de Atributos
+*   Entidades y Anotaciones
+*   Usos del XML
+*   Herramientas de procesamiento del XML
+*   XML como herramienta de intercambio de información

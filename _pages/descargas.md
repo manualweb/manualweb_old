@@ -10,4 +10,4 @@ published: true
 ---
 Desde esta página podrás descargarte todos los manuales en formato PDF.
 
-<strong>Disponible en Breve</strong>
+**Disponible en Breve**

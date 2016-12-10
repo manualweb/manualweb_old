@@ -9,9 +9,11 @@ permalink: >
   http://www.manualweb.net/lista-de-correo/
 published: true
 ---
-Si quieres estar al día de todas las novedades de <a title="Manual Web" href="/">Manual Web</a> solo tienes que dejarnos tu e-mail.
-De igual manera podrás suscribirte al resto de listas del proyecto <a title="Aulambra" href="http://www.aulambra.com/">Aulambra</a>.
+Si quieres estar al día de todas las novedades de [Manual Web][1] solo tienes que dejarnos tu e-mail. De igual manera podrás suscribirte al resto de listas del proyecto [Aulambra][2].
 
 Las listas se actualizan con una periodicidad semanal:
 
 <!--phplist form-->
+
+ [1]: / "Manual Web"
+ [2]: http://www.aulambra.com/ "Aulambra"

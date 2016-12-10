@@ -28,27 +28,33 @@ urlcharla:
 urlvideo:
   - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
 ---
-<h3>¿Qué son los formularios en HTML?</h3>
-<span style="font-weight: 400;">Los formularios son elementos de las páginas web que nos sirven para recuperar información del usuario y enviarla al servidor para que pueda ser procesada.</span>
+### ¿Qué son los formularios en HTML?
 
-<span style="font-weight: 400;">La sintaxis para definir un formulario será mediante el </span><a href="http://www.w3api.com/wiki/HTML:FORM"><span style="font-weight: 400;">elemento form</span></a><span style="font-weight: 400;">:</span>
+<span style="font-weight: 400;">Los formularios son elementos de las páginas web que nos sirven para recuperar información del usuario y enviarla al servidor para que pueda ser procesada.</span> <span style="font-weight: 400;">La sintaxis para definir un formulario será mediante el </span>[<span style="font-weight: 400;">elemento form</span>][1]<span style="font-weight: 400;">:</span> <pre lang="html4strict"></pre>
 
-<pre lang="html4strict"><form>...</form></pre>
+<span style="font-weight: 400;">Dentro del contenido del formulario encontraremos los diferentes campos donde el usuario podrá insertar los datos (campos y áreas de textos, combos de opciones, checkbox,...) y los botones de borrado y envío.</span> 
+*   [Campos de entrada de datos][2]
+*   [Áreas de Texto][3]
+*   [Combos de opciones][4]
+*   [Botones][5] Por otro lado podremos estructurar el formulario para poder etiquetar los elementos que se componen y que acabaremos enviando de diferentes formas. 
 
-<span style="font-weight: 400;">Dentro del contenido del formulario encontraremos los diferentes campos donde el usuario podrá insertar los datos (campos y áreas de textos, combos de opciones, checkbox,...) y los botones de borrado y envío.</span>
-<ul>
-	<li><a href="http://www.manualweb.net/html/campos-formularios/#input">Campos de entrada de datos</a></li>
-	<li><a href="http://www.manualweb.net/html/campos-formularios/#textarea">Áreas de Texto</a></li>
-	<li><a href="http://www.manualweb.net/html/campos-formularios/#select">Combos de opciones</a></li>
-	<li><a href="http://www.manualweb.net/html/campos-formularios/#button">Botones</a></li>
-</ul>
-Por otro lado podremos estructurar el formulario para poder etiquetar los elementos que se componen y que acabaremos enviando de diferentes formas.
-<ul>
-	<li><a href="http://www.manualweb.net/html/estructura-envio-formularios/#label">Etiquetando en formulario</a></li>
-	<li><a href="http://www.manualweb.net/html/estructura-envio-formularios/#fieldset">Estructura del Formulario</a></li>
-	<li><a href="http://www.manualweb.net/html/estructura-envio-formularios/#foco">Hacer foco en el formulario</a></li>
-	<li><a href="http://www.manualweb.net/html/estructura-envio-formularios/#disabled">Deshabilitar controles</a></li>
-	<li><a href="http://www.manualweb.net/html/estructura-envio-formularios/#submit">Envío del formulario</a></li>
-</ul>
-<h2></h2>
-<h2></h2>
+*   [Etiquetando en formulario][6]
+*   [Estructura del Formulario][7]
+*   [Hacer foco en el formulario][8]
+*   [Deshabilitar controles][9]
+*   [Envío del formulario][10]
+
+## 
+
+##
+
+ [1]: http://www.w3api.com/wiki/HTML:FORM
+ [2]: http://www.manualweb.net/html/campos-formularios/#input
+ [3]: http://www.manualweb.net/html/campos-formularios/#textarea
+ [4]: http://www.manualweb.net/html/campos-formularios/#select
+ [5]: http://www.manualweb.net/html/campos-formularios/#button
+ [6]: http://www.manualweb.net/html/estructura-envio-formularios/#label
+ [7]: http://www.manualweb.net/html/estructura-envio-formularios/#fieldset
+ [8]: http://www.manualweb.net/html/estructura-envio-formularios/#foco
+ [9]: http://www.manualweb.net/html/estructura-envio-formularios/#disabled
+ [10]: http://www.manualweb.net/html/estructura-envio-formularios/#submit

@@ -8,7 +8,10 @@ layout: page
 permalink: http://www.manualweb.net/tutorial-xslt/
 published: true
 ---
-<ul>
-	<li><a title="Introducción al XSLT" href="/xslt/introduccion-a-xslt/">Introducción al XSLT</a></li>
-</ul>
-Puedes consultar el <a title="APi de Referencia XSLT" href="http://w3api.com/wiki/Categor%C3%ADa:XSLT">API de referencia de XSLT</a> o <a title="Ejemplos de Código usando XSLT" href="http://lineadecodigo.com/xslt/">ejemplos de código utilizando XSLT</a>.
+*   [Introducción al XSLT][1]
+
+Puedes consultar el [API de referencia de XSLT][2] o [ejemplos de código utilizando XSLT][3].
+
+ [1]: /xslt/introduccion-a-xslt/ "Introducción al XSLT"
+ [2]: http://w3api.com/wiki/Categor%C3%ADa:XSLT "APi de Referencia XSLT"
+ [3]: http://lineadecodigo.com/xslt/ "Ejemplos de Código usando XSLT"
