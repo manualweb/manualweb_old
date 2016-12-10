@@ -31,6 +31,10 @@ public void main(){
 }
 </pre>
 
+```java
+System.out.println("Hola")
+```
+
 > Esto es una advertencia a aquellos que trabajan con Java
 
 texto desde eclipse
