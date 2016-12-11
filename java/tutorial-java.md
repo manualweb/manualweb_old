@@ -41,7 +41,7 @@ Contenido del **Tutorial Java**:
 * [Applets en Java](http://www.manualweb.net/java/applets-en-java/)
 
 ### Descargar Manual Java
-En breve podrás descargarte el contenido del Manual Java en formato PDF.
-
+Puedes descargarte nuestro [Manual Java en formato PDF](https://gitprint.com/victorcuervo/manualweb/blob/master/java/pdf/tutorial-java-pdf.md).
+El manual se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del Manual Java.
 
 Todas las preguntas y dudas sobre Java las puedes consultar en el [Foro sobre Java](http://www.dudasprogramacion.com/java). Y puedes echar un ojo a los [ejemplos sobre el lenguaje Java](http://lineadecodigo.com/java/).
