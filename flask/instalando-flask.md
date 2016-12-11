@@ -1,10 +1,10 @@
 ---
 ID: 1020
-post_title: Tutorial Flask
+post_title: Instalar el Framework Flask
 post_date: 2016-12-11 13:32
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/tutorial-flask/
+permalink: http://www.manualweb.net/instalar-framework-flask/
 published: false
 nombreforo: Flask
 urlforo: http://www.dudasprogramacion.com/python/
