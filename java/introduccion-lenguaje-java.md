@@ -53,6 +53,8 @@ El lenguaje de ***bytecodes*** es aquel que entiende la ***máquina virtual Java
 
 Es la ***máquina virtual Java (JVM)*** la que convierte el código de ***bytecodes*** en ***lenguaje máquina*** entendible al sistema operativo.
 
+![Java Bytecodes](images/java_bytecode.jpg)
+
 
 ### ¿Qué necesito para poder utilizar Java?
 
