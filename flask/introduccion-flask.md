@@ -4,7 +4,7 @@ post_title: '01 - Introducción al Framework Flask'
 post_date: 2016-12-11 13:32
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/introduccion-framework-flask/
+permalink: http://www.manualweb.net/flask/introduccion-framework-flask/
 published: false
 nombreforo: Flask
 urlforo: http://www.dudasprogramacion.com/python/

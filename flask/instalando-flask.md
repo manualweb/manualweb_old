@@ -4,7 +4,7 @@ post_title: '02 - Instalar el Framework Flask'
 post_date: 2016-12-11 13:32
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/instalar-framework-flask/
+permalink: http://www.manualweb.net/flask/instalar-framework-flask/
 published: false
 nombreforo: Flask
 urlforo: http://www.dudasprogramacion.com/python/
