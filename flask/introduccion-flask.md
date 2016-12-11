@@ -15,7 +15,7 @@ urlcharla:
 urltest: http://www.testprogramacion.com/flask/
 urlcurso: http://www.aulaprogramacion.com/flask/
 ---
-### Introducción al Framework Flask
+## Introducción al Framework Flask
 
 Flask es un Microframework de Python que está basado en Werkzeug, Jinja 2 y buenas intenciones. Mediante [Flask][1] podemos construir aplicaciones web y servicios Restful con Python de una forma extraordinariamente sencilla. Con pocas líneas podemos llegar a tener un servicio Restful funcionando.
 
