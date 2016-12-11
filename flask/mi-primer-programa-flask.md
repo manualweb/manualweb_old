@@ -20,8 +20,48 @@ Ahora que ya conocemos los aspectos básicos sobre qué es [Flask][1] vamos a re
 
 Lo primero que necesitamos es un editor de texto, aquel con el que te encuentres más a gusto, ya sea un completo **Pycharm** o un editor configurable como **Atom**.
 
-Al ser un programa [Python][2]
+### Importar Flask
+Al ser un programa [Python][2] la extensión de nuestro fichero será .py. Lo primero que haremos en el programa será importar el Framework [Flask][1], en concreto vamos a importar el objeto <code>Flask</code> que es el objeteo principal del Framework.
 
+```python
+from flask import Flask
+```
+
+Ahora vamos a crear una aplicación [Flask][1], para ello instanciamos el objeto <code>Flask</code>
+
+```python
+app = Flask(__name__)
+```
+
+Ya tenemos la aplicación que será la que tendremos que ejecutar al final del programa.
+
+### Definir las Rutas
+El concepto principal que maneja Flask es el de las rutas. Por entendernos la ruta será un path del servidor. Lo que vamos a hacer es asociar un Path a una funcionalidad, esto lo conseguimos con las rutas.
+
+Para definir una ruta utilizamos el método <code>.route()</code>, el cual recibirá entre paréntesis el path sobre el que queremos asociar la fucionalidad.
+
+Así, si quereos gestionar el path o ruta raíz escribiremos lo siguiente:
+
+```python
+@app.route('/')
+```
+
+Si lo que queremos es controlar el path o ruta <samp>/mensaje/saludo</samp> cambiaremos el parámetro del método:
+
+```python
+@app.route('/mensaje/saludo')
+```
+Ahora asociamos a esa ruta un método, este será el que se encargue de controlar las peticiones o <code>Request</code> que lleguen a la ruta y de devolver el contenido mediante una <code>Response</code>.
+
+```python
+@app.route('/')
+def saludo():
+    return 'Mi primer programa Flask!'
+```
+
+En este caso hemos asociado el método <code>.saludo()</code> a la ruta y lo que hacemos es devolver una simple cadena <samp>'Mi primer programa Flask!'</samp>
+
+### Ejecutar la aplicación Flask
 
 
 [1]: http://www.manualweb.net/tutorial-flask/
