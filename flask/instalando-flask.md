@@ -21,7 +21,7 @@ urlcurso: http://www.aulaprogramacion.com/flask/
 ### Requisitos para utilizar el Framework Flask
 [Flask][1] depende de librerías externas como **Werkzeug** y **Jinja2**. **Werkzeug** es un toolkit para aplicaciones WSGI, que es un interface entre aplicaciones Python y servidores web. **Jinja2** es un engine para el renderizado de plantillas (o templates) web.
 
-Para poder utilizar [Flask][1] debes de tener, al menos, Python 2.6 instalado. [Flask][1] también funciona con Python 3.
+Para poder utilizar [Flask][1] debes de tener, al menos, **Python 2.6** instalado. [Flask][1] también funciona con **Python 3**.
 
 
 ### Realizando la instalación
@@ -59,5 +59,6 @@ Y desactivarlo una vez acabemos de utilizarlo
 
 <kbd>$ deactivate</kbd>  
 
+Dentro del entorno virtual realizaremos la instalación de [Flask][1].
 
 [1]: http://www.manualweb.net/tutorial-flask/
