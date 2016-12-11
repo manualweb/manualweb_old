@@ -1,6 +1,6 @@
 ---
 ID: 1018
-post_title: Introducción al Framework Flask
+post_title: '01 - Introducción al Framework Flask'
 post_date: 2016-12-11 13:32
 post_excerpt: ""
 layout: post
@@ -33,13 +33,34 @@ if __name__ == "__main__":
     app.run()
 ```
 
-Y crear un servicio que devolviese un JSON con [Flask][1] lo podríamos hacer con el siguiente código:
+O crear un servicio que sumase dos números con [Flask][1] lo podríamos hacer con el siguiente código:
 
 ```python
-...
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/suma/<int:s1>/<int:s2>',methods=['GET'])
+def suma(s1,s2):
+    return str(s1+s2)
+
+if __name__ == '__main__':
+    app.run()
 ```
 
+En <samp>http://localhost:5000/</samp> se tendrá el resultado del código.
+
 ### Características de Flask
+* **Micro**, es un framework pequeño, pero extensible. La idea de [Flask][1] es que en una sola página pueda caberte una aplicación web. Por ejemplo, por defecto [Flask][1] no trae una capa de abstracción de base de datos. Si bien ya existen múltiples extensiones que agregan dicha capacidad.
+
+
+### Estructura de un proyecto Flask
+Por convención los proyectos [Flask][1] tienen la siguiente estructura:
+
+* **static**, para los ficheros estáticos.
+* **templates**, para las plantillas.
+
+
+
 
 
 [1]: http://www.manualweb.net/tutorial-flask/
