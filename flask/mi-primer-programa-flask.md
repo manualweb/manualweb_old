@@ -27,6 +27,8 @@ Al ser un programa [Python][2] la extensión de nuestro fichero será .py. Lo pr
 from flask import Flask
 </pre>
 
+<p class="example">Hola</pre>
+
 Ahora vamos a crear una aplicación [Flask][1], para ello instanciamos el objeto <code>Flask</code>
 
 ```python
