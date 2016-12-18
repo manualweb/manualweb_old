@@ -15,7 +15,6 @@ urlcharla:
 urltest: http://www.testprogramacion.com/flask/
 urlcurso: http://www.aulaprogramacion.com/flask/
 ---
-## Mi primer programa Flask
 Ahora que ya conocemos los aspectos básicos sobre qué es [Flask][1] vamos a realizar el primer programa [Flask][1].
 
 Lo primero que necesitamos es un editor de texto, aquel con el que te encuentres más a gusto, ya sea un completo **Pycharm** o un editor configurable como **Atom**.
@@ -61,7 +60,7 @@ def saludo():
 
 En este caso hemos asociado el método <code>.saludo()</code> a la ruta y lo que hacemos es devolver una simple cadena <samp>'Mi primer programa Flask!'</samp>
 
-### Ejecutar la aplicación Flask
+### El objeto Flask
 Una vez que tenemos definido el esqueleto del programa y las rutas que vayamos a utilizar, solo tendremos que ejecutar el objeto [Flask][1].
 
 Para ello ejecutamos el método <code>.run()</code> de nuestro objeto [Flask][1] <code>app</code>.
@@ -70,9 +69,17 @@ Para ello ejecutamos el método <code>.run()</code> de nuestro objeto [Flask][1]
 if __name__ == '__main__':
     app.run()
 ```
+### Fichero para la aplicación Flask
+Al ser una aplicación [Python][2] deberemos de guardar el fichero con una extensión .py. Por ejmplo <samp>hola-mundo.py</samp>
+
+
+### Ejecutar la aplicación Flask
+
+
+
+
 
 Con esto ya habremos conseguido lanzar la aplicación [Flask][1].
-
 
 [1]: http://www.manualweb.net/tutorial-flask/
 [2]: http://www.manualweb.net/tutorial-python/
