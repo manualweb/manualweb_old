@@ -1,7 +1,7 @@
 ---
 ID: 1022
 post_title: '03 - Mi primer programa Flask'
-post_date: 2016-12-12 00:02
+post_date: 2016-12-18 20:14
 post_excerpt: ""
 layout: post
 permalink: http://www.manualweb.net/flask/mi-primer-programa-flask/
@@ -26,8 +26,6 @@ Al ser un programa [Python][2] la extensión de nuestro fichero será .py. Lo pr
 <pre lang="python">
 from flask import Flask
 </pre>
-
-<p class="example">Hola</p>
 
 Ahora vamos a crear una aplicación [Flask][1], para ello instanciamos el objeto <code>Flask</code>
 
@@ -64,6 +62,16 @@ def saludo():
 En este caso hemos asociado el método <code>.saludo()</code> a la ruta y lo que hacemos es devolver una simple cadena <samp>'Mi primer programa Flask!'</samp>
 
 ### Ejecutar la aplicación Flask
+Una vez que tenemos definido el esqueleto del programa y las rutas que vayamos a utilizar, solo tendremos que ejecutar el objeto [Flask][1].
+
+Para ello ejecutamos el método <code>.run()</code> de nuestro objeto [Flask][1] <code>app</code>.
+
+```python
+if __name__ == '__main__':
+    app.run()
+```
+
+Con esto ya habremos conseguido lanzar la aplicación [Flask][1].
 
 
 [1]: http://www.manualweb.net/tutorial-flask/
