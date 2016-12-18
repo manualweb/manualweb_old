@@ -23,9 +23,9 @@ Lo primero que necesitamos es un editor de texto, aquel con el que te encuentres
 ### Importar Flask
 Al ser un programa [Python][2] la extensión de nuestro fichero será .py. Lo primero que haremos en el programa será importar el Framework [Flask][1], en concreto vamos a importar el objeto <code>Flask</code> que es el objeteo principal del Framework.
 
-```python
+<pre lang="python">
 from flask import Flask
-```
+</pre>
 
 Ahora vamos a crear una aplicación [Flask][1], para ello instanciamos el objeto <code>Flask</code>
 
