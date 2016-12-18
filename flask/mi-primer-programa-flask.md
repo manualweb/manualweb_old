@@ -75,8 +75,17 @@ Al ser una aplicación [Python][2] deberemos de guardar el fichero con una exten
 
 ### Ejecutar la aplicación Flask
 
+Ahora pasaremos a ejeuctar el programa [Flask][1]. Al ser un programa [Python][2] tendremos que ejecutar el interprete de [Python][2].
 
+<samp>$ python hola-mundo.py</samp>
 
+En la pantalla veremos que automáticamente se arranca el servidor que contiene las rutas.
+
+<samp>* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)</samp>
+
+Simplemente tendremos que ir a esa dirección para poder ver el programa ejecutándose y la salida en el navegador donde pondrá:
+
+<samp>Mi primer programa Flask!</samp>
 
 
 Con esto ya habremos conseguido lanzar la aplicación [Flask][1].
