@@ -59,8 +59,4 @@ Por convención los proyectos [Flask][1] tienen la siguiente estructura:
 * **static**, para los ficheros estáticos.
 * **templates**, para las plantillas.
 
-
-
-
-
 [1]: http://www.manualweb.net/tutorial-flask/

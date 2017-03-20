@@ -79,9 +79,21 @@ Ahora pasaremos a ejeuctar el programa [Flask][1]. Al ser un programa [Python][2
 
 <samp>$ python hola-mundo.py</samp>
 
+O bien podemos ejecutarla mediante el modulo de [Flask][1]:
+
+<samp>$ export FLASK_APP=hola-mundo-flask.py
+$ python -m flask run</samp>
+
+El módulo Flask también permite ejecutarla de la siguiente manera:
+
+<samp>$ export FLASK_APP=hola-mundo-flask.py
+$ flask run</samp>
+
 En la pantalla veremos que automáticamente se arranca el servidor que contiene las rutas.
 
 <samp>* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)</samp>
+
+> La aplicación [Flask][1] solo estará disponible desde el ordenador dónde se arranca, en el caso de que queramos que esté disponible desde otro ordenador de la red deberemos de ejecutar <samp>flask run --host=0.0.0.0</samp>
 
 Simplemente tendremos que ir a esa dirección para poder ver el programa ejecutándose y la salida en el navegador donde pondrá:
 

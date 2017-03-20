@@ -62,8 +62,8 @@ Cuando estemos definiendo rutas podemos poner que nos lleguen valores variables,
 
 <pre lang='python'>
 @app.route('/saludo/<nombre>')
-def saludo():
-  return 'Hola'
+def saludo(nombre):
+  return 'Hola ' + nombre
 </pre>
 
 
