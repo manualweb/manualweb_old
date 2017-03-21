@@ -33,10 +33,14 @@ Cuando invocamos a la plantilla le pasaremos el valor de estas propiedades.
 La tecnología que utiliza [Ember][1] para las plantillas es [Handlebars][5].
 
 ### Modelos
-El modelo representa el estado
+El modelo representa el estado persistente de los datos.
+
+Un modelo típicamente persiste información en el servidor web, aunque los modelos pueden ser configurados para guardar la información en cualquier otro sitio, por ejemplo en la caché del navegador.
 
 ### Component
+Las plantillas nos permiten definir la interface gráfica para el usuario, mientras que los componentes controlar cómo se comporta el interface para el usuario.
 
+Los componentes se dividen en dos partes: una plantilla definida con [Handlebars][6] y un fichero [Javascript][7] en el que se define el comportamiento del componente.
 
 
 -----
@@ -46,3 +50,4 @@ El modelo representa el estado
 [4]: https://www.npmjs.com/
 [5]: http://www.manualweb.net/tutorial-html/
 [6]: http://handlebarsjs.com/
+[7]: http://www.manualweb.net/tutorial-javascript/
