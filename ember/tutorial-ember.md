@@ -1,22 +1,23 @@
-## Tutorial EmberJS
+## Tutorial Ember
 
-Contenido del **Tutorial EmberJS**:
+Contenido del **Tutorial Ember**:
 
-* Introducción al framework EmberJS
-* Instalar EmberJS
-* Estructura de un proyecto EmberJS
-* Servidor de ejecución de EmberJS
-* Conceptos básicos sobre EmberJS
-* Hola Mundo en EmberJS
-* Desplegar EmberJS
-* Test en EmberJS
+* Introducción al framework Ember
+* Instalar Ember
+* Estructura de un proyecto Ember
+* Servidor de ejecución de Ember
+* Conceptos básicos sobre Ember
+* Hola Mundo en Ember
+* Desplegar Ember
+* Test en Ember??
+* Rutas en Ember
 
 
 ### Descargar Manual EmberJS
-Puedes descargarte nuestro [Manual EmberJS en formato PDF](https://gitprint.com/victorcuervo/manualweb/blob/master/ember/pdf/tutorial-ember-pdf.md).
+Puedes descargarte nuestro [Manual Ember en formato PDF](https://gitprint.com/victorcuervo/manualweb/blob/master/ember/pdf/tutorial-ember-pdf.md).
 
 
-El manual EmberJS se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del Manual EmberJS.
+El manual Ember se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del Manual Ember.
 
-### Más sobre el Manual EmberJS
-Todas las preguntas y dudas sobre Java las puedes consultar en el Foro sobre EmberJS. Y puedes echar un ojo a los ejemplos sobre el lenguaje EmberJS.
+### Más sobre el Manual Ember
+Todas las preguntas y dudas sobre Java las puedes consultar en el Foro sobre Ember. Y puedes echar un ojo a los ejemplos sobre el lenguaje Ember.
