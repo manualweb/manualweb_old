@@ -11,7 +11,7 @@ Contenido del **Tutorial Ember**:
 * Desplegar Ember
 * Test en Ember??
 * Rutas en Ember
-
+* Plantillas en Ember
 
 ### Descargar Manual EmberJS
 Puedes descargarte nuestro [Manual Ember en formato PDF](https://gitprint.com/victorcuervo/manualweb/blob/master/ember/pdf/tutorial-ember-pdf.md).
