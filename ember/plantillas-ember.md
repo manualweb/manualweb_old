@@ -14,3 +14,8 @@ Esta estructura recibe como atributo el nombre de la ruta sobre la que queremos 
 <pre>{{#link-to 'contact' class="button"}}
     Contact Us
   {{/link-to}}</pre>
+
+
+### outlet
+
+La ayuda {{outlet}} sirve para indicar dónde irá el contenido que haya en la ruta.
