@@ -3,7 +3,13 @@
 ## Test en Ember
 
 
+
+
 Test de aceptación de Ember
+
+Ember utiliza QUnit
+
+
 
 Los test de aceptación son aquellos que interactuan con la aplicación como si lo estuviese haciendo una persona, pero de una forma automática.
 
@@ -19,6 +25,52 @@ Para poder crear un test de aceptación deberemos de utilizar el comando
 Dónde <code>ruta</code> es la ruta sobre la que queremos crear los test de aceptación. Este comando nos creará un test de aceptación en la carpeta:
 
 <samp>test/acceptance/[vista]-test.js</samp>
+
+
+### Definir el test
+Para definir el test nos apoyamos en el método <code>test</code>, este método tiene una descripción del test de aceptación que se va a ejecutar y una función que recibe un objeto <code>assert</code>, el cual utilizaremos para las validaciones.
+
+
+Los test se configuran llamando al método <code>moduleForAcceptance</code>. Esta función se encarga de arrancar y parar Ember después de ejecutar los test.
+
+#### Métodos
+
+* **visit()**, para simular una navegación a una página.
+* **andThen()**, espera a la ejecución de funciones previas en el test para acabar ejecutando un conjunto de valdiaciones..
+* **currentURL()**, devuelve la URL actual.
+* **click()**, simula un click del usuario.
+
+<pre lang="javascript">click('a:contains("About")');</pre>
+
+Mediante el código <code>a:contains()</code> lo que hace es localizar el enlace de la página que contiene dicho enlace para poder simular el click.
+
+
+#### Objeto Assert
+<code>Assert</code> es un objeto de QUnit que nos permite realizar validaciones sobre condiciones. Algunos método de <code>assert</code> son:
+
+ * **equal()** para chequear una condición de igualdad.
+
+
+Un ejemplo de código sería navegar a la página principal y ver si realmente se ha cargado.
+
+<pre lang="javascript">test('se carga la página principal', function(assert){
+  visit('/');
+  andThen(function(){
+      assert.equal(currentURL(),'/rentals');
+  });
+});</pre>
+
+### Ejecutar test
+
+Para ejecutar los test de [Ember][1] escribimos lo siguiente:
+
+<kbd>ember test --server</kbd>
+
+Podemos ver el restultado de los test en el navegador mediante la URL http://localhost:7357/
+
+
+Lo que se ejecuta es QUnit y [PhantomJS](http://phantomjs.org/) en Google Chrome mediante [Testem Test Runner](https://github.com/testem/testem)
+
 
 
 Pendiente de seguir.... https://guides.emberjs.com/v2.12.0/tutorial/acceptance-test/
