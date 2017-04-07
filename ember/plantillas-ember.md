@@ -19,3 +19,15 @@ Esta estructura recibe como atributo el nombre de la ruta sobre la que queremos 
 ### outlet
 
 La ayuda {{outlet}} sirve para indicar dónde irá el contenido que haya en la ruta.
+
+
+
+### for-each
+
+
+
+
+### if
+
+
+<pre>{{if}}</pre>
