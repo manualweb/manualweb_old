@@ -56,9 +56,16 @@ Un ejemplo de código sería navegar a la página principal y ver si realmente s
 <pre lang="javascript">test('se carga la página principal', function(assert){
   visit('/');
   andThen(function(){
-      assert.equal(currentURL(),'/rentals');
+      assert.equal(currentURL(),'/home');
   });
 });</pre>
+
+
+##### Uso de CSS Selectors
+Una de las cosas que podemos utilizar en el método <code>.equals()</code> es el uso de selectores CSS. Para ello tenemos la función <code>find()</code> a la cual la pasamos como parámetro un selector.
+
+<pre lang="javascript">
+assert.equal(find('.listing').length, 3, 'Tiene 3 elementos');</pre>
 
 ### Ejecutar test
 
