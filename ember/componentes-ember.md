@@ -24,6 +24,26 @@ Los componentes los podremos invocar desde las plantillas, para ello deberemos d
 Lo que vemos es que simplemente es poner el nombre del componente entre dobles llaves. Como propiedad se le pasa el dato del modelo que vaya a utilizar dentro del componente.
 
 
+### Acciones en un componente
+Las acciones es una forma de interactuar desde el componente con el usuario.
+
+Para poder definir una acción deberemos de definir la estructura <code>actions</code> dentro del **comportamiento del componente**.
+
+El código será el siguiente:
+
+<pre lang="javascript"> actions: {
+  nombreAccion() {
+    // Código
+  }
+}</pre>
+
+Ya podremos utilizar esta función dentro de la **plantilla del componente**
+
+<pre lang="html4strict"><a {{action 'nombreAccion'}} class="image {{if isWide "wide"}}">
+    <img src="{{rental.image}}" alt="">
+    <small>View Larger</small>
+  </a></pre>
+
 
 
 
