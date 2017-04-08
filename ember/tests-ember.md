@@ -67,6 +67,50 @@ Una de las cosas que podemos utilizar en el método <code>.equals()</code> es el
 <pre lang="javascript">
 assert.equal(find('.listing').length, 3, 'Tiene 3 elementos');</pre>
 
+
+### Test para componentes
+Hay **Component Integration Test** que prueban el ciclo de vida completo de un componente.
+
+El test se genera cuando generamos un componente.
+
+#### Crear objetos ficticios
+Para la prueba del componente podemos crear componentes ficticios. Para ello vamos a utilizar la función <code>create()</code> de [Ember][1].
+
+<pre lang="javascript">Ember.Object.create();</pre>
+
+Por ejemplo podríamos crear el objeto cantante de la siguiente forma:
+
+<pre lang="javascript">let singer = Ember.Object.create({
+  name: 'nombre-test',
+  song: 'canción-test'  
+});</pre>
+
+Dentro del ámbito del test podemos crear una variable que almacene dicho test.
+
+<pre lang="javascript">this.set('nombreModelo', modelo);</pre>
+
+
+#### Función render()
+La función <code>render()</code> permite renderizar un componente de la misma forma a la que se hace dentro de un template.
+
+<pre>this.render(hbs`{{nombreComponente modelo=nombreModelo}}`);</pre>
+
+* **$()**, mediante la función <code>$()</code> podemos acceder a los selectores de la página, de esta forma obtendremos el objeto relativo a dicho objeto.
+
+Por ejemplo:
+
+<pre>this.$('.image').click();</pre>
+
+Buscaría un objeto que correspondiese con el selector <code>.image</code> y ejecutaría un click sobre él.
+
+U otro ejemplo sería:
+
+<pre>this.$('h3').text()</pre>
+
+Recuperaría el texto de un elemento <code>h3</code>.
+
+
+
 ### Ejecutar test
 
 Para ejecutar los test de [Ember][1] escribimos lo siguiente:
