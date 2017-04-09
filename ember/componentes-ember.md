@@ -37,12 +37,9 @@ El código será el siguiente:
   }
 }</pre>
 
-Ya podremos utilizar esta función dentro de la **plantilla del componente**
+Ya podremos utilizar esta función dentro de la **plantilla del componente** nuevamente con una estructura <code>action</code> de la siguiente forma:
 
-<pre lang="html4strict"><a {{action 'nombreAccion'}} class="image {{if isWide "wide"}}">
-    <img src="{{rental.image}}" alt="">
-    <small>View Larger</small>
-  </a></pre>
+<pre lang="html4strict"><a {{action 'nombreAccion'}}></a></pre>
 
 
 
