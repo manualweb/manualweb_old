@@ -14,7 +14,9 @@ published: true
   </h2>
 </div>
 
-[<img class="pull-right alignright wp-image-589 size-medium" src="http://www.manualweb.net/wp-content/uploads/2007/08/lenguajes-300x207.png" alt="Manual Web" width="300" height="207" />][1][Manual Web][2] es una página que contiene diferentes **manuales, tutoriales o guías sobre lenguajes de programación en español**.
+<img class="pull-right alignright wp-image-589 size-medium" src="http://www.manualweb.net/wp-content/uploads/2007/08/lenguajes-300x207.png" alt="Manual Web" width="300" height="207" /
+
+[Manual Web][2] es una página que contiene diferentes **manuales, tutoriales o guías sobre lenguajes de programación en español**.
 
 Cada uno de los tutoriales de [Manual Web][2] intentan **explicar paso a paso y de una forma sencilla el lenguaje de programación** tratado. Así, mediante ejemplos detallados vamos conociendo todos los recovecos de cada uno de los lenguajes de programación.
 
@@ -24,7 +26,7 @@ Pero no todo queda ahí, ya que después de lo aprendido en los tutoriales de [M
 
 A qué esperas, empieza a aprender sobre [Java][5], [HTML5][6], [Javascript][7], [CSS][8],...
 
- [1]: http://www.manualweb.net/wp-content/uploads/2007/08/lenguajes.png
+
  [2]: http://www.manualweb.net "Manuales sobre Programación"
  [3]: http://lineadecodigo.com "Programación en Español"
  [4]: http://www.testprogramacion.com "Test de Programación"
