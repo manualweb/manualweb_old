@@ -12,6 +12,8 @@ published: true
 
 [Manual Web][1] es una página que pretender ofrecer manuales y tutoriales sobre diferentes lenguajes de programación.
 
+[Manual Web][1] está en constante actualización.
+
 [Manual Web][1] se encuentra dentro de un grupo de páginas las cuales ofrecen material didáctico sobre los lenguajes de programación: [Linea de Código][2], [Dudas de Programación][3], [Test de Programación][4] y [W3Api][5].
 
 ### Colaborar
