@@ -1,11 +1,11 @@
 ---
-ID: 1105
+ID: 1096
 post_title: Tutorial Ember
 author: Víctor Cuervo
-post_date: 2017-04-09 20:06:05
+post_date: 2017-04-09 20:03:59
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1105
+permalink: http://www.manualweb.net/?page_id=1096
 published: false
 nombreforo:
   - Ember
