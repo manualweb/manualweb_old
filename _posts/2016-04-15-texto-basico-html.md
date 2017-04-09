@@ -32,18 +32,20 @@ urlvideo:
 
 Y esta otra línea.</pre> Veremos que al cargar nuestra página web no se producirá el efecto deseado y que no existe la separación entre las dos líneas. Y es que el salto de línea en un documento web equivale a un espacio en blanco a la hora de visualizarse. Y si ponemos muchos saltos de línea seguidos solo se contabilizará el primero, que será el que equivalga a un espacio en blanco. Para poder añadir un salto de línea deberemos de utilizar el 
 
-[elemento br][1]. El [elemento br][1] es un elemento simple. Es decir, no tiene un elemento de inicio y un elemento de cierre. Así, para representar dos saltos de línea utilizaremos el siguiente código: <pre lang="html4strict">Esta es una línea <br /><br />
+[elemento br][1]. El [elemento br][1] es un elemento simple. Es decir, no tiene un elemento de inicio y un elemento de cierre. Así, para representar dos saltos de línea utilizaremos el siguiente código: 
+<pre>Esta es una línea <br /><br />
 Y esta otra línea.</pre>
 
 <a name="p"></a>
 ### Organizando el texto en párrafos Ahora que conocemos el 
 
-[elemento br][1] vemos su potencial, si bien, si queremos dar estilo a un documento a base de datos de línea, veremos que es bastante complicado. Es por eso que el lenguaje [HTML][2] nos ofrece otra serie de elementos para organizar el contenido del texto. Así contamos con párrafos, los cuales son representados mediante el [elemento p][3]. En este caso el [elemento p][3] tiene una elemento de inicio y un elemento de cierre. Y el contenido de dentro será lo que representa al párrafo. <pre lang="html4strict"><p>
+[elemento br][1] vemos su potencial, si bien, si queremos dar estilo a un documento a base de datos de línea, veremos que es bastante complicado. Es por eso que el lenguaje [HTML][2] nos ofrece otra serie de elementos para organizar el contenido del texto. Así contamos con párrafos, los cuales son representados mediante el [elemento p][3]. En este caso el [elemento p][3] tiene una elemento de inicio y un elemento de cierre. Y el contenido de dentro será lo que representa al párrafo. 
+<pre><p>
   Parrafo>/p></pre>
   
   De esta manera si queremos generar dos párrafos crearemos el siguiente código.
   
-  <pre lang="html4strict"><p>
+  <pre><p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat sed sagittis dolor iaculis. Donec condimentum mauris nec eros auctor sed vestibulum tellus consequat. Pellentesque tincidunt hendrerit neque, tincidunt tempus mauris consequat non.
 </p>
 
@@ -65,7 +67,7 @@ Y esta otra línea.</pre>
   
   <a href="http://www.w3api.com/wiki/HTML:H1">elemento es de tipo hx</a>, donde la x va desde el 1 hasta el 6. Por ejemplo, si queremos poner un elemento de cabecera de tipo 1 escribiríamos lo siguiente:
   
-  <pre lang="html4strict"><h1>
+  <pre><h1>
   Cabecera o Titulo
 </h1></pre>
   
@@ -73,7 +75,7 @@ Y esta otra línea.</pre>
   
   
   
-  <pre lang="html4strict"><h1>
+  <pre><h1>
   Cabecera de tipo H1
 </h1>
 
@@ -115,7 +117,7 @@ Y esta otra línea.</pre>
   
   De esta forma, una cita con <a href="http://www.w3api.com/wiki/HTML:BLOCKQUOTE">blockquote</a> será:
   
-  <pre lang="html4strict"><blockquote>
+  <pre><blockquote>
   "Muchas veces me moría pensando que no iba verte. Pero moría la muerte cada vez que te veía". Eduardo Galeano
 </blockquote></pre>
   
@@ -123,19 +125,19 @@ Y esta otra línea.</pre>
   
   <a href="http://www.w3api.com/wiki/HTML:Q">q</a> puede ser:
   
-  <pre lang="html4strict">El primer ministro afirmó que <q>”era el mejor momento económico para el páis”</q> el pasado día 8.</pre>
+  <pre>El primer ministro afirmó que <q>”era el mejor momento económico para el páis”</q> el pasado día 8.</pre>
   
   Los elementos 
   
   <a href="http://www.w3api.com/wiki/HTML:BLOCKQUOTE">blockquote</a> y <a href="http://www.w3api.com/wiki/HTML:Q">q</a> nos permiten indicar el origen de la cita mediante el <b>atributo cite</b>.
   
-  <pre lang="html4strict">El primer ministro afirmó que &lt;q cite=”http://elpais.com/”>”era el mejor momento económico para el país”&lt;/q> el pasado día 8.</pre>
+  <pre>El primer ministro afirmó que <q cite="//elpais.com/”">”era el mejor momento económico para el país”</q> el pasado día 8.</pre>
   
   Y el idioma en el que está escrita la cita, mediante el 
   
   <a href="http://www.w3api.com/wiki/HTML:Lang">atributo lang</a>:
   
-  <pre lang="html4strict">El primer ministro afirmó que &lt;q lang=”ES-es”>”era el mejor momento económico para el páis”&lt;/q> el pasado día 8.</pre>
+  <pre>El primer ministro afirmó que <q>”era el mejor momento económico para el páis”</q> el pasado día 8.</pre>
   
   
   
@@ -148,21 +150,21 @@ Y esta otra línea.</pre>
   
   La representación del contenido irá entre el elemento de inicio y el elemento de cierre.
   
-  <pre lang="html4strict"><sup>superíndice</sup>
+  <pre><sup>superíndice</sup>
 <sub>subíndice</sub></pre>
   
   Podemos escribir algunas notas matemáticas como:
   
   
   
-  <pre lang="html4strict">Como indica el teorema de Pitágoras:
+  <pre>Como indica el teorema de Pitágoras:
 hipotenusa<sup>2</sup> = cateto1<sup>2</sup>+cateto2<sup>2</sup></pre>
   
   O químicas como:
   
   
   
-  <pre lang="html4strict">El símbolo del agua es H<sub>2</sub>O.</pre>
+  <pre>El símbolo del agua es H<sub>2</sub>O.</pre>
   
   
   
@@ -177,7 +179,7 @@ hipotenusa<sup>2</sup> = cateto1<sup>2</sup>+cateto2<sup>2</sup></pre>
   
   Así podemos escribir el siguiente texto:
   
-  <pre lang="html4strict">Más vale <em>pájaro en mano</em> que ciento volando.</pre>
+  <pre>Más vale <em>pájaro en mano</em> que ciento volando.</pre>
   
   
   
@@ -192,7 +194,7 @@ hipotenusa<sup>2</sup> = cateto1<sup>2</sup>+cateto2<sup>2</sup></pre>
   
   Así, si queremos resaltar más un texto, podemos escribir.
   
-  <pre lang="html4strict">A enemigo que huye, <strong>puente de plata</strong>.</pre>
+  <pre>A enemigo que huye, <strong>puente de plata</strong>.</pre>
   
   Aunque 
   
