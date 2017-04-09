@@ -16,7 +16,7 @@ urltest: http://www.testprogramacion.com/emberjs/
 urlcurso: http://www.aulaprogramacion.com/emberjs/
 ---
 
-## Tutorial Ember
+## Tutorial EmberJS
 
 Contenido del **Tutorial Ember**:
 
