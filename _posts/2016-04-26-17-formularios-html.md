@@ -30,9 +30,10 @@ urlvideo:
 ---
 ### ¿Qué son los formularios en HTML?
 
-<span style="font-weight: 400;">Los formularios son elementos de las páginas web que nos sirven para recuperar información del usuario y enviarla al servidor para que pueda ser procesada.</span> <span style="font-weight: 400;">La sintaxis para definir un formulario será mediante el </span>[<span style="font-weight: 400;">elemento form</span>][1]<span style="font-weight: 400;">:</span> <pre lang="html4strict"></pre>
+<span style="font-weight: 400">Los formularios son elementos de las páginas web que nos sirven para recuperar información del usuario y enviarla al servidor para que pueda ser procesada.</span> <span style="font-weight: 400">La sintaxis para definir un formulario será mediante el </span>[<span style="font-weight: 400">elemento form</span>][1]<span style="font-weight: 400">:</span> 
+<pre></pre>
 
-<span style="font-weight: 400;">Dentro del contenido del formulario encontraremos los diferentes campos donde el usuario podrá insertar los datos (campos y áreas de textos, combos de opciones, checkbox,...) y los botones de borrado y envío.</span> 
+<span style="font-weight: 400">Dentro del contenido del formulario encontraremos los diferentes campos donde el usuario podrá insertar los datos (campos y áreas de textos, combos de opciones, checkbox,...) y los botones de borrado y envío.</span> 
 *   [Campos de entrada de datos][2]
 *   [Áreas de Texto][3]
 *   [Combos de opciones][4]
