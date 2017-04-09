@@ -15,5 +15,5 @@ Las listas se actualizan con una periodicidad semanal:
 
 <!--phplist form-->
 
- [1]: / "Manual Web"
+ [1]: http://www.manualweb.net/ "Manual Web"
  [2]: http://www.aulambra.com/ "Aulambra"
