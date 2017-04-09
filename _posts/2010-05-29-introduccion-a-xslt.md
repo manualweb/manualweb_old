@@ -27,14 +27,14 @@ urlforo:
 [XML][3] en otros documentos de distintos lenguajes: [XHTML][4], [SVG][7], [VRML][8],... Por ejemplo, un documento [XML][3] que tuviese una lista de números podría ser transformado en: una tabla o lista de hitos con dicho listado en [HTML][5], en un gráfico de líneas con [SVG][7] o podrían ser las alturas de figuras 3D con [VRML][8]. Veamos cómo serían dichas transformaciones: 
 #### XML original
 
-<pre lang="xml">2
+<pre>2
  4
  6
  8</pre>
 
 #### XML transformado en HTML
 
-<pre lang="html4strict"><table>
+<pre><table>
   <tbody>
     <tr>
       <th>
@@ -84,7 +84,7 @@ urlforo:
 
 #### XML transformado en VRML
 
-<pre lang="vrml">#VRML V2.0 utf8
+<pre>#VRML V2.0 utf8
  Box {
   size 2 4 6
 }</pre> En estos ejemplos, vemos que los datos de partida de un documento 
