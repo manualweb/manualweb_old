@@ -21,10 +21,12 @@ published: true
 [init][4], en el cual inicializaremos las variables generales. Una vez que nos hemos inicializado nos pondremos a la escucha en espera de peticiones. Cada una de las peticiones que recibamos serán atendidas en hilos de ejecución diferentes, a no ser que indiquemos lo contrario. Dependiendo de como llegen los datos (mediante post o get) al servlet se ejecutará un método u otro [doPost][5] o [doGet][6]. Por último el servlet tendrá un estado de finalización en el cual eliminará las variables creadas en su inicialización, conexiones a bases de datos,... este el el método destroy. 
 ### Escribiendo un primer servlet A la hora de codificar lo primero que debemos de saber es que nuestro servlet deberá de heredar de la clase 
 
-[HttpServlet][7] la cual contendrá todos los métodos necesarios para generar un servlet. Dicha clase la podemos encontrar en el [paquete javax.servlet][8]. <pre lang="java" lineno="1">import javax.servlet.*;
+[HttpServlet][7] la cual contendrá todos los métodos necesarios para generar un servlet. Dicha clase la podemos encontrar en el [paquete javax.servlet][8]. 
+<pre>import javax.servlet.*;
 public class MiServlet extends HttpServlet {}</pre> Solamente deberemos de sobrescribir aquellos métodos que consideremos oportunos a implementar en el servlet. Si por ejemplo no necesitasemos realizar ninguna inicialización, no haría falta el reescribir el método 
 
-[init][4]. Así un primer servlet que mostrase la frase, como no, de "Hola Mundo" quedaría de la siguiente forma: <pre lang="java" lineno="1">import javax.servlet.*;
+[init][4]. Así un primer servlet que mostrase la frase, como no, de "Hola Mundo" quedaría de la siguiente forma: 
+<pre>import javax.servlet.*;
 import javax.servlet.http.*;
 
 public class MiPrimerServlet extends HttpServlet {
@@ -32,7 +34,9 @@ public class MiPrimerServlet extends HttpServlet {
     PrintWriter out; out = res.getWriter();
     res.setContentType("text/html");
     out.println("");
-    out.println("");
+    out.println("<title>
+  Mi Primer Servlet
+</title>");
     out.println(");
     out.println("Este es mi Primer Servlet");
     out.println("");
