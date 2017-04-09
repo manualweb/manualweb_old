@@ -18,7 +18,7 @@ urlforo:
 
 ### Comentarios Para introducir un comentario deberemos de usar la apostrofe ' o bien la palabra REM. 
 
-<pre lang="vbscript">REM Esto es un comentario
+<pre>REM Esto es un comentario
 ' Esto es un comentario</pre>
 
 ### Tipos de Datos Lo primero que debemos de indicar es que en VBScript no es necesario darle un tipo a la variable. Es decir, podremos tener variables sin tipo a las cuales podremos asignarles cualquier valor. Estas variables serían de tipo variant. Los tipos básicos que tiene VBScript son: 
@@ -72,7 +72,7 @@ urlforo:
 
 ### Variables Para declarar una variable lo haremos de la siguiente manera: 
 
-<pre lang="vbscript">DIM nombre_variable1, nombre_variable2,..., nombre_variableN</pre> Los nombres de las variables deben de comenzar por una letra, no pueden contener el carácter punto y no deben de exceder de 255 caracteres. El ámbito de las variables será global a todos el código script de la página, o bien local si la variable ha sido declarada en un procedimiento. 
+<pre>DIM nombre_variable1, nombre_variable2,..., nombre_variableN</pre> Los nombres de las variables deben de comenzar por una letra, no pueden contener el carácter punto y no deben de exceder de 255 caracteres. El ámbito de las variables será global a todos el código script de la página, o bien local si la variable ha sido declarada en un procedimiento. 
 
 ### Constantes Para declarar una constante deberemos de hacerlo de la siguiente manera: 
 
