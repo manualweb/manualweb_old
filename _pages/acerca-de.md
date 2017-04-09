@@ -1,12 +1,12 @@
 ---
 ID: 1207
-post_title: 'Acerca de&#8230;'
+post_title: Acerca de…
 author: Víctor Cuervo
-post_date: 2017-04-09 21:58:54
+post_date: 2017-04-09 22:02:15
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1207
-published: false
+permalink: http://www.manualweb.net/acerca-de/
+published: true
 ---
 ### Motivación
 
