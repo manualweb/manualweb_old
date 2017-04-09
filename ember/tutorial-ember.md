@@ -1,10 +1,10 @@
 ---
-ID: pdte
+ID: 1062
 post_title: 'Tutorial Ember'
 post_date: 2017-04-09 13:50
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/tutorial-flask/
+permalink: http://www.manualweb.net/tutorial-emberjs/
 published: false
 nombreforo: Ember
 urlforo: http://dudasprogramacion.com/javascript/emberjs
