@@ -1,11 +1,11 @@
 ---
-ID: 1199
+ID: 1201
 post_title: Manual Web
 author: Víctor Cuervo
-post_date: 2017-04-09 22:02
+post_date: 2017-04-09 21:35:19
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/
+permalink: http://www.manualweb.net/?page_id=1201
 published: false
 ---
 <div class="headline">
@@ -25,7 +25,6 @@ Adicionalmente, cada uno de los tutoriales de [Manual Web][1] **se acompaña co
 Pero no todo queda ahí, ya que después de lo aprendido en los tutoriales de [Manual Web][1] y realizados los ejercicios, **puedes poner a prueba lo conocido** gracias a los test y evaluaciones de [Test de Programación][3].
 
 A qué esperas, empieza a aprender sobre [Java][4], [HTML5][5], [Javascript][6], [CSS][7],...
-
 
  [1]: http://www.manualweb.net "Manuales sobre Programación"
  [2]: http://lineadecodigo.com "Programación en Español"
