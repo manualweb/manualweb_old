@@ -2,11 +2,11 @@
 ID: 1209
 post_title: Manual Web
 author: Víctor Cuervo
-post_date: 2017-04-09 21:58:54
+post_date: 2017-04-09 22:02:52
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1209
-published: false
+permalink: http://www.manualweb.net/manual-web/
+published: true
 ---
 <div class="headline">
   <h2>
