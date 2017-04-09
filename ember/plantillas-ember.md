@@ -22,7 +22,7 @@ La ayuda {{outlet}} sirve para indicar dónde irá el contenido que haya en la r
 
 
 
-### for-each
+### each
 
 
 
