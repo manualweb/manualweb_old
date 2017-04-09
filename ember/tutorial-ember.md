@@ -1,6 +1,6 @@
 ---
-ID: 1057
-post_title: Tutorial Ember
+ID: pdte
+post_title: 'Tutorial Ember'
 post_date: 2017-04-09 13:50
 post_excerpt: ""
 layout: page
