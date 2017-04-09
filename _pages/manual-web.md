@@ -14,7 +14,7 @@ published: true
   </h2>
 </div>
 
-!["Manual Web"][1]
+![Manual Web][1]
 
 300,207,pullright
 
