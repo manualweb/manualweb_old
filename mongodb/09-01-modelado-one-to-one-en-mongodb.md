@@ -1,12 +1,13 @@
 ---
 ID: 1319
-post_title: '09.01 &#8211; Modelado One-to-One en MongoDB'
+post_title: 09.01 – Modelado One-to-One en MongoDB
 author: Víctor Cuervo
-post_date: 2017-04-10 23:32:40
+post_date: 2017-04-10 23:37:59
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1319
-published: false
+permalink: >
+  http://www.manualweb.net/mongodb/modelado-one-to-one-en-mongodb/
+published: true
 nombreforo:
   - MongoDB
 urlforo:
