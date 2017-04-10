@@ -2,11 +2,11 @@
 ID: 1261
 post_title: Contactar
 author: Víctor Cuervo
-post_date: 2017-04-10 03:02:19
+post_date: 2017-04-10 03:03:15
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1261
-published: false
+permalink: http://www.manualweb.net/contactar/
+published: true
 gitfolder:
   - main
 ---
