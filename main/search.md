@@ -7,4 +7,5 @@ post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/search/
 published: true
+gitfolder: main
 ---
