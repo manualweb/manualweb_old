@@ -2,11 +2,11 @@
 ID: 1265
 post_title: Tutorial Java
 author: Víctor Cuervo
-post_date: 2017-04-10 10:26:54
+post_date: 2017-04-10 10:28:43
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1265
-published: false
+permalink: http://www.manualweb.net/tutorial-java/
+published: true
 slug:
   - tutorial-java
 nombreforo:
