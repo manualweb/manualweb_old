@@ -1,20 +1,32 @@
 ---
-ID: pdte
+ID: 1319
 post_title: '09.01 &#8211; Modelado One-to-One en MongoDB'
 author: Víctor Cuervo
-post_date: 2017-04-11 00:29
+post_date: 2017-04-10 23:32:40
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/mongodb/modelado-one-one-en-mongodb/
+permalink: http://www.manualweb.net/?p=1319
 published: false
-nombreforo: MongoDB
-urlforo: http://dudasprogramacion.com/bases-de-datos/mongodb
-urlejemplos: http://lineadecodigo.com/categoria/mongodb/feed/
-urlvideo: PLLVIhySQmrVZGA6RpEkZJEH3rQOrHbi_c
-urlmanual: http://www.manualweb.net/tutorial-mongodb/
-urltest: http://www.testprogramacion.com/mongodb
-urlcurso: http://www.aulaprogramacion.com/curso-mongodb/
-gitfolder: mongodb
+nombreforo:
+  - MongoDB
+urlforo:
+  - >
+    http://dudasprogramacion.com/bases-de-datos/mongodb
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/mongodb/feed/
+urlvideo:
+  - PLLVIhySQmrVZGA6RpEkZJEH3rQOrHbi_c
+urlmanual:
+  - >
+    http://www.manualweb.net/tutorial-mongodb/
+urltest:
+  - http://www.testprogramacion.com/mongodb
+urlcurso:
+  - >
+    http://www.aulaprogramacion.com/curso-mongodb/
+gitfolder:
+  - mongodb
 ---
 En este caso vamos a realizar un modelado one-to-one en [MongoDB][1], para ello vamos a utilizar las entidades Persona y Domicilio. Una persona tendrá asociado la dirección de un domicilio. Estas entidades las modelaríamos de la siguiente forma:
 
@@ -22,14 +34,14 @@ En este caso vamos a realizar un modelado one-to-one en [MongoDB][1], para ello 
 
 Los documentos JSON de ejemplo que representan a estas personas son, para el caso de la persona:
 
-<pre lang="javascript">{
+<pre>{
   nombre: “Víctor Cuervo”,
   edad: 38
 }</pre>
 
 Y para el caso del domicilio es:
 
-<pre lang="javascript">{
+<pre>{
   calle: “Alcala, 15”,
   codigo: 28022,
   ciudad: “Madrid”
@@ -41,7 +53,7 @@ Para resolver el modelado one-to-one tenemos dos estrategia. La primera será la
 
 En este primer caso insertamos el domicilio en la colección de personas. Será un subdocumento dentro de la persona.
 
-<pre lang="javascript">{
+<pre>{
   nombre: “Víctor Cuervo”,
   edad: 38,
   dirección: {
@@ -53,13 +65,13 @@ En este primer caso insertamos el domicilio en la colección de personas. Será 
 
 Lo bueno de esta estrategia es que para recuperar el domicilio de una persona simplemente tendremos que realizar una única operación de consulta.
 
-<pre lang="javascript">db.personas.find({nombre:”Víctor Cuervo},{direccion:1})</pre>
+<pre>db.personas.find({nombre:”Víctor Cuervo},{direccion:1})</pre>
 
 ### One-to-One. Linking
 
 En este caso vamos a crear una clave dentro de la colección de personas y posteriormente la utilizaremos como foreign key dentro de la colección de domicilios. El documento de la persona tendrá un id:
 
-<pre lang="javascript">{
+<pre>{
   _id: 1,
   nombre: "Víctor Cuervo",
   edad: 38
@@ -67,7 +79,7 @@ En este caso vamos a crear una clave dentro de la colección de personas y poste
 
 Y ese id será utilizado dentro del documento del domicilio:
 
-<pre lang="javascript">{
+<pre>{
   userid: 1,
   calle: “Alcala, 15”,
   codigo: 28022,
@@ -76,7 +88,7 @@ Y ese id será utilizado dentro del documento del domicilio:
 
 Para recuperar la información tendremos que realizar dos consultas. En la primera recuperaremos el id del usuario y con dicho id tendremos que acceder a la segunda colección a recuperar la dirección
 
-<pre lang="javascript">var id = db.personas.find({nombre:”Víctor Cuervo},{_id:1})
+<pre>var id = db.personas.find({nombre:”Víctor Cuervo},{_id:1})
 db.domicilios.find({username:id})</pre>
 
 El modelo de linking sería el más parecido a los modelo ER. Si bien **es preferible aplicar una estrategia de embedding para el modelado de relaciones One-to-One en [MongoDB][1]**.
