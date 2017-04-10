@@ -14,10 +14,10 @@ urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
 urlmanual: http://www.manualweb.net/tutorial-java/
 urltest: http://www.testprogramacion.com/java
 urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder:java
+gitfolder: java
 ---
 
-<!--TOC-->
+[TOC]
 Empezando con Java Me siento ante el ordenador y pienso que voy a escribir mi primera aplicación Java. ¿Cómo? ¿Qué necesito? ¿Por dónde empiezo?...... (las dudas me asaltan). No te preocupes, para eso estamos nosotros. La verdad es que cualquier libro que se precie empezaría con una introducción tediosa de las características del lenguaje que vamos a estudiar. Yo no voy ha hacer eso. No porque este en contra de las introducciones, sino porque me encuentro incapaz de escribir, por el momento, una. Si bien, no me quito de la mete la idea de explicar las características del lenguaje java, las cuales, nos aclararan un poco más las sutilezas de este lenguaje. Antes de crear mi primer programa en Java deberé de asegurarme que tengo en el equipo el siguiente software:
 
 *   Un editor de textos (Por ejemplo, el bloc de notas de Windows, [Wim][1], [AM-Notebook][2], [Win32Pad][3], [EditPad Lite][4], [NotePad2][5],...)
