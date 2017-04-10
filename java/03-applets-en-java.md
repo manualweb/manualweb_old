@@ -1,12 +1,13 @@
 ---
 ID: 1296
-post_title: '03 &#8211; Applets en Java'
+post_title: 03 – Applets en Java
 author: Víctor Cuervo
-post_date: 2017-04-10 19:36:34
+post_date: 2017-04-10 19:40:56
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1296
-published: false
+permalink: >
+  http://www.manualweb.net/java/applets-en-java/
+published: true
 nombreforo:
   - Java
 urlforo:
