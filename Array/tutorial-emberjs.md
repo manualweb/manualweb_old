@@ -9,24 +9,21 @@ permalink: >
   http://www.manualweb.net/tutorial-emberjs/
 published: true
 nombreforo:
-  - EmberJS
+  - 'a:1:{i:0;s:7:"EmberJS";}'
 urlforo:
-  - >
-    http://dudasprogramacion.com/javascript/emberjs
+  - 'a:1:{i:0;s:47:"http://dudasprogramacion.com/javascript/emberjs";}'
 urlejemplos:
-  - >
-    http://lineadecodigo.com/categoria/emberjs/feed/
+  - 'a:1:{i:0;s:48:"http://lineadecodigo.com/categoria/emberjs/feed/";}'
 urlvideo:
-  - PLLVIhySQmrVYwVGHU-GB6ywbba7pVtb3X
+  - 'a:1:{i:0;s:34:"PLLVIhySQmrVYwVGHU-GB6ywbba7pVtb3X";}'
 urlmanual:
-  - >
-    http://www.manualweb.net/tutorial-emberjs/
+  - 'a:1:{i:0;s:42:"http://www.manualweb.net/tutorial-emberjs/";}'
 urltest:
-  - http://www.testprogramacion.com/emberjs/
+  - 'a:1:{i:0;s:40:"http://www.testprogramacion.com/emberjs/";}'
 urlcurso:
-  - http://www.aulaprogramacion.com/emberjs/
+  - 'a:1:{i:0;s:40:"http://www.aulaprogramacion.com/emberjs/";}'
 gitfolder:
-  - emberjs
+  - 'a:1:{i:0;s:7:"emberjs";}'
 ---
 Contenido del **Tutorial EmberJS**:
 
