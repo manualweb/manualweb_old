@@ -1,12 +1,13 @@
 ---
 ID: 1299
-post_title: Tutorial Ember
+post_title: Tutorial EmberJS
 author: Víctor Cuervo
-post_date: 2017-04-10 19:50:58
+post_date: 2017-04-10 19:55:24
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1299
-published: false
+permalink: >
+  http://www.manualweb.net/tutorial-emberjs/
+published: true
 nombreforo:
   - Ember
 urlforo:
@@ -25,8 +26,6 @@ urltest:
 urlcurso:
   - http://www.aulaprogramacion.com/emberjs/
 ---
-## Tutorial EmberJS
-
 Contenido del **Tutorial EmberJS**:
 
 *   Introducción al framework EmberJS
@@ -41,11 +40,13 @@ Contenido del **Tutorial EmberJS**:
 *   Ejecutar aplicación EmberJS
 *   Test en EmberJS
 
-### Descargar Manual EmberJS
+### Descargar Tutorial EmberJS
 
-Puedes descargarte nuestro [Manual EmberJS en formato PDF][1].
+Puedes descargarte nuestro [Tutorial EmberJS en formato PDF][1].
 
 El **manual EmberJS** se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del **Manual EmberJS**.
+
+De igual manera puedes contribuir incluyendo nuevo contenido sobre [nuestro Repositorio Git del Tutorial EmberJS][1] mediante un mecanismo de pull-request.
 
 ### Más sobre el Manual EmberJS
 
