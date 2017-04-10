@@ -2,11 +2,11 @@
 ID: 1338
 post_title: Tutorial HTML
 author: Víctor Cuervo
-post_date: 2017-04-11 00:45:20
+post_date: 2017-04-11 00:49:53
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1338
-published: false
+permalink: http://www.manualweb.net/tutorial-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
