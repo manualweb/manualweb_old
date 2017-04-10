@@ -1,12 +1,12 @@
 ---
-ID: pdte
+ID: 1265
 post_title: Tutorial Java
 post_date: 2017-04-10 11:26
 post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/tutorial-java/
 slug: tutorial-java
-published: false
+published: true
 nombreforo: Java
 urlforo: http://www.dudasprogramacion.com/java/
 urlejemplos: http://lineadecodigo.com/categoria/java/feed/
