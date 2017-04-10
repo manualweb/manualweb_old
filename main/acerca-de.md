@@ -1,12 +1,12 @@
 ---
 ID: 1258
-post_title: 'Acerca de&#8230;'
+post_title: Acerca de…
 author: Víctor Cuervo
-post_date: 2017-04-10 02:58:22
+post_date: 2017-04-10 02:59:46
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1258
-published: false
+permalink: http://www.manualweb.net/acerca-de/
+published: true
 gitfolder:
   - main
 ---
