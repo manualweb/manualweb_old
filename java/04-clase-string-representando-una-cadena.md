@@ -6,7 +6,7 @@ post_date: 2017-04-10 10:56:39
 post_excerpt: ""
 layout: post
 permalink: >
-  http://www.manualweb.net/java/04-clase-string-representando-una-cadena/
+  http://www.manualweb.net/java/clase-string-representando-una-cadena/
 published: true
 nombreforo:
   - Java
