@@ -2,15 +2,16 @@
 ID: 1306
 post_title: Tutorial MongoDB
 author: Víctor Cuervo
-post_date: 2017-04-10 20:25:04
+post_date: 2017-04-10 20:40:42
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1306
-published: false
+permalink: >
+  http://www.manualweb.net/tutorial-mongodb/
+published: true
 slug:
   - tutorial-mongodb
 nombreforo:
-  - Java
+  - MongoDB
 urlforo:
   - >
     http://dudasprogramacion.com/bases-de-datos/mongodb
@@ -61,9 +62,7 @@ Contenido del **Tutorial MongoDB**:
 21. Tooling para MongoDB 
     1.  MongoDB Compass
     2.  Mongo Hacker
-    3.  Mockaroo</ol>
-    
-    </li> </ol>
+    3.  Mockaroo
 
  [1]: http://www.manualweb.net/mongodb/que-es-mongodb/
  [2]: http://www.manualweb.net/mongodb/modelado-de-datos-en-mongodb/
