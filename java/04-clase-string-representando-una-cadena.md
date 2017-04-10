@@ -1,12 +1,13 @@
 ---
 ID: 1273
-post_title: '04 &#8211; Clase String: Representando una cadena'
+post_title: '04 – Clase String: Representando una cadena'
 author: Víctor Cuervo
-post_date: 2017-04-10 10:54:10
+post_date: 2017-04-10 10:56:39
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1273
-published: false
+permalink: >
+  http://www.manualweb.net/java/04-clase-string-representando-una-cadena/
+published: true
 nombreforo:
   - Java
 urlforo:
