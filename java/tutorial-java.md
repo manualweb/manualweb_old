@@ -34,11 +34,11 @@ Dentro de este **Tutorial Java** podrás encontrar los siguientes contenidos:
 *   Variables en Java
 *   Operadores en Java
 *   Tipos de datos en Java
-*   [Clase String: Representando una cadena][2] 
+*   [Clase String: Representando una cadena][2]
     *   [Funciones básicas con cadenas][3]
 *   Números en Java
 *   Caracteres en Java
-*   Estructuras de Control en Java 
+*   Estructuras de Control en Java
     *   Estructuras de Decisión
     *   Estructuras de Iteración
 *   [Arrays en Java][4]
@@ -54,7 +54,7 @@ Dentro de este **Tutorial Java** podrás encontrar los siguientes contenidos:
 
 Puedes descargarte nuestro [Manual Java en formato PDF][6].
 
-El manual se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del Manual Java.
+El manual se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del **Tutorial Java**.
 
 ### Más sobre el Manual Java
 
