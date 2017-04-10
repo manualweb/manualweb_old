@@ -10,5 +10,6 @@ permalink: >
 published: true
 gitfolder:
   - 'a:1:{i:0;s:3:"svg";}'
+  - svg
 ---
 Nuevo contenido2
