@@ -1,12 +1,13 @@
 ---
 ID: 1280
-post_title: '01 &#8211; Mi primera aplicación Java'
+post_title: 01 – Mi primera aplicación Java
 author: Víctor Cuervo
-post_date: 2017-04-10 11:14:54
+post_date: 2017-04-10 11:17:42
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1280
-published: false
+permalink: >
+  http://www.manualweb.net/java/mi-primera-aplicacion-java/
+published: true
 nombreforo:
   - Java
 urlforo:
