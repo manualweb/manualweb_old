@@ -5,31 +5,17 @@ author: Víctor Cuervo
 post_date: 2017-04-10 23:26:35
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/mongodb/modelado-de-datos-en-mongodb/
+permalink: http://www.manualweb.net/mongodb/modelado-de-datos-en-mongodb/
 published: true
-slug:
-  - tutorial-mongodb
-nombreforo:
-  - MongoDB
-urlforo:
-  - >
-    http://dudasprogramacion.com/bases-de-datos/mongodb
-urlejemplos:
-  - >
-    http://lineadecodigo.com/categoria/mongodb/feed/
-urlvideo:
-  - PLLVIhySQmrVZGA6RpEkZJEH3rQOrHbi_c
-urlmanual:
-  - >
-    http://www.manualweb.net/tutorial-mongodb/
-urltest:
-  - http://www.testprogramacion.com/mongodb
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-mongodb/
-gitfolder:
-  - mongodb
+slug: modelado-de-datos-en-mongodb
+nombreforo: MongoDB
+urlforo: http://dudasprogramacion.com/bases-de-datos/mongodb
+urlejemplos: http://lineadecodigo.com/categoria/mongodb/feed/
+urlvideo: PLLVIhySQmrVZGA6RpEkZJEH3rQOrHbi_c
+urlmanual: http://www.manualweb.net/tutorial-mongodb/
+urltest: http://www.testprogramacion.com/mongodb
+urlcurso: http://www.aulaprogramacion.com/curso-mongodb/
+gitfolder: mongodb
 ---
 Cuando estamos modelando entidades de datos en un modelo ER existen una serie de patrones de modelización enfocados a evitar la redundancia, proteger la integridad de los datos,... estos son conocidos como las **formas normales**, y van desde la **1FN** hasta la **5FN**.
 
