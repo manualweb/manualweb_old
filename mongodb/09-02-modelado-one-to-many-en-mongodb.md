@@ -1,12 +1,15 @@
 ---
 ID: 1322
-post_title: '09.02 &#8211; Modelado One-to-Many en MongoDB'
+post_title: >
+  09.02 – Modelado One-to-Many en
+  MongoDB
 author: Víctor Cuervo
-post_date: 2017-04-10 23:43:04
+post_date: 2017-04-10 23:48:00
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1322
-published: false
+permalink: >
+  http://www.manualweb.net/mongodb/modelado-one-to-many-en-mongodb/
+published: true
 nombreforo:
   - MongoDB
 urlforo:
