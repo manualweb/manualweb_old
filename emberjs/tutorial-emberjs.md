@@ -1,5 +1,5 @@
 ---
-ID: 1299
+ID: pdte
 post_title: Tutorial EmberJS
 author: Víctor Cuervo
 post_date: 2017-04-10 19:55:24
@@ -31,7 +31,6 @@ Contenido del **Tutorial EmberJS**:
 *   Test en EmberJS
 
 ### Descargar Tutorial EmberJS
-
 Puedes descargarte nuestro [Tutorial EmberJS en formato PDF][1].
 
 El **manual EmberJS** se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del **Manual EmberJS**.
@@ -43,5 +42,5 @@ De igual manera puedes contribuir incluyendo nuevo contenido sobre [nuestro Repo
 Todas las preguntas y dudas sobre EmberJS las puedes consultar en el [Foro sobre EmberJS][2]. Y puedes echar un ojo a los [ejemplos sobre el lenguaje EmberJS][3].
 
  [1]: https://gitprint.com/manualweb/manualweb/blob/master/ember/pdf/tutorial-ember-pdf.md
- [2]: //dudasprogramacion.com/javascript/emberjs]
- [3]: //lineadecodigo.com/categoria/emberjs]
+ [2]: http://dudasprogramacion.com/javascript/emberjs
+ [3]: http://lineadecodigo.com/categoria/emberjs
