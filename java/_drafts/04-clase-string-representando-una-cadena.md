@@ -1,21 +1,29 @@
 ---
-ID: pdte
+ID: 1273
 post_title: '04 &#8211; Clase String: Representando una cadena'
 author: Víctor Cuervo
-post_date: 2017-04-10 11:39
+post_date: 2017-04-10 10:54:10
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/java/clase-string-representando-una-cadena/
+permalink: http://www.manualweb.net/?p=1273
 published: false
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
 <!--TOC-->Una cadena de texto no deja de ser más que la sucesión de un conjunto de caracteres alfanuméricos, signos de puntuación y espacios en blanco con más o menos sentido.
 
@@ -39,11 +47,11 @@ gitfolder: java
 
 *   Instanciamos la clase [String][1]. Que sería una creación explicita de la clase
 
-<pre lang="java">String sMiCadena = new String("Cadena de Texto");</pre>
+<pre>String sMiCadena = new String("Cadena de Texto");</pre>
 
 *   Crear implícitamente la cadena de texto. Es decir, simplemente le asignamos el valor al objeto.
 
-<pre lang="java">String sMiCadena = "Cadena de Texto";</pre>
+<pre>String sMiCadena = "Cadena de Texto";</pre>
 
 <p class="texto">
   En este caso, <a title="Java" href="http://www.manualweb.net/tutorial-java/">Java</a>, creará un objeto <a title="String" href="http://www.w3api.com/wiki/Java:String">String</a> para tratar esta cadena.
@@ -59,7 +67,7 @@ gitfolder: java
   Para poder crear la cadena vacía nos bastará con asignarle el valor de "", o bien, utilizar el constructor vacío.
 </p>
 
-<pre lang="java">String sMiCadena = "";
+<pre>String sMiCadena = "";
 String sMiCadena = new String();</pre>
 
 ### Constructores String
@@ -68,8 +76,8 @@ String sMiCadena = new String();</pre>
   Visto lo visto podemos resumir que tenemos dos tipos de constructores principales de la clase <a title="String" href="http://www.w3api.com/wiki/Java:String">String</a>:
 </p>
 
-*   **String(),** <span style="font-weight: normal;">q</span><span style="font-weight: normal;">ue construirá un objeto <a title="String" href="http://www.w3api.com/wiki/Java:String">String</a> sin inicializar.</span>
-*   **String(String original),** <span style="font-weight: normal;">construye una clase <a title="String" href="http://www.w3api.com/wiki/Java:String">String</a> con otra clase <a title="String" href="http://www.w3api.com/wiki/Java:String">String</a> que recibirá como argumento.</span>
+*   **String(),** <span style="font-weight: normal">q</span><span style="font-weight: normal">ue construirá un objeto <a title="String" href="http://www.w3api.com/wiki/Java:String">String</a> sin inicializar.</span>
+*   **String(String original),** <span style="font-weight: normal">construye una clase <a title="String" href="http://www.w3api.com/wiki/Java:String">String</a> con otra clase <a title="String" href="http://www.w3api.com/wiki/Java:String">String</a> que recibirá como argumento.</span>
 
 <p class="texto">
   Aunque tenemos alguno más que iremos viendo....
@@ -85,13 +93,13 @@ String sMiCadena = new String();</pre>
   Por ejemplo:
 </p>
 
-<pre lang="java">System.out.println("Mi Cadena de Texto");</pre>
+<pre>System.out.println("Mi Cadena de Texto");</pre>
 
 <p class="texto">
   ó
 </p>
 
-<pre lang="java">String sMiCadena = new String("Mi Cadena de Texto");
+<pre>String sMiCadena = new String("Mi Cadena de Texto");
 System.out.println(sMiCadena);</pre>
 
  [1]: http://www.w3api.com/wiki/Java:String "String"
