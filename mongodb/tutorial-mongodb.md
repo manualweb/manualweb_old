@@ -5,31 +5,17 @@ author: Víctor Cuervo
 post_date: 2017-04-10 20:40:42
 post_excerpt: ""
 layout: page
-permalink: >
-  http://www.manualweb.net/tutorial-mongodb/
+permalink: http://www.manualweb.net/tutorial-mongodb/
 published: true
-slug:
-  - tutorial-mongodb
-nombreforo:
-  - MongoDB
-urlforo:
-  - >
-    http://dudasprogramacion.com/bases-de-datos/mongodb
-urlejemplos:
-  - >
-    http://lineadecodigo.com/categoria/mongodb/feed/
-urlvideo:
-  - PLLVIhySQmrVZGA6RpEkZJEH3rQOrHbi_c
-urlmanual:
-  - >
-    http://www.manualweb.net/tutorial-mongodb/
-urltest:
-  - http://www.testprogramacion.com/mongodb
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-mongodb/
-gitfolder:
-  - mongodb
+slug: tutorial-mongodb
+nombreforo: MongoDB
+urlforo: http://dudasprogramacion.com/bases-de-datos/mongodb
+urlejemplos: http://lineadecodigo.com/categoria/mongodb/feed/
+urlvideo: PLLVIhySQmrVZGA6RpEkZJEH3rQOrHbi_c
+urlmanual: http://www.manualweb.net/tutorial-mongodb/
+urltest: http://www.testprogramacion.com/mongodb
+urlcurso: http://www.aulaprogramacion.com/curso-mongodb/
+gitfolder: mongodb
 ---
 Contenido del **Tutorial MongoDB**:
 
@@ -41,7 +27,7 @@ Contenido del **Tutorial MongoDB**:
 6.  Inserciones en MongoDB
 7.  Borrados en MongoDB
 8.  Indices en MongoDB
-9.  [Modelado de datos en MongoDB][2] 
+9.  [Modelado de datos en MongoDB][2]
     1.  [Modelado One-To-One en MongoDB][3]
     2.  [Modelado One-To-Many en MongoDB][4]
     3.  Modelado Many-To-Many en MongoDB
@@ -55,11 +41,11 @@ Contenido del **Tutorial MongoDB**:
 17. MongoDB y Java
 18. MongoDB y PHP
 19. MongoDB y Python
-20. MongoDB en Cloud 
+20. MongoDB en Cloud
     1.  MongoDB y Bluemix
     2.  MongoDB y Heroku
     3.  MongoDB y OpenShift
-21. Tooling para MongoDB 
+21. Tooling para MongoDB
     1.  MongoDB Compass
     2.  Mongo Hacker
     3.  Mockaroo
