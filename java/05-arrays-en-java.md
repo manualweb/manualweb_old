@@ -2,11 +2,12 @@
 ID: 1288
 post_title: 05 – Arrays en Java
 author: Víctor Cuervo
-post_date: 2017-04-10 11:38:39
+post_date: 2017-04-10 11:41:57
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1288
-published: false
+permalink: >
+  http://www.manualweb.net/java/arrays-en-java/
+published: true
 nombreforo:
   - Java
 urlforo:
