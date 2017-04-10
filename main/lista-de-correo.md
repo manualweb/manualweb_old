@@ -2,11 +2,12 @@
 ID: 1325
 post_title: Lista de Correo
 author: Víctor Cuervo
-post_date: 2017-04-10 23:52:03
+post_date: 2017-04-10 23:53:18
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1325
-published: false
+permalink: >
+  http://www.manualweb.net/lista-de-correo/
+published: true
 gitfolder:
   - main
 ---
