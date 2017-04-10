@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/acerca-de/
 published: false
+gitfolder: main
 ---
 ### Motivación
 
