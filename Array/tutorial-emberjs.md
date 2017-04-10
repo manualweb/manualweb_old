@@ -24,6 +24,7 @@ urlcurso:
   - 'a:1:{i:0;s:40:"http://www.aulaprogramacion.com/emberjs/";}'
 gitfolder:
   - 'a:1:{i:0;s:7:"emberjs";}'
+  - emberjs
 ---
 Contenido del **Tutorial EmberJS**:
 
