@@ -2,11 +2,11 @@
 ID: 1253
 post_title: Manual Web
 author: Víctor Cuervo
-post_date: 2017-04-10 02:01:22
+post_date: 2017-04-10 02:05:11
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1253
-published: false
+permalink: http://www.manualweb.net/manual-web/
+published: true
 gitfolder:
   - main
 ---
