@@ -5,29 +5,16 @@ author: Víctor Cuervo
 post_date: 2017-04-10 20:05:42
 post_excerpt: ""
 layout: page
-permalink: >
-  http://www.manualweb.net/tutorial-emberjs/
+permalink: http://www.manualweb.net/tutorial-emberjs/
 published: true
-nombreforo:
-  - EmberJS"
-urlforo:
-  - >
-    http://dudasprogramacion.com/javascript/emberjs
-urlejemplos:
-  - >
-    http://lineadecodigo.com/categoria/emberjs/feed/
-urlvideo:
-  - PLLVIhySQmrVYwVGHU-GB6ywbba7pVtb3X
-urlmanual:
-  - >
-    http://www.manualweb.net/tutorial-emberjs/
-urltest:
-  - http://www.testprogramacion.com/emberjs/
-urlcurso:
-  - http://www.aulaprogramacion.com/emberjs/
-gitfolder:
-  - emberjs
-  - emberjs
+nombreforo: EmberJS
+urlforo: http://dudasprogramacion.com/javascript/emberjs
+urlejemplos: http://lineadecodigo.com/categoria/emberjs/feed/
+urlvideo: PLLVIhySQmrVYwVGHU-GB6ywbba7pVtb3X
+urlmanual: http://www.manualweb.net/tutorial-emberjs/
+urltest: http://www.testprogramacion.com/emberjs/
+urlcurso: http://www.aulaprogramacion.com/emberjs/
+gitfolder: emberjs
 ---
 Contenido del **Tutorial EmberJS**:
 
