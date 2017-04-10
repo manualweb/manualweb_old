@@ -7,27 +7,19 @@ post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/tutorial-html/
 published: true
-nombreforo:
-  - HTML
-urlforo:
-  - http://dudasprogramacion.com/html
-urlmanual:
-  - http://www.manualweb.net/tutorial-html/
-urltest:
-  - http://www.testprogramacion.com/html
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html/
-urlvideo:
-  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-gitfolder:
-  - html
+nombreforo: HTML
+urlforo: http://dudasprogramacion.com/html
+urlmanual: http://www.manualweb.net/tutorial-html/
+urltest: http://www.testprogramacion.com/html
+urlcurso: http://www.aulaprogramacion.com/curso-html/
+urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+gitfolder: html
 ---
 En el **Tutorial HTML** vamos a ver los siguientes temas:
 
 *   [Introducción a la World Wide Web][1]
 *   [Introducción al HTML][2]
-*   [Historia del HTML][3] 
+*   [Historia del HTML][3]
     *   [Historia del HTML: Los inicios][4]
     *   [Historia del HTML: El estándar][5]
 *   [Tipos de documentos HTML][6]
@@ -35,9 +27,10 @@ En el **Tutorial HTML** vamos a ver los siguientes temas:
 *   [El documento HTML][8]
 *   [Mi Primera Página HTML][9]
 *   [Metadatos: Las metatags de HTML][10]
-*   [Texto en HTML][11] 
+*   [Texto en HTML][11]
     *   [Texto básico en HTML][12]
     *   [Texto avanzado en HTML][13]
+*   [Colores en HTML][14]
 
 ### Descargar el Tutorial HTML
 
@@ -64,3 +57,4 @@ Todas las preguntas y dudas sobre HTML las puedes consultar en el Foro sobre H
  [11]: http://www.manualweb.net/html/texto-html/
  [12]: http://www.manualweb.net/html/texto-basico-html/
  [13]: http://www.manualweb.net/html/texto-avanzado-html/
+ [14]: http://www.manualweb.net/html/colores-html/
