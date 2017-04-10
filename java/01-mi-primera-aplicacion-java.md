@@ -32,21 +32,21 @@ Empezando con Java Me siento ante el ordenador y pienso que voy a escribir mi pr
 
 *   Un editor de textos (Por ejemplo, el bloc de notas de Windows, [Wim][1], [AM-Notebook][2], [Win32Pad][3], [EditPad Lite][4], [NotePad2][5],...)
 
-*   El compilador de Java Supongo que el primero, por descontado, lo tendréis a mano. O, al menos, algo similar. Para los usuarios avanzados en el tema les dejare utilizar el UltraEdit y similares. El compilador de java será el que nos permita transformar nuestro código fuente en programas ejecutables. O.... bueno, podríamos decir que en algo similar a programas ejecutables. Ya veremos en que. Para instalarnos el compilador deberemos de descargárnosle de la web de SUN (que son los que se inventaron esto del Java, aunque eso es historia de otro tema). A día de hoy podemos bajarnos la versión 6 del compilador desde
-
-[http://java.sun.com/javase/downloads/index.jsp][6]. De ella nos podemos bajar el kit de desarrollo (Java SE Development Kit) y el entorno de ejecución (Java SE Runtime Environment). La descarga del software la tendremos que hacer desde el SUN Download Manager.
+*   El compilador de Java Supongo que el primero, por descontado, lo tendréis a mano. O, al menos, algo similar. Para los usuarios avanzados en el tema les dejare utilizar el UltraEdit y similares. El compilador de java será el que nos permita transformar nuestro código fuente en programas ejecutables. O.... bueno, podríamos decir que en algo similar a programas ejecutables. Ya veremos en que. Para instalarnos el compilador deberemos de descargárnosle de la web de SUN (que son los que se inventaron esto del Java, aunque eso es historia de otro tema). A día de hoy podemos bajarnos la versión 6 del compilador desde [http://java.sun.com/javase/downloads/index.jsp][6]. De ella nos podemos bajar el kit de desarrollo (Java SE Development Kit) y el entorno de ejecución (Java SE Runtime Environment). La descarga del software la tendremos que hacer desde el SUN Download Manager.
 
 <p style="text-align: center">
   <a href="http://www.manualweb.net/wp-content/uploads/2009/09/sun_download_manager.png"><img class="size-full wp-image-199 aligncenter" title="sun_download_manager" src="http://www.manualweb.net/wp-content/uploads/2009/09/sun_download_manager.png" alt="sun_download_manager" width="382" height="235" /></a>
 </p>
 
-### Proceso de instalación En el proceso de instalación deberemos de introducir algunos datos como el directorio de instalación del compilador y las partes del software que queremos instalar. Entre estas partes podremos elegir las herramientas de desarrollo, el código fuente, las demos y el entorno de ejecución. Es recomendable instalar todas. Más vale que sobre a que falte.
+### Proceso de instalación
+En el proceso de instalación deberemos de introducir algunos datos como el directorio de instalación del compilador y las partes del software que queremos instalar. Entre estas partes podremos elegir las herramientas de desarrollo, el código fuente, las demos y el entorno de ejecución. Es recomendable instalar todas. Más vale que sobre a que falte.
 
 <p style="text-align: center">
   <a href="http://www.manualweb.net/wp-content/uploads/2009/09/java_install.png"><img class="size-full wp-image-204 aligncenter" title="java_install" src="http://www.manualweb.net/wp-content/uploads/2009/09/java_install.png" alt="java_install" width="303" height="231" /></a>
 </p>
 
-### Hola Mundo Ahora que tenemos todo el entorno de desarrollo instalado nos lanzamos a desarrollar, ni más, ni menos, que nuestra primera aplicación Java. Lógicamente, nuestra primera aplicación no podría ser otra que “Hola Mundo”. Por si algún despistado todavía no se ha enterado de que va esta aplicación, decirle, simplemente, que es mostrar por pantalla la frase “Hola Mundo”. Complejo, ¿verdad?. El código de nuestra aplicación es el siguiente:
+### Hola Mundo
+Ahora que tenemos todo el entorno de desarrollo instalado nos lanzamos a desarrollar, ni más, ni menos, que nuestra primera aplicación Java. Lógicamente, nuestra primera aplicación no podría ser otra que “Hola Mundo”. Por si algún despistado todavía no se ha enterado de que va esta aplicación, decirle, simplemente, que es mostrar por pantalla la frase “Hola Mundo”. Complejo, ¿verdad?. El código de nuestra aplicación es el siguiente:
 
 <pre>public class MiPrimeraAplicacion {
   public static void main (String[] args) {
@@ -62,7 +62,8 @@ Este fichero lo guardaremos como
 
 La verdad es que a estas alturas de la película no nos vamos a centrar en que significa cada una de las líneas de código. Si bien, no es que haya que ser muy listo, para, al menos, darnos cuenta de que con la sentencia System.out.println se pueden volcar contenidos a la pantalla del ordenador.
 
-### Compilando mi aplicación El compilador de java se llama javac (la c es de compilador, claro). Este no deja de ser un programa ejecutable como otro cualquiera. Para encontrarle y no utilizar las funciones de búsqueda de Windows, podemos dirigirnos a
+### Compilando mi aplicación
+El compilador de java se llama javac (la c es de compilador, claro). Este no deja de ser un programa ejecutable como otro cualquiera. Para encontrarle y no utilizar las funciones de búsqueda de Windows, podemos dirigirnos a
 
 <pre>C:Program FilesJavajdk1.6.0_16bin</pre>
 
@@ -108,9 +109,8 @@ Ahora podremos ejecutar el compilador desde cualquier sitio. Así, debería de f
 
 Esto es que el nombre de la clase y del fichero no existe. Múltiples errores se nos pueden producir.
 
-### Ejecutando mi aplicación Una vez que hemos ejecutado correctamente la compilación, sorpresa, no obtenemos un fichero ejecutable, es decir, un .EXE. Y es que llegados a este punto debemos de ver una de las características del lenguaje Java (Si hubiera realizado una introducción no me pasaría esto). Java es un lenguaje multiplataforma. Una de las frases más celebres que proclaman todos los adeptos de Java es
-
-*"write once, run anywhere”*. Esto quiere decir que, una vez creado el fichero fuente y compilado, el resultado (llamémoslo, de momento, nuestro pseudo-fichero ejecutable) lo podemos ejecutar en cualquier otro ordenador. Revisemos algún concepto sobre compiladores. En un proceso de compilación normal seguimos los siguientes pasos: <img class="aligncenter size-full wp-image-210" title="flujo" src="http://www.manualweb.net/wp-content/uploads/2009/09/flujo.jpg" alt="flujo" width="535" height="117" /> Esto nos viene a decir que si yo compilo un programa, por ejemplo, en C, en mi máquina Windows 2000 sobre una plataforma Intel Pentium 4. Solo va a funcionar en maquinas con esa configuración. Si yo llevo mi programa a una máquina con UNIX en una plataforma Solaris no me va a funcionar. ¿Qué hace java para que eso pueda hacerse?. Java, más en concreto los lenguajes interpretados, el compilador genera un código intermedio (más o menos legible). En el caso de Java, el código intermedio se llama Byte Codes. Este código no es dependiente ni del sistema operativo ni de la máquina en el cual lo ejecutamos. En un segundo paso, un interprete, ejecutará dichos Byte Codes en la plataforma que queramos. Es decir, que el interprete ya es especifico del sistema operativo y de la plataforma de ejecución. El esquema quedaría de la siguiente forma... <img class="aligncenter size-full wp-image-211" title="flujo2" src="http://www.manualweb.net/wp-content/uploads/2009/09/flujo2.jpg" alt="flujo2" width="535" height="117" />
+### Ejecutando mi aplicación
+Una vez que hemos ejecutado correctamente la compilación, sorpresa, no obtenemos un fichero ejecutable, es decir, un .EXE. Y es que llegados a este punto debemos de ver una de las características del lenguaje Java (Si hubiera realizado una introducción no me pasaría esto). Java es un lenguaje multiplataforma. Una de las frases más celebres que proclaman todos los adeptos de Java es *"write once, run anywhere”*. Esto quiere decir que, una vez creado el fichero fuente y compilado, el resultado (llamémoslo, de momento, nuestro pseudo-fichero ejecutable) lo podemos ejecutar en cualquier otro ordenador. Revisemos algún concepto sobre compiladores. En un proceso de compilación normal seguimos los siguientes pasos: <img class="aligncenter size-full wp-image-210" title="flujo" src="http://www.manualweb.net/wp-content/uploads/2009/09/flujo.jpg" alt="flujo" width="535" height="117" /> Esto nos viene a decir que si yo compilo un programa, por ejemplo, en C, en mi máquina Windows 2000 sobre una plataforma Intel Pentium 4. Solo va a funcionar en maquinas con esa configuración. Si yo llevo mi programa a una máquina con UNIX en una plataforma Solaris no me va a funcionar. ¿Qué hace java para que eso pueda hacerse?. Java, más en concreto los lenguajes interpretados, el compilador genera un código intermedio (más o menos legible). En el caso de Java, el código intermedio se llama Byte Codes. Este código no es dependiente ni del sistema operativo ni de la máquina en el cual lo ejecutamos. En un segundo paso, un interprete, ejecutará dichos Byte Codes en la plataforma que queramos. Es decir, que el interprete ya es especifico del sistema operativo y de la plataforma de ejecución. El esquema quedaría de la siguiente forma... <img class="aligncenter size-full wp-image-211" title="flujo2" src="http://www.manualweb.net/wp-content/uploads/2009/09/flujo2.jpg" alt="flujo2" width="535" height="117" />
 
 <p style="text-align: left">
   Centrándonos, nuevamente, en nuestra aplicación, encontraremos un fichero .class que será el fichero con los Byte Codes. Hagamos un dir...
