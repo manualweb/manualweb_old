@@ -1,12 +1,13 @@
 ---
 ID: 1293
-post_title: '04.01 &#8211; Funciones básicas con cadenas'
+post_title: 04.01 – Funciones básicas con cadenas
 author: Víctor Cuervo
-post_date: 2017-04-10 11:59:13
+post_date: 2017-04-10 12:01:30
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1293
-published: false
+permalink: >
+  http://www.manualweb.net/java/funciones-basicas-con-cadenas/
+published: true
 nombreforo:
   - Java
 urlforo:
