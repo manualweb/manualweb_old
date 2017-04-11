@@ -1,12 +1,13 @@
 ---
 ID: 1355
-post_title: '08 &#8211; Metadatos: Las metatags de HTML'
+post_title: '08 – Metadatos: Las metatags de HTML'
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:19
+post_date: 2017-04-11 23:58:17
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1355
-published: false
+permalink: >
+  http://www.manualweb.net/html/metadatos-las-metatags-de-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
