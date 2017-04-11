@@ -1,12 +1,13 @@
 ---
 ID: 1361
-post_title: '04 &#8211; Tipos de documentos HTML'
+post_title: 04 – Tipos de documentos HTML
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:19
+post_date: 2017-04-11 23:42:44
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1361
-published: false
+permalink: >
+  http://www.manualweb.net/html/tipos-de-documentos-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
@@ -57,11 +58,9 @@ gitfolder:
 
 <span style="font-weight: 400">En el caso de que nuestra página esté compuesta por frames deberemos de utilizar un tipo de DOCTYPE frameset.</span> <span style="font-weight: 400">La cabecera que utilicemos en estos casos será:</span>
 
-<
+<pre lang="html4strict"></pre>
 
-pre lang="html4strict">
-
-### **HTML5** 
+### **HTML5**
 
 <span style="font-weight: 400">En </span>[<span style="font-weight: 400">HTML5</span>][2]<span style="font-weight: 400"> han dado un giro a la cabecera ya que han visto que era demasiado compleja para los desarrolladores. Así que lo han reducido a la máxima expresión.</span>
 
@@ -71,7 +70,7 @@ pre lang="html4strict">
 
 <span style="font-weight: 400">Una de las cosas que vemos en este DOCTYPE es que ya no existe una dependencia del DTD del lenguaje.</span>
 
-### **Validando documentos** 
+### **Validando documentos**
 
 <span style="font-weight: 400">Una vez que hayamos construido un documento lo mejor que podemos es validarlo. Para ello la W3C nos proporciona un validador en </span>[<span style="font-weight: 400">http://validator.w3.org/</span>][3]
 
