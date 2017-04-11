@@ -1,12 +1,13 @@
 ---
 ID: 1343
-post_title: '06 &#8211; El documento HTML'
+post_title: 06 – El documento HTML
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:18
+post_date: 2017-04-11 23:49:47
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1343
-published: false
+permalink: >
+  http://www.manualweb.net/html/el-documento-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
@@ -56,6 +57,7 @@ En **el documento HTML** hablamos de:
 
 <pre><title>
   Título del documento
+    
   
 </title></pre>
 
