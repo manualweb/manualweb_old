@@ -1,12 +1,13 @@
 ---
 ID: 1359
-post_title: '05 &#8211; Sintaxis del HTML'
+post_title: 05 – Sintaxis del HTML
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:19
+post_date: 2017-04-11 23:47:57
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1359
-published: false
+permalink: >
+  http://www.manualweb.net/html/sintaxis-del-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
