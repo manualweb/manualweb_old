@@ -1,12 +1,13 @@
 ---
 ID: 1349
-post_title: '03 &#8211; Historia del HTML'
+post_title: 03 – Historia del HTML
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:19
+post_date: 2017-04-11 01:39:21
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1349
-published: false
+permalink: >
+  http://www.manualweb.net/html/historia-del-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
