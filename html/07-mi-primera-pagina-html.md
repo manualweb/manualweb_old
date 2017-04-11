@@ -1,12 +1,13 @@
 ---
 ID: 1357
-post_title: '07 &#8211; Mi Primera Página HTML'
+post_title: 07 – Mi Primera Página HTML
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:19
+post_date: 2017-04-11 23:55:50
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1357
-published: false
+permalink: >
+  http://www.manualweb.net/html/mi-primera-pagina-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
@@ -46,6 +47,7 @@ gitfolder:
 
   <h1>
   Mi Primera Página
+    
   
 </h1>
   Mi primera página en HTML.
