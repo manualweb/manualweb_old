@@ -1,12 +1,13 @@
 ---
 ID: 1353
-post_title: '02 &#8211; Introducción al HTML'
+post_title: 02 – Introducción al HTML
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:19
+post_date: 2017-04-11 01:35:55
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1353
-published: false
+permalink: >
+  http://www.manualweb.net/html/introduccion-al-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
