@@ -1,12 +1,13 @@
 ---
 ID: 1347
-post_title: '03.01 &#8211; Historia del HTML: Los inicios'
+post_title: '03.01 – Historia del HTML: Los inicios'
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:18
+post_date: 2017-04-11 01:41:17
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1347
-published: false
+permalink: >
+  http://www.manualweb.net/html/historia-del-html-los-inicios/
+published: true
 nombreforo:
   - HTML
 urlforo:
