@@ -1,12 +1,13 @@
 ---
 ID: 1345
-post_title: '03.02 &#8211; Historia del HTML: El estándar'
+post_title: '03.02 – Historia del HTML: El estándar'
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:18
+post_date: 2017-04-11 01:45:53
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1345
-published: false
+permalink: >
+  http://www.manualweb.net/html/historia-del-html-el-estandar/
+published: true
 nombreforo:
   - HTML
 urlforo:
