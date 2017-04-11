@@ -1,12 +1,13 @@
 ---
 ID: 1351
-post_title: '01 &#8211; Introducción a la World Wide Web'
+post_title: 01 – Introducción a la World Wide Web
 author: Víctor Cuervo
-post_date: 2017-04-11 01:29:19
+post_date: 2017-04-11 01:33:19
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1351
-published: false
+permalink: >
+  http://www.manualweb.net/html/introduccion-a-la-world-wide-web/
+published: true
 nombreforo:
   - HTML
 urlforo:
