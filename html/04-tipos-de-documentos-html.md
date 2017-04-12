@@ -40,7 +40,10 @@ Aunque no contempla las reglas del estándar XHTML sobre anidación, escritura,.
 
 La cabecera que utilizaremos en este caso será:
 
-<pre><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd"></pre>
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
+
 
 Hay que tener cuidado con el modo estricto ya que algunos navegadores antiguos pueden no interpretar este tipo de documentos.
 
