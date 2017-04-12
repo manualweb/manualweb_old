@@ -1,12 +1,13 @@
 ---
 ID: 1414
-post_title: '16.01 &#8211; Tablas Básicas en HTML'
+post_title: 16.01 – Tablas Básicas en HTML
 author: Víctor Cuervo
-post_date: 2017-04-12 19:10:57
+post_date: 2017-04-12 19:15:26
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1414
-published: false
+permalink: >
+  http://www.manualweb.net/html/tablas-basicas-en-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
@@ -34,39 +35,51 @@ Dentro de las tablas básicas en [HTML][1] vamos a ver los siguientes conceptos:
 
 <pre><table>
   &lt;caption&gt;Mi tabla de ejemplo&lt;/caption&gt;
-      <tr>
+        <tr>
     <td>
       Fila 1 Columna 1
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       Fila 1 Columna 2
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       Fila 1 Columna 3
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       Fila 1 Columna 4
+                
           
     </td>
-    
+        
+          
       
   </tr>
-  
+    
+    
   
 </table></pre>
 
@@ -79,33 +92,44 @@ Dentro de las tablas básicas en [HTML][1] vamos a ver los siguientes conceptos:
   <tr>
   <td>
     Fila 1 Columna 1
+          
       
   </td>
-  
-  
+    
+    
+      
+    
     
   
   <td>
     Fila 1 Columna 2
+          
       
   </td>
-  
-  
+    
+    
+      
+    
     
   
   <td>
     Fila 1 Columna 3
+          
       
   </td>
-  
-  
+    
+    
+      
+    
     
   
   <td>
     Fila 1 Columna 4
+          
       
   </td>
-  
+    
+    
   
 </tr>
 &lt;/table&gt;</pre>
@@ -118,56 +142,75 @@ Dentro de las tablas básicas en [HTML][1] vamos a ver los siguientes conceptos:
   <tr>
     <th>
       Cabecera 1
+                
           
     </th>
-    
-    
+        
+        
+            
+        
         
     
     <th>
       Cabecera 2
+                
           
     </th>
-    
-    
+        
+        
+            
+        
         
     
     <th>
       Cabecera 3
+                
           
     </th>
-    
+        
+          
       
   </tr>
-  
-  
+    
+    
+      
+    
     
   
   <tr>
     <td>
       Fila 1 Columna 1
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       Fila 1 Columna 2
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       Fila 1 Columna 3
+                
           
     </td>
-    
+        
+          
       
   </tr>
-  
+    
+    
   
 </table></pre>
 
@@ -295,312 +338,243 @@ El código completo sería:
   <tr>
     <td colspan="”2”">
       Enero
+          
     </td>
-            
+                
+        
+        
     
     <td colspan="”2”">
       Febrero
+          
     </td>
-    
+        
+          
       
   </tr>
-  
-  
+    
+    
+      
+    
     
   
   <tr>
     <td>
       Ingresos
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       Gastos
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       Ingresos
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       Gastos
+                
           
     </td>
-    
+        
+          
       
   </tr>
-  
-  
+    
+    
+      
+    
     
   
   <tr>
     <td>
       1.000€
+                
           
     </td>
-    
-    
+        
+        
+            
+        
         
     
     <td>
       700€/td>
-                <td>
+                      <td>
         1.100€
+                      
               
       </td>
-      
-      
+            
+            
+                  
+            
             
       
       <td>
         580€
+                      
               
       </td>
-              </tr>
-      
-      
+                    </tr>
+            
+            
+                  
+            
             
       
       <tr>
         <td>
           1.800€
+                            
                   
         </td>
-        
-        
+                
+                
+                        
+                
                 
         
         <td>
           920€
+                            
                   
         </td>
-        
-        
+                
+                
+                        
+                
                 
         
         <td>
           1.750€
+                            
                   
         </td>
-        
-        
+                
+                
+                        
+                
                 
         
         <td>
           920€
+                            
                   
         </td>
-        
+                
+                      
               
       </tr>
-            </table></pre>
+                  </table></pre>
       
       
       
-      <pre><code>  De igual manera nos puede suceder en sentido horizontal. Es decir, que queramos que una celda ocupe dos filas.
-
-  Si lo vemos sobre nuestro ejemplo veremos que podemos añadir una columna que simplemente ponga que los valores numéricos tengan el literal “Datos Económicos”. En este caso tendremos que indicar que esa celda ocupa dos filas.
-
-
-
-  &lt;table width="100%" border="1"&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-
-        &lt;/td&gt;
-
-
-        &lt;td colspan="2"&gt;
-          Enero
-        &lt;/td&gt;
-
-
-        &lt;td colspan="2"&gt;
-          Febrero
-        &lt;/td&gt;
-
-      &lt;/tr&gt;
-
-
-      &lt;tr&gt;
-        &lt;td rowspan="3"&gt;
-          Datos Económicos
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          Ingresos
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          Gastos
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          Ingresos
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          Gastos
-        &lt;/td&gt;
-
-      &lt;/tr&gt;
-
-
-      &lt;tr&gt;
-        &lt;td&gt;
-          1.000€
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          700€
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          1.100€
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          580€
-        &lt;/td&gt;
-
-      &lt;/tr&gt;
-
-
-      &lt;tr&gt;
-        &lt;td&gt;
-          1.800€
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          920€
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          1.750€
-        &lt;/td&gt;
-
-
-        &lt;td&gt;
-          920€
-        &lt;/td&gt;
-
-      &lt;/tr&gt;
-
-    &lt;/tbody&gt;
-
-  &lt;/table&gt;
-
-  Para la agrupación de filas tenemos otro atributo que es rowspan. Este atributo, al igual que colspan se aplica sobre la
-
-  &lt;a href="http://www.w3api.com/wiki/HTML:TD"&gt;celda td&lt;/a&gt;.
-
-  &lt;pre lang="html4strict"&gt;&lt;td rowspan=”3”&gt;Datos Económicos&lt;/td&gt;&lt;/pre&gt;
-
-  El código completo de la tabla sería el siguiente:
-
-
-
-  &lt;pre lang="html4strict"&gt;&lt;table&gt;
+      <pre><code>  &lt;pre&gt;&lt;code&gt;  De igual manera nos puede suceder en sentido horizontal. Es decir, que queramos que una celda ocupe dos filas.
 </code></pre>
       
       
       
       <p>
-        <tr>
-          <td>
-            </p>
-            
-            <pre><code>&lt;/td&gt;
-    &lt;td colspan=”2”&gt;Enero&lt;/td&gt;
-    &lt;td colspan=”2”&gt;Febrero&lt;/td&gt;
-</code></pre>
-            
-            
-            
-            <p>
-              </tr>
-            </p>
-            
-            
-            
-            <p>
+        Si lo vemos sobre nuestro ejemplo veremos que podemos añadir una columna que simplemente ponga que los valores numéricos tengan el literal “Datos Económicos”. En este caso tendremos que indicar que esa celda ocupa dos filas.
+      </p>
+      
+      
+      
+      <p>
+        <table width="100%" border="1">
+            <tbody>
               <tr>
-                <td rowspan="”3”">
-                  Datos Económicos
-                </td>
-                        
-                
                 <td>
-                  Ingresos
-                      
-                </td></p>
-                
-                
-                
-                <pre><code>&lt;td&gt;
-  Gastos
-&lt;/td&gt;
+      </p>
+      
+      
+      
+      <pre><code>    &lt;/td&gt;
 
 
-&lt;td&gt;
-  Ingresos
-&lt;/td&gt;
+    &lt;td colspan="2"&gt;
+      Enero
+    &lt;/td&gt;
 
 
-&lt;td&gt;
-  Gastos
-&lt;/td&gt;
-</code></pre>
-                
-                
-                
-                <p>
-                  </tr>
-                </p>
-                
-                
-                
-                <p>
-                  <tr>
-                    <td>
-                      1.000€
-                          
-                    </td></p>
-                    
-                    
-                    
-                    <pre><code>&lt;td&gt;
-  700€/td&gt;
-      &lt;td&gt;
-    1.100€
-  &lt;/td&gt;
+    &lt;td colspan="2"&gt;
+      Febrero
+    &lt;/td&gt;
+
+  &lt;/tr&gt;
 
 
-  &lt;td&gt;
-    580€
-  &lt;/td&gt;
-    &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="3"&gt;
+      Datos Económicos
+    &lt;/td&gt;
+
+
+    &lt;td&gt;
+      Ingresos
+    &lt;/td&gt;
+
+
+    &lt;td&gt;
+      Gastos
+    &lt;/td&gt;
+
+
+    &lt;td&gt;
+      Ingresos
+    &lt;/td&gt;
+
+
+    &lt;td&gt;
+      Gastos
+    &lt;/td&gt;
+
+  &lt;/tr&gt;
+
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      1.000€
+    &lt;/td&gt;
+
+
+    &lt;td&gt;
+      700€
+    &lt;/td&gt;
+
+
+    &lt;td&gt;
+      1.100€
+    &lt;/td&gt;
+
+
+    &lt;td&gt;
+      580€
+    &lt;/td&gt;
+
+  &lt;/tr&gt;
 
 
   &lt;tr&gt;
@@ -624,8 +598,185 @@ El código completo sería:
     &lt;/td&gt;
 
   &lt;/tr&gt;
-  &lt;/table&gt;&lt;/pre&gt;
+
+&lt;/tbody&gt;
 </code></pre>
+      
+      
+      
+      <p>
+        </table>
+      </p>
+      
+      
+      
+      <p>
+        Para la agrupación de filas tenemos otro atributo que es rowspan. Este atributo, al igual que colspan se aplica sobre la
+      </p>
+      
+      
+      
+      <p>
+        <a href="http://www.w3api.com/wiki/HTML:TD">celda td</a>.
+      </p>
+      
+      
+      
+      <p>
+        <pre lang="html4strict"><td rowspan=”3”>Datos Económicos</td></pre>
+      </p>
+      
+      
+      
+      <p>
+        El código completo de la tabla sería el siguiente:
+      </p>
+      
+      
+      
+      <p>
+        <pre lang="html4strict"><table>
+        </code></pre>
+      </p>
+      
+      
+      
+      <pre><code>  &lt;p&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;/p&gt;
+
+        &lt;pre&gt;&lt;code&gt;&lt;/td&gt;
+&lt;td colspan=”2”&gt;Enero&lt;/td&gt;
+&lt;td colspan=”2”&gt;Febrero&lt;/td&gt;
+</code></pre>
+      
+      
+      
+      <p>
+        </code></pre>
+      </p>
+      
+      
+      
+      <pre><code>        &lt;p&gt;
+          &lt;/tr&gt;
+        &lt;/p&gt;
+
+
+
+        &lt;p&gt;
+          &lt;tr&gt;
+            &lt;td rowspan="”3”"&gt;
+              Datos Económicos
+            &lt;/td&gt;
+
+
+            &lt;td&gt;
+              Ingresos
+
+            &lt;/td&gt;&lt;/p&gt;
+
+
+
+            &lt;pre&gt;&lt;code&gt;&lt;td&gt;
+</code></pre>
+      
+      
+      
+      <p>
+        Gastos
+        </td>
+      </p>
+      
+      
+      
+      <p>
+        <td>
+          Ingresos
+        </td>
+      </p>
+      
+      
+      
+      <p>
+        <td>
+          Gastos
+        </td>
+        </code></pre>
+      </p>
+      
+      
+      
+      <pre><code>            &lt;p&gt;
+              &lt;/tr&gt;
+            &lt;/p&gt;
+
+
+
+            &lt;p&gt;
+              &lt;tr&gt;
+                &lt;td&gt;
+                  1.000€
+
+                &lt;/td&gt;&lt;/p&gt;
+
+
+
+                &lt;pre&gt;&lt;code&gt;&lt;td&gt;
+</code></pre>
+      
+      
+      
+      <p>
+        700€/td>
+              <td>
+            1.100€
+          </td>
+      </p>
+      
+      
+      
+      <p>
+        <td>
+            580€
+          </td>
+            </tr>
+      </p>
+      
+      
+      
+      <p>
+        <tr>
+            <td>
+              1.800€
+            </td>
+      </p>
+      
+      
+      
+      <pre><code>&lt;td&gt;
+  920€
+&lt;/td&gt;
+
+
+&lt;td&gt;
+  1.750€
+&lt;/td&gt;
+
+
+&lt;td&gt;
+  920€
+&lt;/td&gt;
+</code></pre>
+      
+      
+      
+      <p>
+        </tr>
+          </table></pre>
+        </code></pre>
+      </p>
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3api.com/wiki/HTML:CAPTION
