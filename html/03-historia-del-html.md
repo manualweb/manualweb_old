@@ -5,26 +5,20 @@ author: Víctor Cuervo
 post_date: 2017-04-11 01:39:21
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/html/historia-del-html/
+permalink: http://www.manualweb.net/html/historia-del-html/
 published: true
-nombreforo:
-  - HTML
-urlforo:
-  - http://dudasprogramacion.com/html
-urlmanual:
-  - http://www.manualweb.net/tutorial-html/
-urltest:
-  - http://www.testprogramacion.com/html
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html/
-urlvideo:
-  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-gitfolder:
-  - html
+nombreforo: HTML
+urlforo: http://dudasprogramacion.com/html
+urlmanual: http://www.manualweb.net/tutorial-html/
+urltest: http://www.testprogramacion.com/html
+urlcurso: http://www.aulaprogramacion.com/curso-html/
+urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+gitfolder: html
 ---
-La historia del [HTML][1] ha sido muy cambiante desde que [Tim Berners-Lee][2] y [Robert Cailliau][3] trabajasen en el **CERN** y tuviesen la necesidad de establecer una forma de **compartir la información.** Daba lugar al nacimiento del hipertexto, enlaces y protocolo http, todo lo que acabo siendo el lenguaje [HTML][1]. Ha pasado por épocas de definición en sus primeras versiones **HTML 2** y **HTML 3.2**. Ha permitido la creación del [W3C][4] para la gestión de estándares. Ha vivido la ***"guerra de los navegadores"*** entre *Internet Explorer* y *Netscape*. Se ha conseguido estandarizar con gran aceptación en **HTML 4.01**. Y ha visto como "unos disidentes" abandonaron el [W3C][4] para generar un evolucionado y moderno **[HTML 5][5].**
+
+La historia del [HTML][1] ha sido muy cambiante desde que [Tim Berners-Lee][2] y [Robert Cailliau][3] trabajasen en el **CERN** y tuviesen la necesidad de establecer una forma de **compartir la información.** Daba lugar al nacimiento del hipertexto, enlaces y protocolo http, todo lo que acabo siendo el lenguaje [HTML][1].
+
+Ha pasado por épocas de definición en sus primeras versiones **HTML 2** y **HTML 3.2**. Ha permitido la creación del [W3C][4] para la gestión de estándares. Ha vivido la ***"guerra de los navegadores"*** entre *Internet Explorer* y *Netscape*. Se ha conseguido estandarizar con gran aceptación en **HTML 4.01**. Y ha visto como "unos disidentes" abandonaron el [W3C][4] para generar un evolucionado y moderno **[HTML 5][5].**
 
 Así podríamos resumir **la historia del [HTML][1] en las siguientes épocas**:
 
