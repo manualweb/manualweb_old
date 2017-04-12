@@ -1,12 +1,15 @@
 ---
 ID: 1408
-post_title: '17.02 &#8211; Estructura y envío de formularios'
+post_title: >
+  17.02 – Estructura y envío de
+  formularios
 author: Víctor Cuervo
-post_date: 2017-04-12 19:10:57
+post_date: 2017-04-12 20:04:33
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1408
-published: false
+permalink: >
+  http://www.manualweb.net/html/estructura-y-envio-de-formularios/
+published: true
 nombreforo:
   - HTML
 urlforo:
@@ -51,6 +54,7 @@ El
 
 <pre><fieldset>
   ...
+    
   
 </fieldset></pre>
 
@@ -58,8 +62,9 @@ Entre estos elementos aparecerán los campos del formulario. Por ejemplo si tene
 
 <pre><fieldset>
   <label for="nombre">Nombre</label>
-      <label for="apellido">Apellido</label>
-  
+        <label for="apellido">Apellido</label>
+    
+    
   
 </fieldset></pre>
 
@@ -69,9 +74,10 @@ El
 
 <pre><fieldset>
   &lt;legend&gt;Introduzca sus datos personales&lt;/legend&gt;
-      <label for="nombre">Nombre</label>
-      <label for="apellido">Apellido</label>
-  
+        <label for="nombre">Nombre</label>
+        <label for="apellido">Apellido</label>
+    
+    
   
 </fieldset></pre>
 
