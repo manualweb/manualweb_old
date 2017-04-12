@@ -166,6 +166,68 @@ Así podríamos resumir **la historia del [HTML][1] en las siguientes épocas**
 *   HTML 5
 *   HTML.next 
 
+## La Historia del HTML: Los Inicios
+
+### Los inicios del HTML
+
+Los inicios de HTML se deben a [Tim Berners-Lee][33] cuando trabajaba en el **CERN (Centro Europeo de Investigación Nuclear)**. Y es que estando como trabajador del CERN se encontró con la problemática de poder facilitar el acceso a la información con la que trabajaban desde cualquier ordenador del centro o de otras instituciones que trabajaban con ellos.
+
+Buscaban una forma sencilla y estándar de acceder a toda la información. Es en ese momento cuando nace el **protocolo HTTP** (hypertext transfer protocol) y las páginas [HTML][1].
+
+Además ideó que las páginas estarían unidas entre sí, estarían enlazadas. Era el concepto de **hipertexto.**
+
+Para la definición del estándar HTML, [Tim Berners-Lee][33] se basó en el lenguaje de marcado **SGML (Standard General Markup Language)**. Este lenguaje define reglas de etiquetado y estructura generales. A partir de SGML se han definido lenguajes como [HTML][1], Postscript, RTF,...
+
+Tras tener el desarrollo del sistema de Hipertexto interno, [Tim Berners-Lee][33] lo presentó a una convocatoria para desarrollar el sistema Hipertexto en Internet junto con el ingeniero de sistemas [Robert Cailliau][34]. La propuesta que presentaron la llamaron **World Wide Web (W3)**.
+
+### HTML Tags y Mosaic
+
+**La primera versión del [HTML][1] nace hacía 1989 como un subconjunto de SGML** y es especificada mediante un documento que se denomina [HTML Tags][36].
+
+En el documento [HTML Tags][36] ya podemos ver los conceptos básicos del lenguaje HTML ya que en él se define como insertar texto, títulos, enlaces y listas. Y algún elemento que acabó perdiéndose con el paso del tiempo como la identificación de índice del documento.
+
+Podemos observar que intentan aglutinar en un lenguaje conceptos como estructura, formato y semántica, los cuales han ido derivando a la creación de otros lenguajes como [CSS][37] y [XML][38].
+
+Junto con [HTML Tags][36] **aparece el primer navegador para poder visualizar las páginas que se llamó “WorldWideWeb”.**
+
+Posteriormente se crearían otros navegadores web (Samba, Erwise, y Viola) además del que puede ser considerado como el primer navegador web global que fue [Mosaic][39], desarrollado por NCSA.
+
+El grupo de gente que creo [Mosaic][39] (Mark Andreessen entre ellos) abandonó NCSA para crear posteriormente Netscape.
+
+### HTML 2.0
+
+El proyecto World Wide Web se empieza a extender por el mundo, siendo varios proveedores de servicios (entre ellos AOL) los que empiezan a dar acceso a la red.
+
+En paralelo a esta creciente entrada colaboradores aparece, en noviembre de 1995, [HTML 2.0][40]. La versión [HTML 2.0][40] es desarrollada por el **IETF (Internet Engineering Task Force)**.
+
+[HTML 2.0][40] es la primera versión que podríamos considerar como estándar, o al menos definida por un organismo oficial.
+
+En [HTML 2.0][40] con respecto al inicial [HTML Tags][36] podíamos encontrar cosas como imágenes, mapas de imágenes, formularios, barras separadoras... así como una definición inicial del DTD HTML.
+
+### Creación de la W3C y HTML 3.0
+
+Tras diferentes conversaciones entre [Tim Berners-Lee][33] y el MIT, el 1 de octubre de 1994 es creado el consorcio W3. Más conocido como [W3C][18] (World Wide Web Consortium) con la idea de definir estándares para Internet.
+
+Dentro de la [W3C][18] se empieza a trabajar en noviembre 1995 sobre el borrador de [HTML 3.0][41], el cual nunca llegará a ser recomendación y se quedará en borrador.
+
+Es **HTML 3.2** la versión que pasa a ser la recomendación. El borrador de [HTML 3.0][41] es interesante ya que se empieza a hablar de elementos como tablas, textos alrededor de las imágenes, y un [elemento llamado MATH][42] que permite crear fórmulas dentro del documento [HTML][1].
+
+El elemento MATH acabó cayéndose de posteriores revisiones del lenguaje [HTML][1] y conformando un nuevo lenguaje en sí llamado [MathML][43].
+
+Una de las cosas que más buscaba [HTML 3.0][41] es que fuese compatible hacia atrás con todo lo que se había creado hasta entonces. Quizás un trabajo demasiado teórico.
+
+### HTML 3.2
+
+Podríamos decir que [HTML 3.2][44] es la primera versión de [HTML][1] ampliamente extendida y utilizada en la red.
+
+[HTML 3.2][44] dejaba de ser una especificación teórica, buscaba ser más práctica. **[HTML 3.2][44] veía la luz en enero de 1997**.
+
+En [HTML 3.2][44] se pasaban a utilizar elementos que habían nacido fuera de la especificación y que habían sido definidos por los fabricantes como Netscape e Internet Explorer.
+
+Así podemos encontrar en [HTML 3.2][44] la *capacidad de crear código script, capas, formularios, posibilidad de meter Applets de [Java][45], modificar el tamaño metiendo fuentes,..*
+
+Quizás la especificación [HTML 3.2][44] quedó demasiado abierta y empezó una **“guerra entre navegadores”** en la que cada fabricante quería presionar porque se aceptasen sus elementos. Así Internet Explorer presionaba para tener el **elemento MARQUEE **y Netscape para tener el elemento **BLINK**.
+
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3.org/TR/2014/REC-html5-20141028/
@@ -202,3 +264,13 @@ Así podríamos resumir **la historia del [HTML][1] en las siguientes épocas**
  [33]: http://www.w3.org/People/Berners-Lee/
  [34]: http://public.web.cern.ch/public/en/people/Cailliau-en.html
  [35]: http://www.manualweb.net/tutorial-html5/
+ [36]: http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html
+ [37]: http://www.manualweb.net/tutorial-css/
+ [38]: http://www.manualweb.net/tutorial-xml/
+ [39]: http://www.ncsa.illinois.edu/Projects/mosaic.html
+ [40]: http://www.ietf.org/rfc/rfc1866.txt  
+ [41]: http://www.w3.org/MarkUp/html3/CoverPage
+ [42]: http://www.w3.org/MarkUp/html3/maths.html
+ [43]: http://www.w3.org/Math/
+ [44]: http://www.w3.org/TR/REC-html32
+ [45]: http://www.manualweb.net/tutorial-java/
