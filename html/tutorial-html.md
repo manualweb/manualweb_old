@@ -45,7 +45,7 @@ En el **Tutorial HTML** vamos a ver los siguientes temas:
 
 ### Descargar el Tutorial HTML
 
-Si quieres puedes descargarte el Tutorial HTML en PDF.
+Si quieres puedes [descargarte el Tutorial HTML en PDF][0].
 
 El **tutorial HTML** está en constante revisión dentro de nuestros repositorios Git, así que siempre tendrás aquí la versión más actualizada.
 
@@ -55,6 +55,7 @@ De igual manera puedes contribuir incluyendo nuevo contenido sobre nuestro Repos
 
 Todas las preguntas y dudas sobre HTML las puedes consultar en el Foro sobre HTML. Y puedes echar un ojo a los ejemplos sobre el lenguaje HTML.
 
+ [0]: https://gitprint.com/manualweb/manualweb/blob/master/html/pdf/tutorial-html-pdf.md
  [1]: http://www.manualweb.net/html/introduccion-a-la-world-wide-web/
  [2]: http://www.manualweb.net/html/introduccion-al-html/
  [3]: http://www.manualweb.net/html/historia-del-html/
