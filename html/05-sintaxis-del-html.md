@@ -81,10 +81,12 @@ La estructura de una entidad en [HTML][1] será la siguiente:
 
 Las entidades nos sirven para representar símbolos que son parte de la estructura del lenguaje, como es el caso de los símbolos mayor y menor. O símbolos específicos de un determinado juego de caracteres, cómo podrían ser símbolos de monedas o caracteres especiales.
 
-<pre>&lt;      representa <;
+```
+&lt;      representa <
 &gt;      representa >
 &quot;    representa '
-&eur;     representa €</pre>
+&eur;     representa €
+```
 
 Ya hablaremos en detalle sobre ellas más adelante.
 
@@ -111,19 +113,28 @@ Existen una serie de normas de codificación que hay que conocer y seguir dentro
 
 El lenguaje [HTML][1] no es sensible a mayúsculas. Es decir, que da igual que escribamos nuestros elementos y atributos en mayúsculas y/o minúsculas. Si bien, por convenio, **se recomienda que tanto los elementos como los atributos sean escritos en minúsculas**.
 
-#### **Espacios en blanco**
+#### Espacios en blanco
 
-Si insertamos un espacio en blanco dentro de nuestra página se generará un espacio en blanco dentro de la visualización. Si bien si juntamos varios espacios en blancos, **estos solo generarán un único espacio en blanco**. Lo mismo ocurre si insertamos una o varias tabulaciones. Estas solo generan un único espacio en blanco. Si queremos crear un conjunto de espacios en blanco seguidos deberemos de utilizar la entidad:
+Si insertamos un espacio en blanco dentro de nuestra página se generará un espacio en blanco dentro de la visualización. Si bien si juntamos varios espacios en blancos, **estos solo generarán un único espacio en blanco**.
 
-<pre>&nbsp;</pre>
+Lo mismo ocurre si insertamos una o varias tabulaciones. Estas solo generan un único espacio en blanco. Si queremos crear un conjunto de espacios en blanco seguidos deberemos de utilizar la entidad:
+
+```
+&nbsp;
+```
 
 Cada vez que insertemos esta entidad generamos un espacio en blanco.
 
-#### **Saltos de línea**
+#### Saltos de línea
 
-Los saltos de línea que insertemos dentro de la página web no tienen ningún efecto de cara a la renderización del contenido. Por lo tanto, un salto de línea en el código no genera nada. Si queremos insertar un salto de línea dentro de nuestra página web deberemos de utilizar el elemento
+Los saltos de línea que insertemos dentro de la página web no tienen ningún efecto de cara a la renderización del contenido. Por lo tanto, un salto de línea en el código no genera nada.
 
-<pre><br /></pre>
+
+Si queremos insertar un salto de línea dentro de nuestra página web deberemos de utilizar el elemento
+
+```
+<br />
+```
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3api.com/wiki/HTML:P
