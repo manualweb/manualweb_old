@@ -148,6 +148,23 @@ Este tipo de sitios te permiten dos cosas: por un lado *crear tu página web de 
 * [WIX][30]
 * Sitios de blogs: [WordPress][31], [Blogger][32],...
 
+## La historia del HTML
+
+La historia del [HTML][1] ha sido muy cambiante desde que [Tim Berners-Lee][33] y [Robert Cailliau][34] trabajasen en el **CERN** y tuviesen la necesidad de establecer una forma de **compartir la información.** Daba lugar al nacimiento del hipertexto, enlaces y protocolo http, todo lo que acabo siendo el lenguaje [HTML][1].
+
+Ha pasado por épocas de definición en sus primeras versiones **HTML 2** y **HTML 3.2**. Ha permitido la creación del [W3C][18] para la gestión de estándares. Ha vivido la ***"guerra de los navegadores"*** entre *Internet Explorer* y *Netscape*. Se ha conseguido estandarizar con gran aceptación en **HTML 4.01**. Y ha visto como "unos disidentes" abandonaron el [W3C][18] para generar un evolucionado y moderno **[HTML 5][35].**
+
+Así podríamos resumir **la historia del [HTML][1] en las siguientes épocas**:
+
+*   Inicios del HTML
+*   HTML Tags y Mosaic
+*   HTML 2.0
+*   Creación de la W3C y HTML 3.0
+*   HTML 3.2
+*   HTML 4.01
+*   XML y XHTML 1.0
+*   HTML 5
+*   HTML.next 
 
 
  [1]: http://www.manualweb.net/tutorial-html/
@@ -182,3 +199,6 @@ Este tipo de sitios te permiten dos cosas: por un lado *crear tu página web de 
  [30]: http://es.wix.com/
  [31]: http://www.wordpress.org/
  [32]: http://www.blogger.com/
+ [33]: http://www.w3.org/People/Berners-Lee/
+ [34]: http://public.web.cern.ch/public/en/people/Cailliau-en.html
+ [35]: http://www.manualweb.net/tutorial-html5/
