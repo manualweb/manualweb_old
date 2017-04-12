@@ -98,6 +98,55 @@ Algunos dominios que podemos encontrarnos son:
 
 ## Introducción al HTML
 
+### ¿Qué es el HTML?
+
+**HTML (HyperText Markup Language)** es un lenguaje que nos permite crear páginas web mediante etiquetas o elementos.
+
+Mediante [HTML][1] podremos incluir dentro de nuestras páginas web *texto, imágenes, enlaces, tablas, vídeos, música,...* cualquier elemento que te puedas imaginar. Todo elemento es representado por una etiqueta.
+
+Las páginas web que creemos **serán visualizadas mediante un navegador web o browser**, los cuales interpretan en contenido del documento y lo presentan de forma visual. De manera forman es conocido como **agente de usuario.** Ya que a parte de los navegadores web pueden existir programas que exploten de otra manera el contenido, por ejemplo los lectores de contenido adaptados a discapacitados.
+
+La característica principal del [HTML][1] son los enlaces. Mediante los enlaces podremos realizar navegaciones entre páginas web, movernos de una a otra. Esta característica es la que hace diferente al lenguaje [HTML][1] de otros formatos como Microsoft Word, PDF,...
+
+### ¿Quién define el HTML?
+
+El organismo encargado de la definición, supervisión y evolución del lenguaje estándar [HTML][1] es el [W3C (World Wide Web Consortium)][18]. Si bien, son las diferentes empresas que construyen software relacionado con el lenguaje [HTML][1] quienes implementan el lenguaje.
+
+Esto puede dar en algunos casos que haya implementaciones de elementos por fuera del lenguaje, o que el mismo elemento se comporte de forma diferente dependiendo del navegador que lo visualice.
+
+La especificación oficial del lenguaje [HTML][1] es [HTML 5.0][2] *(28 de octubre de 2014) *y se está trabajando en [el borrador de HTML 5.1][3] *(última actualización *[*el 10 de marzo de 2016*][19]*).*
+
+### Herramientas para crear código HTML
+
+Las páginas [HTML][1] son nada más que texto plano. Es por ello que, para crearlas, simplemente necesitemos de la ayuda de un editor o procesador de textos.
+
+#### Editores de Texto
+
+Puedes utilizar cualquier editor de texto. El Notepad o WordPad de Microsoft Windows, [UltraEdit][20], [NoteTab][21], el TextEdit de Mac, o un editor avanzado como [Sublime Text][22] o [Atom][23].
+
+#### Herramientas WYSIWYG
+
+Si bien, existe otra alternativa que es el utilizar herramientas WYSIWYG *(Why You See Is What You Get)*. Estas herramientas nos proporcionan un interface gráfico para poder montar la página web, ocultándose el código [HTML][1] que se genera por debajo.
+
+Si bien, estas herramientas, casi siempre, nos dejarán editar el código [HTML][1] generado.
+
+Algunos ejemplos de herramientas *HTML WYSIWYG*:
+
+* [CoffeCup HTML Editor][24]
+* [HoTMetal Pro][25]
+* [DreamWeaver][26]
+* [Microsoft Expression][27]
+
+#### Herramientas On-Line
+
+Ahora está muy de moda el crear la página web desde una herramienta on-line. Es decir, desde una página web.
+
+Este tipo de sitios te permiten dos cosas: por un lado *crear tu página web de forma gráfica* y por otro *almacenarla* (en muchos casos de forma gratuita) para que la pueda visualizar la gente. Algunos de estos sitios son:
+
+* [Google Sites][28]
+* [IM Creator][29]
+* [WIX][30]
+* Sitios de blogs: [WordPress][31], [Blogger][32],...
 
 
 
@@ -118,3 +167,18 @@ Algunos dominios que podemos encontrarnos son:
  [15]: http://www.navy.mil
  [16]: http://www.whitehouse.gov
  [17]: http://www.red.es
+ [18]: http://www.w3.org
+ [19]: https://www.w3.org/blog/news/archives/5313
+ [20]: http://www.idmcomp.com/
+ [21]: http://www.notetab.com/
+ [22]: http://www.sublimetext.com/
+ [23]: https://atom.io/
+ [24]: http://www.coffeecup.com/html-editor/
+ [25]: http://www.hotmetalpro.com/
+ [26]: http://www.adobe.com/es/products/dreamweaver/
+ [27]: http://www.microsoft.com/expression
+ [28]: https://sites.google.com/
+ [29]: http://imcreator.com/
+ [30]: http://es.wix.com/
+ [31]: http://www.wordpress.org/
+ [32]: http://www.blogger.com/
