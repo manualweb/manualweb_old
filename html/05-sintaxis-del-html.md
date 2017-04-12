@@ -82,10 +82,10 @@ La estructura de una entidad en [HTML][1] será la siguiente:
 Las entidades nos sirven para representar símbolos que son parte de la estructura del lenguaje, como es el caso de los símbolos mayor y menor. O símbolos específicos de un determinado juego de caracteres, cómo podrían ser símbolos de monedas o caracteres especiales.
 
 ```
-&lt;      representa <
-&gt;      representa >
-&quot;    representa '
-&eur;     representa €
+&lt;      representa <
+&gt;      representa >
+&quot;    representa '
+&eur;     representa €
 ```
 
 Ya hablaremos en detalle sobre ellas más adelante.
