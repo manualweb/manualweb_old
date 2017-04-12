@@ -1,12 +1,13 @@
 ---
 ID: 1410
-post_title: '17 &#8211; Formularios en HTML'
+post_title: 17 – Formularios en HTML
 author: Víctor Cuervo
-post_date: 2017-04-12 19:10:57
+post_date: 2017-04-12 19:25:41
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1410
-published: false
+permalink: >
+  http://www.manualweb.net/html/formularios-en-html/
+published: true
 nombreforo:
   - HTML
 urlforo:
