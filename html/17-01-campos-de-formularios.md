@@ -1,12 +1,13 @@
 ---
 ID: 1406
-post_title: '17.01 &#8211; Campos de Formularios'
+post_title: 17.01 – Campos de Formularios
 author: Víctor Cuervo
-post_date: 2017-04-12 19:10:56
+post_date: 2017-04-12 19:55:00
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1406
-published: false
+permalink: >
+  http://www.manualweb.net/html/campos-de-formularios/
+published: true
 nombreforo:
   - HTML
 urlforo:
