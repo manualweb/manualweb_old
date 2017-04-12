@@ -40,32 +40,44 @@ Aunque no contempla las reglas del estándar XHTML sobre anidación, escritura,.
 
 La cabecera que utilizaremos en este caso será:
 
-```html
+```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
-
 Hay que tener cuidado con el modo estricto ya que algunos navegadores antiguos pueden no interpretar este tipo de documentos.
 
-### **HTML 4.01 Transitorio**
+### HTML 4.01 Transitorio
 
-El nombre de transitorio le viene porque no llega a ser un documento 100% estricto, pero está en camino o en transición a conseguirlo. De igual manera que en el modo estricto los elementos deben de ser de la especificación HTML 4.01, si bien se permiten elementos que estén obsoletos o deprecados. La cabecera que utilizaremos en estos casos será:
+El nombre de transitorio le viene porque no llega a ser un documento 100% estricto, pero está en camino o en transición a conseguirlo.
 
-<pre></pre>
+De igual manera que en el modo estricto los elementos deben de ser de la especificación HTML 4.01, si bien se permiten elementos que estén obsoletos o deprecados.
 
-### **HTML 4.01 Frameset**
+La cabecera que utilizaremos en estos casos será:
 
-En el caso de que nuestra página esté compuesta por frames deberemos de utilizar un tipo de DOCTYPE frameset. La cabecera que utilicemos en estos casos será:
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
 
-<pre lang="html4strict"></pre>
+### HTML 4.01 Frameset
 
-### **HTML5**
+En el caso de que nuestra página esté compuesta por frames deberemos de utilizar un tipo de DOCTYPE frameset.
+
+La cabecera que utilicemos en estos casos será:
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+```
+
+### HTML5
 
 En [HTML5][2] han dado un giro a la cabecera ya que han visto que era demasiado compleja para los desarrolladores. Así que lo han reducido a la máxima expresión.
 
 La cabecera que utilizaremos en los documentos [HTML5][2] será:
 
-<pre></pre>
+```
+<!DOCTYPE html>
+```
 
 Una de las cosas que vemos en este DOCTYPE es que ya no existe una dependencia del DTD del lenguaje.
 
