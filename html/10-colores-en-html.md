@@ -91,9 +91,9 @@ Es interesante que le eches un ojo al [Manual de CSS][2] para aprender más sobr
 A modo de apoyo aquí tenemos una guía de colores generales, sus valores hexadecimales y nombre en inglés
 
 
-<script>
+<style>
 @import url("https://github.com/manualweb/manualweb/raw/master/html/code/table-colors.css");
-</script>
+</style>
 
 <table style="width:100%">
   <tbody>
