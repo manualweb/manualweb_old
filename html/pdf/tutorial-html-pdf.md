@@ -982,6 +982,81 @@ Podemos utilizarlo de la siguiente forma:
 Un <dfn>gabán</dfn> es capote con mangas, y a veces con capilla.
 ~~~
 
+## Colores en HTML
+
+### Colores RGB
+
+Los colores en [HTML][1] se especifican mediante el estándar RGB (Red Green and Blue). Este estándar indica que una combinación de los tres colores básicos: rojo, verde y azul puede dar lugar a cualquier otro color.
+
+Los valores que se les da al RGB son valores hexadecimales que van desde el 00 hasta el FF. Al valor del color se le antepone una almohadilla.
+
+De esta forma un color rojo sería aquel que solo tiene activado el Red, el verde solo la parte del Green y el azul la parte del Blue. Así los colores básicos en [HTML][1] serán:
+
+<pre>
+Rojo    #FF0000
+Verde   #00FF00
+Azul    #0000FF
+</pre>
+
+Otras combinaciones generales de colores serían el negro (activando todos los colores), el blanco (desactivando todos los colores), amarillo (combinando Red y Blue), fucsia (combinando todo el rojo y todo el azul)
+
+
+<pre>
+Negro     #FFFFFF
+Blanco    #000000
+Amarillo  #FFFF00
+Fucsia    #FF00FF
+</pre>
+
+Y luego ya combinaciones de los múltiples valores hexadecimales
+
+<pre>
+Gris Plata    #C0C0C0
+Azul Marino   #000080
+Verde Oliva   #808000
+…
+</pre>
+
+Aunque lo más recomendable es utilizar el código hexadecimal para representar un valor, tenemos la alternativa de referirnos a los colores por su nombre en inglés. Este valor también será entendido por el navegador web. Así tendremos:
+
+* Rojo - red
+* Verde - green
+* Azul - blue
+* Blanco - white
+* Negro - black
+* Naranja - orange
+* …
+
+### Utilizar los colores en HTML
+
+Los colores al ser elementos de estilo son utilizados en las [CSS][37]. Ya que [HTML][1] solo define la estructura de la página.
+
+Pero vamos a ver, por encima, cómo podríamos cambiar el color de un texto. Para ello vamos a utilizar el [atributo style][90]. El atributo style nos permite asignar un estilo [CSS][37] a un elemento [HTML][1].
+
+El estilo que vamos a manipular es color. A ese atributo color le asignaremos un valor RGB.
+
+~~~html
+<elemento style=”color:#RGB” />
+~~~
+
+Por ejemplo si queremos cambiar el color a un header podríamos hacer lo siguiente.
+
+~~~html
+<h1 style=”color:#FF0000”>Cabecera 1</h1>
+~~~
+
+Otro atributo [CSS][37] al que podríamos dar un colo es el color de fondo. Para ello deberemos de manipular [el atributo background-color][91]. De esta forma si queremos poner un color de fondo a una capa podríamos hacer lo siguiente.
+
+~~~html
+<div style=”background-color:#FFFF00”>Mi Capa</div>
+~~~
+
+Es interesante que le eches un ojo al [Manual de CSS][37] para aprender más sobre el uso de colores en páginas web.
+
+
+
+
+
 
 
 
@@ -1075,3 +1150,5 @@ Un <dfn>gabán</dfn> es capote con mangas, y a veces con capilla.
  [87]: http://www.w3api.com/wiki/HTML:VAR
  [88]: http://www.w3api.com/wiki/HTML:CITE
  [89]: http://www.w3api.com/wiki/HTML:DFN
+ [90]: http://www.w3api.com/wiki/HTML:Style
+ [91]: http://www.w3api.com/wiki/CSS:Background-color
