@@ -1152,9 +1152,9 @@ Otros formatos que también son aceptados:
 
 ## Mapas de imágenes
 
-Los mapas de imágenes nos permiten crear un conjunto de enlaces dentro de una imagen o bien enlazar una parte en concreto de una imagen. Para ello [HTML][1] nos ofrece el [elemento map][92].
+Los mapas de imágenes nos permiten crear un conjunto de enlaces dentro de una imagen o bien enlazar una parte en concreto de una imagen. Para ello [HTML][1] nos ofrece el [elemento map][100].
 
-La estructura del [elemento map][92] es la siguiente:
+La estructura del [elemento map][100] es la siguiente:
 
 ~~~html
 <map name=”nombreMapa”>
@@ -1164,7 +1164,7 @@ La estructura del [elemento map][92] es la siguiente:
 </map>
 ~~~
 
-Lo que vemos es que el elemento map anida un conjunto de elementos area. Los [elementos area][93] serán los que establezcan las zonas enlazables dentro de la imagen.
+Lo que vemos es que el elemento map anida un conjunto de elementos area. Los [elementos area][101] serán los que establezcan las zonas enlazables dentro de la imagen.
 
 Es importante saber que el mapa en sí no tiene una imagen asociada, si no que tendremos que asociar un [elemento img][61] al mapa para conseguir tener los áreas enlazables.
 
@@ -1172,7 +1172,7 @@ Es importante saber que el mapa en sí no tiene una imagen asociada, si no que t
 
 Una de las cosas más importantes en los mapas de imágenes es darle un nombre. Ya que este nombre será el que enlacemos sobre la imagen para poder usar el mapa de imágenes.
 
-El nombre del mapa de imágenes se da mediante el [atributo name][94].
+El nombre del mapa de imágenes se da mediante el [atributo name][102].
 
 ~~~html
 <map name=”nombreMapa”></map>
@@ -1187,13 +1187,13 @@ Dentro de los tipos de áreas que podemos crear dentro de una imagen tenemos dif
 * **Polígono**, define una región mediante un conjunto de puntos que representan un polígono.
 * **Por defecto**, sería el resto de zonas no referenciada por ninguna zona.
 
-El [elemento area][93] tiene la siguiente estructura:
+El [elemento area][101] tiene la siguiente estructura:
 
 ~~~html
 <area shape=”forma” coords=”coordenadas” href=”enlace” alt=”texto alternativo” />
 ~~~
 
-Dónde [shape][95] es la forma a utilizar, [coords][96] el conjunto de coordenadas que define la forma. Dependiendo de la forma utilizada serán unas coordenadas u otras. El [atributo href][97] contendrá el enlace y [alt][98] el texto alternativo a ese enlace.
+Dónde [shape][103] es la forma a utilizar, [coords][96] el conjunto de coordenadas que define la forma. Dependiendo de la forma utilizada serán unas coordenadas u otras. El [atributo href][97] contendrá el enlace y [alt][98] el texto alternativo a ese enlace.
 
 #### Circle
 
@@ -1237,7 +1237,7 @@ Lo siguiente que tenemos que hacer es definir la imagen mediante el [elemento im
 <img src=”imagen.jpg” />
 ~~~
 
-Y asociarla el mapa de imágenes. Para ello utilizamos el [atributo usemap][99] al cual asignaremos el valor indicado en el [atributo name][94] del mapa.
+Y asociarla el mapa de imágenes. Para ello utilizamos el [atributo usemap][99] al cual asignaremos el valor indicado en el [atributo name][102] del mapa.
 
 ~~~html
 <img src=”imagen.jpg” usemap=”#mapa” />
@@ -1266,6 +1266,224 @@ Y el siguiente uso del mapa desde la imagen:
 <img src="logos.png" usemap="#mapalogos" alt="Mapa de Logos" />
 ~~~
 
+## Enlaces en HTML
+### ¿Qué son los enlaces en HTML?
+
+Lo más importante de los documentos [HTML][1] son los enlaces. Ya que mediante los enlaces en HTML podemos comunicar una página con otra. De esta forma, enlazando documentos [HTML][1] podemos acabar tejiendo lo que es Internet.
+
+Para crear un enlace en HTML utilizamos el [elemento A][104] con la siguiente sintaxis:
+
+~~~html
+<a>Contenido del enlace</a>
+~~~
+
+Pero solo con esto el enlace no tendrá mucha utilidad ya que el principal objetivo del enlace es enlazar a un destino. Para poder indicar el destino de un enlace utilizamos el [atributo href][97]. En valor del [atributo href][97] puede ser cualquier URI que represente un recurso. Es decir, una página, una parte de una página, una URL genérica, un archivo,... De esta forma el enlace en HTML lo crearemos con la sintaxis:
+
+~~~html
+<a href=”URI”>Contenido del enlace</a>
+~~~
+
+A modo de ejemplo podríamos tener los siguientes enlaces:
+
+~~~html
+<a href=”documento.html”>Enlace a un documento</a>
+<a href=”documento.html#resumen”>Enlace a una parte de un documento</a>
+<a href=”http://www.manualweb.net”>Enlace a una web</a>
+<a href=”http://www.manualweb.net/tutorial-html/”>Enlace a un directorio</a>
+<a href=”miimagen.png”>Enlace a una imagen</a>
+<a href=”mimusica.mp3”>Enlace a un archivo de sonido</a>
+~~~
+
+### Destino del enlace
+
+Pero, ¿dónde se abre el enlace? Pues por defecto y si no hemos configurado nada en el navegador web que estemos utilizando el enlace se abre en la misma ventana en la que tengamos el enlace.
+
+Si bien, en el enlace, podemos indicar el destino que queremos darle a dicho enlace. Eso lo podemos hacer mediante el [atributo target][105]. Los posibles valores que admite el [atributo target][105] son:
+
+* **_blank**, el agente de usuario intentará abrir el enlace en una nueva ventana. La nueva ventana no tendrá nombre.
+* **_self**, el agente de usuario intentará abrir el enlace en el mismo marco donde está en código actual.
+* **_parent**, el agente de usuario intentará abrir el enlace en el [frameset][109] inmediatamente superior al que se encuentra la página. Esto suele suceder cuando tenemos el enlace en un área de frames.
+* **_top**, el agente de usuario intentará abrir el enlace en la ventana padre. En el caso de que exista un [frameset][109] lo eliminará y se hará con toda la ventana.
+* **nombre_marco**, se podrá indicar el nombre de un frame. En este caso el agente de usuario intentará abrir el enlace en el [frame][110] que coincida con el nombre. En el caso de no existir un [frame][110] con ese nombre lo abrirá en una nueva ventana, asignándole dicho nombre.
+
+Así podremos tener el siguiente código:
+
+~~~html
+<a href=”enlace.html” target=”_blank”>Abrir enlace en una nueva ventana</a>
+<a href=”enlace.html” target=”_top”>Abrir enlace en la ventana superior</a>
+~~~
+
+### Título de los enlaces
+
+El enlace en HTML, tal y como lo hemos visto hasta ahora, sirve para enlazar contra un recurso de la web: servidor, directorio, dominio,... Y lo que en mayor o menor medida describe lo que enlazamos es el contenido que encontramos entre las [etiquetas A][104].
+
+Si bien el [elemento A][104] nos ofrece un [atributo llamado title][80]. En el [atributo title][80] podemos describir de una forma textual el destino del enlace. Esto servirá no solo al usuario para que pueda obtener más información de dónde va, si no a las máquinas a la hora de asignar un nombre a la URI sobre la que estamos enlazando.
+
+Un ejemplo sería:
+
+~~~html
+<a href=”http://www.manual.net” title=”Web de Manuales y Tutoriales de Programación”>Ir a Manual Web</a>
+~~~
+
+### Enlaces en HTML a una parte del documento
+
+Hasta el momento lo que hemos visto es como montar enlaces en HTML a documentos. Ya sea porque enlazamos directamente al documento o bien porque enlazamos a un servidor o directorio que nos dará un documento.
+
+Pero otra capacidad que tenemos en [HTML][1] es la de enlazar a una parte concreta del documento. Imagina que en un documento tenemos un título y varios capítulos. Y lo que queremos hacer desde otro documento [HTML][1] o bien desde el mismo documento es enlazar directamente al inicio de un capítulo.
+
+#### Marcando una parte del documento
+
+Para poder enlazar a una parte concreta de un documento lo primero que tenemos que hacer es marcar esa parte del documento. Para ello contamos con el [atributo name][102]. Si creamos un enlace con el [atributo name][102], este enlace se definirá como posición y no como enlace de navegación.
+
+La sintaxis será:
+
+~~~html
+<a name="partedocumento">Contenido</a>
+~~~
+
+En este caso el contenido puede ser vacío ya que no se ofrecerá nada para navegar. Es por ello que podemos ponerlo antes de nuestro capítulo.
+
+~~~html
+<p>Parrafo</p>
+<a name=”cap2”></a><h2>Nuevo Capítulo</2>
+~~~
+
+Es muy importante el contenido que le demos al [atributo name][102], ya que dicho contenido vamos a utilizarlo para acceder desde un enlace.
+
+#### Enlazando a una parte del documento
+
+Una vez que hemos creado el marcaje del enlace en HTML en un documento es hora de acceder a esa parte del documento. Para ello solo tenemos que poner el nombre que le hayamos dado al [atributo name][102] precedido de una almohadilla.
+
+La sintaxis será:
+
+~~~html
+<a href="#name">Enlace a parte del documento</a>
+~~~
+
+Es decir, en el caso de que la parte marcada en el documento la hayamos marcado con “cap2” el enlace que tenemos que conformar será:
+
+~~~html
+<a href="#cap2">Enlace al capítulo 2</a>
+~~~
+
+La parte del documento al que accedemos no tiene porqué estar en el mismo documento del enlace, puede estar en otro documento o servidor. De esta forma podemos tener enlaces a partes de otros documentos de la siguiente forma:
+
+~~~html
+<a href="documento2.html#cap2">Enlace al capítulo 2 del documento2</a>
+<a href="http://servidor.com/#cap2">Enlace al capítulo 2 del servidor</a>
+~~~
+
+El **utilizar la almohadilla** como valor del [href][97] nos puede servir para acceder a la parte superior del documento. Es por ello que esto es utilizado como enlace en las partes inferiores de los documentos [HTML][1] para subir a la parte de arriba.
+
+~~~html
+<a href="#">Ir Arriba</a>
+~~~
+
+### Enlaces en HTML con imágenes
+
+En lo que va de capítulo sólo hemos visto enlaces en HTML cuyo contenido era texto. Si bien como contenido de los enlaces podemos poner imágenes.
+
+~~~html
+<a href="http://www.victorcuervo.com"><img src=”victor.jpg” alt=”Foto de Victor”/></a>
+~~~
+
+De esta forma toda la imagen será un elemento enlazable que nos llevará, en el caso de pinchar sobre ella, al destino indicado en el [atributo href][97].
+
+Esta técnica se suele utilizar para presentar una imágen de baja resolución y tamaño, que al pulsarla nos cargue una imagen con mayor resolución y tamaño. Un código que podría ser de la siguiente forma:
+
+~~~html
+<a href="foto.png"><img src="thumbnail_foto.png" alt="Mi foto"/></a>
+~~~
+
+### Enlaces en HTML para descargar fichero
+
+Otro de los usos que se les da a los enlaces en HTML es el de habilitar la descarga de ficheros. En este caso el destino indicado por el [atributo href][97] debe de ser el fichero que queremos descargar. En estos casos es bueno que el fichero a descargar este comprimido.
+
+El código quedaría de la siguiente forma:
+
+~~~html
+<a href="fichero.zip">Descargar el fichero</a>
+~~~
+
+Es importante que sepas que el navegador siempre va a intentar abrir el fichero enlazado en el [atributo href][97] para poder mostrarlo visualmente. En el caso de que no encuentre ningún programa para abrirlo nos mostrará un menú emergente en el que nos dará la posibilidad de guardar el fichero.
+
+### Protocolos en la URL del enlace
+
+Hasta ahora hemos visto que todos los enlaces en HTML se apoyan en el protocolo http, pero el enlace especificado en el [atributo href][97] no tiene porqué ser http, si no que podría ser otro protocolo como ftp, mailto,...
+
+~~~html
+<a href="ftp://servidorftp.com">Servidor FTP</a>
+~~~
+
+Lo bueno de utilizar el protocolo mailto dentro de los enlaces en HTML es que el navegador web nos va a abrir directamente el programa de correo electrónico que tengamos predeterminado en el ordenador.
+
+La estructura del protocolo mailto en un enlace a sería la siguiente:
+
+~~~html
+<a href="mailto:usuario@dominio.com">Email para usuario@dominio.com</a>
+~~~
+
+Lo bueno es que además podemos ponerle parámetros al modelo de mailto y se autorellenarán campos como el tema del email, campos CC, BCC,...
+
+~~~html
+<a href="mailto:usuario@dominio.com?subject='Tema del Mensaje'">Email para usuario@dominio.com</a>
+~~~
+
+### Relaciones entre documentos: el elemento link
+
+Hasta ahora hemos visto enlaces explícitos entre diferentes recursos. Si bien el lenguaje [HTML][1] nos da la posibilidad de establecer relaciones entre documentos sin tener que explicitar directamente un enlace. Para ello [HTML][1] nos ofrece el [elemento link][106].
+
+La estructura del [elemento link][106] es:
+
+~~~html
+<link href="destino" rel="relacion" rev="relacion-inversa"/>
+~~~
+
+Es importante saber que el elemento link solo aparece dentro de la [cabecera o head][65] del documento.
+
+El [atributo rel][107] establece la relación que hay con el documento destino, mientras que el atributo rev define la relación del documento destino con el documento actual. Es decir, la relación inversa.
+
+Por otro lado el [atributo href][97] es el que contiene la URI del documento destino.
+
+Uno de los usos del [elemento link][106] es para establecer las relaciones de documentos que formen una publicación completa. De esta forma manejando los valores del atributo rel podemos establecer dónde está el índice, cuál es artículo anterior y cual es el próximo artículo.
+
+~~~html
+<link rel=”index” href=”indice.html”>
+<link rel=”prev” href=”c2.html”>
+<link rel=”next” href=”c4.html”>
+~~~
+
+Aunque los enlaces de tipo [link][106] no son renderizados por el navegador pueden ser interpretados para añadir la información al navegador.
+
+### Tipos de relaciones entre documentos
+
+Según el lenguaje [HTML][1] se definen los siguientes tipos de relaciones entre documentos. Estos valore pueden ser utilizados por los atributos [rel][107] y rev.
+
+*  **alternate,** indica una versión alternativa del documento.
+*  **stylesheet,** hace referencia a una hoja de estilo externa para el documento.
+*  **start**, primer documento de un conjunto de documento.
+*  **next**, siguiente documento al actual.
+*  **prev**, documento anterior al actual.
+*  **contents**, documento que contiene la tabla de contenidos.
+*  **index**, documento que contiene el índice.
+*  **glossary**, documento que contiene el glosario.
+*  **copyright**, información del copyright del documento actual.
+*  **chapter,** documento que actúa como capítulo en una colección de documentos.
+*  **section,** documento que actúa como sección en un conjunto de documentos.
+*  **subsection,** documento que actúa como subsección en un conjunto de documentos.
+*  **appendix**, documento que actúa como apéndice de una colección de documentos.
+*  **help,** documento de ayuda.
+*  **bookmark,** para marcar un punto concreto del documento.
+
+### Enlaces en HTLM para hojas de estilo
+
+En [elemento link][106] nos servirá para cargar las hojas de estilo del documento [HTML][1]. Ya veremos más adelante qué son, pero digamos que nos sirven para darle estilo gráfico a la página.
+
+Las hojas de estilos se almacenan en ficheros .css. Así que podemos utilizar el [elemento link][106] para enlazarlas indicando que **su tipo es “text/css”**, mediante el [atributo type][108].
+
+~~~html
+<link href=”style.css” rel=”style” type=”text/css”/>
+~~~
 
 
  [1]: http://www.manualweb.net/tutorial-html/
@@ -1363,11 +1581,18 @@ Y el siguiente uso del mapa desde la imagen:
  [93]: http://www.w3api.com/wiki/HTML:Width
  [94]: http://www.w3api.com/wiki/HTML:Height
  [95]: http://www.w3api.com/wiki/HTML:Alt
- [92]: http://www.w3api.com/wiki/HTML:MAP
- [93]: http://www.w3api.com/wiki/HTML:AREA
- [94]: http://www.w3api.com/wiki/HTML:Name
- [95]: http://www.w3api.com/wiki/HTML:Shape
  [96]: http://www.w3api.com/wiki/HTML:Coords
  [97]: http://www.w3api.com/wiki/HTML:Href
  [98]: http://www.w3api.com/wiki/HTML:Alt
  [99]: http://www.w3api.com/wiki/HTML:Usemap
+ [100]: http://www.w3api.com/wiki/HTML:MAP
+ [101]: http://www.w3api.com/wiki/HTML:AREA
+ [102]: http://www.w3api.com/wiki/HTML:Name
+ [103]: http://www.w3api.com/wiki/HTML:Shape
+ [104]: http://www.w3api.com/wiki/HTML:A
+ [105]: http://www.w3api.com/wiki/HTML:Target
+ [106]: http://www.w3api.com/wiki/HTML:LINK
+ [107]: http://www.w3api.com/wiki/HTML:LINK.rel
+ [108]: http://www.w3api.com/wiki/HTML:Type
+ [109]: http://w3api.com/wiki/HTML:FRAMESET
+ [110]: http://w3api.com/wiki/HTML:FRAME
