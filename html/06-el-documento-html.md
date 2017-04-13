@@ -26,32 +26,32 @@ Por otro lado tenemos el cuerpo. **El cuerpo** contendrá la estructura del docu
 
 Pero el documento [HTML][1] se caracteriza por empezar y terminar por el [**elemento html**][2]. Es decir, al principio y al final del documento encontraremos el elemento de inicio y cierre respectivamente.
 
-```
+~~~html
 <html>
   <!-- Documento HTML -->
 </html>
-```
+~~~
 
 Importante es saber que antes del primer [elemento html][2] vamos a encontrar la definición del tipo de documento [HTML][1] sobre el que trabajemos. Como vimos en el capítulo tipos de documentos [HTML][1] podemos tener diferentes tipos o doctypes.
 
 De esta forma la estructura básica del documento [HTML][1] será la siguiente:
 
-```
+~~~html
 <! doctype html>
 <html>
   <!-- Documento HTML -->
 </html>
-```
+~~~
 
 ### La cabecera del documento
 
 Lo primero que encontraremos dentro del documento [HTML][1] será la cabecera. La cabecera se delimita mediante [**el elemento head**][3].
 
-```
+~~~html
 <head>
   <!-- Elementos de cabecera -->
 </head>
-```
+~~~
 
 Dentro de la cabecera vamos a encontrar elementos que nos definen la semántica del documento, estos serán las metatags o metadatos. Además podremos encontrar scripts, hojas de estilo y el más importante, el título de la página.
 
@@ -64,9 +64,9 @@ El título del documento se definirá utilizando [**el elemento title**][4]. Có
 
 La estructura sería la siguiente:
 
-```
+~~~html
 <title>Título del documento</title>
-```
+~~~
 
 El título del documento se suele cargar, por convenio como contenido de las pestañas de los navegadores web.
 
@@ -76,11 +76,11 @@ El cuerpo del documento será el que contenga los elementos de la estructura. Es
 
 El cuerpo del documento se delimita mediante [**el elemento body**][5].
 
-```
+~~~html
 <body>
   <!-- Cuerpo del documento -->
 </body>
-```
+~~~
 
 Dentro del cuerpo del documento irán todos los elementos que vamos a ir explicando dentro de este manual.
 
