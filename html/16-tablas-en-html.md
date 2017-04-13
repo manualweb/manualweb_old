@@ -5,27 +5,16 @@ author: Víctor Cuervo
 post_date: 2017-04-12 18:45:40
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/html/tablas-en-html/
+permalink: http://www.manualweb.net/html/tablas-en-html/
 published: true
-nombreforo:
-  - HTML
-urlforo:
-  - http://dudasprogramacion.com/html
-urlmanual:
-  - http://www.manualweb.net/tutorial-html/
-urltest:
-  - http://www.testprogramacion.com/html
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html/
-urlvideo:
-  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-urlejemplos:
-  - >
-    http://lineadecodigo.com/tag/html-tabla/feed/
-gitfolder:
-  - html
+nombreforo: HTML
+urlforo: http://dudasprogramacion.com/html
+urlmanual: http://www.manualweb.net/tutorial-html/
+urltest: http://www.testprogramacion.com/html
+urlcurso: http://www.aulaprogramacion.com/curso-html/
+urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+urlejemplos: http://lineadecodigo.com/tag/html-tabla/feed/
+gitfolder: html
 ---
 ### ¿Qué son las tablas en HTML?
 
@@ -37,8 +26,8 @@ gitfolder:
 
 <pre><table>
   …
-    
-  
+
+
 </table></pre>
 
 <span style="font-weight: 400">Siguiendo con la construcción de la tabla el siguiente elemento que necesitamos es </span>[<span style="font-weight: 400">tr</span>][3]<span style="font-weight: 400">. El </span>[<span style="font-weight: 400">elemento tr</span>][3]<span style="font-weight: 400"> representa a una fila de la tabla. Por lo tanto tendremos tantos </span>[<span style="font-weight: 400">elementos tr</span>][3]<span style="font-weight: 400"> como filas tenga la tabla.</span> <span style="font-weight: 400">Así, si queremos tener una tabla de tres filas tendremos un código como el que sigue:</span>
@@ -46,34 +35,34 @@ gitfolder:
 <pre><table>
   <tr>
     …
-          
-      
+
+
   </tr>
-    
-    
-      
-    
-    
-  
+
+
+
+
+
+
   <tr>
     …
-          
-      
+
+
   </tr>
-    
-    
-      
-    
-    
-  
+
+
+
+
+
+
   <tr>
     …
-          
-      
+
+
   </tr>
-    
-    
-  
+
+
+
 </table></pre>
 
 <span style="font-weight: 400">El último elemento que necesitamos conocer es </span>[<span style="font-weight: 400">td</span>][4]<span style="font-weight: 400">. El </span>[<span style="font-weight: 400">elemento td</span>][4]<span style="font-weight: 400"> es el que representa de una forma unitaria a una celda. Por lo tanto los </span>[<span style="font-weight: 400">elementos tr</span>][3]<span style="font-weight: 400"> tendrán tantos </span>[<span style="font-weight: 400">elementos td</span>][4]<span style="font-weight: 400"> en su interior como celdas contenga la fila.</span> <span style="font-weight: 400">El contenido que haya entre los </span>[<span style="font-weight: 400">elementos td</span>][4]<span style="font-weight: 400"> será el contenido de la celda.</span> <span style="font-weight: 400">Una tabla de tres filas por cuatro columnas quedaría de la siguiente forma:</span>
@@ -82,147 +71,147 @@ gitfolder:
   <tr>
     <td>
       Fila 1 Columna 1
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 1 Columna 2
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 1 Columna 3
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 1 Columna 4
-                
-          
+
+
     </td>
-        
-          
-      
+
+
+
   </tr>
-    
-    
-      
-    
-    
-  
+
+
+
+
+
+
   <tr>
     <td>
       Fila 2 Columna 1
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 2 Columna 2
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 2 Columna 3
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 2 Columna 4
-                
-          
+
+
     </td>
-        
-          
-      
+
+
+
   </tr>
-    
-    
-      
-    
-    
-  
+
+
+
+
+
+
   <tr>
     <td>
       Fila 3 Columna 1
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 3 Columna 2
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 3 Columna 3
-                
-          
+
+
     </td>
-        
-        
-            
-        
-        
-    
+
+
+
+
+
+
     <td>
       Fila 3 Columna 4
-                
-          
+
+
     </td>
-        
-          
-      
+
+
+
   </tr>
-    
-    
-  
+
+
+
 </table></pre>
 
 <span style="font-weight: 400">Así con los tres elementos </span>[<span style="font-weight: 400">table</span>][2]<span style="font-weight: 400">, </span>[<span style="font-weight: 400">tr</span>][3]<span style="font-weight: 400"> y </span>[<span style="font-weight: 400">td</span>][4]<span style="font-weight: 400"> tenemos construida nuestra tabla.</span> <span style="font-weight: 400">Visualmente tendríamos algo así:</span>
@@ -232,51 +221,51 @@ gitfolder:
     <td>
       Fila 1 Columna 1
     </td>
-    
+
     <td>
       Fila 1 Columna 2
     </td>
-    
+
     <td>
       Fila 1 Columna 3
     </td>
-    
+
     <td>
       Fila 1 Columna 4
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Fila 2 Columna 1
     </td>
-    
+
     <td>
       Fila 2 Columna 2
     </td>
-    
+
     <td>
       Fila 2 Columna 3
     </td>
-    
+
     <td>
       Fila 2 Columna 4
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Fila 3 Columna 1
     </td>
-    
+
     <td>
       Fila 3 Columna 2
     </td>
-    
+
     <td>
       Fila 3 Columna 3
     </td>
-    
+
     <td>
       Fila 3 Columna 4
     </td>
