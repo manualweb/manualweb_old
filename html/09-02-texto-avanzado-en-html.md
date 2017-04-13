@@ -122,6 +122,7 @@ Así podríamos encontrarnos el siguiente ejemplo [HTML][1] que usase estos cuat
 
 ~~~html
 El programa en Java se ejecuta mediante <kbd>java Saludo</kbd>. Lo que hará este código es ejecutar el siguiente programa.
+
 <code>public class Saludo
 {
   public static void main(String[] args)
@@ -129,6 +130,7 @@ El programa en Java se ejecuta mediante <kbd>java Saludo</kbd>. Lo que hará est
     System.out.println("Hola"+ args[1]);
   }
 }</code>
+
 Dependiendo del valor que le demos a la variable <var>args</var> nos aparecerá un saludo u otro. Así si ejecutamos como <kbd>java Saludo Esther</kbd> por pantalla nos mostrará <samp>Hola Esther</samp>
 ~~~
 
