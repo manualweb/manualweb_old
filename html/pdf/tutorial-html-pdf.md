@@ -1193,7 +1193,7 @@ El [elemento area][101] tiene la siguiente estructura:
 <area shape=”forma” coords=”coordenadas” href=”enlace” alt=”texto alternativo” />
 ~~~
 
-Dónde [shape][103] es la forma a utilizar, [coords][96] el conjunto de coordenadas que define la forma. Dependiendo de la forma utilizada serán unas coordenadas u otras. El [atributo href][97] contendrá el enlace y [alt][98] el texto alternativo a ese enlace.
+Dónde [shape][103] es la forma a utilizar, [coords][96] el conjunto de coordenadas que define la forma. Dependiendo de la forma utilizada serán unas coordenadas u otras. El [atributo href][97] contendrá el enlace y [alt][95] el texto alternativo a ese enlace.
 
 #### Circle
 
@@ -1485,6 +1485,65 @@ Las hojas de estilos se almacenan en ficheros .css. Así que podemos utilizar el
 <link href=”style.css” rel=”style” type=”text/css”/>
 ~~~
 
+## Agrupaciones en HTML
+
+Hasta ahora hemos visto cómo insertar diferentes elementos sobre un documento [HTML][1]. Estos elementos se irán mostrando según la secuencia en la que hayamos escrito el documento [HTML][1].
+
+Una de las cosas que tenemos que saber de los elementos html es si son elementos de bloque o elementos de línea.
+
+Un **elemento de bloque** es aquél que una vez utilizado aparece en la siguiente línea y ocupa todo el ancho. Elementos de tipo bloque son los [párrafos p][58], los [formularios form][111], o [las cabeceras hx][67].
+
+Un **elemento en línea** es aquel que se muestra justo a continuación del anterior elemento. Estos elementos serían los [enlaces a][104], [imágenes img][61],...
+
+El lenguaje [HTML][1] nos permite agrupar un conjunto de elementos mediante una agrupación en bloque o una agrupación en línea.
+
+### Agrupaciones en Bloque
+
+Un elemento en bloque siempre empieza con una línea y su tamaño será igual al ancho disponible. El ancho disponible inicialmente es el de la página.
+
+El elemento que nos permite realizar agrupaciones en bloque es el [elemento div][59] o más conocidos como capas. La estructura del [elemento div][59] es:
+
+~~~html
+<div>
+<!-- Contenido de la Capa -->
+</div>
+~~~
+
+Los elementos en bloque pueden contener a otros elementos en bloque o bien a otros elementos en línea.
+
+Por ejemplo podríamos agrupar en un bloque el siguiente contenido.
+
+~~~html
+<div id=”micapa”>
+  <h2>Título del Contenido</h2>
+  Este es el contenido del artículo
+  <img src=”logo.jpg” />
+  <p>Más contenido del artículo</p>
+</div>
+~~~
+
+### Agrupaciones en Línea
+
+Para poder realizar agrupaciones en línea tenemos el [elemento span][112]. La estructura del [elemento span][112] será:
+
+~~~html
+<span> <!-- Contenido --></span>
+~~~
+
+Las agrupaciones en línea sólo pueden contener a otros elementos en línea, no a elementos de tipo bloque.
+
+Por ejemplo podríamos tener la siguiente agrupación en línea.
+
+~~~html
+<span id=”entrada”>
+  <strong>Articulo Nuevo</strong>,
+  <em>,12 de marzo de 2016</em>
+</span>
+~~~
+
+Es muy normal que los agrupadores, ya sean o bien [div][59], o bien [span][112] lleven el [atributo id][113] o [class][98], ya que a posteriori serán manipulados mediante [hojas de estilo CSS][37] utilizando dichos identificadores.
+
+
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3.org/TR/2014/REC-html5-20141028/
@@ -1583,7 +1642,7 @@ Las hojas de estilos se almacenan en ficheros .css. Así que podemos utilizar el
  [95]: http://www.w3api.com/wiki/HTML:Alt
  [96]: http://www.w3api.com/wiki/HTML:Coords
  [97]: http://www.w3api.com/wiki/HTML:Href
- [98]: http://www.w3api.com/wiki/HTML:Alt
+ [98]: http://www.w3api.com/wiki/HTML:Class
  [99]: http://www.w3api.com/wiki/HTML:Usemap
  [100]: http://www.w3api.com/wiki/HTML:MAP
  [101]: http://www.w3api.com/wiki/HTML:AREA
@@ -1596,3 +1655,6 @@ Las hojas de estilos se almacenan en ficheros .css. Así que podemos utilizar el
  [108]: http://www.w3api.com/wiki/HTML:Type
  [109]: http://w3api.com/wiki/HTML:FRAMESET
  [110]: http://w3api.com/wiki/HTML:FRAME
+ [111]: http://www.w3api.com/wiki/HTML:FORM
+ [112]: http://www.w3api.com/wiki/HTML:SPAN
+ [113]: http://www.w3api.com/wiki/HTML:Id
