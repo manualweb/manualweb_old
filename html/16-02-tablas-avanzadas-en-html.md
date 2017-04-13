@@ -142,69 +142,56 @@ Ya hemos visto que las tablas se definen por filas. Pero una de las cosas que no
 Por ejemplo en la siguiente tabla vemos que hay una relación semántica de las columnas relativa a los meses.
 
 <table style="border: 1px solid black; width:100%">
-  <colgroup span="2" width="25%" style="background-color:#e6b8af"></colgroup> <colgroup span="2" width="25%" style="background-color:#dd7e6b"></colgroup> <tr>
-    <td colspan="2">
-      Enero
-    </td>
-
-    <td colspan="2">
-      Febrero
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      Ingresos
-    </td>
-
-    <td>
-      Gastos
-    </td>
-
-    <td>
-      Ingresos
-    </td>
-
-    <td>
-      Gastos
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      1.000€
-    </td>
-
-    <td>
-      700€
-    </td>
-
-    <td>
-      1.100€
-    </td>
-
-    <td>
-      580€
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      1.800€
-    </td>
-
-    <td>
-      920€
-    </td>
-
-    <td>
-      1.750€
-    </td>
-
-    <td>
-      920€
-    </td>
-  </tr>
+<thead>
+<tr style="background-color:#000;color:#fff">
+<td scope="”row”">
+Mes
+</td>
+<td>
+Enero
+</td>
+<td>
+Febrero
+</td>
+</tr>
+</thead>
+<tfoot style="background-color:#ccc">
+<tr>
+<td>
+Total
+</td>
+<td>
+15
+</td>
+<td>
+25
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>
+Agua
+</td>
+<td>
+10
+</td>
+<td>
+15
+</td>
+</tr>
+<tr>
+<td>
+Gas
+</td>
+<td>
+5
+</td>
+<td>
+10
+</td>
+</tr>
+</tbody>
 </table>
 
 Para poder definir estas relaciones semánticas entre las columnas [HTML][2] nos ofrece el [elemento colgroup][6].
