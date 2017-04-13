@@ -76,36 +76,40 @@ Los valores del alto y el ancho que indiquemos en la [elemento img][3] no tienen
 
 Sobre una imagen podemos indicar un texto alternativo o descriptivo de la misma. Para ello tenemos el [atributo alt][7].
 
-<pre><img src="”foto.jpg”" alt="”texto" /></pre>
+~~~html
+<img src="”foto.jpg”" alt="”texto" />
+~~~
 
-Pero, ¿por qué quiero poner un texto, cuando realmente es una imagen gráfica? Piensa que esto es útil en varios casos. Por ejemplo, si por algún problema técnico no se puede cargar la imagen, el navegador mostrará en su espacio el texto alternativo, lo cual dará al usuario una idea de lo que iba en ese sitio. Otra cosa útil es para cuando nuestra página sea utilizada por personas discapacitadas con problemas de visibilidad. En este caso estas personas disponen de herramientas que le van leyendo la página y cuando llegan a una imagen leen el contenido que encuentran en el [atributo alt][7]. Es por ello que el texto alternativo que insertemos en la imagen debe de ser bastante descriptivo de la misma. En algunos casos se llega hasta indicar el tamaño de la imagen.
+Pero, ¿por qué quiero poner un texto, cuando realmente es una imagen gráfica?
 
-<pre><img src="”foto.jpg”" alt="”Fotografía" /></pre>
+Piensa que esto es útil en varios casos. Por ejemplo, si por algún problema técnico no se puede cargar la imagen, el navegador mostrará en su espacio el texto alternativo, lo cual dará al usuario una idea de lo que iba en ese sitio.
+
+Otra cosa útil es para cuando nuestra página sea utilizada por personas discapacitadas con problemas de visibilidad. En este caso estas personas disponen de herramientas que le van leyendo la página y cuando llegan a una imagen leen el contenido que encuentran en el [atributo alt][7].
+
+Es por ello que el texto alternativo que insertemos en la imagen debe de ser bastante descriptivo de la misma. En algunos casos se llega hasta indicar el tamaño de la imagen.
+
+~~~html
+<img src="”foto.jpg”" alt="”Fotografía" />
+~~~
 
 ### Tipos de formatos de imágenes
 
-Hemos aprendido mucho de cómo podemos insertar nuestras imágenes en el documento [HTML][1]. Pero a la hora de insertar imágenes, qué tipo de imágenes puedo insertar en el documento [HTML][1]. En este punto tenemos un pequeño problema y es que los estándares de [HTML][1] no definen los tipos de formato de imagen que se pueden ver en un navegador web. Los formatos de imágenes más comúnmente aceptados son: <li style="font-weight: 400">
-  <b>JPEG,</b> son imágenes digitales comprimidas con pérdida de información. Pero que nos permiten tener imágenes digitales que ocupen poco espacio.
-</li>
-<li style="font-weight: 400">
-  <b>GIF,</b> es un formato para imágenes de mapas de bits las cuales soportan 8 bits por pixel. El formato GIF soporta imágenes animadas.
-</li>
-<li style="font-weight: 400">
-  <b>PNG,</b> es un formato de imagen en mapa de bits que emplea compresión de datos sin pérdida de información. No requieren de licencia de patente. Es un formato creado para utilizar imágenes en Internet con un tamaño adecuado.
-</li>
+Hemos aprendido mucho de cómo podemos insertar nuestras imágenes en el documento [HTML][1]. Pero a la hora de insertar imágenes, qué tipo de imágenes puedo insertar en el documento [HTML][1].
 
-Otros formatos que también son aceptados: <li style="font-weight: 400">
-  <b>APNG,</b> son imágenes PNG animadas. Intenta evolucionar los gráficos animados en GIF.
-</li>
-<li style="font-weight: 400">
-  <b>SVG</b>, gráficos vectoriales escalables. Son gráficos especificados mediante texto, lo cual hace que sean interpretables por los dispositivos y puedan escalar a través de diferentes resoluciones.
-</li>
-<li style="font-weight: 400">
-  <b>BMP</b>, son imágenes de mapas de bits. Se pueden encontrar con extensión .bmp y .dib
-</li>
-<li style="font-weight: 400">
-  <b>BMP ICO y PNG ICO</b>, formato para representar iconos en el sistema operativo Windows. Los iconos suelen contener diferentes tamaños y densidad de pixels. De esta forma pueden ser escalados.
-</li>
+En este punto tenemos un pequeño problema y es que los estándares de [HTML][1] no definen los tipos de formato de imagen que se pueden ver en un navegador web.
+
+Los formatos de imágenes más comúnmente aceptados son:
+
+* **JPEG**, son imágenes digitales comprimidas con pérdida de información. Pero que nos permiten tener imágenes digitales que ocupen poco espacio.
+* **GIF**, es un formato para imágenes de mapas de bits las cuales soportan 8 bits por pixel. El formato GIF soporta imágenes animadas.
+* **PNG**, es un formato de imagen en mapa de bits que emplea compresión de datos sin pérdida de información. No requieren de licencia de patente. Es un formato creado para utilizar imágenes en Internet con un tamaño adecuado.
+
+Otros formatos que también son aceptados:
+
+* **APNG**, son imágenes PNG animadas. Intenta evolucionar los gráficos animados en GIF.
+* **SVG**, gráficos vectoriales escalables. Son gráficos especificados mediante texto, lo cual hace que sean interpretables por los dispositivos y puedan escalar a través de diferentes resoluciones.
+* **BMP**, son imágenes de mapas de bits. Se pueden encontrar con extensión .bmp y .dib
+* **BMP ICO y PNG ICO**, formato para representar iconos en el sistema operativo Windows. Los iconos suelen contener diferentes tamaños y densidad de pixels. De esta forma pueden ser escalados.
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.manualweb.net/tutorial-css/
