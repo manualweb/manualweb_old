@@ -5,78 +5,72 @@ author: Víctor Cuervo
 post_date: 2017-04-12 18:39:26
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/html/agrupaciones-en-html/
+permalink: http://www.manualweb.net/html/agrupaciones-en-html/
 published: true
-nombreforo:
-  - HTML
-urlforo:
-  - http://dudasprogramacion.com/html
-urlmanual:
-  - http://www.manualweb.net/tutorial-html/
-urltest:
-  - http://www.testprogramacion.com/html
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html/
-urlvideo:
-  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-urlejemplos:
-  - >
-    http://lineadecodigo.com/tag/html-capas/feed/
-gitfolder:
-  - html
+nombreforo: HTML
+urlforo: http://dudasprogramacion.com/html
+urlmanual: http://www.manualweb.net/tutorial-html/
+urltest: http://www.testprogramacion.com/html
+urlcurso: http://www.aulaprogramacion.com/curso-html/
+urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+urlejemplos: http://lineadecodigo.com/tag/html-capas/feed/
+gitfolder: html
 ---
-<span style="font-weight: 400">Hasta ahora hemos visto cómo insertar diferentes elementos sobre un documento </span>[<span style="font-weight: 400">HTML</span>][1]<span style="font-weight: 400">. Estos elementos se irán mostrando según la secuencia en la que hayamos escrito el documento </span>[<span style="font-weight: 400">HTML</span>][1]<span style="font-weight: 400">.</span> Una de las cosas que tenemos que saber de los elementos html es si son elementos de bloque o elementos de línea. <span style="font-weight: 400">Un </span>**elemento de bloque**<span style="font-weight: 400"> es aquél que una vez utilizado aparece en la siguiente línea y ocupa todo el ancho. Elementos de tipo bloque son los </span>[<span style="font-weight: 400">párrafos p</span>][2]<span style="font-weight: 400">, los </span>[<span style="font-weight: 400">formularios form</span>][3]<span style="font-weight: 400">, o </span>[<span style="font-weight: 400">las cabeceras hx</span>][4]<span style="font-weight: 400">.</span> <span style="font-weight: 400">Un </span>**elemento en línea**<span style="font-weight: 400"> es aquel que se muestra justo a continuación del anterior elemento. Estos elementos serían los </span>[<span style="font-weight: 400">enlaces a</span>][5]<span style="font-weight: 400">, </span>[<span style="font-weight: 400">imágenes img</span>][6]<span style="font-weight: 400">,...</span> <span style="font-weight: 400">El lenguaje </span>[<span style="font-weight: 400">HTML</span>][1]<span style="font-weight: 400"> nos permite agrupar un conjunto de elementos mediante una agrupación en bloque o una agrupación en línea.</span>
+Hasta ahora hemos visto cómo insertar diferentes elementos sobre un documento [HTML][1]. Estos elementos se irán mostrando según la secuencia en la que hayamos escrito el documento [HTML][1].
+
+Una de las cosas que tenemos que saber de los elementos html es si son elementos de bloque o elementos de línea.
+
+Un **elemento de bloque** es aquél que una vez utilizado aparece en la siguiente línea y ocupa todo el ancho. Elementos de tipo bloque son los [párrafos p][2], los [formularios form][3], o [las cabeceras hx][4].
+
+Un **elemento en línea** es aquel que se muestra justo a continuación del anterior elemento. Estos elementos serían los [enlaces a][5], [imágenes img][6],...
+
+El lenguaje [HTML][1] nos permite agrupar un conjunto de elementos mediante una agrupación en bloque o una agrupación en línea.
 
 ### Agrupaciones en Bloque
 
-<span style="font-weight: 400">Un elemento en bloque siempre empieza con una línea y su tamaño será igual al ancho disponible. El ancho disponible inicialmente es el de la página.</span> <span style="font-weight: 400">El elemento que nos permite realizar agrupaciones en bloque es el </span>[<span style="font-weight: 400">elemento div</span>][7]<span style="font-weight: 400"> o más conocidos como capas. La estructura del </span>[<span style="font-weight: 400">elemento div</span>][7]<span style="font-weight: 400"> es:</span>
+Un elemento en bloque siempre empieza con una línea y su tamaño será igual al ancho disponible. El ancho disponible inicialmente es el de la página.
 
-<pre><div>
-  <!-- Contenido de la Capa -->
-    
-    
-  
-</div></pre>
+El elemento que nos permite realizar agrupaciones en bloque es el [elemento div][7] o más conocidos como capas. La estructura del [elemento div][7] es:
 
-<span style="font-weight: 400">Los elementos en bloque pueden contener a otros elementos en bloque o bien a otros elementos en línea.</span> <span style="font-weight: 400">Por ejemplo podríamos agrupar en un bloque el siguiente contenido.</span>
+~~~html
+<div>
+<!-- Contenido de la Capa -->
+</div>
+~~~
 
-<pre>&lt;div id=”micapa”&gt;
-  <h2>
-  Título del Contenido
-    
-  
-</h2>
+Los elementos en bloque pueden contener a otros elementos en bloque o bien a otros elementos en línea.
+
+Por ejemplo podríamos agrupar en un bloque el siguiente contenido.
+
+~~~html
+<div id=”micapa”>
+  <h2>Título del Contenido</h2>
   Este es el contenido del artículo
-  &lt;img src=”logo.jpg” /&gt;
-
-
-
-
-
-
-<p>
-  Más contenido del artículo
-    
-  
-</p>
-&lt;/div&gt;</pre>
+  <img src=”logo.jpg” />
+  <p>Más contenido del artículo</p>
+</div>
+~~~
 
 ### Agrupaciones en Línea
 
-<span style="font-weight: 400">Para poder realizar agrupaciones en línea tenemos el </span>[<span style="font-weight: 400">elemento span</span>][8]<span style="font-weight: 400">. La estructura del </span>[<span style="font-weight: 400">elemento span</span>][8]<span style="font-weight: 400"> será:</span>
+Para poder realizar agrupaciones en línea tenemos el [elemento span][8]. La estructura del [elemento span][8] será:
 
-<pre><span> <!-- Contenido --></span></pre>
+~~~html
+<span> <!-- Contenido --></span>
+~~~
 
-<span style="font-weight: 400">Las agrupaciones en línea sólo pueden contener a otros elementos en línea, no a elementos de tipo bloque.</span> <span style="font-weight: 400">Por ejemplo podríamos tener la siguiente agrupación en línea.</span>
+Las agrupaciones en línea sólo pueden contener a otros elementos en línea, no a elementos de tipo bloque.
 
-<pre>&lt;span id=”entrada”&gt;
+Por ejemplo podríamos tener la siguiente agrupación en línea.
+
+~~~html
+<span id=”entrada”>
   <strong>Articulo Nuevo</strong>,
   <em>,12 de marzo de 2016</em>
-&lt;/span&gt;</pre>
+</span>
+~~~
 
-<span style="font-weight: 400">Es muy normal que los agrupadores, ya sean o bien </span>[<span style="font-weight: 400">div</span>][7]<span style="font-weight: 400">, o bien </span>[<span style="font-weight: 400">span</span>][8]<span style="font-weight: 400"> lleven el </span>[<span style="font-weight: 400">atributo id</span>][9]<span style="font-weight: 400"> o </span>[<span style="font-weight: 400">class</span>][10]<span style="font-weight: 400">, ya que a posteriori serán manipulados mediante </span>[<span style="font-weight: 400">hojas de estilo CSS</span>][11]<span style="font-weight: 400"> utilizando dichos identificadores.</span>
+Es muy normal que los agrupadores, ya sean o bien [div][7], o bien [span][8] lleven el [atributo id][9] o [class][10], ya que a posteriori serán manipulados mediante [hojas de estilo CSS][11] utilizando dichos identificadores.
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3api.com/wiki/HTML:P
