@@ -544,8 +544,8 @@ Así que deberemos de marcar esas celdas con la categoría correspondiente, medi
     <td>75</td>
     <td>14</td>
   </tr>
-  ~~~
-
+</table>
+~~~
 
 El atributo axis se combina con el atributo headers para poder dar suficiente información a los agentes de usuario no visuales sobre las tablas.
 
