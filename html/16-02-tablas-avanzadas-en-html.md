@@ -141,57 +141,57 @@ Ya hemos visto que las tablas se definen por filas. Pero una de las cosas que no
 
 Por ejemplo en la siguiente tabla vemos que hay una relación semántica de las columnas relativa a los meses.
 
-<table style="border: 1px solid black; width:100%">
-<thead>
-<tr style="background-color:#000;color:#fff">
-<td scope="”row”">
-Mes
-</td>
-<td>
+<table width="100%" border="1">
+<colgroup span="2" width="25%" style="background-color:#e6b8af"></colgroup> <colgroup span="2" width="25%" style="background-color:#dd7e6b"></colgroup> <tr>
+<td colspan="2">
 Enero
 </td>
-<td>
+<td colspan="2">
 Febrero
 </td>
 </tr>
-</thead>
-<tfoot style="background-color:#ccc">
 <tr>
 <td>
-Total
+Ingresos
 </td>
 <td>
-15
+Gastos
 </td>
 <td>
-25
-</td>
-</tr>
-</tfoot>
-<tbody>
-<tr>
-<td>
-Agua
+Ingresos
 </td>
 <td>
-10
-</td>
-<td>
-15
+Gastos
 </td>
 </tr>
 <tr>
 <td>
-Gas
+1.000€
 </td>
 <td>
-5
+700€
 </td>
 <td>
-10
+1.100€
+</td>
+<td>
+580€
 </td>
 </tr>
-</tbody>
+<tr>
+<td>
+1.800€
+</td>
+<td>
+920€
+</td>
+<td>
+1.750€
+</td>
+<td>
+920€
+</td>
+</tr>
 </table>
 
 Para poder definir estas relaciones semánticas entre las columnas [HTML][2] nos ofrece el [elemento colgroup][6].
