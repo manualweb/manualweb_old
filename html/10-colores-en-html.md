@@ -93,7 +93,7 @@ A modo de apoyo aquí tenemos una guía de colores generales, sus valores hexade
 <table>
   <tbody>
     <tr>
-      <td style:"backgroud:blue;" class="c10" colspan="1" rowspan="1">
+      <td style:"background-colord:blue;" class="c10" colspan="1" rowspan="1">
         <p>
           Aliceblue
         </p>
