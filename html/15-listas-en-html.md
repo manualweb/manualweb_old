@@ -338,7 +338,7 @@ Un ejemplo de listas anidadas sería una clasificación de animales como la sigu
 </ul>
 ~~~
 
-El efecto que obtendríamos sería el siguiente:
+El efecto que obtendríamos sería el siguiente: 
 
 <ul>
   <li>Carnívoro
