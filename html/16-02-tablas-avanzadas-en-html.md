@@ -141,7 +141,7 @@ Ya hemos visto que las tablas se definen por filas. Pero una de las cosas que no
 
 Por ejemplo en la siguiente tabla vemos que hay una relación semántica de las columnas relativa a los meses.
 
-<table width="100%" border="1">
+<table style="border: 1px solid black; width:100%">
 <colgroup span="2" width="25%" style="background-color:#e6b8af"></colgroup> <colgroup span="2" width="25%" style="background-color:#dd7e6b"></colgroup> <tr>
 <td colspan="2">
 Enero
