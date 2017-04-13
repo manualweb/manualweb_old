@@ -96,12 +96,9 @@ Los hechos sucedieron en Madrid, el pasado día <del>26</del><ins>28</ins> de fe
 ~~~
 
 <a name="codigo"></a>
-
 ### Manejando código fuente en HTML
 
-Otra de las cosas para las que el lenguaje
-
-[HTML][1] fue pensando es el compartir código fuente, es decir, código informático.
+Otra de las cosas para las que el lenguaje [HTML][1] fue pensando es el compartir código fuente, es decir, código informático.
 
 Para poder cubrir esta necesidad nos ofrece un conjunto de elementos que representan semántica relacionada con el mundo de la computación.
 
@@ -112,65 +109,64 @@ Así tenemos.
 *   **samp**, para mostrar las salidas por consola de información.
 *   **var**, para definir las variables de un programa.
 
-La estructura de los elementos
+La estructura de los elementos [code][9], [kbd][10], [samp][11] y [var][12] es la misma:
 
-[code][9], [kbd][10], [samp][11] y [var][12] es la misma:
+~~~html
+<code> código fuente </code>
+<kbd> entrada teclado </kbd>
+<samp> salida por consola </samp>
+<var> variable </var>
+~~~
 
-     código fuente
-    <kbd> entrada teclado </kbd>
-    <samp> salida por consola </samp>
-    <var> variable </var>
+Así podríamos encontrarnos el siguiente ejemplo [HTML][1] que usase estos cuatro elementos:
 
-
-Así podríamos encontrarnos el siguiente ejemplo HTML que usase estos cuatro elementos:
-
-<pre>El programa en Java se ejecuta mediante <kbd>java Saludo</kbd>. Lo que hará este código es ejecutar el siguiente programa.
-
-<code>public class Saludo {
-public static void main(String[] args)  {
-   System.out.println("Hola"+ args[1]);
- }
+~~~html
+El programa en Java se ejecuta mediante <kbd>java Saludo</kbd>. Lo que hará este código es ejecutar el siguiente programa.
+<code>public class Saludo
+{
+  public static void main(String[] args)
+  {
+    System.out.println("Hola"+ args[1]);
+  }
 }</code>
-
-Dependiendo del valor que le demos a la variable <var>args</var> nos aparecerá un saludo u otro.
-Así si ejecutamos como <kbd>java Saludo Esther</kbd> por pantalla nos mostrará
-<samp>Hola Esther</samp></pre>
+Dependiendo del valor que le demos a la variable <var>args</var> nos aparecerá un saludo u otro. Así si ejecutamos como <kbd>java Saludo Esther</kbd> por pantalla nos mostrará <samp>Hola Esther</samp>
+~~~
 
 <a name="cite"></a>
-
 ### Fuente o referencia de una cita
 
-Aunque ya hemos visto que tenemos los elementos
-
-[blockquote][13] y [q][14] para crear citas en [HTML][1], el lenguaje [HTML][1] nos ofrece otro elemento para establecer una referencia o fuente de una cita. Este es el [elemento cite][15].
+Aunque ya hemos visto que tenemos los elementos [blockquote][13] y [q][14] para crear citas en [HTML][1], el lenguaje [HTML][1] nos ofrece otro elemento para establecer una referencia o fuente de una cita. Este es el [elemento cite][15].
 
 La estructura del [elemento cite][15] sería:
 
-<pre><cite>Fuente</cite></pre>
+~~~html
+<cite>Fuente</cite>
+~~~
 
 Hay que indicar que este elemento no es para representar la cita, si no la fuente o referencia origen de la cita.
 
-Por ejemplo podríamos escribir lo siguiente con el
+Por ejemplo podríamos escribir lo siguiente con el [elemento cite][15]:
 
-[elemento cite][15]:
-
-<pre><cite>La sombra del ciprés es alargada</cite>, empieza diciendo “Yo nací en Ávila, la vieja ciudad de las murallas…”</pre>
+~~~html
+<cite>La sombra del ciprés es alargada</cite>, empieza diciendo “Yo nací en Ávila, la vieja ciudad de las murallas…"
+~~~
 
 <a name="dfn"></a>
-
 ### Definiciones
 
-Otro de los elementos que nos ofrece el lenguaje
-
-[HTML][1] es el [elemento dfn][16], este elemento es utilizado para marcar un término que va a ser definido dentro de un contenido.
+Otro de los elementos que nos ofrece el lenguaje [HTML][1] es el [elemento dfn][16], este elemento es utilizado para marcar un término que va a ser definido dentro de un contenido.
 
 La estructura del [elemento dfn][16] es la siguiente:
 
-<pre><dfn>término</dfn></pre>
+~~~html
+<dfn>término</dfn>
+~~~
 
 Podemos utilizarlo de la siguiente forma:
 
-<pre>Un <dfn>gabán</dfn> es capote con mangas, y a veces con capilla.</pre>
+~~~html
+Un <dfn>gabán</dfn> es capote con mangas, y a veces con capilla.
+~~~
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3api.com/wiki/HTML:ABBR
