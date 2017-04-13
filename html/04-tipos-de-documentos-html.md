@@ -40,9 +40,9 @@ Aunque no contempla las reglas del estándar XHTML sobre anidación, escritura,.
 
 La cabecera que utilizaremos en este caso será:
 
-```
+~~~html
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
-```
+~~~
 
 Hay que tener cuidado con el modo estricto ya que algunos navegadores antiguos pueden no interpretar este tipo de documentos.
 
@@ -54,9 +54,9 @@ De igual manera que en el modo estricto los elementos deben de ser de la especif
 
 La cabecera que utilizaremos en estos casos será:
 
-```
+~~~html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-```
+~~~
 
 ### HTML 4.01 Frameset
 
@@ -64,10 +64,10 @@ En el caso de que nuestra página esté compuesta por frames deberemos de utiliz
 
 La cabecera que utilicemos en estos casos será:
 
-```
+~~~html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
 "http://www.w3.org/TR/html4/frameset.dtd">
-```
+~~~
 
 ### HTML5
 
@@ -75,9 +75,9 @@ En [HTML5][2] han dado un giro a la cabecera ya que han visto que era demasiado 
 
 La cabecera que utilizaremos en los documentos [HTML5][2] será:
 
-```
+~~~html
 <!DOCTYPE html>
-```
+~~~
 
 Una de las cosas que vemos en este DOCTYPE es que ya no existe una dependencia del DTD del lenguaje.
 
