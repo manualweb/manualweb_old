@@ -5,134 +5,130 @@ author: Víctor Cuervo
 post_date: 2017-04-12 00:43:34
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/html/mapas-de-imagenes/
+permalink: http://www.manualweb.net/html/mapas-de-imagenes/
 published: true
-nombreforo:
-  - HTML
-urlforo:
-  - http://dudasprogramacion.com/html
-urlmanual:
-  - http://www.manualweb.net/tutorial-html/
-urltest:
-  - http://www.testprogramacion.com/html
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html/
-urlvideo:
-  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-urlejemplos:
-  - >
-    http://lineadecodigo.com/tag/html-imagenes/feed/
-gitfolder:
-  - html
+nombreforo: HTML
+urlforo: http://dudasprogramacion.com/html
+urlmanual: http://www.manualweb.net/tutorial-html/
+urltest: http://www.testprogramacion.com/html
+urlcurso: http://www.aulaprogramacion.com/curso-html/
+urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+urlejemplos: http://lineadecodigo.com/tag/html-imagenes/feed/
+gitfolder: html
 ---
-<span style="font-weight: 400">Los mapas de imágenes nos permiten crear un conjunto de enlaces dentro de una imagen o bien enlazar una parte en concreto de una imagen. Para ello </span>[<span style="font-weight: 400">HTML</span>][1]<span style="font-weight: 400"> nos ofrece el </span>[<span style="font-weight: 400">elemento map</span>][2]<span style="font-weight: 400">.</span> <span style="font-weight: 400">La estructura del </span>[<span style="font-weight: 400">elemento map</span>][2]<span style="font-weight: 400"> es la siguiente:</span>
+Los mapas de imágenes nos permiten crear un conjunto de enlaces dentro de una imagen o bien enlazar una parte en concreto de una imagen. Para ello [HTML][1] nos ofrece el [elemento map][2].
 
-<pre><map name="”nombreMapa”">
-  <area />
-   
-      
-    
-  <area />
+La estructura del [elemento map][2] es la siguiente:
+
+~~~html
+<map name=”nombreMapa”>
+  <area/>
+  <area/>
   ...
-    
-    
-  
 </map>
-</pre>
+~~~
 
-<span style="font-weight: 400">Lo que vemos es que el elemento map anida un conjunto de elementos area. Los </span>[<span style="font-weight: 400">elementos area</span>][3]<span style="font-weight: 400"> serán los que establezcan las zonas enlazables dentro de la imagen.</span> <span style="font-weight: 400">Es importante saber que el mapa en sí no tiene una imagen asociada, si no que tendremos que asociar un </span>[<span style="font-weight: 400">elemento img</span>][4]<span style="font-weight: 400"> al mapa para conseguir tener los áreas enlazables.</span>
+Lo que vemos es que el elemento map anida un conjunto de elementos area. Los [elementos area][3] serán los que establezcan las zonas enlazables dentro de la imagen.
+
+Es importante saber que el mapa en sí no tiene una imagen asociada, si no que tendremos que asociar un [elemento img][4] al mapa para conseguir tener los áreas enlazables.
 
 ### Nombre del Mapa
 
-<span style="font-weight: 400">Una de las cosas más importantes en los mapas de imágenes es darle un nombre. Ya que este nombre será el que enlacemos sobre la imagen para poder usar el mapa de imágenes.</span> <span style="font-weight: 400">El nombre del mapa de imágenes se da mediante el </span>[<span style="font-weight: 400">atributo name</span>][5]<span style="font-weight: 400">.</span> <map name="”nombreMapa”">
-</map>
+Una de las cosas más importantes en los mapas de imágenes es darle un nombre. Ya que este nombre será el que enlacemos sobre la imagen para poder usar el mapa de imágenes.
+
+El nombre del mapa de imágenes se da mediante el [atributo name][5].
+
+~~~html
+<map name=”nombreMapa”></map>
+~~~
 
 ### Tipos de Áreas
 
-<span style="font-weight: 400">Dentro de los tipos de áreas que podemos crear dentro de una imagen tenemos diferentes formas:</span> <li style="font-weight: 400">
-  <b>Círculo,</b><span style="font-weight: 400"> define una región mediante un círculo.</span>
-</li>
-<li style="font-weight: 400">
-  <b>Rectángulo,</b><span style="font-weight: 400"> define la región mediante un rectángulo.</span>
-</li>
-<li style="font-weight: 400">
-  <b>Polígono, </b><span style="font-weight: 400">define una región mediante un conjunto de puntos que representan un polígono</span>
-</li>
-<li style="font-weight: 400">
-  <b>Por defecto,</b><span style="font-weight: 400"> sería el resto de zonas no referenciada por ninguna zona.</span>
-</li>
+Dentro de los tipos de áreas que podemos crear dentro de una imagen tenemos diferentes formas:
 
-<span style="font-weight: 400">El </span>[<span style="font-weight: 400">elemento area</span>][3]<span style="font-weight: 400"> tiene la siguiente estructura:</span>
+* **Círculo**, define una región mediante un círculo.
+* **Rectángulo**, define la región mediante un rectángulo.
+* **Polígono**, define una región mediante un conjunto de puntos que representan un polígono.
+* **Por defecto**, sería el resto de zonas no referenciada por ninguna zona.
 
-<pre></pre>
+El [elemento area][3] tiene la siguiente estructura:
 
-<span style="font-weight: 400">Dónde </span>[<span style="font-weight: 400">shape</span>][6]<span style="font-weight: 400"> es la forma a utilizar, </span>[<span style="font-weight: 400">coords</span>][7]<span style="font-weight: 400"> el conjunto de coordenadas que define la forma. Dependiendo de la forma utilizada serán unas coordenadas u otras. El </span>[<span style="font-weight: 400">atributo href</span>][8]<span style="font-weight: 400"> contendrá el enlace y </span>[<span style="font-weight: 400">alt</span>][9]<span style="font-weight: 400"> el texto alternativo a ese enlace.</span>
+~~~html
+<area shape=”forma” coords=”coordenadas” href=”enlace” alt=”texto alternativo” />
+~~~
+
+Dónde [shape][6] es la forma a utilizar, [coords][7] el conjunto de coordenadas que define la forma. Dependiendo de la forma utilizada serán unas coordenadas u otras. El [atributo href][8] contendrá el enlace y [alt][9] el texto alternativo a ese enlace.
 
 #### Circle
 
-<span style="font-weight: 400">Esta forma define un área circular dentro del mapa. En este caso las coordenadas son x,y como centro del círculo y radio.</span>
+Esta forma define un área circular dentro del mapa. En este caso las coordenadas son x,y como centro del círculo y radio.
 
-<pre><map>
-  <area coords="”x,y,radio”/" shape="”circle”" />
-  
+~~~html
+<map>
+  <area shape=”circle” coords=”x,y,radio”/>
 </map>
-</pre>
+~~~
 
 #### Rect
 
-<span style="font-weight: 400">Representa una forma rectangular en el mapa de imágenes. Las coordenadas son x1,y1 de la esquina superior izquierda seguido de x2,y2 de la esquina inferior derecha.</span>
+Representa una forma rectangular en el mapa de imágenes. Las coordenadas son x1,y1 de la esquina superior izquierda seguido de x2,y2 de la esquina inferior derecha.
 
-<pre><map>
-  <area coords="”x1,y1,x2,y2”/" shape="”rect”" />
-  
+~~~html
+<map>
+  <area shape=”rect” coords=”x1,y1,x2,y2”/>
 </map>
-</pre>
+~~~
 
 #### Poly
 
-<span style="font-weight: 400">Representa una forma de un polígono definido por un conjunto de puntos. Las coordenadas son x1,y1, x2, y2, x3, y3,..., xN, yN. Dónde la primer coordenada y la última deben de coincidir para poder cerrar el polígono.</span>
+Representa una forma de un polígono definido por un conjunto de puntos. Las coordenadas son x1,y1, x2, y2, x3, y3,..., xN, yN. Dónde la primer coordenada y la última deben de coincidir para poder cerrar el polígono.
 
-<pre><map>
-  <area coords="”x1,y1,x2,y2,x3,y3,...,xN,yN”/" shape="”poly”" />
-  
+~~~html
+<map>
+  <area shape=”poly” coords=”x1,y1,x2,y2,x3,y3,...,xN,yN”/>
 </map>
-</pre>
+~~~
 
-#### **Default**
+#### Default
 
-<span style="font-weight: 400">Representa el resto de zonas del mapa que no hayan sido referenciadas por ninguna forma. En este caso no hay coordenadas.</span>
+Representa el resto de zonas del mapa que no hayan sido referenciadas por ninguna forma. En este caso no hay coordenadas.
 
 ### Asociar Mapa a Imagen
 
-<span style="font-weight: 400">Lo siguiente que tenemos que hacer es definir la imagen mediante el </span>[<span style="font-weight: 400">elemento img</span>][4]<span style="font-weight: 400">.</span>
+Lo siguiente que tenemos que hacer es definir la imagen mediante el [elemento img][4].
 
-<pre><img src="”imagen.jpg”" alt="" /></pre>
+~~~html
+<img src=”imagen.jpg” />
+~~~
 
-<span style="font-weight: 400">Y asociarla el mapa de imágenes. Para ello utilizamos el </span>[<span style="font-weight: 400">atributo usemap</span>][10]<span style="font-weight: 400"> al cual asignaremos el valor indicado en el </span>[<span style="font-weight: 400">atributo name</span>][5]<span style="font-weight: 400"> del mapa.</span>
+Y asociarla el mapa de imágenes. Para ello utilizamos el [atributo usemap][10] al cual asignaremos el valor indicado en el [atributo name][5] del mapa.
 
-<pre><img src="”imagen.jpg”" alt="" usemap="”#mapa”" /></pre>
+~~~html
+<img src=”imagen.jpg” usemap=”#mapa” />
+~~~
 
 ### Ejemplo de Mapa de Imágenes
 
-<span style="font-weight: 400">Para ver el uso de los mapas de imágenes analizaremos el siguiente caso. Vamos a partir de la siguiente imagen y vamos a definir tres mapas. El primero será un área circular sobre el segundo logo, el segundo será un área rectangular sobre el tercer logo y el tercero será un polígono sobre el último logo. En caso de que pinche en otro sitio se irá al enlace del HTML5 que será un área por defecto.</span> <img class="aligncenter size-full wp-image-800" src="http://www.manualweb.net/wp-content/uploads/2016/04/image06.png" alt="image06" width="750" height="250" /> <span style="font-weight: 400">Así tendremos el siguiente mapa:</span>
+Para ver el uso de los mapas de imágenes analizaremos el siguiente caso. Vamos a partir de la siguiente imagen y vamos a definir tres mapas. El primero será un área circular sobre el segundo logo, el segundo será un área rectangular sobre el tercer logo y el tercero será un polígono sobre el último logo. En caso de que pinche en otro sitio se irá al enlace del HTML5 que será un área por defecto.
 
-<pre><map name="mapalogos">
-  <area coords="405,73,520,166" shape="rect" href="#" />
-  
-  <area coords="748,248,750,250" shape="rect" href="#" />
-  
-  <area coords="571,119,626,59,687,118,628,177" shape="poly" href="#" />
-  
-  <area shape="default" href="#" />
-  
+![Imagen con mapa de enlaces en HTML](https://github.com/manualweb/manualweb/raw/master/html/images/imagen-mapa.png "Imagen con mapa de enlaces en HTML")
+
+ Así tendremos el siguiente mapa:
+
+~~~html
+<map name="mapalogos">
+ <area shape="rect" coords="405,73,520,166" href="#"/>
+ <area shape="rect" coords="748,248,750,250" href="#"/>
+ <area shape="poly" coords="571,119,626,59,687,118,628,177" href="#"/>
+ <area shape="default" href="#"/>
 </map>
-</pre>
+~~~
 
-<span style="font-weight: 400">Y el siguiente uso del mapa desde la imagen</span>
+Y el siguiente uso del mapa desde la imagen:
 
-<pre><img src="logos.png" alt="Mapa de Logos" usemap="#mapalogos" /></pre>
+~~~html
+<img src="logos.png" usemap="#mapalogos" alt="Mapa de Logos" />
+~~~
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3api.com/wiki/HTML:MAP
