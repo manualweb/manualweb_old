@@ -103,7 +103,7 @@ De esta forma, una cita con [blockquote][5] será:
 Y una cita con [q][6] puede ser:
 
 ~~~html
-El primer ministro afirmó que <q>”era el mejor momento económico para el páis”</q> el pasado día 8.
+El primer ministro afirmó que <q>"era el mejor momento económico para el páis"</q> el pasado día 8.
 ~~~
 
 > Hay que tener cuidado con el elemento [blockquote][5] ya que en el pasado se utilizó de forma incorrecta para crear indentaciones o tabulaciones en los documentos web.
@@ -111,13 +111,13 @@ El primer ministro afirmó que <q>”era el mejor momento económico para el pá
 Los elementos [blockquote][5] y [q][6] nos permiten indicar el origen de la cita mediante el **atributo cite**.
 
 ~~~html
-El primer ministro afirmó que <q cite=”http://elpais.com/”>”era el mejor momento económico para el páis”</q> el pasado día 8.
+El primer ministro afirmó que <q cite="http://elpais.com/">"era el mejor momento económico para el páis"</q> el pasado día 8.
 ~~~
 
 Y el idioma en el que está escrita la cita, mediante el [atributo lang][7]:
 
 ~~~html
-El primer ministro afirmó que <q lang=”ES-es”>”era el mejor momento económico para el páis”</q> el pasado día 8.
+El primer ministro afirmó que <q lang="ES-es">"era el mejor momento económico para el páis"</q> el pasado día 8.
 ~~~
 
 
