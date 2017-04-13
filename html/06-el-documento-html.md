@@ -47,38 +47,56 @@ De esta forma la estructura básica del documento [HTML][1] será la siguiente:
 
 Lo primero que encontraremos dentro del documento [HTML][1] será la cabecera. La cabecera se delimita mediante [**el elemento head**][3].
 
-<pre></pre>
+```
+<head>
+  <!-- Elementos de cabecera -->
+</head>
+```
 
-Dentro de la cabecera vamos a encontrar elementos que nos definen la semántica del documento, estos serán las metatags o metadatos. Además podremos encontrar scripts, hojas de estilo y el más importante, el título de la página. Es importante remarcar que el contenido que se encuentre dentro de la cabecera no tiene una representación visual directa.
+Dentro de la cabecera vamos a encontrar elementos que nos definen la semántica del documento, estos serán las metatags o metadatos. Además podremos encontrar scripts, hojas de estilo y el más importante, el título de la página.
 
-#### **Título del documento**
+Es importante remarcar que el contenido que se encuentre dentro de la cabecera no tiene una representación visual directa.
 
-El título del documento se definirá utilizando [**el elemento title**][4]. Cómo contenido del elemento encontraremos el texto que represente dicho título. La estructura sería la siguiente:
+#### Título del documento
 
-<pre><title>
-  Título del documento
+El título del documento se definirá utilizando [**el elemento title**][4]. Cómo contenido del elemento encontraremos el texto que represente dicho título.
 
 
-</title></pre>
+La estructura sería la siguiente:
+
+```
+<title>Título del documento</title>
+```
 
 El título del documento se suele cargar, por convenio como contenido de las pestañas de los navegadores web.
 
-### **El cuerpo del documento**
+### El cuerpo del documento
 
-El cuerpo del documento será el que contenga los elementos de la estructura. Es decir, aquellos elementos que van a dotar de contenido al documento [HTML][1]. El cuerpo del documento se delimita mediante [**el elemento body**][5].
+El cuerpo del documento será el que contenga los elementos de la estructura. Es decir, aquellos elementos que van a dotar de contenido al documento [HTML][1].
 
-<pre><!-- Cuerpo del documento -->
-</pre>
+El cuerpo del documento se delimita mediante [**el elemento body**][5].
 
-Dentro del cuerpo del documento irán todos los elementos que vamos a ir explicando dentro de este manual. Con la estructura del documento [HTML][1] que hemos visto podemos ver como estructura base de cualquier documento [HTML][1] la siguiente:
+```
+<body>
+  <!-- Cuerpo del documento -->
+</body>
+```
 
-<pre>&lt;! doctype html&gt;
+Dentro del cuerpo del documento irán todos los elementos que vamos a ir explicando dentro de este manual.
 
+Con la estructura del documento [HTML][1] que hemos visto podemos ver como estructura base de cualquier documento [HTML][1] la siguiente:
 
-
-    <!-- Cuerpo del documento HTML -->
-
-</pre>
+```
+<! doctype html>
+<html>
+<head>
+  <title>Título de la Página</title>
+</head>
+<body>
+  <!-- Cuerpo del documento HTML -->
+</body>
+</html>
+``
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3api.com/wiki/HTML:HTML
