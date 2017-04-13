@@ -54,7 +54,7 @@ Si quieres puedes [descargarte el Tutorial HTML en PDF][33].
 
 El **tutorial HTML** está en constante revisión dentro de nuestros repositorios Git, así que siempre tendrás aquí la versión más actualizada.
 
-De igual manera **puedes contribuir incluyendo nuevo contenido sobre nuestro Repositorio Git del Tutorial HTML mediante un mecanismo de pull-request**.
+De igual manera **puedes contribuir incluyendo nuevo contenido sobre [nuestro Repositorio Git del Tutorial HTML][34] mediante un mecanismo de pull-request**.
 
 ### Más sobre el Tutorial HTML
 
@@ -89,3 +89,4 @@ Todas las [preguntas y dudas sobre HTML las puedes consultar en el Foro sobre 
  [31]: http://dudasprogramacion.com/html
  [32]: http://lineadecodigo.com/categoria/html
  [33]: https://gitprint.com/manualweb/manualweb/blob/master/html/pdf/tutorial-html-pdf.md
+[34]: https://github.com/manualweb/manualweb/tree/master/html
