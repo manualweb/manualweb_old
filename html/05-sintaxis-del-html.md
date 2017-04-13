@@ -30,9 +30,9 @@ Los elementos [HTML][1] son los que configuran la estructura de la página. Tamb
 
 Todo elemento se encierra entre los símbolos **menor que <** y **mayor que >**:
 
-```
+~~~html
 <elemento>
-```
+~~~
 
 Dentro de los elementos [HTML][1] encontramos dos tipos:
 
@@ -41,9 +41,9 @@ Dentro de los elementos [HTML][1] encontramos dos tipos:
 
 Los **elementos que tienen un inicio y un cierre** permiten tener a otros elementos u otro contenido anidado, es decir, a otros elementos o directamente texto. La estructura de los elementos de inicio y cierre es la siguiente:
 
-```
+~~~html
 <elemento> contenido| subelementos </elemento>
-```
+~~~
 
 Como podemos apreciar el elemento de cierre se precede de una barra invertida.
 
@@ -51,9 +51,9 @@ Algunos de estos elementos son [p][2], [div][3], [ul][4],...
 
 En el caso de los elementos únicos, estos no permiten anidar contenido y aparecen de forma aislada. Su estructura es la siguiente:
 
-```
+~~~html
 <elemento />
-```
+~~~
 
 Como podemos apreciar la barra invertida se encuentra al final y dentro del elemento. Algún ejemplo de estos elementos es [img][5], [br][6],...
 
@@ -63,9 +63,9 @@ Los elementos pueden ser parametrizados mediante los atributos. Los atributos si
 
 La estructura de definición de los atributos es la siguiente:
 
-```
+~~~html
 <elemento atributo=”valor”>
-```
+~~~
 
 El valor del atributo estará delimitado mediante comillas simples o comillas dobles.
 
@@ -75,18 +75,18 @@ Otra estructura que nos podemos encontrar dentro de una página [HTML][1] son la
 
 La estructura de una entidad en [HTML][1] será la siguiente:
 
-```
+~~~html
 &código;
-```
+~~~
 
 Las entidades nos sirven para representar símbolos que son parte de la estructura del lenguaje, como es el caso de los símbolos mayor y menor. O símbolos específicos de un determinado juego de caracteres, cómo podrían ser símbolos de monedas o caracteres especiales.
 
-```
+~~~html
 &lt;      representa <
 &gt;      representa >
 &quot;    representa '
 &eur;     representa €
-```
+~~~
 
 Ya hablaremos en detalle sobre ellas más adelante.
 
@@ -94,16 +94,16 @@ Ya hablaremos en detalle sobre ellas más adelante.
 
 Para poder insertar un comentario dentro de las páginas [HTML][1] deberemos de utilizar la siguiente estructura:
 
-```
+~~~html
 <!-- comentario -->
-```
+~~~
 
 El comentario puede tener varias líneas de texto.
 
-```
+~~~html
 <!-- esto es
          un comentario -->
-```
+~~~
 
 ### Normas de codificación en un documento HTML
 
@@ -119,9 +119,9 @@ Si insertamos un espacio en blanco dentro de nuestra página se generará un esp
 
 Lo mismo ocurre si insertamos una o varias tabulaciones. Estas solo generan un único espacio en blanco. Si queremos crear un conjunto de espacios en blanco seguidos deberemos de utilizar la entidad:
 
-```
+~~~html
 &nbsp;
-```
+~~~
 
 Cada vez que insertemos esta entidad generamos un espacio en blanco.
 
@@ -132,9 +132,9 @@ Los saltos de línea que insertemos dentro de la página web no tienen ningún e
 
 Si queremos insertar un salto de línea dentro de nuestra página web deberemos de utilizar el elemento
 
-```
+~~~html
 <br />
-```
+~~~
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3api.com/wiki/HTML:P
