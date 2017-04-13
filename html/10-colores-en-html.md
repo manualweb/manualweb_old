@@ -90,10 +90,10 @@ Es interesante que le eches un ojo al [Manual de CSS][2] para aprender más sobr
 
 A modo de apoyo aquí tenemos una guía de colores generales, sus valores hexadecimales y nombre en inglés
 
-<table>
+<table style="width:100%">
   <tbody>
     <tr>
-      <td style:"background-colord:blue;" class="c10" colspan="1" rowspan="1">
+      <td style="background-color:blue;" class="c10" colspan="1" rowspan="1">
         <p>
           Aliceblue
         </p>
