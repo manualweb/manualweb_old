@@ -84,67 +84,56 @@ De esta forma podríamos tener la siguiente tabla con agrupaciones:
 Que representaría lo siguiente:
 
 <table style="border: 1px solid black; width:100%">
-  <thead>
-    <tr style="background-color:#000;color:#fff">
-      <td scope="”row”">
-        Mes
-      </td>
-
-      <td>
-        Enero
-      </td>
-
-      <td>
-        Febrero
-      </td>
-    </tr>
-  </thead>
-
-  <tfoot style="background-color:#ccc">
-    <tr>
-      <td>
-        Total
-      </td>
-
-      <td>
-        15
-      </td>
-
-      <td>
-        25
-      </td>
-    </tr>
-  </tfoot>
-
-  <tbody>
-    <tr>
-      <td>
-        Agua
-      </td>
-
-      <td>
-        10
-      </td>
-
-      <td>
-        15
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Gas
-      </td>
-
-      <td>
-        5
-      </td>
-
-      <td>
-        10
-      </td>
-    </tr>
-  </tbody>
+<thead>
+<tr style="background-color:#000;color:#fff">
+<td scope="”row”">
+Mes
+</td>
+<td>
+Enero
+</td>
+<td>
+Febrero
+</td>
+</tr>
+</thead>
+<tfoot style="background-color:#ccc">
+<tr>
+<td>
+Total
+</td>
+<td>
+15
+</td>
+<td>
+25
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>
+Agua
+</td>
+<td>
+10
+</td>
+<td>
+15
+</td>
+</tr>
+<tr>
+<td>
+Gas
+</td>
+<td>
+5
+</td>
+<td>
+10
+</td>
+</tr>
+</tbody>
 </table>
 
 ### Grupos de columnas
