@@ -469,6 +469,54 @@ Si queremos insertar un salto de línea dentro de nuestra página web deberemos 
 ```
 <br />
 ```
+## Mi primera página web
+
+Con lo que ya llevamos aprendido en el [Manual de HTML][1] es un buen momento para crear nuestra primera página [HTML][1] o mejor dicho, nuestra primera página web.
+
+### Herramientas básicas
+
+Lo primero que vamos a necesitar es un editor de texto instalado en tu ordenador. Ya hemos visto que nos pueden valer el [UltraEdit][63], [NoteTab][21], el TextEdit de Mac, o un avanzado editor como [Sublime Text][22] o [Atom][23]. Dentro del editor de texto crea un documento de texto el cual llamaremos
+
+<kbd>miprimeraweb.html</kbd>
+
+Es importante saber que los documentos [HTML][1] tienen la **extensión .html o .htm**. Es más común la primera de ellas.
+
+### Crear la página HTML
+
+Una vez tengamos nuestro documento de texto vamos a crear la estructura del documento [HTML][1], con sus elementos [html][64], [head][65] y [body][66].
+
+~~~html
+<! doctype html>
+<html>
+<head>
+  <title>Mi Primera Página</title>
+  <meta charset=”utf-8”/>
+</head>
+<body>
+  <h1>Mi Primera Página</h1>
+  Mi primera página en HTML.
+</body>
+</html>
+~~~
+
+
+Vemos que dentro del [elemento body][66] hemos insertado un [elemento h1][67] con un texto y directamente texto que indica *“Esta es mi primera página web”*.
+
+No te preocupes por los [elementos meta][68] y [h1][67] que aparecen nuevos, ya que los veremos en detalle más adelante.
+
+### Visualizar la página HTML
+
+Una vez guardada la página [HTML][1] vamos a visualizarla. Para poder visualizarla necesitamos un navegador web. Lo más normal es que tu ordenador ya venga con alguno instalado por defecto, si no puedes instalarte alguno como [Google Chrome][5], [Mozilla Firefox][6] u [Opera][7].
+
+
+Una vez arrancado el navegador web simplemente tiene que abrir la página creada anteriormente, es decir, el archivo **miprimeraweb.html**
+
+Verás que el navegador carga algo parecido a lo siguiente:
+
+![Mi primera página web](https://github.com/manualweb/manualweb/raw/master/html/images/mi-primera-pagina-web.png "Mi primera página web")
+
+
+
 
 
  [1]: http://www.manualweb.net/tutorial-html/
@@ -533,3 +581,9 @@ Si queremos insertar un salto de línea dentro de nuestra página web deberemos 
  [60]: http://www.w3api.com/wiki/HTML:UL
  [61]: http://www.w3api.com/wiki/HTML:IMG
  [62]: http://www.w3api.com/wiki/HTML:BR
+ [63]: http://www.idmcomp.com/
+ [64]: http://www.w3api.com/wiki/HTML:HTML
+ [65]: http://www.w3api.com/wiki/HTML:HEAD
+ [66]: http://www.w3api.com/wiki/HTML:BODY
+ [67]: http://www.w3api.com/wiki/HTML:H1
+ [68]: http://www.w3api.com/wiki/HTML:META
