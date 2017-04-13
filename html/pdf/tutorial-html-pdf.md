@@ -648,6 +648,38 @@ Nos ayuda a definir la URL asociada al documento. Esto es por si queremos utiliz
 <meta name=”og:url” content=”http://www.manualweb.net” />
 ~~~
 
+## Texto en html
+
+Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma. Por ejemplo, cuando añadimos una ñ o el símbolo del copyright. Para ello tenemos las entidades, que veremos más adelante.
+
+Así podemos tener nuestro documento [HTML][1] y escribir lo siguiente.
+
+~~~html
+Este es mi primer texto en una web
+~~~
+
+### Elementos HTML para trabajar con texto
+
+Para poder enriquecer el texto básico que tengamos en una web, [HTML][1] nos ofrece una serie de **elementos de estructura** para poder ***dotar de semántica al contenido***. Ya que **la parte del estilo**: *texto en negrita, colores, modificar el tamaño,...* lo haremos con [CSS][37].
+
+Respecto a los elementos estructurales de texto de [HTML][1] los hemos dividido en dos partes:
+
+*   Elementos básicos para texto en HTML
+  *   Saltos de línea
+  *   Organizando el texto en párrafos
+  *   Elementos de cabecera o titulares
+  *   Crear una cita
+  *   Subíndices y superíndices
+  *   Enfatizando un texto
+  *   Resaltando un texto
+*   Elementos avanzados para texto en HTML
+  *   Abreviaturas y acrónimos
+  *   Textos preformateados
+  *   Notas de cambios en los documentos
+  *   Uso de código fuente
+  *   Fuentes o referencias a citas
+  *   Definiciones
+
 
 
 
