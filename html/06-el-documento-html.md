@@ -86,7 +86,7 @@ Dentro del cuerpo del documento irán todos los elementos que vamos a ir explica
 
 Con la estructura del documento [HTML][1] que hemos visto podemos ver como estructura base de cualquier documento [HTML][1] la siguiente:
 
-```
+```html
 <! doctype html>
 <html>
 <head>
