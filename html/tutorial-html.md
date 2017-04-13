@@ -42,20 +42,25 @@ En el **Tutorial HTML** vamos a ver los siguientes temas:
 * [Formularios en HTML][23]
   * [Campos de Formularios][24]
   * [Estructura y envío de formularios][25]
+* Entidades en HTML
+* Frames e Iframes
+* Objetos: Incluir aplicaciones externas
+* Estilos en la página: Primeros pasos con CSS
+* Dinamismo Web: El lenguaje Javascript
 
 ### Descargar el Tutorial HTML
 
-Si quieres puedes [descargarte el Tutorial HTML en PDF][0].
+Si quieres puedes [descargarte el Tutorial HTML en PDF][33].
 
 El **tutorial HTML** está en constante revisión dentro de nuestros repositorios Git, así que siempre tendrás aquí la versión más actualizada.
 
-De igual manera puedes contribuir incluyendo nuevo contenido sobre nuestro Repositorio Git del Tutorial HTML mediante un mecanismo de pull-request.
+De igual manera **puedes contribuir incluyendo nuevo contenido sobre nuestro Repositorio Git del Tutorial HTML mediante un mecanismo de pull-request**.
 
 ### Más sobre el Tutorial HTML
 
-Todas las preguntas y dudas sobre HTML las puedes consultar en el Foro sobre HTML. Y puedes echar un ojo a los ejemplos sobre el lenguaje HTML.
+Todas las [preguntas y dudas sobre HTML las puedes consultar en el Foro sobre HTML][31]. Y puedes echar un ojo a los [ejemplos sobre el lenguaje HTML][32].
 
- [0]: https://gitprint.com/manualweb/manualweb/blob/master/html/pdf/tutorial-html-pdf.md
+
  [1]: http://www.manualweb.net/html/introduccion-a-la-world-wide-web/
  [2]: http://www.manualweb.net/html/introduccion-al-html/
  [3]: http://www.manualweb.net/html/historia-del-html/
@@ -81,3 +86,6 @@ Todas las preguntas y dudas sobre HTML las puedes consultar en el Foro sobre H
  [23]: http://www.manualweb.net/html/formularios-en-html/
  [24]: http://www.manualweb.net/html/campos-de-formularios/
  [25]: http://www.manualweb.net/html/estructura-y-envio-de-formularios/
+ [31]: http://dudasprogramacion.com/html
+ [32]: http://lineadecodigo.com/categoria/html
+ [33]: https://gitprint.com/manualweb/manualweb/blob/master/html/pdf/tutorial-html-pdf.md
