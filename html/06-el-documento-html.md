@@ -96,7 +96,7 @@ Con la estructura del documento [HTML][1] que hemos visto podemos ver como estru
   <!-- Cuerpo del documento HTML -->
 </body>
 </html>
-``
+```
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.w3api.com/wiki/HTML:HTML
