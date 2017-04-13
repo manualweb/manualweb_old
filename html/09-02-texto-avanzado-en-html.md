@@ -5,98 +5,95 @@ author: Víctor Cuervo
 post_date: 2017-04-12 00:30:49
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/html/texto-avanzado-en-html/
+permalink: http://www.manualweb.net/html/texto-avanzado-en-html/
 published: true
-nombreforo:
-  - HTML
-urlforo:
-  - http://dudasprogramacion.com/html
-urlmanual:
-  - http://www.manualweb.net/tutorial-html/
-urltest:
-  - http://www.testprogramacion.com/html
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html/
-urlvideo:
-  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-urlejemplos:
-  - >
-    http://lineadecodigo.com/tag/html-texto/feed/
-gitfolder:
-  - html
+nombreforo: HTML
+urlforo: http://dudasprogramacion.com/html
+urlmanual: http://www.manualweb.net/tutorial-html/
+urltest: http://www.testprogramacion.com/html
+urlcurso: http://www.aulaprogramacion.com/curso-html/
+urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+urlejemplos: http://lineadecodigo.com/tag/html-texto/feed/
+gitfolder: html
 ---
 <a name="abbr"></a>
+### Abreviaturas y acrónimos
 
-### Abreviaturas y acrónimos Cuando estamos escribiendo un texto es posible que nos encontremos con partes que sean abreviadas o partes que sean acrónimos. Aunque abreviatura y acrónimo suenan similares, estas, tienen su pequeña diferencia.
+Cuando estamos escribiendo un texto es posible que nos encontremos con partes que sean abreviadas o partes que sean acrónimos.
 
-**Una abreviatura es un tipo de abreviación que consiste en la representación gráfica reducida de una palabra mediante la supresión de letras finales o centrales**, y que suele cerrarse con punto; p. ej., afmo. por afectísimo; Dir.a por directora; íd. por ídem; SS. MM. por Sus Majestades; D. por don. Mientras que **acrónimo es un tipo de sigla que se pronuncia como una palabra**; p. ej., o(bjeto) v(olante) n(o) i(dentificado). De esta forma en el lenguaje [HTML][1] nos encontramos con el [elemento abbr][2] para las abreviaturas y el [elemento acronym][3] para los acrónimos. Si queremos insertar una abreviatura:
+Aunque abreviatura y acrónimo suenan similares, estas, tienen su pequeña diferencia. **Una abreviatura es un tipo de abreviación que consiste en la representación gráfica reducida de una palabra mediante la supresión de letras finales o centrales**, y que suele cerrarse con punto; p. ej., afmo. por afectísimo; Dir.a por directora; íd. por ídem; SS. MM. por Sus Majestades; D. por don.
 
-<pre><abbr title="Director">Dir.</abbr> Juan de la Espina
+Mientras que **acrónimo es un tipo de sigla que se pronuncia como una palabra**; p. ej., o(bjeto) v(olante) n(o) i(dentificado).
+
+De esta forma en el lenguaje [HTML][1] nos encontramos con el [elemento abbr][2] para las abreviaturas y el [elemento acronym][3] para los acrónimos. Si queremos insertar una abreviatura:
+
+~~~html
+<abbr title="Director">Dir.</abbr> Juan de la Espina
 <abbr title="Sus Majestades">SS. MM.</abbr> los Reyes de España
-<abbr title="Calle">C.</abbr> del Pez nº40</pre>
+<abbr title="Calle">C.</abbr> del Pez nº40
+~~~
 
-En el caso de la abreviatura
+En el caso de la abreviatura **se suele acompañar por un atributo title**, el cual nos ofrece el texto completo que representa la abreviatura.
 
-**se suele acompañar por un atributo title**, el cual nos ofrece el texto completo que representa la abreviatura. Y si queremos insertar un acrónimo podemos escribir lo siguiente:
+Y si queremos insertar un acrónimo podemos escribir lo siguiente:
 
-<pre><acronym title="Objeto Volante No Identificado">OVNI</acronym></pre>
+~~~html
+<acronym title="Objeto Volante No Identificado">OVNI</acronym></pre>
+~~~
 
-De igual forma que con el
+De igual forma que con el [elemento abbr][2], en el [elemento acronym][3] encontramos [el atributo title][4], el cual, en este caso, nos dirá que significan las siglas del acrónimo.
 
-[elemento abbr][2], en el [elemento acronym][3] encontramos [el atributo title][4], el cual, en este caso, nos dirá que significan las siglas del acrónimo. Otro atributo que solemos encontrar en estos elementos es el [atributo lang][5], el cual hace referencia al idioma en el que está escrita la abreviatura o el acrónimo. <a name="pre"></a>
+Otro atributo que solemos encontrar en estos elementos es el [atributo lang][5], el cual hace referencia al idioma en el que está escrita la abreviatura o el acrónimo.
 
-### Textos preformateados Ya hemos visto que a la hora de insertar texto en un documento
+<a name="pre"></a>
+### Textos preformateados
+Ya hemos visto que a la hora de insertar texto en un documento [HTML][1] da igual poner muchos espacios o saltos de línea, ya que siempre serán ignorados.
 
-[HTML][1] da igual poner muchos espacios o saltos de línea, ya que siempre serán ignorados. Si bien, el lenguaje [HTML][1] nos ofrece el [elemento pre][6]. El [elemento pre][6] permite representar el texto tal cual es escrito, respetando sus espacios y saltos de línea. Acaba representando fielmente lo que hayamos insertado. La estructura del [elemento pre][6] es:
+Si bien, el lenguaje [HTML][1] nos ofrece el [elemento pre][6]. El [elemento pre][6] permite representar el texto tal cual es escrito, respetando sus espacios y saltos de línea. Acaba representando fielmente lo que hayamos insertado.
 
-<
+La estructura del [elemento pre][6] es:
 
-pre lang="html4strict">
-
-<pre>Texto Preformateado &lt;/pre&gt;</pre>
+~~~html
+<pre>Texto Preformateado</pre>
+~~~
 
 De esta forma podríamos escribir lo siguiente:
 
-<
-
-pre lang="html4strict">
-
+~~~html
 <pre>Esto es un texto
 que está preformateado
 
-y por lo tanto  ---&gt;   mantiene los espacios
-y saltos de línea.&lt;/pre&gt;</pre>
+y por lo tanto  --->   mantiene los espacios
+                       y saltos de línea.</pre>
+~~~
 
 Que en pantalla nos mostrará:
 
 <pre>Esto es un texto
 que está preformateado
 
-y por lo tanto  ---&gt;   mantiene los espacios
-                              y saltos de línea.</pre>
+y por lo tanto  --->   mantiene los espacios
+                       y saltos de línea.</pre>
 
 <a name="insdel"></a>
-
 ### Notas de cambios en los documentos
 
-Hay que pensar que
-
-[HTML][1] fue pensado para compartir documentos electrónicos. Es por ello que el contenido de dichos documentos electrónicos iría avanzando en las revisiones que fuesen teniendo. Por lo tanto habría contenido nuevo y contenido eliminado.
+Hay que pensar que [HTML][1] fue pensado para compartir documentos electrónicos. Es por ello que el contenido de dichos documentos electrónicos iría avanzando en las revisiones que fuesen teniendo. Por lo tanto habría contenido nuevo y contenido eliminado.
 
 A tal respecto el lenguaje HTML nos ofrece dos elementos. El primero es el [elemento ins][7], este elemento sirve para indicar que el contenido es nuevo y que sustituye a un contenido que hayamos definido mediante el [elemento del][8].
 
 La estructura del [elemento ins][7] y del [elemento del][8] es sencilla:
 
-<pre><del>contenido eliminado</del>
-<ins>contenido nuevo</ins></pre>
+~~~html
+<del>contenido eliminado</del>
+<ins>contenido nuevo</ins>
+~~~
 
-Por ejemplo podríamos encontrarnos el siguiente código en un documento HTML utilizando el
+Por ejemplo podríamos encontrarnos el siguiente código en un documento HTML utilizando el [elemento ins][7] y el [elemento del][8]:
 
-[elemento ins][7] y el [elemento del][8]:
-
-<pre>Los hechos sucedieron en Madrid, el pasado día <del>26</del><ins>28</ins> de febrero.</pre>
+~~~html
+Los hechos sucedieron en Madrid, el pasado día <del>26</del><ins>28</ins> de febrero.
+~~~
 
 <a name="codigo"></a>
 
@@ -110,20 +107,20 @@ Para poder cubrir esta necesidad nos ofrece un conjunto de elementos que represe
 
 Así tenemos.
 
-*   **code**, para insertar código fuente. 
-*   **kbd**, para representar entradas de información por teclado. 
-*   **samp**, para mostrar las salidas por consola de información. 
-*   **var**, para definir las variables de un programa. 
+*   **code**, para insertar código fuente.
+*   **kbd**, para representar entradas de información por teclado.
+*   **samp**, para mostrar las salidas por consola de información.
+*   **var**, para definir las variables de un programa.
 
 La estructura de los elementos
 
 [code][9], [kbd][10], [samp][11] y [var][12] es la misma:
 
-     código fuente 
+     código fuente
     <kbd> entrada teclado </kbd>
     <samp> salida por consola </samp>
     <var> variable </var>
-    
+
 
 Así podríamos encontrarnos el siguiente ejemplo HTML que usase estos cuatro elementos:
 
