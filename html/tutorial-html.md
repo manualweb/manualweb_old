@@ -42,7 +42,7 @@ En el **Tutorial HTML** vamos a ver los siguientes temas:
 * [Formularios en HTML][23]
   * [Campos de Formularios][24]
   * [Estructura y envío de formularios][25]
-* Entidades en HTML
+* [Entidades en HTML][26]
 * Frames e Iframes
 * Objetos: Incluir aplicaciones externas
 * Estilos en la página: Primeros pasos con CSS
@@ -86,7 +86,8 @@ Todas las [preguntas y dudas sobre HTML las puedes consultar en el Foro sobre 
  [23]: http://www.manualweb.net/html/formularios-en-html/
  [24]: http://www.manualweb.net/html/campos-de-formularios/
  [25]: http://www.manualweb.net/html/estructura-y-envio-de-formularios/
+ [26]: http://www.manualweb.net/html/entidades-html/
  [31]: http://dudasprogramacion.com/html
  [32]: http://lineadecodigo.com/categoria/html
  [33]: https://gitprint.com/manualweb/manualweb/blob/master/html/pdf/tutorial-html-pdf.md
-[34]: https://github.com/manualweb/manualweb/tree/master/html
+ [34]: https://github.com/manualweb/manualweb/tree/master/html
