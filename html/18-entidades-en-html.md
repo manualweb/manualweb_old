@@ -5,29 +5,16 @@ author: Víctor Cuervo
 post_date: 2017-04-15 18:32:44
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/html/entidades-html/
+permalink: http://www.manualweb.net/html/entidades-html/
 published: true
-nombreforo:
-  - HTML
-urlforo:
-  - http://dudasprogramacion.com/html
-urlmanual:
-  - http://www.manualweb.net/tutorial-html/
-urltest:
-  - http://www.testprogramacion.com/html
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html/
-urlvideo:
-  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-urlejemplos:
-  - >
-    http://lineadecodigo.com/tag/html-entidades/feed/
-gitfolder:
-  - html
-yst_is_cornerstone:
-  - ""
+nombreforo: HTML
+urlforo: http://dudasprogramacion.com/html
+urlmanual: http://www.manualweb.net/tutorial-html/
+urltest: http://www.testprogramacion.com/html
+urlcurso: http://www.aulaprogramacion.com/curso-html/
+urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+urlejemplos: http://lineadecodigo.com/tag/html-entidades/feed/
+gitfolder: html
 ---
 Cuando estemos insertando texto en nuestros documentos HTML puede darse el caso de que necesitemos insertar símbolos. Bien ya sean símbolos de la codificación que estemos utilizando o símbolos de carácter general. Esto pueden ser monedas, símbolos de puntuación,...
 
@@ -35,32 +22,36 @@ Para ello HTML nos ofrece las entidades. Las entidades son unas estructuras que,
 
 La estructura de la entidad HTML es un ampersand seguido del código o nombre de la entidad y terminado en un punto y coma.
 
-<pre><code class="html">&codigo;
-</code></pre>
+~~~html
+&codigo;
+~~~
 
 En el caso de que utilicemos los códigos, estos se anteponen de una almohadilla.
 
 Algunos de las entidades más utilizadas son los acentos:
 
-<pre><code class="html">á   &aacute;
-é   &eacute;
-í   &iacute;
-</code></pre>
+~~~html
+á	&aacute;
+é	&eacute;
+í	&iacute;
+~~~
 
 Los símbolos que utiliza el propio lenguaje HTML:
 
-<pre><code class="html">&   &
-&lt;   &lt;
-&gt;   &gt;
-</code></pre>
+~~~html
+&	&amp;
+<	&lt;
+>	&gt;
+~~~
 
 U otros comunes:
 
-<pre><code class="html">€   &euro;
-£   &pound;
-©   &copy;
-®   &reg;
-</code></pre>
+~~~html
+€	&euro;
+£	&pound;
+©	&copy;
+®	&reg;
+~~~
 
 ### Principales entidades HTML
 
