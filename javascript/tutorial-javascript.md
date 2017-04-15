@@ -2,11 +2,12 @@
 ID: 1498
 post_title: Tutorial Javascript
 author: Víctor Cuervo
-post_date: 2017-04-15 19:56:06
+post_date: 2017-04-15 20:10:39
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1498
-published: false
+permalink: >
+  http://www.manualweb.net/tutorial-javascript/
+published: true
 nombreforo:
   - Javscript
 urlforo:
