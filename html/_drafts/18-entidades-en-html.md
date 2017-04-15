@@ -22,20 +22,33 @@ Para ello HTML nos ofrece las entidades. Las entidades son unas estructuras que,
 
 La estructura de la entidad HTML es un ampersand seguido del código o nombre de la entidad y terminado en un punto y coma.
 
+~~~html
 &codigo;
+~~~
 
 En el caso de que utilicemos los códigos, estos se anteponen de una almohadilla.
 
 Algunos de las entidades más utilizadas son los acentos:
 
-á á é é í í
+~~~html
+á	&aacute;
+é	&eacute;
+í	&iacute;
+~~~
 
 Los símbolos que utiliza el propio lenguaje HTML:
 
-& & < <
-
-> >
+~~~html
+&	&amp;
+<	&lt;
+>	&gt;
+~~~
 
 U otros comunes:
 
-€ € £ £ © © ® ®
+~~~html
+€	&euro;
+£	&pound;
+©	&copy;
+®	&reg;
+~~~
