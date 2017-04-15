@@ -33,7 +33,7 @@ Dentro del contenido del formulario encontraremos los diferentes campos donde el
 * [Combos de opciones][4]
 * [Botones][5]
 
-Por otro lado podremos estructurar el formulario para poder etiquetar los elementos que se componen y que acabaremos enviando de diferentes formas.
+Por otro lado podremos estructurar el formulario para poder etiquetar los elementos que se componen y que acabaremos enviando de diferentes formas:
 
 *   [Etiquetando en formulario][6]
 *   [Estructura del Formulario][7]
