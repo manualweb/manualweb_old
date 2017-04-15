@@ -55,9 +55,9 @@ U otros comunes:
 
 ### Principales entidades HTML
 
-| Carácter | Código | Entidad | Carácter | Código | Entidad |
+|   Carácter   |   Código   |   Entidad   |   Carácter   |   Código   |   Entidad   |
 |---|---|---|---|---|---|
-| ! | &amp;#33; | -- | " | &amp;#34; | -- |
+| ! | &amp;&#37;#33; | -- | " | &amp;#34; | -- |
 | # | &amp;#35; | -- | $ | &amp;#36; | -- |
 | % | &amp;#37; | -- | & | &amp;#38; | -- |
 | ' | &amp;#39; | -- | ( | &amp;#40; | -- |
