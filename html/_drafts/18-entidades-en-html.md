@@ -7,24 +7,14 @@ post_excerpt: ""
 layout: post
 permalink: http://www.manualweb.net/?p=1477
 published: false
-nombreforo:
-  - HTML
-urlforo:
-  - http://dudasprogramacion.com/html
-urlmanual:
-  - http://www.manualweb.net/tutorial-html/
-urltest:
-  - http://www.testprogramacion.com/html
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html/
-urlvideo:
-  - PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
-urlejemplos:
-  - >
-    http://lineadecodigo.com/tag/html-entidades/feed/
-gitfolder:
-  - html
+nombreforo: HTML
+urlforo: http://dudasprogramacion.com/html
+urlmanual: http://www.manualweb.net/tutorial-html/
+urltest: http://www.testprogramacion.com/html
+urlcurso: http://www.aulaprogramacion.com/curso-html/
+urlvideo: PLLVIhySQmrVaaLfsbi9VHVffq3Kk8KAST
+urlejemplos: http://lineadecodigo.com/tag/html-entidades/feed/
+gitfolder:  html
 ---
 Cuando estemos insertando texto en nuestros documentos HTML puede darse el caso de que necesitemos insertar símbolos. Bien ya sean símbolos de la codificación que estemos utilizando o símbolos de carácter general. Esto pueden ser monedas, símbolos de puntuación,...
 
