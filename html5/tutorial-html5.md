@@ -2,11 +2,11 @@
 ID: 1503
 post_title: Tutorial HTML5
 author: Víctor Cuervo
-post_date: 2017-04-16 18:46:25
+post_date: 2017-04-16 18:59:11
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1503
-published: false
+permalink: http://www.manualweb.net/tutorial-html5/
+published: true
 nombreforo:
   - HTML5
 urlforo:
@@ -22,6 +22,8 @@ urlvideo:
   - PLLVIhySQmrVZvt63iAl2xSwTePNmd-UhI
 gitfolder:
   - html5
+yst_is_cornerstone:
+  - ""
 ---
 En el **tutorial de HTML5** vamos a ver los siguientes temas:
 
