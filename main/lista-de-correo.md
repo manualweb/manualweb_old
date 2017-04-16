@@ -9,12 +9,15 @@ permalink:  http://www.manualweb.net/lista-de-correo/
 published: true
 gitfolder: main
 ---
+
+### Lista de Correo
 Si quieres estar al día de todas las novedades de [Manual Web][1] solo tienes que dejarnos tu e-mail.
 
 Intentamos publicar contenido todas las semanas, así que si hemos publicado algo nuevo lo recibirás los lunes en tu buzón de email.
 
 [mailchimpsf_form]
 
+### Redes Sociales
 Recuerda que también puedes estar al tanto de las novedades de [Manual Web][1] por las redes sociales [Twitter][2] y [Facebook][3].
 
 
