@@ -58,3 +58,37 @@ Enfoque atendiendo a librerías:
 * Java Logging
 * Java - Archivos JAR
 * Concurrencia
+
+
+
+## Otra organización
+
+* Conceptos Básicos
+  * Iniciación al lenguaje Java
+  * Principios del lenguaje
+  * Colecciones
+  * Fecha y Hora
+  * Desplegar aplicaciones Java
+
+* Interfaces Gráficas
+  * Swinng
+  * Java FX
+
+* Conceptos Avanzados
+  * Networking
+  * Mecanismos de Extensión del API
+  * Full Screen
+  * Genéricos
+  * I10n
+  * Java Beans
+  * JDBC
+  * JMX
+  * JNDI
+  * JAXP
+  * JAXB
+  * RMI
+  * Reflection
+  * Security
+  * Sound
+  * 2D Graphics
+  * Socket Direct Protocol
