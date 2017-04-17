@@ -39,3 +39,22 @@
 24. Java Networking
 25. Programación Concurrente - Multithreading
 26. Mail. ¿Aquí o JavaEE?
+
+
+## Otros
+* Herramientas básicas del lenguaje Java
+
+Enfoque atendiendo a librerías:
+
+* Java Lang
+* Java Util
+* Preferences API
+* Expresiones regulares
+* Java Reflection
+* Versionado en Java
+* Gestión de ZIP/GZIP
+* Instrumentación de aplicaciones Java
+* Monitorización y gestión de la plataforma Java
+* Java Logging
+* Java - Archivos JAR
+* Concurrencia
