@@ -31,7 +31,7 @@ class Triangulo {
 }
 ~~~
 
->> No te preocupes por el concepto de objeto, ya que lo revisaremos más adelante cuando hablemos de la Programación Orientada a Objetos
+> No te preocupes por el concepto de objeto, ya que lo revisaremos más adelante cuando hablemos de la Programación Orientada a Objetos
 
 ### Tipos de variables en Java
 
