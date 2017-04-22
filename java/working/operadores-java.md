@@ -73,8 +73,8 @@ Para poder entrar en detalle dentro de los operadores [Java][1] vamos a verlos a
 
 
 [1]: http://www.manualweb.net/tutorial-java/
-[2]: http://www.manualweb.net/java/operador-asignacion/
-[3]: http://www.manualweb.net/java/operadores-artimeticos/
+[2]: http://www.manualweb.net/java/operador-asignacion-aritmeticos/#asignacion
+[3]: http://www.manualweb.net/java/operadores-asignacion-artimeticos/#aritmeticos
 [4]: http://www.manualweb.net/java/operadores-unarios/
 [5]: http://www.manualweb.net/java/operadores-igualdad-relacionales/
 [6]: http://www.manualweb.net/java/operadores-condicionales/
