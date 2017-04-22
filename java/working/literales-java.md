@@ -93,8 +93,10 @@ A partir de la versión 1.7 de [Java][1] se puede utilizar el subrayado para rea
 
 A todos los efectos el valor del número es como si no existiese el carácter de subrayado.
 
+~~~java
 long tarjetaCredito = 1234_5678_9012_3456L;
 long mascaraBinaria = 0b11010010_01101001_10010100_10010010;
+~~~
 
 No podremos utilizar el literal de subrayado al principio o final del número, alrededor de un punto decimal, ni entre el número y un literal de entero o decimal (D, F o L).
 
