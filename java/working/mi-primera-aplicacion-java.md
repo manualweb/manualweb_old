@@ -176,7 +176,6 @@ Ahora, ya si que podremos ejecutar nuestra aplicación. Al fin, el resultado esp
 
 ![Ejecutando Mi Primera Aplicación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/java-mi-primera-aplicacion.png)
 
-
  [1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
  [2]: http://www.vim.org/download.php#pc "Wim"
  [3]: http://aignes.com/notebook.htm "AM-Notebook"
@@ -185,5 +184,4 @@ Ahora, ya si que podremos ejecutar nuestra aplicación. Al fin, el resultado esp
  [6]: http://www.flos-freeware.ch/notepad2.html "NotePad2"
  [7]: http://www.manualweb.net/java/instalar-java/
  [8]: https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#CHDEBCCJ "JDK Installation for Microsoft Windows"
-
-[9]: http://www.w3api.com/wiki/Java:System.out
+ [9]: http://www.w3api.com/wiki/Java:System.out
