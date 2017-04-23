@@ -68,7 +68,7 @@ El compilador de [Java][1] se llama **javac** (la c es de compilador, claro). Es
 
 En el caso de estar en un sistema operativo Windows, el compilador suele estar instalado (si hemos seguido la instalación por defecto) en:
 
-<samp>C:\\Program Files\\Java\\jdk1.6.0_16\\bin</samp>
+<samp>C:\\Program Files\\Java\\jdk1.8.0_51.jdk\\bin</samp>
 
 Si estamos trabajando con un MacOS podemos ejecutar el comando.
 
@@ -96,7 +96,7 @@ Para poder ejecutar el compilador en cualquier directorio de máquinas Windows d
 
 Para ello, escribiremos lo siguiente....
 
-<kbd>SET PATH = %PATH%;C:\\Program Files\\Java\\jdk1.6.0_16\\bin</kbd>
+<kbd>SET PATH = %PATH%;C:\\Program Files\\Java\\jdk1.8.0_51.jdk\\bin</kbd>
 
 Ahora podremos ejecutar el compilador desde cualquier sitio. Así, debería de funcionarnos lo siguiente...
 
