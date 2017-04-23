@@ -34,21 +34,15 @@ Supongo que el primero, por descontado, lo tendréis a mano. O, al menos, algo s
 
 El compilador de [Java][1] será el que nos permita transformar nuestro código fuente en programas ejecutables. O.... bueno, podríamos decir que en algo similar a programas ejecutables. Ya veremos en que.
 
-Para instalarnos el compilador deberemos de descargárnosle de la web de Oracle. A día de hoy podemos [bajarnos la versión **Java 8** del compilador desde la web de Oracle][7].
-
-De ella nos podemos bajar el kit de desarrollo (**Java SE Development Kit**) y el entorno de ejecución (**Java SE Runtime Environment**).
-
-### Proceso de instalación
-
-En el proceso de instalación deberemos de introducir algunos datos como el directorio de instalación del compilador y las partes del software que queremos instalar. Entre estas partes podremos elegir las herramientas de desarrollo, el código fuente, las demos y el entorno de ejecución. Es recomendable instalar todas. Más vale que sobre a que falte.
-
-<p style="text-align: center">
-  <a href="http://www.manualweb.net/wp-content/uploads/2009/09/java_install.png"><img class="size-full wp-image-204 aligncenter" title="java_install" src="http://www.manualweb.net/wp-content/uploads/2009/09/java_install.png" alt="java_install" width="303" height="231" /></a>
-</p>
+Siguiendo los pasos que se explican en el artículo [Cómo instalar Java][7] podremos tener nuestro entorno preparado para poder desarrollar nuestra primera aplicación [Java][1]
 
 ### Hola Mundo en Java
 
-Ahora que tenemos todo el entorno de desarrollo instalado nos lanzamos a desarrollar, ni más, ni menos, que nuestra primera aplicación Java. Lógicamente, nuestra primera aplicación no podría ser otra que “Hola Mundo”. Por si algún despistado todavía no se ha enterado de que va esta aplicación, decirle, simplemente, que es mostrar por pantalla la frase “Hola Mundo”. Complejo, ¿verdad?. El código de nuestra aplicación es el siguiente:
+Ahora que tenemos todo el entorno de desarrollo instalado nos lanzamos a desarrollar, ni más, ni menos, que nuestra primera aplicación Java.
+
+Lógicamente, nuestra primera aplicación no podría ser otra que “Hola Mundo”. Por si algún despistado todavía no se ha enterado de que va esta aplicación, decirle, simplemente, que es mostrar por pantalla la frase “Hola Mundo”. Complejo, ¿verdad?.
+
+El código de nuestra primera aplicación [Java][1] es el siguiente:
 
 ~~~java
 public class MiPrimeraAplicacion {
@@ -58,7 +52,7 @@ public class MiPrimeraAplicacion {
 }
 ~~~
 
-Este fichero lo guardaremos como **MiPrimeraAplicacion.java**. Este será nuestro fichero con el código fuente.
+El fichero lo guardaremos como **MiPrimeraAplicacion.java**. Este será nuestro fichero con el código fuente.
 
 > Deberemos de tener cuidado en cómo escribimos el nombre del fichero ya que [Java][1] es un **lenguaje sensible a mayúsculas**, es decir, que no es lo mismo poner miprimeraaplicacion o MiprimeraAplicacion o MIPRIMERAAPLICACION o ... El nombre del fichero deberá de coincidir con el nombre de la clase principal.
 
@@ -68,98 +62,120 @@ La verdad es que a estas alturas de la película no nos vamos a centrar en que s
 
 Si bien, no es que haya que ser muy listo, para, al menos, darnos cuenta de que con la sentencia [System.out.println][9] se pueden volcar contenidos a la pantalla del ordenador.
 
-### Compilando mi aplicación
+### Uso del compilador javac
 
-El compilador de [Java][1] se llama **javac** (la c es de compilador, claro). Este no deja de ser un programa ejecutable como otro cualquiera. Para encontrarle y no utilizar las funciones de búsqueda de Windows, podemos dirigirnos a
+El compilador de [Java][1] se llama **javac** (la c es de compilador, claro). Este no deja de ser un programa ejecutable como otro cualquiera.
+
+En el caso de estar en un sistema operativo Windows, el compilador suele estar instalado (si hemos seguido la instalación por defecto) en:
 
 <samp>C:\\Program Files\\Java\\jdk1.6.0_16\\bin</samp>
 
-Suponiendo que lo hemos instalado en la unidad C:. E incluso, podemos arriesgarnos a ejecutar el programa.
+Si estamos trabajando con un MacOS podemos ejecutar el comando.
 
-<samp>C:\\Program Files\\Java\\jdk1.6.0_16\\bin\\javac</pre>
+<kbd>/usr/libexec/java_home</kbd>
 
-A si que veremos algo así por pantalla...
+El cual nos indicará en qué directorio se encuentra instalado [Java][1].
 
-<p style="text-align: center">
-  <a href="http://www.manualweb.net/wp-content/uploads/2009/09/javac.png"><img class="size-full wp-image-207 aligncenter" title="javac" src="http://www.manualweb.net/wp-content/uploads/2009/09/javac.png" alt="javac" width="398" height="323" /></a>
-</p>
+Lo que ya podemos aventurarnos a ejecutar el compilador. Para ello ejecutaremos el programa:
 
-Uff....vaya cantidad de opciones... Para compilar mi aplicación deberé de poner por consola lo siguiente...
+<kbd>javac</kbd>
 
-<samp>C:\\Program Files\\Java\\jdk1.6.0_16\\bin\\javac MiPrimeraAplicacion.java</samp>
+Al ejecutar el compilador veremos por pantalla algo así:
+
+![Opciones JavaC](https://github.com/manualweb/manualweb/raw/dev/java/images/javac.png)
+
+Uff... vaya cantidad de opciones... No te preocupes por ellas, ya que para compilar mi aplicación deberé de poner por consola lo siguiente...
+
+<kbd>javac MiPrimeraAplicacion.java</kbd>
 
 Esta ejecución supone que tenemos el código fuente en el mismo directorio que el compilador, si bien, eso no será lo más corriente.
 
+### Configurando en Path para Java
 
-Para poder ejecutar el compilador en cualquier directorio de nuestra máquina deberemos de insertar el directorio donde se ubica el compilador en la **variable de entorno PATH**. Para ello escribiremos lo siguiente....
+Para poder ejecutar el compilador en cualquier directorio de máquinas Windows deberemos de insertar el directorio donde se ubica el compilador en la **variable de entorno PATH**.
 
-<samp>SET PATH = %PATH%;C:\\Program Files\\Java\\jdk1.6.0_16\\bin</samp>
+Para ello, escribiremos lo siguiente....
+
+<kbd>SET PATH = %PATH%;C:\\Program Files\\Java\\jdk1.6.0_16\\bin</kbd>
 
 Ahora podremos ejecutar el compilador desde cualquier sitio. Así, debería de funcionarnos lo siguiente...
 
-<samp>C:\\WORK\\Ejemplos1\\javac MiPrimeraAplicacion.java</samp>
+<kbd>C:\\WORK\\Ejemplos1\\javac MiPrimeraAplicacion.java</kbd>
 
-Si es que tenemos el código fuente en el directorio <samp>C:\\WORK\\Ejemplos1</samp>. La salida por pantalla será la siguiente...
+### Compilando mi primera aplicación Java
 
-<p style="text-align: center">
-  <a href="http://www.manualweb.net/wp-content/uploads/2009/09/javac2.jpg"><img class="size-full wp-image-208 aligncenter" title="javac2" src="http://www.manualweb.net/wp-content/uploads/2009/09/javac2.jpg" alt="javac2" width="399" height="80" /></a>
-</p>
+Si hemos compilado de forma correcta nuestro programa, simplemente la respuesta por pantalla será la siguiente:
+
+![Compilar Mi Primera Aplicación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/javac-compilar.png)
 
 Vamos que si no nos dice nada de nada es que lo hemos hecho muy bien. En el caso de que hubiéramos metido la pata saldrían cosas como las siguientes...
 
-<p style="text-align: center">
-  <a href="http://www.manualweb.net/wp-content/uploads/2009/09/javacError.jpg"><img class="size-full wp-image-209 aligncenter" title="javacError" src="http://www.manualweb.net/wp-content/uploads/2009/09/javacError.jpg" alt="javacError" width="399" height="98" /></a>
-</p>
+![Error al compilar Mi Primera Aplicación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/javac-error-compilacion.png)
 
 Esto es que el nombre de la clase y del fichero no existe. Múltiples errores se nos pueden producir.
 
 ### Ejecutando mi aplicación
 
-Una vez que hemos ejecutado correctamente la compilación, sorpresa, no obtenemos un fichero ejecutable, es decir, un .EXE.
+Una vez que hemos ejecutado correctamente la compilación, sorpresa, no obtenemos un fichero ejecutable, es decir, un .exe o similar. Si no que obtenemos un fichero **.class**. En este caso obtendremos un fichero **MiPrimeraAplicacion.class**.
 
-Y es que llegados a este punto debemos de ver una de las características del lenguaje Java (Si hubiera realizado una introducción no me pasaría esto). Java es un lenguaje multiplataforma. Una de las frases más celebres que proclaman todos los adeptos de Java es *"write once, run anywhere”*. Esto quiere decir que, una vez creado el fichero fuente y compilado, el resultado (llamémoslo, de momento, nuestro pseudo-fichero ejecutable) lo podemos ejecutar en cualquier otro ordenador. Revisemos algún concepto sobre compiladores. En un proceso de compilación normal seguimos los siguientes pasos: <img class="aligncenter size-full wp-image-210" title="flujo" src="http://www.manualweb.net/wp-content/uploads/2009/09/flujo.jpg" alt="flujo" width="535" height="117" /> Esto nos viene a decir que si yo compilo un programa, por ejemplo, en C, en mi máquina Windows 2000 sobre una plataforma Intel Pentium 4. Solo va a funcionar en maquinas con esa configuración. Si yo llevo mi programa a una máquina con UNIX en una plataforma Solaris no me va a funcionar. ¿Qué hace java para que eso pueda hacerse?. Java, más en concreto los lenguajes interpretados, el compilador genera un código intermedio (más o menos legible). En el caso de Java, el código intermedio se llama Byte Codes. Este código no es dependiente ni del sistema operativo ni de la máquina en el cual lo ejecutamos. En un segundo paso, un interprete, ejecutará dichos Byte Codes en la plataforma que queramos. Es decir, que el interprete ya es especifico del sistema operativo y de la plataforma de ejecución. El esquema quedaría de la siguiente forma... <img class="aligncenter size-full wp-image-211" title="flujo2" src="http://www.manualweb.net/wp-content/uploads/2009/09/flujo2.jpg" alt="flujo2" width="535" height="117" />
+[Java][1] es un lenguaje multiplataforma que está construido bajo el principio de *"write once, run anywhere”*. Esto quiere decir que, una vez creado el fichero fuente y compilado, el resultado (llamémoslo, de momento, nuestro pseudo-fichero ejecutable) lo podemos ejecutar en cualquier otro ordenador.
 
-<p style="text-align: left">
-  Centrándonos, nuevamente, en nuestra aplicación, encontraremos un fichero .class que será el fichero con los Byte Codes. Hagamos un dir...
-</p>
+Revisemos algún concepto sobre compiladores. En un proceso de compilación normal seguimos los siguientes pasos:
 
-<p style="text-align: center">
-  <a href="http://www.manualweb.net/wp-content/uploads/2009/09/dir.jpg"><img class="size-full wp-image-212 aligncenter" title="dir" src="http://www.manualweb.net/wp-content/uploads/2009/09/dir.jpg" alt="dir" width="399" height="130" /></a>
-</p>
+![Flujo de Compilacion](https://github.com/manualweb/manualweb/raw/dev/java/images/flujo-compilacion.png)
 
-El interprete de dichos ByteCodes se llama java. Lo podemos encontrar en el mismo directorio en el que se encontraba el compilador.
+Esto nos viene a decir que si yo compilo un programa, por ejemplo, en C, en mi máquina Windows 8.1 sobre una plataforma Intel. Solo va a funcionar en maquinas con esa configuración.
 
-<pre>C:Program FilesJavajdk1.6.0_16bin</pre>
+Si yo llevo mi programa a una máquina con UNIX en una plataforma Solaris no me va a funcionar. ¿Qué hace [Java][1] para que eso pueda hacerse?.
+
+[Java][1], más concreto, en los lenguajes interpretados, el compilador genera un código intermedio (más o menos legible).
+
+En el caso de [Java][1], el código intermedio se llama **bytecodes**. Este código no es dependiente ni del sistema operativo ni de la máquina en el cual lo ejecutamos.
+
+En un segundo paso, un interprete, ejecutará dichos **bytecodes** en la plataforma que queramos. Es decir, que el interprete ya es especifico del sistema operativo y de la plataforma de ejecución.
+
+El esquema quedaría de la siguiente forma...
+
+![Flujo de Compilación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/flujo-compilacion-java.png)
+
+
+Centrándonos, nuevamente, en nuestra aplicación, encontraremos un fichero **MiPrimeraAplicacion.class** que será el fichero con los **bytecodes**.
+
+El programa que va a ejecutar dichos **bytecodes** es java. Este programa está en el mismo directorio en el que estaba el compilador.
 
 Volvamos a arriesgarnos y ejecutemos el compilador. Recordad que al tener el directorio en la variable de entorno PATH podremos estar en cualquier directorio.
 
-<pre>C:j2sdk1.4.2_03binjava</pre>
+<kbd>java</kbd>
+
 
 Este, tiene más opciones que el compilador...
 
-<p style="text-align: center">
-  <a href="http://www.manualweb.net/wp-content/uploads/2009/09/javaexe.jpg"><img class="size-full wp-image-213 aligncenter" title="javaexe" src="http://www.manualweb.net/wp-content/uploads/2009/09/javaexe.jpg" alt="javaexe" width="399" height="197" /></a>
-</p>
+![Opciones Java](https://github.com/manualweb/manualweb/raw/dev/java/images/java.png)
 
 Para ejecutar nuestra aplicación escribiremos
 
-<pre>C:WORKEjemplos1java MiPrimeraAplicacion</pre>
+<kbd>java MiPrimeraAplicacion</kbd>
 
-Ahhhhhhhhhhhhhhh............ ya me lo he cargado ... Exception in thread “main” java.lang.NoClassDefFoundError ¡y yo con estos pelos! Es normal que la primera vez que ejecutemos nos pueda suceder esto. A si que no nos preocupemos. Esto sucede debido a que el interprete java busca los ficheros .class en los directorios que define la variable de entorno CLASSPATH. Es por ello que si queremos ejecutar una clase que esta en el directorio actual deberemos de tener, al menos, dicho directorio en la variable de entorno. Cuando escribamos aplicaciones más grandes utilizaremos clases creadas por Java, a si que deberemos de tener en el CLASSPATH la ruta de dichas clases. Para solucionar todo este embrollo podemos escribir lo siguiente.
+Ahhhhhhhhhhhhhhh............ ya me lo he cargado ... **Exception in thread “main” java.lang.NoClassDefFoundError** ¡y yo con estos pelos!
 
-<pre>Set CLASSPATH=.</pre>
+Es normal que la primera vez que ejecutemos nos pueda suceder esto. A si que no nos preocupemos.
 
-Notar que el punto hace referencia al directorio actual. Si tu eres una de esas personas que no puede dejar nada fuera de control, te recomiendo que te leas el documento
+Esto sucede debido a que el interprete java busca los ficheros .class en los directorios que define la variable de entorno **CLASSPATH**.
 
-[Microsoft Windows Installation (32-bit)][8] . Todo lo que siempre quisiste saber sobre la variable CLASSPATH y nunca te atreviste a preguntar. :-) Ahora, ya si que podremos ejecutar nuestra aplicación...
+Es por ello que si queremos ejecutar una clase que esta en el directorio actual deberemos de tener, al menos, dicho directorio en la variable de entorno.
 
-<pre>C:WORKEjemplos1java MiPrimeraAplicacion</pre>
+Cuando escribamos aplicaciones más grandes utilizaremos clases creadas por Java, a si que deberemos de tener en el CLASSPATH la ruta de dichas clases. Para solucionar todo este embrollo podemos escribir lo siguiente.
 
-Al fin, el resultado esperado...
+<kbd>set CLASSPATH=.</kbd>
 
-<p style="text-align: center">
-  <a href="http://www.manualweb.net/wp-content/uploads/2009/09/MiPrimeraAplicacion.jpg"><img class="size-full wp-image-214 aligncenter" title="MiPrimeraAplicacion" src="http://www.manualweb.net/wp-content/uploads/2009/09/MiPrimeraAplicacion.jpg" alt="MiPrimeraAplicacion" width="398" height="64" /></a>
-</p>
+Notar que el punto hace referencia al directorio actual.
+
+Si tu eres una de esas personas que no puede dejar nada fuera de control, te recomiendo que te leas el documento [JDK Installation for Microsoft Windows][8] . Todo lo que siempre quisiste saber sobre la variable **CLASSPATH** y nunca te atreviste a preguntar. :-)
+
+Ahora, ya si que podremos ejecutar nuestra aplicación. Al fin, el resultado esperado...
+
+![Ejecutando Mi Primera Aplicación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/java-mi-primera-aplicacion.png)
+
 
  [1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
  [2]: http://www.vim.org/download.php#pc "Wim"
@@ -167,7 +183,7 @@ Al fin, el resultado esperado...
  [4]: http://www.gena01.com/win32pad "Win32Pad"
  [5]: http://www.editpadpro.com/editpadlite.html "EditPadLite"
  [6]: http://www.flos-freeware.ch/notepad2.html "NotePad2"
- [7]: https://java.com/en/download/ "Descargar Compilador Java"
- [8]: http://java.sun.com/javase/6/webnotes/install/jdk/install-windows.html "Microsoft Windows Installation"
+ [7]: http://www.manualweb.net/java/instalar-java/
+ [8]: https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#CHDEBCCJ "JDK Installation for Microsoft Windows"
 
 [9]: http://www.w3api.com/wiki/Java:System.out
