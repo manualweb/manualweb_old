@@ -66,17 +66,24 @@ System.out.println(“Hola Mundo”);
 
 ~~~java
 Circulo miCirculo = new Circulo(2,3);
+~~~
 
-Sentencias de control de flujo
+#### Sentencias de control de flujo
+
+~~~java
 if (valor>1) { … }
+~~~
 
 ### Bloques
+
 Un bloque es un conjunto de sentencias los cuales están delimitados por llaves.
 
+~~~java
 if (expresión) {
 	// Bloque 1
 } else {
 	// Bloque 2
 }
+~~~
 
 [1]: http://www.manualweb.net/tutorial-java/
