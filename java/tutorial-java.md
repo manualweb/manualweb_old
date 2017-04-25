@@ -2,22 +2,31 @@
 ID: 1265
 post_title: Tutorial Java
 author: Víctor Cuervo
-post_date: 2017-04-25 03:12
+post_date: 2017-04-10 10:28:43
 post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/tutorial-java/
 published: true
-slug: tutorial-java
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+slug:
+  - tutorial-java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
-
 Dentro de este **Tutorial Java** podrás encontrar los siguientes contenidos:
 
 *   Introducción al lenguaje Java
@@ -28,11 +37,11 @@ Dentro de este **Tutorial Java** podrás encontrar los siguientes contenidos:
 *   Variables en Java
 *   Operadores en Java
 *   Tipos de datos en Java
-*   [Clase String: Representando una cadena][2]
+*   [Clase String: Representando una cadena][2] 
     *   [Funciones básicas con cadenas][3]
 *   Números en Java
 *   Caracteres en Java
-*   Estructuras de Control en Java
+*   Estructuras de Control en Java 
     *   Estructuras de Decisión
     *   Estructuras de Iteración
 *   [Arrays en Java][4]
