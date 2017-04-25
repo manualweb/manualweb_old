@@ -2,7 +2,7 @@
 ID: 1265
 post_title: Tutorial Java
 author: Víctor Cuervo
-post_date: 2017-04-10 10:28:43
+post_date: 2017-04-25 03:12
 post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/tutorial-java/
@@ -17,9 +17,13 @@ urltest: http://www.testprogramacion.com/java
 urlcurso: http://www.aulaprogramacion.com/java/
 gitfolder: java
 ---
+
 Dentro de este **Tutorial Java** podrás encontrar los siguientes contenidos:
 
 *   Introducción al lenguaje Java
+*   Historia del lenguaje Java
+*   Tecnologías Java
+*   Instalar Java
 *   [Mi primera aplicación Java][1]
 *   Variables en Java
 *   Operadores en Java

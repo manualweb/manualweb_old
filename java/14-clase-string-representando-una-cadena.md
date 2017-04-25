@@ -1,32 +1,25 @@
 ---
 ID: 1273
-post_title: '04 – Clase String: Representando una cadena'
+post_title: '14 – Clase String: Representando una cadena'
 author: Víctor Cuervo
 post_date: 2017-04-10 10:56:39
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/java/clase-string-representando-una-cadena/
+permalink: http://www.manualweb.net/java/clase-string-representando-una-cadena/
 published: true
-nombreforo:
-  - Java
-urlforo:
-  - http://www.dudasprogramacion.com/java/
-urlejemplos:
-  - >
-    http://lineadecodigo.com/categoria/java/feed/
-urlvideo:
-  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual:
-  - http://www.manualweb.net/tutorial-java/
-urltest:
-  - http://www.testprogramacion.com/java
-urlcurso:
-  - http://www.aulaprogramacion.com/java/
-gitfolder:
-  - java
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
 ---
-<!--TOC-->Una cadena de texto no deja de ser más que la sucesión de un conjunto de caracteres alfanuméricos, signos de puntuación y espacios en blanco con más o menos sentido.
+
+[TOC]
+
+Una cadena de texto no deja de ser más que la sucesión de un conjunto de caracteres alfanuméricos, signos de puntuación y espacios en blanco con más o menos sentido.
 
 <p class="texto">
   Podemos encontrarnos desde la archiconocida cadena “Hola Mundo” y la no menos “Mi primera cadena de texto”, pasando por las cadenas de texto personalizadas “Víctor”, “Víctor Cuervo”, las cadenas de depuración “¿Aquí?”, “Paso 1”, “Paso 2”,... hasta las inclasificables “asdf”.
