@@ -17,8 +17,6 @@ urlcurso: http://www.aulaprogramacion.com/java/
 gitfolder: java
 ---
 
-## Introducción al lenguaje Java
-
 [Java][1] es un lenguaje de programación de propósito general, tipado, orientado a objetos,... que permite el desarrollo desde aplicaciones básicas, pasando por aplicaciones empresariales hasta aplicaciones móviles.
 
 [Java][1] nacía como un lenguaje de programación que pudiese ser multiplataforma y multidispositivo, bajo el paradigma *"Write Once Run Anywhere" (WORA)*

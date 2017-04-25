@@ -16,7 +16,6 @@ urltest: http://www.testprogramacion.com/java
 urlcurso: http://www.aulaprogramacion.com/java/
 gitfolder: java
 ---
-
 Dentro de [Java][1] existen diferentes tecnologías de desarrollo, cada una enfocada a un fin diferente, ya sea la base del lenguaje [Java][1], [Java][1] para el ámbito empresarial, [Java][1] para el desarrollo de aplicaciones móviles,...
 
 Cada una de las tecnologías de desarrollo del lenguaje [Java][1] contiene:
