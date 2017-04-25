@@ -2,11 +2,12 @@
 ID: 1518
 post_title: 01 – Introducción a Java
 author: Víctor Cuervo
-post_date: 2017-04-25 02:24:41
+post_date: 2017-04-25 15:00:27
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1518
-published: false
+permalink: >
+  http://www.manualweb.net/java/introduccion-java/
+published: true
 nombreforo:
   - Java
 urlforo:
@@ -24,6 +25,8 @@ urlcurso:
   - http://www.aulaprogramacion.com/java/
 gitfolder:
   - java
+yst_is_cornerstone:
+  - ""
 ---
 [Java][1] es un lenguaje de programación de propósito general, tipado, orientado a objetos,... que permite el desarrollo desde aplicaciones básicas, pasando por aplicaciones empresariales hasta aplicaciones móviles.
 
