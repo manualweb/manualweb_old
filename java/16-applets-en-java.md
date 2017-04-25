@@ -17,7 +17,9 @@ urlcurso: http://www.aulaprogramacion.com/java/
 gitfolder: java
 ---
 
-En **Applets en Java** revisaremos: [TOC]
+En **Applets en Java** revisaremos:
+
+[TOC]
 
 ### ¿Qué es un applet?
 

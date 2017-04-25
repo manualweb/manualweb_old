@@ -2,7 +2,7 @@
 ID: pdte
 post_title: 04 – Instalar Java
 author: Víctor Cuervo
-post_date: 2017-04-25 02:20
+post_date: 2017-04-25 03:11
 post_excerpt: ""
 layout: post
 permalink: http://www.manualweb.net/java/instalar-java/
