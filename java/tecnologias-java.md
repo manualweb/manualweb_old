@@ -1,4 +1,21 @@
-## Tecnologías de desarrollo Java
+---
+ID: pdte
+post_title: 03 – Tecnologías Java
+author: Víctor Cuervo
+post_date: 2017-04-25 02:19
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/tecnologias-java/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 Dentro de [Java][1] existen diferentes tecnologías de desarrollo, cada una enfocada a un fin diferente, ya sea la base del lenguaje [Java][1], [Java][1] para el ámbito empresarial, [Java][1] para el desarrollo de aplicaciones móviles,...
 

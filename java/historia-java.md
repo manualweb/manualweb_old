@@ -1,6 +1,21 @@
-
-## Historia Java
-
+---
+ID: pdte
+post_title: 02 – Historia Java
+author: Víctor Cuervo
+post_date: 2017-04-25 02:17
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/historia-java/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 ### Los Inicios de Java
 
 El lenguaje [Java][1] fue desarrollado en sus inicios por [James Gosling][2], en el año 1991. Inicialmente [Java][1] era conocido como **Oak** o **Green**.

@@ -1,30 +1,20 @@
 ---
 ID: 1293
-post_title: 04.01 – Funciones básicas con cadenas
+post_title: 14.01 – Funciones básicas con cadenas
 author: Víctor Cuervo
 post_date: 2017-04-10 12:01:30
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/java/funciones-basicas-con-cadenas/
+permalink: http://www.manualweb.net/java/funciones-basicas-con-cadenas/
 published: true
-nombreforo:
-  - Java
-urlforo:
-  - http://www.dudasprogramacion.com/java/
-urlejemplos:
-  - >
-    http://lineadecodigo.com/tag/java-string/feed/
-urlvideo:
-  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual:
-  - http://www.manualweb.net/tutorial-java/
-urltest:
-  - http://www.testprogramacion.com/java
-urlcurso:
-  - http://www.aulaprogramacion.com/java/
-gitfolder:
-  - java
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/tag/java-string/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
 ---
 En **Funciones básicas con cadenas** vamos a ver: [TOC]
 

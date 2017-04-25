@@ -1,30 +1,20 @@
 ---
 ID: 1288
-post_title: 05 – Arrays en Java
+post_title: 15 – Arrays en Java
 author: Víctor Cuervo
 post_date: 2017-04-10 11:41:57
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.manualweb.net/java/arrays-en-java/
+permalink: http://www.manualweb.net/java/arrays-en-java/
 published: true
-nombreforo:
-  - Java
-urlforo:
-  - http://www.dudasprogramacion.com/java/
-urlejemplos:
-  - >
-    http://lineadecodigo.com/tag/java-array/feed/
-urlvideo:
-  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual:
-  - http://www.manualweb.net/tutorial-java/
-urltest:
-  - http://www.testprogramacion.com/java
-urlcurso:
-  - http://www.aulaprogramacion.com/java/
-gitfolder:
-  - java
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/tag/java-array/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
 ---
 Dentro de **Arrays en Java** puedes encontrar: [TOC]
 

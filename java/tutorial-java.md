@@ -20,6 +20,9 @@ gitfolder: java
 Dentro de este **Tutorial Java** podrás encontrar los siguientes contenidos:
 
 *   Introducción al lenguaje Java
+*   Historia del lenguaje Java
+*   Tecnologías Java
+*   Instalar Java
 *   [Mi primera aplicación Java][1]
 *   Variables en Java
 *   Operadores en Java
