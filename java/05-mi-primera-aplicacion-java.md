@@ -83,7 +83,7 @@ Lo que ya podemos aventurarnos a ejecutar el compilador. Para ello ejecutaremos 
 
 Al ejecutar el compilador veremos por pantalla algo así:
 
-![Opciones JavaC](https://github.com/manualweb/manualweb/raw/dev/java/images/javac.png)
+<img src="https://github.com/manualweb/manualweb/raw/master/java/images/javac.png" alt="Opciones JavaC" class="img-responsive"/>
 
 Uff... vaya cantidad de opciones... No te preocupes por ellas, ya que para compilar mi aplicación deberé de poner por consola lo siguiente...
 
