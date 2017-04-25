@@ -107,11 +107,11 @@ Ahora podremos ejecutar el compilador desde cualquier sitio. Así, debería de f
 
 Si hemos compilado de forma correcta nuestro programa, simplemente la respuesta por pantalla será la siguiente:
 
-![Compilar Mi Primera Aplicación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/javac-compilar.png)
+<img src="https://github.com/manualweb/manualweb/raw/master/java/images/javac-compilar.png" alt="Compilar Mi Primera Aplicación Java" class="img-responsive"/>
 
 Vamos que si no nos dice nada de nada es que lo hemos hecho muy bien. En el caso de que hubiéramos metido la pata saldrían cosas como las siguientes...
 
-![Error al compilar Mi Primera Aplicación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/javac-error-compilacion.png)
+<img src="https://github.com/manualweb/manualweb/raw/master/java/images/javac-error-compilacion.png" alt="Error al compilar Mi Primera Aplicación Java" class="img-responsive"/>
 
 Esto es que el nombre de la clase y del fichero no existe. Múltiples errores se nos pueden producir.
 
@@ -123,7 +123,7 @@ Una vez que hemos ejecutado correctamente la compilación, sorpresa, no obtenemo
 
 Revisemos algún concepto sobre compiladores. En un proceso de compilación normal seguimos los siguientes pasos:
 
-![Flujo de Compilacion](https://github.com/manualweb/manualweb/raw/dev/java/images/flujo-compilacion.png)
+<img src="https://github.com/manualweb/manualweb/raw/master/java/images/flujo-compilacion.png" alt="Flujo de Compilacion" class="img-responsive"/>
 
 Esto nos viene a decir que si yo compilo un programa, por ejemplo, en C, en mi máquina Windows 8.1 sobre una plataforma Intel. Solo va a funcionar en maquinas con esa configuración.
 
@@ -137,8 +137,7 @@ En un segundo paso, un interprete, ejecutará dichos **bytecodes** en la platafo
 
 El esquema quedaría de la siguiente forma...
 
-![Flujo de Compilación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/flujo-compilacion-java.png)
-
+<img src="https://github.com/manualweb/manualweb/raw/master/java/images/flujo-compilacion-java.png" alt="Flujo de Compilación Java" class="img-responsive"/>
 
 Centrándonos, nuevamente, en nuestra aplicación, encontraremos un fichero **MiPrimeraAplicacion.class** que será el fichero con los **bytecodes**.
 
@@ -151,7 +150,7 @@ Volvamos a arriesgarnos y ejecutemos el compilador. Recordad que al tener el dir
 
 Este, tiene más opciones que el compilador...
 
-![Opciones Java](https://github.com/manualweb/manualweb/raw/dev/java/images/java.png)
+<img src="https://github.com/manualweb/manualweb/raw/master/java/images/java.png" alt="Opciones Java" class="img-responsive"/>
 
 Para ejecutar nuestra aplicación escribiremos
 
@@ -175,7 +174,8 @@ Si tu eres una de esas personas que no puede dejar nada fuera de control, te rec
 
 Ahora, ya si que podremos ejecutar nuestra aplicación. Al fin, el resultado esperado...
 
-![Ejecutando Mi Primera Aplicación Java](https://github.com/manualweb/manualweb/raw/dev/java/images/java-mi-primera-aplicacion.png)
+<img src="https://github.com/manualweb/manualweb/raw/master/java/images/java-mi-primera-aplicacion.png" alt="Ejecutando Mi Primera Aplicación Java" class="img-responsive"/>
+
 
  [1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
  [2]: http://www.vim.org/download.php#pc "Wim"
