@@ -12,7 +12,7 @@ gitfolder: main
 
 ## ¿Qué es Manual Web?
 
-<img src="http://www.manualweb.net/wp-content/uploads/2007/08/lenguajes-300x207.png" alt="Manual Web" class="pull-right" />
+<img src="http://www.manualweb.net/wp-content/uploads/2007/08/lenguajes-300x207.png" alt="Manual Web" class="pull-right img-responsive" />
 
 [Manual Web][1] es una página que contiene diferentes **manuales, tutoriales o guías sobre lenguajes de programación en español**.
 
