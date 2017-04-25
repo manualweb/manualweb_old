@@ -7,23 +7,14 @@ post_excerpt: ""
 layout: post
 permalink: http://www.manualweb.net/?p=1514
 published: false
-nombreforo:
-  - Java
-urlforo:
-  - http://www.dudasprogramacion.com/java/
-urlejemplos:
-  - >
-    http://lineadecodigo.com/categoria/java/feed/
-urlvideo:
-  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual:
-  - http://www.manualweb.net/tutorial-java/
-urltest:
-  - http://www.testprogramacion.com/java
-urlcurso:
-  - http://www.aulaprogramacion.com/java/
-gitfolder:
-  - java
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos:   http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
 ---
 ### Los Inicios de Java
 
