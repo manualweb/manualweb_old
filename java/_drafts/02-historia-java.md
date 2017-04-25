@@ -1,22 +1,30 @@
 ---
-ID: pdte
+ID: 1514
 post_title: 02 – Historia Java
 author: Víctor Cuervo
-post_date: 2017-04-25 03:11
+post_date: 2017-04-25 02:24:41
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/java/historia-java/
+permalink: http://www.manualweb.net/?p=1514
 published: false
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
-
 ### Los Inicios de Java
 
 El lenguaje [Java][1] fue desarrollado en sus inicios por [James Gosling][2], en el año 1991. Inicialmente [Java][1] era conocido como **Oak** o **Green**.
@@ -53,7 +61,6 @@ Una de las cosas que sucede en noviembre 2006 es que [Sun Microsystems][3] lo co
 
 Dando lugar en mayo 2008 a lo que se conoce como [OpenJDK][7], con OpenJDK 6.
 
-
 ### Java 7
 
 Llegado julio de 2011 ve la luz *[Java][1] 7*, la cual trae como novedades el **soporte de lenguajes dinámicos**, dotando a la JVM de un soporte de mútiples lenguajes y una **nueva librería I/O para el manejo de ficheros**.
@@ -78,13 +85,12 @@ La fecha prevista para disponer de *[Java][1] 9* es julio 2017.
 
 Dentro de esta versión podremos encontrar el *Project Jigsaw* que establece la **modularización de la JDK**, el **Java Shell** con el que podremos trabajar e interactuar al *estilo RELP (Read–eval–print loop)*, soporte para **http 2.0** y [algunas cosas más][9]
 
-
-[1]: http://www.manualweb.net/tutorial-java/
-[2]: https://www.linkedin.com/in/jamesgosling/
-[3]: https://en.wikipedia.org/wiki/Sun_Microsystems
-[4]: https://www.jcp.org/en/jsr/detail?id=59
-[5]: http://www.manualweb.net/tutorial-xml/
-[6]: http://www.manualweb.net/tutorial-xslt/
-[7]: http://openjdk.java.net/
-[8]: http://www.manualweb.net/tutorial-javascript/
-[9]: http://blog.takipi.com/5-features-in-java-9-that-will-change-how-you-develop-software-and-2-that-wont/
+ [1]: http://www.manualweb.net/tutorial-java/
+ [2]: https://www.linkedin.com/in/jamesgosling/
+ [3]: https://en.wikipedia.org/wiki/Sun_Microsystems
+ [4]: https://www.jcp.org/en/jsr/detail?id=59
+ [5]: http://www.manualweb.net/tutorial-xml/
+ [6]: http://www.manualweb.net/tutorial-xslt/
+ [7]: http://openjdk.java.net/
+ [8]: http://www.manualweb.net/tutorial-javascript/
+ [9]: http://blog.takipi.com/5-features-in-java-9-that-will-change-how-you-develop-software-and-2-that-wont/

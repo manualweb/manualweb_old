@@ -1,22 +1,30 @@
 ---
-ID: pdte
+ID: 1518
 post_title: 01 – Introducción a Java
 author: Víctor Cuervo
-post_date: 2017-04-25 03:12
+post_date: 2017-04-25 02:24:41
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/java/introduccion-java/
+permalink: http://www.manualweb.net/?p=1518
 published: false
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
-
 [Java][1] es un lenguaje de programación de propósito general, tipado, orientado a objetos,... que permite el desarrollo desde aplicaciones básicas, pasando por aplicaciones empresariales hasta aplicaciones móviles.
 
 [Java][1] nacía como un lenguaje de programación que pudiese ser multiplataforma y multidispositivo, bajo el paradigma *"Write Once Run Anywhere" (WORA)*
@@ -26,6 +34,7 @@ De esta forma un programa [Java][1] escrito una vez podemos ejecutarle sobre dif
 Para poder seguir este paradigma la compilación de un programa [Java][1] no genera código fuente, si no que genera **bytecodes**. Estos **bytecodes** son interpretados por una máquina virtual o **JVM (Java Virtual Machine)**. Dicha máquina ya está escrita para cada uno de los sistemas operativos en cuestión.
 
 ### Características del lenguaje Java
+
 Dentro de las características del lenguaje [Java][1] encontramos:
 
 #### Independiente de Plataforma
@@ -55,21 +64,25 @@ Independientemente de que se ejecute en una arquitectura de 32bits o de 64bits. 
 [Java][1] no tiene nada que dependa de la plataforma, lo cual le hace que sea portable a diferentes plataformas.
 
 #### Robusto
+
 El lenguaje [Java][1] intenta controlar las situaciones de error en los procesos de compilación y de ejecución, reduciendo de esta manera el riesgo de fallo.
 
 Además [Java][1] realiza el control total de la memoria alocándola y retirandola mediante un **garbage colletor**, de tal manera que no podemos utilizar punteros para acceder a ella.
 
 #### Multi-hilo
+
 [Java][1] nos permite la programación concurrente, de tal manera que un único programa puede abrir diferentes hilos de ejecución.
 
 #### Interpretado
+
 Los **bytecodes** son interpretados en tiempo real a código máquina.
 
 #### Alto Rendimiento
+
 [Java][1] ofrece compiladores Just-In-Time que permiten tener un alto rendimiento.
 
 #### Distribuido
+
 El lenguaje [Java][1] está pensando para ser ejecutado en arquitecturas distribuidas, como pueda ser Internet.
 
-
-[1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
+ [1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
