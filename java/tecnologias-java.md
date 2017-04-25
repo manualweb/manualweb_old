@@ -2,7 +2,7 @@
 ID: pdte
 post_title: 03 – Tecnologías Java
 author: Víctor Cuervo
-post_date: 2017-04-25 02:19
+post_date: 2017-04-25 03:12
 post_excerpt: ""
 layout: post
 permalink: http://www.manualweb.net/java/tecnologias-java/

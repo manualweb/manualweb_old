@@ -17,7 +17,9 @@ urlcurso: http://www.aulaprogramacion.com/java/
 gitfolder: java
 ---
 
-En **Funciones básicas con cadenas** vamos a ver: [TOC]
+En **Funciones básicas con cadenas** vamos a ver:
+
+[TOC]
 
 Una vez que hemos visto [lo sencillo que es crear una cadena de texto][1] vamos a echar un vistazo a los métodos que nos permiten manipular la cadena de texto. Si tuviésemos que ordenar dichos métodos podríamos llegar a la siguiente división:
 

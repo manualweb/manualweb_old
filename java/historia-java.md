@@ -2,7 +2,7 @@
 ID: pdte
 post_title: 02 – Historia Java
 author: Víctor Cuervo
-post_date: 2017-04-25 02:17
+post_date: 2017-04-25 03:11
 post_excerpt: ""
 layout: post
 permalink: http://www.manualweb.net/java/historia-java/
