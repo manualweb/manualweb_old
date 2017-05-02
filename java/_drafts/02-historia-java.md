@@ -6,7 +6,7 @@ post_date: 2017-04-25 02:24:41
 post_excerpt: ""
 layout: post
 permalink: http://www.manualweb.net/?p=1514
-published: false
+published: true
 nombreforo: Java
 urlforo: http://www.dudasprogramacion.com/java/
 urlejemplos:   http://lineadecodigo.com/categoria/java/feed/
