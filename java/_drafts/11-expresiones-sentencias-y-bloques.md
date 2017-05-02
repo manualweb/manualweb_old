@@ -1,20 +1,29 @@
 ---
-ID: pdte
+ID: 1539
 post_title: 11 – Expresiones, sentencias y bloques
 author: Víctor Cuervo
-post_date: 2017-05-02 18:14
+post_date: 2017-05-02 17:34:57
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/java/expresiones-sentencias-bloques/
+permalink: http://www.manualweb.net/?p=1539
 published: false
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
 Un programa en [Java][1] se compone de un conjunto de sentencias que se ejecutan para resolver un problema. Las sentencias son el elemento básico de ejecución de los programa [Java][1].
 
@@ -26,24 +35,21 @@ Una expresión es un conjunto de variables, operadores e invocaciones de método
 
 Ejemplos de expresiones son:
 
-~~~java
-int valor = 1;
-if (valor 1 > valor2) { … }
-~~~
+<pre><code class="java">int valor = 1;
+if (valor 1 &gt; valor2) { … }
+</code></pre>
 
 Cuando tengamos expresiones de evaluación complejas es recomendable que utilicemos paréntesis para saber cual es el orden de ejecución de operaciones.
 
 Ya que si tenemos una expresión como
 
-~~~java
-2 + 10 / 5
-~~~
+<pre><code class="java">2 + 10 / 5
+</code></pre>
 
 No será la misma si ponemos
 
-~~~java
-(2 + 10) / 5	ó	2 + (10 / 5)
-~~~
+<pre><code class="java">(2 + 10) / 5    ó   2 + (10 / 5)
+</code></pre>
 
 En el caso de no utilizar paréntesis se ejecutará el orden de preferencia de operadores. En este caso la división tiene más preferencia que la suma.
 
@@ -55,50 +61,43 @@ Tenemos los siguientes tipos de sentencias.
 
 #### Sentencias de declaración
 
-~~~java
-int valor = 2;
-~~~
+<pre><code class="java">int valor = 2;
+</code></pre>
 
 #### Sentencias de asignación
 
-~~~java
-valor = 2;
-~~~
+<pre><code class="java">valor = 2;
+</code></pre>
 
 #### Sentencias de incremento o decremento
 
-~~~java
-valor++;
-~~~
+<pre><code class="java">valor++;
+</code></pre>
 
 #### Invocaciones a métodos
 
-~~~java
-System.out.println(“Hola Mundo”);
-~~~
+<pre><code class="java">System.out.println(“Hola Mundo”);
+</code></pre>
 
 #### Creaciones de objetos
 
-~~~java
-Circulo miCirculo = new Circulo(2,3);
-~~~
+<pre><code class="java">Circulo miCirculo = new Circulo(2,3);
+</code></pre>
 
 #### Sentencias de control de flujo
 
-~~~java
-if (valor>1) { … }
-~~~
+<pre><code class="java">if (valor&gt;1) { … }
+</code></pre>
 
 ### Bloques
 
 Un bloque es un conjunto de sentencias los cuales están delimitados por llaves.
 
-~~~java
-if (expresión) {
-	// Bloque 1
+<pre><code class="java">if (expresión) {
+    // Bloque 1
 } else {
-	// Bloque 2
+    // Bloque 2
 }
-~~~
+</code></pre>
 
-[1]: http://www.manualweb.net/tutorial-java/
+ [1]: http://www.manualweb.net/tutorial-java/

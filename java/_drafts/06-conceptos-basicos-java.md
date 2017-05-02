@@ -1,32 +1,39 @@
 ---
-ID: pdte
+ID: 1537
 post_title: 06 – Conceptos Básicos Java
 author: Víctor Cuervo
-post_date: 2017-05-02 18:08
+post_date: 2017-05-02 17:34:56
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/java/conceptos-basicos-java/
+permalink: http://www.manualweb.net/?p=1537
 published: false
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
-
 Si estás empezando con el lenguaje [Java][1] hay una serie de conceptos iniciales de la orientación a objetos que debes de manejar para poder desarrollar con este lenguaje.
 
 Aquí los vamos a ver por encima y dedicaremos un capítulo entero a ellos entrando en detalle sobre todas sus características
 
-* Objeto
-* Clase
-* Paquete
-* Interface
-* Herencia
-
+*   Objeto
+*   Clase
+*   Paquete
+*   Interface
+*   Herencia
 
 ### Objeto
 
@@ -36,7 +43,7 @@ El ***paradigma de la orientación a objetos*** aparece como contraste a la ***p
 
 Un objeto tiene su estado (o estados) y su comportamiento. Esto se modela mediante propiedades (o variables) y métodos. Incluso un objeto puede contener a su vez a otro tipo de objeto.
 
-####Encapsulación de datos
+#### Encapsulación de datos
 
 Las interacciones con los objetos se hacen mediante los métodos. Es decir, si queremos conocer información del estado del objeto deberemos de llamar a uno de sus métodos y no directamente a las propiedades.
 
@@ -46,10 +53,10 @@ Si bien hay objetos que tienen propiedades públicas, por lo cual podremos acced
 
 El uso de objetos nos proporciona los siguientes beneficios:
 
-1. **Modularidad**, el objeto y sus propiedades puede ser pasado por diferentes estructuras del código fuente, pero el objeto es el mismo.
-2. **Encapsular Datos**, ocultamos la implementación de propiedades del objeto ya que accederemos a través de los métodos del objeto.
-3. **Reutilización de Código**, podemos tener diferentes instancias de un objeto de tal manera que esas diferentes instancias están compartiendo el mismo código.
-4. **Reemplazo**, podemos reemplazar un objeto por otro siempre y cuando estos objetos tengan el mismo comportamiento.
+1.  **Modularidad**, el objeto y sus propiedades puede ser pasado por diferentes estructuras del código fuente, pero el objeto es el mismo.
+2.  **Encapsular Datos**, ocultamos la implementación de propiedades del objeto ya que accederemos a través de los métodos del objeto.
+3.  **Reutilización de Código**, podemos tener diferentes instancias de un objeto de tal manera que esas diferentes instancias están compartiendo el mismo código.
+4.  **Reemplazo**, podemos reemplazar un objeto por otro siempre y cuando estos objetos tengan el mismo comportamiento.
 
 #### Ejemplos de objetos
 
@@ -67,19 +74,18 @@ En la clase es dónde realmente definimos las propiedades y métodos que podrán
 
 Por ejemplo, para nuestro caso de las figuras geométricas podríamos definir un triángulo de la siguiente forma:
 
-~~~java
-class Triangulo {
-	private long base;
-	private long altura;
+<pre><code class="java">class Triangulo {
+    private long base;
+    private long altura;
 
-	public Triangulo(long base, long altura) {
-		this.base = base;
-		this.altura = altura;
-	}
+    public Triangulo(long base, long altura) {
+        this.base = base;
+        this.altura = altura;
+    }
 
-	public long area() {
-		return (base*altura)/2;
-	}
+    public long area() {
+        return (base*altura)/2;
+    }
 }
 
 Triangulo t1 = new Triangulo(2.0,3.0);
@@ -87,45 +93,40 @@ Triangulo t2 = new Triangulo(4.0,7.0);
 
 t1.area(); // Área 3.0
 t2.area(); // Área 14.0
-~~~
+</code></pre>
 
 De momento no te preocupes por entender el código del todo, pero verás que hemos definido una clase triángulo la cual tiene **dos propiedades base y altura**. Estas propiedades las hemos definido como *“private”* lo cual hace que no puedan ser visibles desde fuera.
 
-~~~java
-private long base;
+<pre><code class="java">private long base;
 private long altura;
-~~~
+</code></pre>
 
 Luego tenemos lo que se conoce como un **método constructor**. Es el método que *tiene el mismo nombre que la clase: `Triangulo ()`* y que nos sirve para inicializar las propiedades desde el exterior.
 
-~~~java
-public Triangulo(long base, long altura) {
-	this.base = base;
-	this.altura = altura;
+<pre><code class="java">public Triangulo(long base, long altura) {
+    this.base = base;
+    this.altura = altura;
 }
-~~~
+</code></pre>
 
 Además hemos creado un **método que nos calcula el área de un triángulo (base x altura / 2)**. Este método ya es público y podrá ser invocado de forma externa.
 
-~~~java
-public long area() {
+<pre><code class="java">public long area() {
   return (base*altura)/2;
 }
-~~~
+</code></pre>
 
 Vemos cómo creamos diferentes objetos del tipo `Triángulo`. A estos objetos los pasamos diferentes valores.
 
-~~~java
-Triangulo t1 = new Triangulo(2.0,3.0);
+<pre><code class="java">Triangulo t1 = new Triangulo(2.0,3.0);
 Triangulo t2 = new Triangulo(4.0,7.0);
-~~~
+</code></pre>
 
 Y por último hemos invocado al método que nos devuelve el área del triángulo del objeto en concreto.
 
-~~~java
-t1.area(); // Área 3.0
+<pre><code class="java">t1.area(); // Área 3.0
 t2.area(); // Área 14.0
-~~~
+</code></pre>
 
 ### Interface
 
@@ -135,30 +136,27 @@ Cuando implementemos un interface (cuando lo usemos) deberemos de implementar to
 
 Por ejemplo podríamos definir un interface `Figura` el cual indique qué métodos son obligatorios cuando vayamos a definir una figura. El interface se define mediante la palabra interface.
 
-~~~java
-interface Figura {
-	…
+<pre><code class="java">interface Figura {
+    …
 }
-~~~
+</code></pre>
 
 Dentro del interface definimos los métodos que serán obligatorios. Por ejemplo, que de una figura se pueda calcular su área y calcular su perímetro.
 
-~~~java
-interface Figura {
-	public long area();
-	public long perimetro();
+<pre><code class="java">interface Figura {
+    public long area();
+    public long perimetro();
 }
-~~~
+</code></pre>
 
 Cuando queramos que una clase implemente un determinado interface deberemos de utilizar el **operador implements** indicando el nombre del interface a implementar.
 
 Así, si un triángulo queremos que implemente el interface Figura lo definiremos de la siguiente forma:
 
-~~~java
-public Triangulo implements Figura {
-	…
+<pre><code class="java">public Triangulo implements Figura {
+    …
 }
-~~~
+</code></pre>
 
 En este momento la clase `Triangulo` deberá de implementar los métodos *calcular área* y *calcular perímetro*.
 
@@ -172,36 +170,34 @@ Los paquetes se definen mediante el modficiador `package` seguido del nombre del
 
 Una definición de paquete podría ser:
 
-~~~java
-package net.manualweb.java.ejemplos;
-~~~
+<pre><code class="java">package net.manualweb.java.ejemplos;
+</code></pre>
 
 El lenguaje **[Java][1] nos proporciona un conjunto de paquetes por defecto** (conocido como **API Java**) en los que se pueden encontrar múltiples utilidades del lenguaje. Por ejemplo, la clase [Java][1] que nos ayuda a manipular las cadenas de texto es la clase [String][2]. La [clase String][2] la podemos encontrar en el paquete **java.lang**.
 
 ### Herencia
+
 La **herencia** es una forma de estructurar el software. Mediante la **herencia** podemos indicar que una clase hereda de otra. Es decir la clase extiende las capacidades (propiedades y métodos) que tenga y añade nuevas propiedades y acciones.
 
 Digamos que las nuevas clases especializan más aquellas clases de las que heredan al añadir nueva funcionalidad. Aunque también pueden reescribir el funcionamiento de dichos elementos.
 
 En nuestro ejemplo del triángulo, este podría heredar de una clase polígono.
 
-~~~java
-public class Triangulo extends Poligono {
-	…
+<pre><code class="java">public class Triangulo extends Poligono {
+    …
 }
-~~~
+</code></pre>
 
 De igual manera de esta clase general `Poligono` podrían heredar otras clases que representasen un polígono, por ejemplo las clases `Cuadrado`, `Pentagono`,...
 
-~~~java
-public class Cuadrado extends Poligono {
-	...
+<pre><code class="java">public class Cuadrado extends Poligono {
+    ...
 }
 
 public class Pentagono extends Poligono {
-	...
+    ...
 }
-~~~
+</code></pre>
 
 La herencia entre clases se indica mediante el operador `extends`.
 
@@ -209,48 +205,44 @@ La clase superior de la que heredan las figuras puede definir una serie de propi
 
 Por ejemplo, la clase `Poligono` puede tener una propiedad que sean las longitudes de los lados del polígono y que utilice esas longitudes para calcular el perímetro del polígono.
 
-~~~java
-public class Poligono {
+<pre><code class="java">public class Poligono {
 
-	private long[] lados;
+    private long[] lados;
 
-	public Poligono(long[] lados) {
-		this.lados = lados;
-	}
+    public Poligono(long[] lados) {
+        this.lados = lados;
+    }
 
-	public long perimetro() {
-		…
-	}
+    public long perimetro() {
+        …
+    }
 
 }
-~~~
+</code></pre>
 
 Cuando ahora indiquemos que la clase `Triangulo` hereda de la clase `Poligono`.
 
-~~~java
-public class Triangulo extends Poligono {
-	…
+<pre><code class="java">public class Triangulo extends Poligono {
+    …
 
-	public Triangulo (long base, long altura, int[] lados) {
-		super(lados);
-		this.base = base;
-		this.altura = altura;
-	}
+    public Triangulo (long base, long altura, int[] lados) {
+        super(lados);
+        this.base = base;
+        this.altura = altura;
+    }
 
 }
-~~~
+</code></pre>
 
 Veremos que los objetos instanciados como triángulos tendrán acceso a los métodos del polígono.
 
-~~~java
-Triangulo t1 = new Triangulo(2.0,3.0);
+<pre><code class="java">Triangulo t1 = new Triangulo(2.0,3.0);
 t1.perimetro();
-~~~
+</code></pre>
 
 En este caso accedemos al método perímetro que heredamos de la clase Polígono.
 
 Una de las cosas que tienes que saber en la herencia es que en el constructor de la clase que hereda (o clase hija) se deberá de llamar al constructor de la clase padre. Para ello se utiliza el método especial `super()`;
 
-
-[1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
-[2]: http://www.manualweb.net/java/clase-string-representando-una-cadena/ "Clase String Java"
+ [1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
+ [2]: http://www.manualweb.net/java/clase-string-representando-una-cadena/ "Clase String Java"

@@ -1,20 +1,29 @@
 ---
-ID: pdte
+ID: 1563
 post_title: 08 – Tipos de Datos Primitivos
 author: Víctor Cuervo
-post_date: 2017-05-02 18:09
+post_date: 2017-05-02 17:34:57
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/java/tipos-datos-primitivos/
+permalink: http://www.manualweb.net/?p=1563
 published: false
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
 ### ¿Qué son los tipos datos primitivos en Java?
 
@@ -22,14 +31,14 @@ Como ya hemos comentado [Java][1] es un lenguaje de tipado estático. Es decir, 
 
 El lenguaje [Java][1] da de base una serie de tipos de datos primitivos.
 
-* byte
-* short
-* int
-* long
-* float
-* double
-* boolean
-* char
+*   byte
+*   short
+*   int
+*   long
+*   float
+*   double
+*   boolean
+*   char
 
 Es importante saber que estos son tipos de datos del lenguaje y que no representan objetos. Cosa que sí sucede con el resto de elementos del lenguaje [Java][1].
 
@@ -62,23 +71,24 @@ Es un tipo de dato para almacenar números en coma flotante con doble precisión
 Sirve para definir tipos de datos booleanos. Es decir, aquellos que tienen un valor de true o false. Ocupa 1 bit de información.
 
 #### char
+
 Es un tipo de datos que representa a un carácter Unicode sencillo de 16 bits.
 
 ### Valores por defecto de los tipos de datos primitivos
 
 En el caso de que definamos una variable y no le demos ningún valor, por defecto llevarán los siguientes valores:
 
-|Dato Primitivo|Valor por Defecto|
-|--|--|
-|byte|0|
-|short|0|
-|int|0|
-|long|0L|
-|float|0.0f|
-|double|0.0d|
-|char|'\u0000'|
-|String (o cualquier objeto)|null|
-|boolean|false|
+| Dato Primitivo              | Valor por Defecto |
+| --------------------------- | ----------------- |
+| byte                        | 0                 |
+| short                       | 0                 |
+| int                         | 0                 |
+| long                        | 0L                |
+| float                       | 0\.0f             |
+| double                      | 0\.0d             |
+| char                        | 'u0000'           |
+| String (o cualquier objeto) | null              |
+| boolean                     | false             |
 
 Hay un tipo de dato String para el manejo de cadenas que no es en sí un tipo de dato primitivo. Con el tipo de dato String podemos manejar cadenas de caracteres separadas por dobles comillas.
 
@@ -86,5 +96,4 @@ El elemento String es un tipo de dato inmutable. Es decir, que una vez creado, s
 
 El String no es un tipo de dato primitivo del lenguaje Java. Pero su uso es igual de importante que el de los tipos de datos revisados aquí. Veremos más en detalle el uso del tipo String.
 
-
-[1]: http://www.manualweb.com/tutorial-java/
+ [1]: http://www.manualweb.com/tutorial-java/

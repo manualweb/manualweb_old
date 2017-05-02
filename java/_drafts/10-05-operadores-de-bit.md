@@ -1,45 +1,52 @@
 ---
-ID: pdte
+ID: 1545
 post_title: 10.05 – Operadores de Bit
 author: Víctor Cuervo
-post_date: 2017-05-02 18:14
+post_date: 2017-05-02 17:34:57
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/java/operadores-bit/
+permalink: http://www.manualweb.net/?p=1545
 published: false
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
-
 Otros de los operadores que nos ofrece el lenguaje Java son los **operadores de bit**. Estos nos permiten manejar números binarios. Los número binarios podremos operarlos de dos formas. Por un lado de forma que el cálculo se haga bit a bit, bien sea realizando operaciones de AND, OR,... Y por otro desplazamiento de bits.
 
 Veamos en detalle qué operadores hay para el manejo bit a bit y qué operadores hay para el desplazamiento de bits.
 
-|Operador|Descripción|
-|--|--|
-|&|Operador bits AND|
-|^|Operador bits OR exclusivo (XOR)|
-|\||Operador bits OR inclusivo|
-|~|Operador Negación Bits (NOT)|
-|<<|Operador desplazamiento izquierda|
-|>>|Operador desplazamiento derecha|
-|>>>|Operador desplazamiento derecha sin signo|
+| Operador | Descripción                               |
+| -------- | ----------------------------------------- |
+| &        | Operador bits AND                         |
+| ^        | Operador bits OR exclusivo (XOR)          |
+| |        | Operador bits OR inclusivo                |
+| ~        | Operador Negación Bits (NOT)              |
+| <<       | Operador desplazamiento izquierda         |
+| >>       | Operador desplazamiento derecha           |
+| >>>      | Operador desplazamiento derecha sin signo |
 
 ### Operadores de Bit a Bit
 
 La estructura de los operadores de bit a bit es la siguiente
 
-~~~java
-(valor_binario1) & (valor_binario2)
+<pre><code class="java">(valor_binario1) & (valor_binario2)
 (valor_binario1) ^ (valor_binario2)
 (valor_binario1) | (valor_binario2)
-~~~
+</code></pre>
 
 #### Operador AND
 
@@ -47,18 +54,16 @@ El **operador de bit AND** lo que hace es multiplicar los bits de las dos cadena
 
 Así de la siguiente operación:
 
-~~~java
-0101 & 0011
-~~~
+<pre><code class="java">0101 & 0011
+</code></pre>
 
 Tendremos que el resultado es:
 
-~~~java
-0101 AND	(decimal 5)
-0011		  (decimal 3)
+<pre><code class="java">0101 AND    (decimal 5)
+0011          (decimal 3)
 --------
-0001		  (decimal 1)
-~~~
+0001          (decimal 1)
+</code></pre>
 
 #### Operador OR
 
@@ -66,18 +71,16 @@ En el caso del **OR inclusivo (operador |)** lo que se hace es multiplicar los b
 
 Así la operación:
 
-~~~java
-(0101) | (0011)
-~~~
+<pre><code class="java">(0101) | (0011)
+</code></pre>
 
 Dará como resultado:
 
-~~~java
-0101 OR	(decimal 5)
-0011		(decimal 3)
+<pre><code class="java">0101 OR (decimal 5)
+0011        (decimal 3)
 --------
-0111		(decimal 7)
-~~~
+0111        (decimal 7)
+</code></pre>
 
 #### Operador XOR
 
@@ -85,18 +88,16 @@ Para el caso del **OR exclusivo (operador ^) conocido como XOR**. La multiplicac
 
 De esta forma si tenemos la operación:
 
-~~~java
-(0101) ^ (0011)
-~~~
+<pre><code class="java">(0101) ^ (0011)
+</code></pre>
 
 El resultado que encontraremos será:
 
-~~~java
-0101 XOR	(decimal 5)
-0011		  (decimal 3)
+<pre><code class="java">0101 XOR    (decimal 5)
+0011          (decimal 3)
 --------
-0110		  (decimal 6)
-~~~
+0110          (decimal 6)
+</code></pre>
 
 #### Operador NOT
 
@@ -104,33 +105,29 @@ El **operador de negación de bits** nos permite invertir el contenido de bits d
 
 En este caso la estructura será:
 
-~~~java
-~ (valor)
-~~~
+<pre><code class="java">~ (valor)
+</code></pre>
 
 Así podríamos tener la sentencia:
 
-~~~java
-~ (0111)
-~~~
+<pre><code class="java">~ (0111)
+</code></pre>
 
 La cual se traduciría en:
 
-~~~java
-0111 NOT	(decimal 7)
+<pre><code class="java">0111 NOT    (decimal 7)
 --------
-1000		  (decimal 8)
-~~~
+1000          (decimal 8)
+</code></pre>
 
 ### Operadores de Desplazamiento de Bits
 
 Los **operadores de desplazamiento de bits** permiten mover los bits dentro de la cadena. La estructura de estos operadores es la siguiente:
 
-~~~java
-(valor_binario1) << (valor_binario2)
-(valor_binario1) >> (valor_binario2)
-(valor_binario1) >>> (valor_binario2)
-~~~
+<pre><code class="java">(valor_binario1) &lt;&lt; (valor_binario2)
+(valor_binario1) &gt;&gt; (valor_binario2)
+(valor_binario1) &gt;&gt;&gt; (valor_binario2)
+</code></pre>
 
 #### Operador Desplazamiento a Izquierdas
 
@@ -138,10 +135,9 @@ En el caso del desplazamiento a izquierdas, desplaza el valor_binario1 a izquier
 
 De esta forma el código:
 
-~~~java
-(0011) << (0001) // Desplaza 0011 una vez dando 110
-(0011) << (0011) // Desplaza 0011 tres veces dando 11000
-~~~
+<pre><code class="java">(0011) &lt;&lt; (0001) // Desplaza 0011 una vez dando 110
+(0011) &lt;&lt; (0011) // Desplaza 0011 tres veces dando 11000
+</code></pre>
 
 #### Operador Desplazamiento a Derechas
 
@@ -153,23 +149,20 @@ Los ceros o unos a insertar los determinará el valor_binario2 y serán sobre el
 
 De esta forma podemos ver los códigos
 
-~~~java
-(1100) >> (0001) // Desplaza 1100 una vez dando 0110
-(1000) >> (0011) // Desplaza 1100 tres veces dando 0001
-~~~
+<pre><code class="java">(1100) &gt;&gt; (0001) // Desplaza 1100 una vez dando 0110
+(1000) &gt;&gt; (0011) // Desplaza 1100 tres veces dando 0001
+</code></pre>
 
 Si manipulamos decimales lo que hacemos es dividir el número por 2 tantas veces como indique su desplazamiento.
 
-~~~java
-12 >> 1 	// Sería 12 / 2 = 6
-12 >> 2	// Sería 12 / 2 = 6; 6/2 = 3
-~~~
+<pre><code class="java">12 &gt;&gt; 1     // Sería 12 / 2 = 6
+12 &gt;&gt; 2 // Sería 12 / 2 = 6; 6/2 = 3
+</code></pre>
 
 Si manejamos valores negativos. Por ejemplo de un elemento Byte (8 bits, con el primero como signo)
 
-~~~java
-1110 0011 >> 0011	// Desplaza tres a la izquierda dejando 1111 1100
-~~~
+<pre><code class="java">1110 0011 &gt;&gt; 0011   // Desplaza tres a la izquierda dejando 1111 1100
+</code></pre>
 
 #### Operador Desplazamiento a Derechas sin signo
 
@@ -179,6 +172,5 @@ Este operador sería más utilizado si manejamos valores binarios para ejecutar 
 
 Así podríamos ver el siguiente código:
 
-~~~java
-1110 0011 >>> 0011	// Desplaza tres a la izquierda dejando 0001 1100
-~~~
+<pre><code class="java">1110 0011 &gt;&gt;&gt; 0011  // Desplaza tres a la izquierda dejando 0001 1100
+</code></pre>
