@@ -1,30 +1,41 @@
 ---
-ID: pdte
+ID: 1583
 post_title: Tutorial Bootstrap
 author: Víctor Cuervo
-post_date: 2017-05-03 00:55
+post_date: 2017-05-03 00:02:13
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/tutorial-bootstrap/
+permalink: http://www.manualweb.net/?page_id=1583
 published: false
-nombreforo: Bootstrap
-urlforo:  http://dudasprogramacion.com/html/bootstrap
-urlmanual: http://www.manualweb.net/tutorial-bootstrap/
-urltest: http://www.testprogramacion.com/bootstrap
-urlcurso: http://www.aulaprogramacion.com/curso-bootstrap/
-urlvideo: PLLVIhySQmrVZGCCZGraNWZsYl17aVQF2G
-gitfolder: bootstrap
+nombreforo:
+  - Bootstrap
+urlforo:
+  - >
+    http://dudasprogramacion.com/html/bootstrap
+urlmanual:
+  - >
+    http://www.manualweb.net/tutorial-bootstrap/
+urltest:
+  - >
+    http://www.testprogramacion.com/bootstrap
+urlcurso:
+  - >
+    http://www.aulaprogramacion.com/curso-bootstrap/
+urlvideo:
+  - PLLVIhySQmrVZGCCZGraNWZsYl17aVQF2G
+gitfolder:
+  - bootstrap
 ---
 En el **tutorial de Bootstrap** vamos a ver los siguientes temas:
 
-* ¿Qué es Bootstrap?
-* Descargar Bootstrap
-* Mi primera aplicación en Bootstrap
-* Sistema de Grid de Bootstrap
-* Texto en Bootstrap
-* Listas en Bootstrap
-* Código Fuente en Bootstrap
-* Tablas en Bootstrap
+*   ¿Qué es Bootstrap?
+*   Descargar Bootstrap
+*   Mi primera aplicación en Bootstrap
+*   Sistema de Grid de Bootstrap
+*   Texto en Bootstrap
+*   Listas en Bootstrap
+*   Código Fuente en Bootstrap
+*   Tablas en Bootstrap
 
 ### Descargar el Tutorial Bootstrap
 
