@@ -76,12 +76,12 @@ La fecha prevista para disponer de *[Java][1] 9* es julio 2017.
 
 Dentro de esta versión podremos encontrar el *Project Jigsaw* que establece la **modularización de la JDK**, el **Java Shell** con el que podremos trabajar e interactuar al *estilo RELP (Read–eval–print loop)*, soporte para **http 2.0** y [algunas cosas más][9]
 
- [1]: http://www.manualweb.net/tutorial-java/
+ [1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
  [2]: https://www.linkedin.com/in/jamesgosling/
  [3]: https://en.wikipedia.org/wiki/Sun_Microsystems
  [4]: https://www.jcp.org/en/jsr/detail?id=59
- [5]: http://www.manualweb.net/tutorial-xml/
- [6]: http://www.manualweb.net/tutorial-xslt/
+ [5]: http://www.manualweb.net/tutorial-xml/ "Manual XML"
+ [6]: http://www.manualweb.net/tutorial-xslt/ "Manual XSLT"
  [7]: http://openjdk.java.net/
- [8]: http://www.manualweb.net/tutorial-javascript/
+ [8]: http://www.manualweb.net/tutorial-javascript/ "Manual Javascript"
  [9]: http://blog.takipi.com/5-features-in-java-9-that-will-change-how-you-develop-software-and-2-that-wont/
