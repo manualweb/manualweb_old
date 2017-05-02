@@ -18,7 +18,7 @@
 10. Operadores en Java
   1. Operadores de Asignación y Aritméticos
   2. Operadores Unarios
-  3. Operadores de Igualdad o Relacionales
+  3. Operadores de Igualdad y Relacionales
   4. Operadores Condicionales
   5. Operadores de Bit
 11. Expresiones, sentencias y bloques
