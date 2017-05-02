@@ -1,4 +1,21 @@
-## Sentencias ramificación
+---
+ID: pdte
+post_title: 12.03 – Sentencias de Ramificación
+author: Víctor Cuervo
+post_date: 2017-05-02 18:18
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/sentencias-ramificacion/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 Las **sentencias de ramificación** son aquellas que nos permiten romper con la ejecución lineal de un programa.
 

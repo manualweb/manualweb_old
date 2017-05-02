@@ -1,8 +1,21 @@
-
-
-
-## Tipos Datos Primitivos
-
+---
+ID: pdte
+post_title: 08 – Tipos de Datos Primitivos
+author: Víctor Cuervo
+post_date: 2017-05-02 18:09
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/tipos-datos-primitivos/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 ### ¿Qué son los tipos datos primitivos en Java?
 
 Como ya hemos comentado [Java][1] es un lenguaje de tipado estático. Es decir, se define el tipo de dato de la variable a la hora de definir esta. Es por ello que todas las variables tendrán un tipo de dato asignado.

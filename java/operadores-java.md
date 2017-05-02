@@ -1,5 +1,21 @@
-
-## Operadores Java
+---
+ID: pdte
+post_title: 10 – Operadores Java
+author: Víctor Cuervo
+post_date: 2017-05-02 18:10
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/operadores-java/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 Los operadores [Java][1] son un conjunto de símbolos que nos permiten realizar operaciones (valga la redundancia) sobre las variables que hayamos definido en nuestro programa.
 

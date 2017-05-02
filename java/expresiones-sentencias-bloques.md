@@ -1,6 +1,21 @@
-
-## Expresiones, sentencias y bloques
-
+---
+ID: pdte
+post_title: 11 – Expresiones, sentencias y bloques
+author: Víctor Cuervo
+post_date: 2017-05-02 18:14
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/expresiones-sentencias-bloques/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 Un programa en [Java][1] se compone de un conjunto de sentencias que se ejecutan para resolver un problema. Las sentencias son el elemento básico de ejecución de los programa [Java][1].
 
 A parte de las sentencias, en un programa [Java][1] nos encontraremos con expresiones y bloques.

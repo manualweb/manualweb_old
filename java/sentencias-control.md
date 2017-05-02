@@ -1,5 +1,21 @@
-## Sentencias de control de flujo
-
+---
+ID: pdte
+post_title: 12 – Sentencias de Control
+author: Víctor Cuervo
+post_date: 2017-05-02 18:15
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/sentencias-control/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 Un programa en [Java][1] se ejecuta en orden desde la primera sentencia hasta la última.
 
 Si bien existen las **sentencias de control de flujo** las cuales permiten alterar el fujo de ejecución para tomar decisiones o repetir sentencias.

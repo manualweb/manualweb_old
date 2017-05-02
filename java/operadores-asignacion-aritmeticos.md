@@ -1,4 +1,21 @@
-
+---
+ID: pdte
+post_title: 10.01 – Operadores de Asignacion y Aritméticos
+author: Víctor Cuervo
+post_date: 2017-05-02 18:11
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/operadores-asignacion-artimeticos/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 ## Operadores de Asignación y Aritméticos
 

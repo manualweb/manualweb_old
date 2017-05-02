@@ -1,10 +1,24 @@
+---
+ID: pdte
+post_title: 12.01 – Sentencias de Decisión
+author: Víctor Cuervo
+post_date: 2017-05-02 18:17
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/setencias-decision/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
+Las **sentencias de decisión** son sentencias que nos permiten tomar una decisión para poder ejecutar un bloque de sentencias u otro.
 
-
-## Sentencias de decisión
-
-Son sentencias que nos permiten tomar una decisión para poder ejecutar un bloque de sentencias u otro.
-
-Las sentencias de decisión son: `if-then-else` y `switch`.
+Las **sentencias de decisión** son: `if-then-else` y `switch`.
 
 ### if-then-else
 

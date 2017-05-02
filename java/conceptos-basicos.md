@@ -1,4 +1,21 @@
-## Conceptos Básicos Java
+---
+ID: pdte
+post_title: 06 – Conceptos Básicos Java
+author: Víctor Cuervo
+post_date: 2017-05-02 18:08
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/conceptos-basicos-java/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 Si estás empezando con el lenguaje [Java][1] hay una serie de conceptos iniciales de la orientación a objetos que debes de manejar para poder desarrollar con este lenguaje.
 

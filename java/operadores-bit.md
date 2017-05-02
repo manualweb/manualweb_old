@@ -1,5 +1,21 @@
-
-## Operadores de bit
+---
+ID: pdte
+post_title: 10.05 – Operadores de Bit
+author: Víctor Cuervo
+post_date: 2017-05-02 18:14
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/operadores-bit/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 Otros de los operadores que nos ofrece el lenguaje Java son los **operadores de bit**. Estos nos permiten manejar números binarios. Los número binarios podremos operarlos de dos formas. Por un lado de forma que el cálculo se haga bit a bit, bien sea realizando operaciones de AND, OR,... Y por otro desplazamiento de bits.
 

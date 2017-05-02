@@ -1,6 +1,21 @@
-
-
-## Variables en Java
+---
+ID: pdte
+post_title: 07 – Variables Java
+author: Víctor Cuervo
+post_date: 2017-05-02 18:08
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/variables-java/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 ### ¿Qué son las variables en Java?
 Una variable es un espacio de memoria en el que guardamos un determinado valor (o dato). Para definir una variable seguiremos la estructura:

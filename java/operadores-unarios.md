@@ -1,6 +1,21 @@
-
-
-## Operadores Unarios
+---
+ID: pdte
+post_title: 10.02 – Operadores Unarios
+author: Víctor Cuervo
+post_date: 2017-05-02 18:12
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/operadores-unarios/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 Los operadores unarios son aquellos que solo requieren un operando para funcionar.
 

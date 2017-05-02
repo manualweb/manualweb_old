@@ -1,8 +1,24 @@
-## Sentencias en Bucle
-
+---
+ID: pdte
+post_title: 12.02 – Setencias de Bucle
+author: Víctor Cuervo
+post_date: 2017-05-02 18:18
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/sentencias-bucle/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 Las **sentencias de bucle** nos van a permitir ejecutar un bloque de sentencias tantas veces como queramos, o tantas veces como se cumpla una condición.
 
-Las sentencias de bucle en [Java][1] son: `while`, `do-while` y `for`.
+Las **sentencias de bucle** en [Java][1] son: `while`, `do-while` y `for`.
 
 ### while
 

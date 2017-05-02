@@ -1,5 +1,21 @@
-
-## Operadores de Igualdad y relacionales
+---
+ID: pdte
+post_title: 10.03 – Operadores Igualdad y Relacionales
+author: Víctor Cuervo
+post_date: 2017-05-02 18:13
+post_excerpt: ""
+layout: post
+permalink: http://www.manualweb.net/java/operadores-igualdad-relacionales/
+published: false
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
+---
 
 Los operadores de igualdad y relacionales en [Java][1] son aquellos que nos permiten comparar el contenido de una variable contra otra atendiendo a si son variables con un valor igual o distinto o bien si los valores son mayores o menores.
 
