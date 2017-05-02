@@ -20,7 +20,11 @@ gitfolder: java
 
 Dentro de este **Tutorial Java** podrás encontrar los siguientes contenidos:
 
+<<<<<<< HEAD
 *   Introducción al lenguaje Java
+=======
+*   [Introducción al lenguaje Java][9]
+>>>>>>> master
 *   Historia del lenguaje Java
 *   Tecnologías Java
 *   Instalar Java
@@ -62,3 +66,4 @@ Todas las preguntas y dudas sobre Java las puedes consultar en el [Foro sobre Ja
  [6]: https://gitprint.com/victorcuervo/manualweb/blob/master/java/pdf/tutorial-java-pdf.md
  [7]: http://www.dudasprogramacion.com/java
  [8]: http://lineadecodigo.com/java/
+ [9]: http://www.manualweb.net/java/introduccion-java/

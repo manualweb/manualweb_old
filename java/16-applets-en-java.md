@@ -16,7 +16,10 @@ urltest: http://www.testprogramacion.com/java
 urlcurso: http://www.aulaprogramacion.com/java/
 gitfolder: java
 ---
+<<<<<<< HEAD:java/16-applets-en-java.md
 
+=======
+>>>>>>> master:java/16-applets-en-java.md
 En **Applets en Java** revisaremos:
 
 [TOC]

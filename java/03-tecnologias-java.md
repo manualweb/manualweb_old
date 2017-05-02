@@ -1,12 +1,12 @@
 ---
-ID: pdte
+ID: 1520
 post_title: 03 – Tecnologías Java
 author: Víctor Cuervo
-post_date: 2017-04-25 03:12
+post_date: 2017-04-25 02:24:41
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/java/tecnologias-java/
-published: false
+permalink: http://www.manualweb.net/?p=1520
+published: true
 nombreforo: Java
 urlforo: http://www.dudasprogramacion.com/java/
 urlejemplos: http://lineadecodigo.com/categoria/java/feed/
@@ -20,17 +20,17 @@ Dentro de [Java][1] existen diferentes tecnologías de desarrollo, cada una enfo
 
 Cada una de las tecnologías de desarrollo del lenguaje [Java][1] contiene:
 
-1. Java Virtual Machine (JVM)
-2. API de desarrollo de la plataforma
+1.  Java Virtual Machine (JVM)
+2.  API de desarrollo de la plataforma
 
 La aplicación se ejecuta dentro de la *Java Virtual Machine (JVM)* y tiene capacidad de accerder al API, que son las librerías con funcionalidades que nos ofrece [Java][1].
 
 Las tecnologías que existen en la **plataforma [Java][1]** son:
 
-* Java SE
-* Java EE
-* Java ME
-* Java Card
+*   Java SE
+*   Java EE
+*   Java ME
+*   Java Card
 
 ### Java SE
 
@@ -56,12 +56,12 @@ Puedes consultar [todo el contenido de Java EE][4].
 
 Java ME es la implementación de [Java][1] que nace para la creación de aplicaciones móviles.
 
-Si bien con el paso del tiempo se ha ido enfocando más para el desarrollo de  dispositivos *IoT (Internet of Things)*: televisiones, sensores, impresoras,...
+Si bien con el paso del tiempo se ha ido enfocando más para el desarrollo de dispositivos *IoT (Internet of Things)*: televisiones, sensores, impresoras,...
 
 Así, dentro de Java ME podemos encontrar:
 
-* **Java TV**, para el desarrollo de aplicaciones en TV o en dispositivos multimedia.
-* **Java Embedded**, que nos permite crear diferentes perfiles de desarrollo de "aplicaciones incrustadas", que además no tienen interface gráfica.
+*   **Java TV**, para el desarrollo de aplicaciones en TV o en dispositivos multimedia.
+*   **Java Embedded**, que nos permite crear diferentes perfiles de desarrollo de "aplicaciones incrustadas", que además no tienen interface gráfica.
 
 Puedes encontrar [más información sobre lo que es Java ME][5]
 
@@ -71,9 +71,9 @@ Es la tecnología de [Java][1] que nos sirve para el desarrollo de aplicaciones 
 
 Puedes [leer más sobre Java Cards][6] y las capacidades que ofrece.
 
-[1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
-[2]: http://www.manualweb.net/tutorial-xml/
-[3]: http://www.oracle.com/technetwork/java/javase/tech/index.html
-[4]: http://www.oracle.com/technetwork/java/javaee/tech/index.html
-[5]: http://www.oracle.com/technetwork/java/embedded/javame/index.html
-[6]: http://www.oracle.com/technetwork/java/embedded/javacard/documentation/index.html
+ [1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
+ [2]: http://www.manualweb.net/tutorial-xml/ "Manual XML"
+ [3]: http://www.oracle.com/technetwork/java/javase/tech/index.html
+ [4]: http://www.oracle.com/technetwork/java/javaee/tech/index.html
+ [5]: http://www.oracle.com/technetwork/java/embedded/javame/index.html
+ [6]: http://www.oracle.com/technetwork/java/embedded/javacard/documentation/index.html
