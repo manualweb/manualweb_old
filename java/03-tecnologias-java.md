@@ -72,7 +72,7 @@ Es la tecnología de [Java][1] que nos sirve para el desarrollo de aplicaciones 
 Puedes [leer más sobre Java Cards][6] y las capacidades que ofrece.
 
  [1]: http://www.manualweb.net/tutorial-java/ "Manual Java"
- [2]: http://www.manualweb.net/tutorial-xml/
+ [2]: http://www.manualweb.net/tutorial-xml/ "Manual XML"
  [3]: http://www.oracle.com/technetwork/java/javase/tech/index.html
  [4]: http://www.oracle.com/technetwork/java/javaee/tech/index.html
  [5]: http://www.oracle.com/technetwork/java/embedded/javame/index.html
