@@ -61,6 +61,8 @@ Si os gusta el contenido del material y los ejemplos os agradecemos si nos aport
 
 Todas las preguntas y dudas sobre Java las puedes consultar en el [Foro sobre Java][7]. Y puedes echar un ojo a los [ejemplos sobre el lenguaje Java][8].
 
+<script id="github-bjs" src="https://buttons.github.io/buttons.js" async="" defer="defer"></script>
+
  [1]: http://www.manualweb.net/java/mi-primera-aplicacion-java/
  [2]: http://www.manualweb.net/java/clase-string-representando-una-cadena/
  [3]: http://www.manualweb.net/java/funciones-basicas-con-cadenas/
