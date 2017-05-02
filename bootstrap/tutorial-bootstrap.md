@@ -2,11 +2,12 @@
 ID: 1583
 post_title: Tutorial Bootstrap
 author: Víctor Cuervo
-post_date: 2017-05-03 00:02:13
+post_date: 2017-05-03 00:08:23
 post_excerpt: ""
 layout: page
-permalink: http://www.manualweb.net/?page_id=1583
-published: false
+permalink: >
+  http://www.manualweb.net/tutorial-bootstrap/
+published: true
 nombreforo:
   - Bootstrap
 urlforo:
