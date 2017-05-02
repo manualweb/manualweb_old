@@ -8,25 +8,14 @@ layout: post
 permalink: >
   http://www.manualweb.net/java/instalar-java/
 published: true
-nombreforo:
-  - Java
-urlforo:
-  - http://www.dudasprogramacion.com/java/
-urlejemplos:
-  - >
-    http://lineadecodigo.com/categoria/java/feed/
-urlvideo:
-  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual:
-  - http://www.manualweb.net/tutorial-java/
-urltest:
-  - http://www.testprogramacion.com/java
-urlcurso:
-  - http://www.aulaprogramacion.com/java/
-gitfolder:
-  - java
-yst_is_cornerstone:
-  - ""
+nombreforo: Java
+urlforo: http://www.dudasprogramacion.com/java/
+urlejemplos: http://lineadecodigo.com/categoria/java/feed/
+urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual: http://www.manualweb.net/tutorial-java/
+urltest: http://www.testprogramacion.com/java
+urlcurso: http://www.aulaprogramacion.com/java/
+gitfolder: java
 ---
 Para instalarnos el compilador [Java][1] lo primero que deberemos de hacer es descargarlo de la web de Oracle. A día de hoy (*abril 2017*) podemos [bajarnos la versión **Java 8** del compilador desde la web de Oracle][2].
 
