@@ -2,11 +2,12 @@
 ID: 1537
 post_title: 06 – Conceptos Básicos Java
 author: Víctor Cuervo
-post_date: 2017-05-02 17:34:56
+post_date: 2017-05-02 17:59:38
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1537
-published: false
+permalink: >
+  http://www.manualweb.net/java/conceptos-basicos-java/
+published: true
 nombreforo:
   - Java
 urlforo:
@@ -25,7 +26,7 @@ urlcurso:
 gitfolder:
   - java
 ---
-Si estás empezando con el lenguaje [Java][1] hay una serie de conceptos iniciales de la orientación a objetos que debes de manejar para poder desarrollar con este lenguaje.
+Si estás empezando con el lenguaje [Java][1] hay una serie de conceptos básicos [Java][1] de la orientación a objetos que debes de manejar para poder desarrollar con este lenguaje.
 
 Aquí los vamos a ver por encima y dedicaremos un capítulo entero a ellos entrando en detalle sobre todas sus características
 
@@ -41,7 +42,7 @@ Es un elemento de software que intenta representar un objeto del mundo real. De 
 
 El ***paradigma de la orientación a objetos*** aparece como contraste a la ***programación estructurada*** que se venía utilizando desde los años 60.
 
-Un objeto tiene su estado (o estados) y su comportamiento. Esto se modela mediante propiedades (o variables) y métodos. Incluso un objeto puede contener a su vez a otro tipo de objeto.
+Un **objeto** tiene su estado (o estados) y su comportamiento. Esto se modela mediante propiedades (o variables) y métodos. Incluso un objeto puede contener a su vez a otro tipo de objeto.
 
 #### Encapsulación de datos
 
