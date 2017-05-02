@@ -49,6 +49,14 @@ Puedes descargarte nuestro [Manual Java en formato PDF][6].
 
 El manual se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del **Tutorial Java**.
 
+### Ejemplos Manual Java
+
+A lo largo del **Tutorial Java** se van explicando una serie de ejemplos. Podéis descargaros los ejemplos del **Tutorial Java** desde el [GitHub de Manual Web][13].
+
+Si os gusta el contenido del material y los ejemplos os agradecemos si nos aportáis una estrella en GitHub.
+
+<a class="github-button" href="https://github.com/manualweb/manualweb" data-icon="octicon-star" data-style="mega" aria-label="Star manualweb/manualweb on GitHub">Star</a>
+
 ### Más sobre el Manual Java
 
 Todas las preguntas y dudas sobre Java las puedes consultar en el [Foro sobre Java][7]. Y puedes echar un ojo a los [ejemplos sobre el lenguaje Java][8].
@@ -65,3 +73,4 @@ Todas las preguntas y dudas sobre Java las puedes consultar en el [Foro sobre Ja
  [10]: http://www.manualweb.net/java/historia-java/
  [11]: http://www.manualweb.net/java/tecnologias-java/
  [12]: http://www.manualweb.net/java/instalar-java/
+ [13]: https://github.com/manualweb/manual-java
