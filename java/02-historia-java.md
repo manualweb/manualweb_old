@@ -2,19 +2,31 @@
 ID: 1514
 post_title: 02 – Historia Java
 author: Víctor Cuervo
-post_date: 2017-04-25 02:24:41
+post_date: 2017-04-26 12:00:41
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1514
+permalink: >
+  http://www.manualweb.net/java/historia-java/
 published: true
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos:   http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
+yst_is_cornerstone:
+  - ""
 ---
 ### Los Inicios de Java
 
