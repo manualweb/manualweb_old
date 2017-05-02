@@ -1,6 +1,6 @@
 # Trabajo con Java
 
-Índice de trabajo para el manual Java
+Índices de trabajo para el manual Java
 
 
 1. Introducción al lenguaje Java
