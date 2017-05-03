@@ -2,11 +2,12 @@
 ID: 1565
 post_title: 07 – Variables Java
 author: Víctor Cuervo
-post_date: 2017-05-02 17:34:58
+post_date: 2017-05-03 12:00:11
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1565
-published: false
+permalink: >
+  http://www.manualweb.net/java/variables-java/
+published: true
 nombreforo:
   - Java
 urlforo:
@@ -27,7 +28,7 @@ gitfolder:
 ---
 ### ¿Qué son las variables en Java?
 
-Una variable es un espacio de memoria en el que guardamos un determinado valor (o dato). Para definir una variable seguiremos la estructura:
+Las variables Java son un espacio de memoria en el que guardamos un determinado valor (o dato). Para definir una variable seguiremos la estructura:
 
 <pre><code class="java">[privacidad] tipo_variable identificador;
 </code></pre>
@@ -90,7 +91,7 @@ Si además queremos que el valor no pueda cambiar nunca la definiremos como fina
 <pre><code class="java">public Triangulo(long base, long altura){...}
 </code></pre>
 
-### Nombres de las variables en Java
+### Nombres de las variables Java
 
 Cuando vayamos a dar un nombre a una variable deberemos de tener en cuenta una serie de normas. Es decir, no podemos poner el nombre que nos dé la gana a una variable.
 
