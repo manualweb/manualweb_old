@@ -24,9 +24,11 @@ Dentro de este **Tutorial Java** podrás encontrar los siguientes contenidos:
 *   [Tecnologías Java][11]
 *   [Instalar Java][12]
 *   [Mi primera aplicación Java][1]
-*   Variables en Java
+*   [Conceptos Básicos Java][14]
+*   [Variables en Java][15]
+*   [Tipos de datos primitivos en Java][16]
+*   [Literales en Java][17]
 *   Operadores en Java
-*   Tipos de datos en Java
 *   [Clase String: Representando una cadena][2]
     *   [Funciones básicas con cadenas][3]
 *   Números en Java
@@ -76,3 +78,7 @@ Todas las preguntas y dudas sobre Java las puedes consultar en el [Foro sobre Ja
  [11]: http://www.manualweb.net/java/tecnologias-java/
  [12]: http://www.manualweb.net/java/instalar-java/
  [13]: https://github.com/manualweb/manual-java
+ [14]: http://www.manualweb.net/java/conceptos-basicos-java/
+ [15]: http://www.manualweb.net/java/variables-java/
+ [16]: http://www.manualweb.net/java/tipos-datos-primitivos/
+ [17]: http://www.manualweb.net/java/literales-java/
