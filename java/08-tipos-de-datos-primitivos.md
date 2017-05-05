@@ -81,10 +81,11 @@ En el caso de que definamos una variable y no le demos ningún valor, por defect
 | String (o cualquier objeto) | null              |
 | boolean                     | false             |
 
-Hay un tipo de dato String para el manejo de cadenas que no es en sí un tipo de dato primitivo. Con el tipo de dato String podemos manejar cadenas de caracteres separadas por dobles comillas.
+Hay un tipo de dato [String][2] para el manejo de cadenas que no es en sí un tipo de dato primitivo. Con el tipo de dato String podemos manejar cadenas de caracteres separadas por dobles comillas.
 
-El elemento String es un tipo de dato inmutable. Es decir, que una vez creado, su valor no puede ser cambiado.
+El elemento [String][2] es un tipo de dato inmutable. Es decir, que una vez creado, su valor no puede ser cambiado.
 
-El String no es un tipo de dato primitivo del lenguaje [Java][1]. Pero su uso es igual de importante que el de los tipos de datos revisados aquí. Veremos más en detalle el uso del tipo String.
+El [String][2] no es un tipo de dato primitivo del lenguaje [Java][1]. Pero su uso es igual de importante que el de los tipos de datos revisados aquí. Veremos más en detalle el uso del tipo [String][2].
 
  [1]: http://www.manualweb.com/tutorial-java/
+ [2]: http://www.manualweb.net/java/clase-string-representando-una-cadena/
