@@ -2,28 +2,28 @@
 ID: 1563
 post_title: 08 – Tipos de Datos Primitivos
 author: Víctor Cuervo
-post_date: 2017-05-02 17:34:57
+post_date: 2017-05-04 12:00:19
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1563
-published: false
+permalink: >
+  http://www.manualweb.net/java/tipos-datos-primitivos/
+published: true
 nombreforo:
-  - Java
+  - 'a:1:{i:0;s:4:"Java";}'
 urlforo:
-  - http://www.dudasprogramacion.com/java/
+  - 'a:1:{i:0;s:38:"http://www.dudasprogramacion.com/java/";}'
 urlejemplos:
-  - >
-    http://lineadecodigo.com/categoria/java/feed/
+  - 'a:1:{i:0;s:45:"http://lineadecodigo.com/categoria/java/feed/";}'
 urlvideo:
-  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+  - 'a:1:{i:0;s:34:"PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq";}'
 urlmanual:
-  - http://www.manualweb.net/tutorial-java/
+  - 'a:1:{i:0;s:39:"http://www.manualweb.net/tutorial-java/";}'
 urltest:
-  - http://www.testprogramacion.com/java
+  - 'a:1:{i:0;s:36:"http://www.testprogramacion.com/java";}'
 urlcurso:
-  - http://www.aulaprogramacion.com/java/
+  - 'a:1:{i:0;s:37:"http://www.aulaprogramacion.com/java/";}'
 gitfolder:
-  - java
+  - 'a:1:{i:0;s:4:"java";}'
 ---
 ### ¿Qué son los tipos datos primitivos en Java?
 
@@ -94,6 +94,6 @@ Hay un tipo de dato String para el manejo de cadenas que no es en sí un tipo de
 
 El elemento String es un tipo de dato inmutable. Es decir, que una vez creado, su valor no puede ser cambiado.
 
-El String no es un tipo de dato primitivo del lenguaje Java. Pero su uso es igual de importante que el de los tipos de datos revisados aquí. Veremos más en detalle el uso del tipo String.
+El String no es un tipo de dato primitivo del lenguaje [Java][1]. Pero su uso es igual de importante que el de los tipos de datos revisados aquí. Veremos más en detalle el uso del tipo String.
 
  [1]: http://www.manualweb.com/tutorial-java/
