@@ -2,11 +2,12 @@
 ID: 1547
 post_title: 10.04 – Operadores Condicionales
 author: Víctor Cuervo
-post_date: 2017-05-02 17:34:57
+post_date: 2017-05-10 12:00:40
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/?p=1547
-published: false
+permalink: >
+  http://www.manualweb.net/java/operadores-condicionales/
+published: true
 nombreforo:
   - Java
 urlforo:
@@ -29,12 +30,12 @@ Los operadores condicionales en [Java][1] son aquellos que evalúan dos expresio
 
 Dentro de los operadores condicionales en [Java][1] tenemos:
 
-| Operador   | Descripción              |
-| ---------- | ------------------------ |
-| &&         | Operador condicional AND |
-| |          | Operador condicional OR  |
-| ?:         | Operador Ternario        |
-| instanceof | Operador instanceof      |
+| Operador   | Descripción               |
+| ---------- | ------------------------- |
+| &&         | Operador condicional AND  |
+|            | | Operador condicional OR |
+| ?:         | Operador Ternario         |
+| instanceof | Operador instanceof       |
 
 ### Operadores Condicionales
 
