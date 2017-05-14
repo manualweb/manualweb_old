@@ -7,23 +7,13 @@ post_excerpt: ""
 layout: page
 permalink: http://www.manualweb.net/tutorial-html5/
 published: true
-nombreforo:
-  - HTML5
-urlforo:
-  - http://dudasprogramacion.com/html/html5
-urlmanual:
-  - http://www.manualweb.net/tutorial-html5/
-urltest:
-  - http://www.testprogramacion.com/html5
-urlcurso:
-  - >
-    http://www.aulaprogramacion.com/curso-html5/
-urlvideo:
-  - PLLVIhySQmrVZvt63iAl2xSwTePNmd-UhI
-gitfolder:
-  - html5
-yst_is_cornerstone:
-  - ""
+nombreforo: HTML5
+urlforo: http://dudasprogramacion.com/html/html5
+urlmanual: http://www.manualweb.net/tutorial-html5/
+urltest: http://www.testprogramacion.com/html5
+urlcurso: http://www.aulaprogramacion.com/curso-html5/
+urlvideo: PLLVIhySQmrVZvt63iAl2xSwTePNmd-UhI
+gitfolder: html5
 ---
 En el **tutorial de HTML5** vamos a ver los siguientes temas:
 
