@@ -1,20 +1,30 @@
 ---
-ID: 1563
+ID: 1598
 post_title: 08 – Tipos de Datos Primitivos
 author: Víctor Cuervo
-post_date: 2017-05-04 12:00:19
+post_date: 2017-05-14 15:49:33
 post_excerpt: ""
 layout: post
-permalink: http://www.manualweb.net/java/tipos-datos-primitivos/
+permalink: >
+  http://www.manualweb.net/uncategorized/08-tipos-de-datos-primitivos/
 published: true
-nombreforo: Java
-urlforo: http://www.dudasprogramacion.com/java/
-urlejemplos: http://lineadecodigo.com/categoria/java/feed/
-urlvideo: PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
-urlmanual: http://www.manualweb.net/tutorial-java/
-urltest: http://www.testprogramacion.com/java
-urlcurso: http://www.aulaprogramacion.com/java/
-gitfolder: java
+nombreforo:
+  - Java
+urlforo:
+  - http://www.dudasprogramacion.com/java/
+urlejemplos:
+  - >
+    http://lineadecodigo.com/categoria/java/feed/
+urlvideo:
+  - PLLVIhySQmrVbjCFPla5c0OIp6iNWfM-hq
+urlmanual:
+  - http://www.manualweb.net/tutorial-java/
+urltest:
+  - http://www.testprogramacion.com/java
+urlcurso:
+  - http://www.aulaprogramacion.com/java/
+gitfolder:
+  - java
 ---
 ### ¿Qué son los tipos datos primitivos en Java?
 
