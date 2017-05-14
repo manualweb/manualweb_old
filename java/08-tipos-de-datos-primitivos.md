@@ -6,7 +6,7 @@ post_date: 2017-05-14 15:49:33
 post_excerpt: ""
 layout: post
 permalink: >
-  http://www.manualweb.net/uncategorized/08-tipos-de-datos-primitivos/
+  http://www.manualweb.net/java/tipos-datos-primitivos/
 published: true
 nombreforo:
   - Java
@@ -26,7 +26,7 @@ urlcurso:
 gitfolder:
   - java
 ---
-### ¿Qué son los tipos datos primitivos en Java?
+### ¿Qué son los tipos de datos primitivos en Java?
 
 Como ya hemos comentado [Java][1] es un lenguaje de tipado estático. Es decir, se define el tipo de dato de la variable a la hora de definir esta. Es por ello que todas las variables tendrán un tipo de dato asignado.
 
