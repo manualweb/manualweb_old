@@ -52,18 +52,18 @@ Respecto a los elementos estructurales de texto de [HTML][1] los hemos dividido 
 
  [1]: http://www.manualweb.net/tutorial-html/
  [2]: http://www.manualweb.net/tutorial-css/
- [3]: http://www.manualweb.net/html/texto-basico-html/
- [4]: http://www.manualweb.net/html/texto-basico-html/#br
- [5]: http://www.manualweb.net/html/texto-basico-html/#p
- [6]: http://www.manualweb.net/html/texto-basico-html/#hx
- [7]: http://www.manualweb.net/html/texto-basico-html/#cite
- [8]: http://www.manualweb.net/html/texto-basico-html/#subsup
- [9]: http://www.manualweb.net/html/texto-basico-html/#em
- [10]: http://www.manualweb.net/html/texto-basico-html/#strong
- [11]: http://www.manualweb.net/html/texto-avanzado-html/
- [12]: http://www.manualweb.net/html/texto-avanzado-html/#abbr
- [13]: http://www.manualweb.net/html/texto-avanzado-html/#pre
- [14]: http://www.manualweb.net/html/texto-avanzado-html/#insdel
- [15]: http://www.manualweb.net/html/texto-avanzado-html/#codigo
- [16]: http://www.manualweb.net/html/texto-avanzado-html/#cite
- [17]: http://www.manualweb.net/html/texto-avanzado-html/#dfn
+ [3]: http://www.manualweb.net/html/texto-basico-en-html/
+ [4]: http://www.manualweb.net/html/texto-basico-en-html/#br
+ [5]: http://www.manualweb.net/html/texto-basico-en-html/#p
+ [6]: http://www.manualweb.net/html/texto-basico-en-html/#hx
+ [7]: http://www.manualweb.net/html/texto-basico-en-html/#cite
+ [8]: http://www.manualweb.net/html/texto-basico-en-html/#subsup
+ [9]: http://www.manualweb.net/html/texto-basico-en-html/#em
+ [10]: http://www.manualweb.net/html/texto-basico-en-html/#strong
+ [11]: http://www.manualweb.net/html/texto-avanzado-en-html/
+ [12]: http://www.manualweb.net/html/texto-avanzado-en-html/#abbr
+ [13]: http://www.manualweb.net/html/texto-avanzado-en-html/#pre
+ [14]: http://www.manualweb.net/html/texto-avanzado-en-html/#insdel
+ [15]: http://www.manualweb.net/html/texto-avanzado-en-html/#codigo
+ [16]: http://www.manualweb.net/html/texto-avanzado-en-html/#cite
+ [17]: http://www.manualweb.net/html/texto-avanzado-en-html/#dfn
