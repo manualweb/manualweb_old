@@ -42,11 +42,65 @@ function datosPersona(p: Persona) {
 
 Vemos que los tipos de datos que contengan estos dos atributos. Obligatoriamente ambos atributos. Podrán utilizarse para invocar a la función.
 
+Definamos una serie de objetos con atributos:
 
+~~~javascript
+let p1 = {nombre:"Carmen", edad:38};
+datosPersona(p1);
 
-  let p1 = {nombre:"Carmen", edad:38};
+let p2 = {nombre:"David", edad:22, ciudad:"Salamanca"};
+datosPersona(p2);
 
-  datosPersona(p1);
+let p3 = {nombre:"Rocío"};
+datosPersona(p3); // error
+~~~
+
+Cualquier objeto que, al menos, contenga estas dos propiedades va a funcionar. No es el caso del objeto `p3` que solo contiene una de ellas.
+
+### Interface Propiedades Opcionales
+Puede ser que todas las propiedades del interface no sean necesarias. Es por ello que podemos definir propiedades que sean opcionales.
+
+En este caso deberemos de añadir el operador `?` detrás del nombre de la propiedad.
+
+~~~javascript
+interface nombreInterface {
+  propiedad1?: tipo-dato;
+  propiedad2?: tipo-dato;
+}
+~~~
+
+Así, si volvemos a nuestro interface `Persona` podemos indicar que la propiedad `edad` sea opcional de la siguiente forma:
+
+~~~javascript
+interface Persona {
+  nombre: string;
+  edad?: number;
+}
+~~~
+
+De esta forma, el objeto definido con solo el nombre funcionará al invocar a la función `datosPersona`.
+
+~~~javascript
+function datosPersona(p: Persona) {
+  console.log("La persona se llama " + p.nombre + ".");
+  if (p.edad)
+    console.log("Y tiene " + p.edad + " años.");
+}
+
+let p3 = {nombre:"Rocío"};
+datosPersona(p3);
+~~~
+
+### Interface propiedades solo lectura
+Con [TypeScript][1] podemos definir interfaces que tengan propiedades de solo lectura. Es decir, que una vez creado el objeto no podamos modificar el valor de sus propiedades.
+
+Para definir una propiedad de solo lectura deberemos de utilizar `readonly` delante de la propiedad del interface.
+
+~~~javascript
+interface nombreInterface {
+  readonly propiedad: tipo-dato;
+}
+~~~
 
 
 
