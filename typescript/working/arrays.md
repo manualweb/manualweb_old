@@ -51,3 +51,19 @@ let numeros = [0,1, ...arr1, 4, ...arr2];
 ~~~
 
 La sintaxis `...` es la misma que utilizabamos cuando deconstruiamos el array y dejábamos una variable para el resto de elementos.
+
+### Arrays de solo lectura
+En [TypeScript][1] podemos definir arrays de solo lectura, en los cuales su contenido permanezca inmutable durante toda la ejecución del codigo.
+
+Para ello deberemos de apoyarnos en el interface `ReadOnlyArray<T>`. Por ejemplo, podríamos definir un array de solo lectura cuyo contenido sean números de la siguiente forma:
+
+~~~javascript
+let miarray:ReadonlyArray<number> = [1,2,3,4,5,6];
+~~~
+
+De esta manera no podremos cambiar sus valores:
+
+~~~javascript
+myarray[1] = 58;  // No se puede modificar el contenido del array
+myarray.push(4);  // No existe el método .push()
+~~~
