@@ -67,3 +67,10 @@ De esta manera no podremos cambiar sus valores:
 myarray[1] = 58;  // No se puede modificar el contenido del array
 myarray.push(4);  // No existe el método .push()
 ~~~
+
+La única forma que tendríamos de acceder a los valores sería forzando el tipo (type assertion) sobre una nueva variable.
+
+
+~~~javascript
+let miarray2 = miarray as number[];
+miarray2[1] = 5;
