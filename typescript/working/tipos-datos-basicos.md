@@ -180,7 +180,7 @@ Estos tipos están definidos por `null` y `undefined`. Ambos tipos son subtipos 
 ## Never
 El tipo de dato `never` representa a aquellos valores que nunca existen. Por ejemplo, pueden ser retorno de una función que lance una excepción. Como nunca va a exitir un retorno, se puede definir que el valor de retorno de la función es `never`.
 
-## Forzar el tipo de la variable
+## Forzar el tipo de la variable (Type Assertion)
 Hay una forma en [TypeScript][1] en la cual podemos forzar el tipo de la variable. En este caso es el programador el que está indicando el valor que va a tener dicha variable y por lo tanto será utilizado por el compilador para ignorar las comprobaciones.
 
 
