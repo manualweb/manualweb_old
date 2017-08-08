@@ -123,6 +123,59 @@ function area(r:Rectangulo): number {
 
 > Utilizaremos `readonly` dentro de las propiedades de un interface, mientras que utilizaremos `const` para las variables.
 
+### Exceso de validación de los interfaces
+El uso de los interfaces nos obliga a ser muy extrictos en la definición de las propiedades. Es por ello que el uso de propiedades no esperadas puede llegar a ser un problema en códigos extensos.
+
+Es por ello que en [TypeScript][1] podemos saltarnos el exceso de validación de los interfaces de tres maneras:
+
+#### Uso de Index Signature
+La idea es definir una índice genérico dentro del interface sobre el que pueda ir cualquier tipo de variable.
+
+~~~javascript
+interface Cuadrado {
+  lado: number;
+  color?: string;
+  [propName:string]: any;
+}
+~~~
+
+De esta manera las propiedades que no sean `lado`, ni `color` se almacenarán en la genérica.
+
+#### Forzar el tipo
+Podemos forzar al tipo del interface mediante un type assertion.
+
+~~~javascript
+interface Circulo {
+  radio: number;
+  color?: string;
+}
+
+function calcularAreaCirculo(datos:Circulo): number {
+  let a = 2*Math.PI*datos.radio;
+  return a;
+}
+
+calcularAreaCirculo({radio:2,colour:'red'} as Circulo);
+~~~
+
+#### Usar una variable intermedia
+En este caso bastará con asignar le objeto definido a una variable intermedia.
+
+~~~javascript
+interface Circulo {
+  radio: number;
+  color?: string;
+}
+
+function calcularAreaCirculo(datos:Circulo): number {
+  let a = 2*Math.PI*datos.radio;
+  return a;
+}
+
+let c1 = {radio:2,colour:'red'};
+calcularAreaCirculo(c1);
+~~~
+
 
 
 
