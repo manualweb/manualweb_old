@@ -1,57 +1,27 @@
+# Tutorial Typescript
 
+Dentro de este **Tutorial TypeScript** podrás encontrar los siguientes contenidos:
 
-# Typescript
+* Introducción a TypeScript
+* Características del lenguaje TypeScript
+* Instalar TypeScript
+* Mi primer programa en TypeScript
+* Tipos de Datos en TypeScript
+* Variables en TypeScript
+* Arrays en TypeScript
+* Interfaces en TypeScript
+* ...
 
-## Índice
-1. Introducción a TypeScript
-2. Características del lenguaje TypeScript
-3. Mi primer programa en TypeScript
-4. Tipos de Datos en TypeScript
-5. Variables en TypeScript
+### Descargar Manual TypeScript
 
+Puedes descargarte nuestro [Manual TypeScript en formato PDF][1].
 
+El manual se encuentra en continua revisión, de forma automática la URL proporcionada contendrá la última versión del **Tutorial TypeScript**.
 
+### Más sobre el Manual TypeScript
 
-## Introducción a TypeScript
+Todas las preguntas y dudas sobre Java las puedes consultar en el [Foro sobre TypeScript][2]. Y puedes echar un ojo a los [ejemplos sobre el lenguaje TypeScript][3].
 
-Typescript es un superconjunto tipado de Javascript que compila en simple Javascript.
-
-
-
-## Instalación de TypeScript
-
-Para instalar [TypeScript][1] podemos utilizar npm:
-
-<kbd>$npm install -g typescript</kbd>
-
-Para compilar un fichero [Typescript][1] utilizamos:
-
-<kbd>
-tsc ficher.ts
-</kbd>
-
-## Interfaces
-Para poder definir ¿clases?
-
-~~~javascript
-interface Person {
-  firstname: string;
-  lastname: string;
-}
-~~~
-
-## Clases
-
-
-
-
-## URLs de Interés
-[TypeScript Web][2]
-
-
-
-
-
-
-[1]: http://www.manualweb.net/tutorial-typescript/
-[2]: https://www.typescriptlang.org/
+[1]: a
+[2]: a
+[3]: a
