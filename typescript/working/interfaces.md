@@ -102,6 +102,28 @@ interface nombreInterface {
 }
 ~~~
 
+Por ejemplo podemos definir el siguiente interface `Rectangulo`.
+
+~~~javascript
+interface Rectangulo {
+  readonly alto:number;
+  readonly ancho:number;
+}
+~~~
+
+En el caso de que pasemos este interface a una función, veremos que no hay manera de modificar el contenido de sus propiedades.
+
+~~~javascript
+function area(r:Rectangulo): number {
+  // No se puede asignar ya que es readonly y dará error
+  r.alto = 10;  
+  return r.alto*r.ancho
+}
+~~~
+
+> Utilizaremos `readonly` dentro de las propiedades de un interface, mientras que utilizaremos `const` para las variables.
+
+
 
 
 
