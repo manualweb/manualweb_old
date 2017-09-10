@@ -101,7 +101,7 @@ Una tupla es un array que tiene los elementos que contiene tipados. De esta mane
 Para definir una tupla lo haremos de la siguiente manera:
 
 ~~~javascript
-let variable:[tipo1,tipo2];
+let variable:[tipo1,tipo2,...,tipoN];
 ~~~
 
 Por ejemplo podemos definir una tupla de una cadena y un número de la siguiente forma:
