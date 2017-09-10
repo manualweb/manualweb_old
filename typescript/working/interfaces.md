@@ -124,7 +124,7 @@ function area(r:Rectangulo): number {
 > Utilizaremos `readonly` dentro de las propiedades de un interface, mientras que utilizaremos `const` para las variables.
 
 ### Exceso de validación de los interfaces
-El uso de los interfaces nos obliga a ser muy extrictos en la definición de las propiedades. Es por ello que el uso de propiedades no esperadas puede llegar a ser un problema en códigos extensos.
+El uso de los interfaces nos obliga a ser muy estrictos en la definición de las propiedades. Es por ello que el uso de propiedades no esperadas puede llegar a ser un problema en códigos extensos.
 
 Es por ello que en [TypeScript][1] podemos saltarnos el exceso de validación de los interfaces de tres maneras:
 
@@ -176,8 +176,36 @@ let c1 = {radio:2,colour:'red'};
 calcularAreaCirculo(c1);
 ~~~
 
+### Interfaces para funciones
+Otra de las capacidades que tenemos con los interfaces es realizar interfaces para funciones. La idea es que al definir un función en concreto esta cumpla con un interface.
+
+Para definir **interfaces para funciones** deberemos de seguir la estructura:
+
+~~~javascript
+interface nombreInterface {
+  (parametro1:tipo1, parametro2:tipo2,... parametroN:tipoN):tipo-retorno;  
+}
+~~~
+
+Cómo vemos indicamos los parámetros que se le pasan, así como el tipo de datos de dichos parámetros y luego el tipo de dato que devolverá la función.
+
+Por ejemplo podemos definir un interface para función que represente el cálculo de un área de un triángulo de la siguiente forma:
+
+~~~javascript
 
 
+
+interface CalculoAreaTriangulo {
+  (base:number, altura:number):number;
+}
+
+let miCalculo: CalculoAreaTriangulo;
+
+miCalculo = function(b:number,a:number) {
+  return (b*a)/2;
+}
+
+console.log(miCalculo(2,2));
 
 
 [1]: http://www.manualweb.net/tutorial-typescript/
