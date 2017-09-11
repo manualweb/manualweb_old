@@ -3,6 +3,8 @@
 
 Una de las principales características de [TypeScript][1] es el ser un lenguaje tipado. Es decir, las variables que definamos tienen que tener un tipo.
 
+
+
 ¿Para qué nos sirven los interfaces?
 
 ### Definir un Interface
@@ -176,7 +178,7 @@ let c1 = {radio:2,colour:'red'};
 calcularAreaCirculo(c1);
 ~~~
 
-### Interfaces para funciones
+## Interfaces para funciones
 Otra de las capacidades que tenemos con los interfaces es realizar interfaces para funciones. La idea es que al definir un función en concreto esta cumpla con un interface.
 
 Para definir **interfaces para funciones** deberemos de seguir la estructura:
@@ -192,20 +194,187 @@ Cómo vemos indicamos los parámetros que se le pasan, así como el tipo de dato
 Por ejemplo podemos definir un interface para función que represente el cálculo de un área de un triángulo de la siguiente forma:
 
 ~~~javascript
-
-
-
 interface CalculoAreaTriangulo {
   (base:number, altura:number):number;
 }
+~~~
 
+Ahora definiremos la variable que implementará la función. Esta variable será del tipo definido por el interface:
+
+~~~javascript
 let miCalculo: CalculoAreaTriangulo;
+~~~
 
+Ahora simplemente deberemos de definir una función que cumpla dicha estructura. Por ejemplo la siguiente función:
+
+~~~javascript
 miCalculo = function(b:number,a:number) {
   return (b*a)/2;
 }
+~~~
 
-console.log(miCalculo(2,2));
+## Interfaces de Tipos Indexables
+Otro tipo de interfaces que podemos definir es para controlar elementos indexables, es decir, arrays.
+Para poder definir un interface que tenga un tipo indexable utilizamos la siguiente estructura de `interface`:
+
+~~~javascript
+interface nombreInterface {
+  [indice:tipo-indice]: tipo-retorno;
+}
+~~~
+
+Dónde `tipo-indice` es el tipo por el cual accedemos al índice del array y el `tipo-retorno` es el tipo de dato que devuelve el array.
+
+Por ejemplo si queremos definir un interface que sea accedido mediante un índice numérico y que devuelva una cadena codificaremos lo siguiente:
+
+~~~javascript
+interface ArrayCadenas {
+  [index:number]: string;
+}
+~~~
+
+Ahora lo que haremos será definir este interface en una variable:
+
+~~~javascript
+let nombres:ArrayCadenas;
+~~~
+
+Y le asignamos el array del tipo que hemos definido. En este caso una cadena:
+
+~~~javascript
+nombres = ['Víctor','Nacho','Marta'];
+
+let n1:string = nombres[1];
+console.log(nombre);
+~~~
+
+> El `tipo-indice` que soporta el interface de tipo índice solo será con tipos `string` y `number`.
+
+Si utilizamos interfaces de tipos indexables que manejen un índice `string` hay que tener en cuenta que el tipo devuelto por el interface `number` debe de ser un subtipo del interface devuelto por el interface `string`.
+
+Esto es debido a que ambos índices van a ser tratados como cadenas en [Javascript][2], por lo tanto deberán de devolver algo consistente.
+
+Además en los interfaces de tipos indexables podemos conseguir que la colección sea solo lectura indicando que el índice sea `readonly`.
+
+~~~javascript
+interface ArrayCadenas {
+  readonly [index:number]: string;
+}
+~~~
+
+## Interfaces para clases
+Hasta ahora hemos visto el uso de interfaces para poder controlar los datos que pasamos en una función, la función en si misma o para definir una colección o array.
+
+Pero si vienes del mundo de la orientación a objetos sabrás que el uso típico del **interface** es el de servir como contrato de una clase.
+
+Lo que conseguimos es que la clase implemente aquello que tenga definido el **interface**.
+
+Así, si tenemos un **interface** `Figura`:
+
+~~~javascript
+interface Figura {
+  area:number;
+  setArea(area:number);
+}
+~~~
+
+Podemos hacer que una clase lo implemente utilizando la sentencia `implements`:
+
+~~~javascript
+class Cuadrado implements Figura {
+  area:number;
+  setArea(a:number){
+    this.area = a;
+  }
+}
+~~~
+
+Para que la clase `Cuadrado` sea correcta, esta deberá de contener todas las propiedades y funciones definidas en el **interface**.
+
+## Extender Interfaces
+Al igual que las clases, en [TypeScript][1] se pueden extender los **interfaces**. De esta manera podemos incluir las definiciones de propiedades y funciones definidas dentro de un interface en otros.
+
+Para extender un interface en [TypeScript][1] utilizaremos la sentencia `extends`.
+
+Así, definimos nuevamente nuestro **interface** `Figura`:
+
+~~~javascript
+interface Figura {
+  area:number;
+}
+~~~
+
+Y podemos definir un **interface** `Cuadrado` que extienda de `Figura`:
+
+~~~javascript
+interface Cuadrado extends Figura {
+  lado:number;
+}
+~~~
+
+Incluso, un **interface** puede extender de varios interfaces. De esta manera si tenemos el **interface** `Borde`:
+
+~~~javascript
+interface Borde {
+  colorBorde:string;
+  anchoBorde:string;
+}
+~~~
+
+Podemos definir el **interface** Cuadrado extendiendo de este también:
+
+~~~javascript
+interface Cuadrado extends Figura, Borde {
+  lado:number;
+}
+
+let cd1 = <Cuadrado>{};
+cd1.lado = 2;
+cd1.area = 4;
+cd1.colorBorde = 'black';
+~~~
+
+## Interfaces extendiendo de clases
+Aunque lo más normal sea que trabajemos con Clases que extienden de interfaces, vamos a ver cómo podemos extender un interfaces a partir de una clase.
+
+En este caso el **interface** solo va a extender sus miembros, pero no la implementación. Extenderá todos los tipos de miembros de la clase, incluidos protegidos y privados.
+
+A la hora de crear interfaces extendiendo de clases lo que conseguimos es que el interface solo sea implementado por esa clase o por una subclase del mismo.
+
+De esta manera podemos tener una **clase** que represente un borde:
+
+~~~javascript
+class Borde {
+  anchoBorde:number;
+  colorBorde:string;
+}
+~~~
+
+Y ahora definimos un interface que la extienda:
+
+~~~javascript
+interface FiguraConBorde extends Borde {
+  cambiarColor(color:string);
+}
+~~~
+
+Una vez que utilicemos el interface `FiguraConBorde` como implementación de una clase, lo que estamos diciendo es que esta clase deberá de ser obligatoriamente una extensión de la clase `Borde`:
+
+~~~javascript
+class Figura extends Borde implements FiguraConBorde {
+  area:number;
+  cambiarColor(c:string) {
+    this.colorBorde = c;
+  }
+}
+~~~
+
+De esta manera estamos consiguiendo poner un poco control en herencias complejas dentro de clases.
+
+
+
+
+
 
 
 [1]: http://www.manualweb.net/tutorial-typescript/
